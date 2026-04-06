@@ -29,9 +29,8 @@ Each baseline is a JSON file stored at `src/test/resources/baselines/{group}/{Te
 ### Comparison Rules
 
 - **`href` normalization:** `href` values in `_links` are fully compared, but the deployment base URL is replaced with a placeholder before comparison. This means the link *paths and query strings* are validated while allowing the suite to run against alternative deployments under a different root URL.
-- **Ignored:** `logref` (request-specific, changes on every call)
-- **Lenient array order:** all arrays
-- **Exact match:** everything else
+- **Ignored:** non-deterministic fields (`logref`, `timestamp`, `eventId`, `id`) — stripped before comparison
+- **Exact match:** everything else (including array order)
 - **Non-JSON responses** (RDF/XML, Turtle): exact string match
 - **Status code:** must match exactly
 - **Performance:** `actual ≤ baseline × 3` (200% threshold — tuned for remote public API)
