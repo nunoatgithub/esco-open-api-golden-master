@@ -92,8 +92,8 @@
                     <includes>
                         <include>**/*Test.java</include>
                     </includes>
-                    <redirectTestOutputToFile>false</redirectTestOutputToFile>
-                    <useFile>false</useFile>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                    <useFile>true</useFile>
                 </configuration>
             </plugin>
         </plugins>
