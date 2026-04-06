@@ -1,0 +1,28 @@
+{
+  "capturedAt" : "2026-04-06T14:11:20.890719118Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 83,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 20,
+    "offset" : 0,
+    "total" : 0,
+    "language" : "en",
+    "text" : "xyznonexistent12345",
+    "hasLabel" : null,
+    "hasLabelRole" : null,
+    "type" : null,
+    "inScheme" : null,
+    "facet" : null,
+    "facets" : { },
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/search?text=xyznonexistent12345&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/search?text=xyznonexistent12345&language=en&offset=0&limit=20"
+      }
+    },
+    "_embedded" : [ ]
+  }
+}

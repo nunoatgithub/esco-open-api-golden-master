@@ -1,0 +1,18 @@
+{
+  "capturedAt" : "2026-04-06T14:09:20.876401240Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 53,
+  "httpStatus" : 200,
+  "body" : {
+    "defaultLanguage" : "en",
+    "all" : [ "en", "bg", "hr", "cs", "da", "nl", "et", "fi", "fr", "de", "el", "hu", "ga", "it", "lv", "lt", "mt", "pl", "pt", "ro", "sk", "sl", "es", "sv", "is", "no", "ar", "en-us", "uk" ],
+    "supportedRules" : {
+      "uk" : {
+        "minVersion" : "v1.1.0"
+      },
+      "en-us" : {
+        "maxVersion" : "v1.0.9"
+      }
+    }
+  }
+}

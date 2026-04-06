@@ -1,0 +1,676 @@
+{
+  "capturedAt" : "2026-04-06T14:09:42.986700972Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 93,
+  "httpStatus" : 200,
+  "body" : {
+    "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+    "className" : "ConceptScheme",
+    "classUri" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "title" : "ESCO skills",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+        "title" : "ESCO skills",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/skills"
+      },
+      "hasTopConcept" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:7fc435d9-88d1-4f4e-b4ca-b2b091aab322?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/7fc435d9-88d1-4f4e-b4ca-b2b091aab322",
+        "title" : "resolve banking issues",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:aaf24090-fa29-45c2-80ea-d3a073f6b783?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/aaf24090-fa29-45c2-80ea-d3a073f6b783",
+        "title" : "ensure safe arrival of trains",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:35f1be97-06c4-4367-a067-7e0e94f2fa70?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/35f1be97-06c4-4367-a067-7e0e94f2fa70",
+        "title" : "use digital device operating systems",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a311ab20-75df-4aff-8016-3142c5659d30?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a311ab20-75df-4aff-8016-3142c5659d30",
+        "title" : "accept constructive criticism",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b2f925ed-3ebd-4f78-b98e-d5d4678e83b5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+        "title" : "follow ethical code of conduct",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/skill:04a13491-b58c-4d33-8b59-8fad0d55fe9e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e",
+        "title" : "transversal skills and competences"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:14273d5a-66fc-4272-b0a1-55448a2c308a?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/14273d5a-66fc-4272-b0a1-55448a2c308a",
+        "title" : "evaluate focus of community arts practice",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:33d2b6e8-bfd5-4b1d-951d-d5d5f399ecb6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/33d2b6e8-bfd5-4b1d-951d-d5d5f399ecb6",
+        "title" : "train medical students",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9d75743b-317a-4bc4-b93f-c72e3ceba377?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/9d75743b-317a-4bc4-b93f-c72e3ceba377",
+        "title" : "demonstrate consideration",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:17b84663-a565-4fbc-8285-79b730350fb2?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/17b84663-a565-4fbc-8285-79b730350fb2",
+        "title" : "cure tobacco leaves",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:13e93abd-618c-46df-abbe-1af38ecd1aa2?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/13e93abd-618c-46df-abbe-1af38ecd1aa2",
+        "title" : "ensure customer focus",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:00abcddb-cbd4-477f-9aa0-9f27b32e312b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/00abcddb-cbd4-477f-9aa0-9f27b32e312b",
+        "title" : "utilise advanced clinical skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1da808a1-419f-4e7c-b714-8287f1842546?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1da808a1-419f-4e7c-b714-8287f1842546",
+        "title" : "support company plan",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8f3cb711-2fdf-4a50-813a-77198d2f00e3?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/8f3cb711-2fdf-4a50-813a-77198d2f00e3",
+        "title" : "prepare planting area",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5ef8d1bf-ff1c-4087-9978-15a64244ce06?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/5ef8d1bf-ff1c-4087-9978-15a64244ce06",
+        "title" : "systemic change",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:7faee267-fd31-44a0-87ce-7e0382cf516f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/7faee267-fd31-44a0-87ce-7e0382cf516f",
+        "title" : "identify purpose of analysis",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c8be7061-e129-4ce2-b449-0be6f7d9eba6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c8be7061-e129-4ce2-b449-0be6f7d9eba6",
+        "title" : "apply conceptual thinking",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:3740b2a0-c94e-4116-bf18-f9fdd5b59f56?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/3740b2a0-c94e-4116-bf18-f9fdd5b59f56",
+        "title" : "provide leadership",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1225b032-7ead-464c-9072-64097d9a4b62?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1225b032-7ead-464c-9072-64097d9a4b62",
+        "title" : "use spreadsheets",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fa0b67d1-5bdf-40f2-914b-da8d62e81e27?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/fa0b67d1-5bdf-40f2-914b-da8d62e81e27",
+        "title" : "understand instructions",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:2e227d5d-649b-48dc-99ca-2389bbc1140f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/2e227d5d-649b-48dc-99ca-2389bbc1140f",
+        "title" : "support gender equality",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fb664081-cdb3-462b-b2dc-609292398191?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/fb664081-cdb3-462b-b2dc-609292398191",
+        "title" : "advise on control of conception",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:503e6a9a-1291-41aa-9c09-67f644e8a257?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/503e6a9a-1291-41aa-9c09-67f644e8a257",
+        "title" : "perform demanding weldments",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/skill:c46fcb45-5c14-4ffa-abed-5a43f104bb22?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22",
+        "title" : "knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8135ab3d-23ac-4cc3-bc0d-240e7b19a0f8?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/8135ab3d-23ac-4cc3-bc0d-240e7b19a0f8",
+        "title" : "telehealth",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1f555ca1-5df6-4638-8e1b-81b314f21976?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1f555ca1-5df6-4638-8e1b-81b314f21976",
+        "title" : "find your place within the architecture of the production",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e7329772-d1bc-4a73-837b-d729290d7af2?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e7329772-d1bc-4a73-837b-d729290d7af2",
+        "title" : "provide training",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ec4b8a2b-c20c-4c0f-bef0-fcc1f5f42c40?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ec4b8a2b-c20c-4c0f-bef0-fcc1f5f42c40",
+        "title" : "use ICT peripherals",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:97c1895a-a890-47da-abfc-79dc272add2e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/97c1895a-a890-47da-abfc-79dc272add2e",
+        "title" : "use online conventions of netiquette",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:3481d400-2eaa-4ab3-bb06-5f45b4380052?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/3481d400-2eaa-4ab3-bb06-5f45b4380052",
+        "title" : "use body language",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b184750e-9f9e-4ef2-a882-845e6058b605?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/b184750e-9f9e-4ef2-a882-845e6058b605",
+        "title" : "make improvements to work activities",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a72f6969-d1b9-457e-91ab-c01945dc7920?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a72f6969-d1b9-457e-91ab-c01945dc7920",
+        "title" : "six sigma",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a9e6718b-b9d8-44c2-b06e-85ceed9d144c?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a9e6718b-b9d8-44c2-b06e-85ceed9d144c",
+        "title" : "use logical reasoning",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:bcd94e4d-1ab5-4e02-b474-590ae0a627e2?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/bcd94e4d-1ab5-4e02-b474-590ae0a627e2",
+        "title" : "promote the air transport operator at events",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a271e9fe-7acb-419d-90f7-73e9f1d345eb?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a271e9fe-7acb-419d-90f7-73e9f1d345eb",
+        "title" : "support the development of other coaches",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a04c2655-5996-4744-bca2-4f4c8b3e4667?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a04c2655-5996-4744-bca2-4f4c8b3e4667",
+        "title" : "promote yourself",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:94ba3a91-414a-4ded-8386-8d704859441c?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/94ba3a91-414a-4ded-8386-8d704859441c",
+        "title" : "develop work plans to solve problems",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c152e2a2-db0d-4d8f-b25c-ef474c83a9c0?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c152e2a2-db0d-4d8f-b25c-ef474c83a9c0",
+        "title" : "reflect on practice",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a49fdda1-abd1-40e0-a824-3c545d98f32e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a49fdda1-abd1-40e0-a824-3c545d98f32e",
+        "title" : "apply health sciences",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6816e28f-a48d-41c7-8492-309f50c049fc?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6816e28f-a48d-41c7-8492-309f50c049fc",
+        "title" : "follow hygienic work practices",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:18119ac9-9e43-4da3-8b79-45dd75fe6510?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "title" : "maintain working relationships",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:66b14ea6-2a2b-4318-8eb9-33e71ab313dd?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/66b14ea6-2a2b-4318-8eb9-33e71ab313dd",
+        "title" : "manage life-cycle of metal powder",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:df0aa404-3f87-4f35-b6e9-969b05068704?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/df0aa404-3f87-4f35-b6e9-969b05068704",
+        "title" : "be in touch with your body",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+        "title" : "skills"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:54fe3a6b-d02e-4455-843b-718a6b5723eb?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/54fe3a6b-d02e-4455-843b-718a6b5723eb",
+        "title" : "propose avenues for exploration to generate the artistic content",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:80717e6c-03ee-47bc-a2de-cca28873d495?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/80717e6c-03ee-47bc-a2de-cca28873d495",
+        "title" : "harvest mulberry leaves",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c44a3636-cd3e-41fc-ab05-75622dbd47ec?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c44a3636-cd3e-41fc-ab05-75622dbd47ec",
+        "title" : "sustainable development goals",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b7ebc4de-3fbe-4eec-ac02-eb4e7445b0df?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/b7ebc4de-3fbe-4eec-ac02-eb4e7445b0df",
+        "title" : "use positive language",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a11eec60-a39e-4c14-b926-60a356e4a1b6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a11eec60-a39e-4c14-b926-60a356e4a1b6",
+        "title" : "be a role model",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:95a41cf5-4037-4c96-91a8-c34b41637224?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/95a41cf5-4037-4c96-91a8-c34b41637224",
+        "title" : "support colleagues",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6fa89c14-bf8e-42d7-ab24-40ecc643311f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6fa89c14-bf8e-42d7-ab24-40ecc643311f",
+        "title" : "set up your arts offer in places relevant to your potential employers/contractors",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:75ef4eed-fe57-47fd-92e9-e63f3121d5b8?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/75ef4eed-fe57-47fd-92e9-e63f3121d5b8",
+        "title" : "carry out internet research",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:045df803-cbab-40a9-9ac0-3c4a81ab4b2c?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/045df803-cbab-40a9-9ac0-3c4a81ab4b2c",
+        "title" : "plan team building",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9f728a62-90c6-435e-80c9-4c8d67905eec?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/9f728a62-90c6-435e-80c9-4c8d67905eec",
+        "title" : "volunteering and third sector legal frameworks",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ff85b268-d74c-44ae-be8f-949e1614eb5d?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ff85b268-d74c-44ae-be8f-949e1614eb5d",
+        "title" : "communicate in English in a competent way",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fb6f5f61-f3b8-40ba-8363-c8d762325ff7?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/fb6f5f61-f3b8-40ba-8363-c8d762325ff7",
+        "title" : "types of wood materials",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:38f77aff-980c-438a-804a-b02671fb5f9b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/38f77aff-980c-438a-804a-b02671fb5f9b",
+        "title" : "preserve stocked items",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/skill:e35a5936-091d-4e87-bafe-f264e55bd656?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e35a5936-091d-4e87-bafe-f264e55bd656",
+        "title" : "language skills and knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:22b7d99d-252f-4572-8e3c-438ea87607eb?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "title" : "demonstrate enthusiasm",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6b78965b-5d84-4db6-8e1c-466d9cb37965?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6b78965b-5d84-4db6-8e1c-466d9cb37965",
+        "title" : "implement instructions",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9dfa1275-c99a-44ba-944e-1db543936253?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/9dfa1275-c99a-44ba-944e-1db543936253",
+        "title" : "provide livestock advice and guidance",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:175523c0-722a-4de6-adc0-6d47684c408a?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/175523c0-722a-4de6-adc0-6d47684c408a",
+        "title" : "advise contractors",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e623bf4a-6c10-4bf7-9ab5-bc2a29c9289b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e623bf4a-6c10-4bf7-9ab5-bc2a29c9289b",
+        "title" : "publish research in open access",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:2913deed-2560-4c1b-872c-f83ae6c93021?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/2913deed-2560-4c1b-872c-f83ae6c93021",
+        "title" : "use Yahoo! Search",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0c50c0cb-00d7-42a6-83e5-242fbbd8b813?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/0c50c0cb-00d7-42a6-83e5-242fbbd8b813",
+        "title" : "speak in public",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f60b0a50-2e7b-46f8-9b9c-2809b10991f9?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f60b0a50-2e7b-46f8-9b9c-2809b10991f9",
+        "title" : "persist",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:51e3675d-9fb2-46d3-99a7-1e6c137ed093?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/51e3675d-9fb2-46d3-99a7-1e6c137ed093",
+        "title" : "be attentive",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ab9f550c-fa8f-4fe8-9f9f-e02d45bff570?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ab9f550c-fa8f-4fe8-9f9f-e02d45bff570",
+        "title" : "follow given instructions",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:4a901e05-5bc4-45d1-8f52-dbf48c555bdd?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/4a901e05-5bc4-45d1-8f52-dbf48c555bdd",
+        "title" : "take care of personal appearance",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:999286f1-22d9-4950-9422-89bd45265a5f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/999286f1-22d9-4950-9422-89bd45265a5f",
+        "title" : "maintain relationships with mining stakeholders",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:80967a8e-0477-4c5e-8550-4af6e5157626?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/80967a8e-0477-4c5e-8550-4af6e5157626",
+        "title" : "work with shape and space",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a602a97f-dd21-4c24-894c-cee1d37f5407?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a602a97f-dd21-4c24-894c-cee1d37f5407",
+        "title" : "guide others",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:cf634aba-bcb7-417a-b38b-d5fad7d9d6ff?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/cf634aba-bcb7-417a-b38b-d5fad7d9d6ff",
+        "title" : "make recommendations for repairs",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5c59dac1-0547-4068-b43c-ac59f1344448?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/5c59dac1-0547-4068-b43c-ac59f1344448",
+        "title" : "demonstrate good manners",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:75a7de68-e7f7-4963-a4ed-d839ac7e74af?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/75a7de68-e7f7-4963-a4ed-d839ac7e74af",
+        "title" : "create engineering design packages",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:3f8d4e8f-17cc-4447-9325-fcfe4306c238?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/3f8d4e8f-17cc-4447-9325-fcfe4306c238",
+        "title" : "describe your artistic aspirations in relation to artistic trends",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e7abc7da-30ba-46f2-b38c-a61c3d0034c1?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e7abc7da-30ba-46f2-b38c-a61c3d0034c1",
+        "title" : "use hydraulic modelling for water and wastewater management",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:cffda1a9-3f86-4766-ae1c-18d616d2651e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/cffda1a9-3f86-4766-ae1c-18d616d2651e",
+        "title" : "apply clinical physiotherapy skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:cf9c66e0-cb2f-43fd-b5c2-dda1893364a8?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/cf9c66e0-cb2f-43fd-b5c2-dda1893364a8",
+        "title" : "apply modelling techniques in water engineering",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6495182b-d548-425d-8596-bdf527c98cd7?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6495182b-d548-425d-8596-bdf527c98cd7",
+        "title" : "prepare planting area",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:58ee1bf5-3409-40d1-a8d6-21c1208a46f6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/58ee1bf5-3409-40d1-a8d6-21c1208a46f6",
+        "title" : "advise patients on health and lifestyle issues",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:d619bafe-d9a0-4ae3-abf3-9b17d61b54c4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/d619bafe-d9a0-4ae3-abf3-9b17d61b54c4",
+        "title" : "have good bedside manner",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0d715b0e-3026-40b9-aa9e-09f1d59054cf?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/0d715b0e-3026-40b9-aa9e-09f1d59054cf",
+        "title" : "carry out practical tasks with smart devices",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b6c21b6f-b4c3-4783-ac8a-59b0b41874f5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/b6c21b6f-b4c3-4783-ac8a-59b0b41874f5",
+        "title" : "manage open licensing",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:26a29613-b018-4fc5-b0b5-6f73483afe62?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/26a29613-b018-4fc5-b0b5-6f73483afe62",
+        "title" : "ask key questions about requirements of the artistic work",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a992f345-7c06-4982-8fc9-5fab55e316af?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a992f345-7c06-4982-8fc9-5fab55e316af",
+        "title" : "follow environmentally-sustainable work practices",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f2046c50-e9aa-4224-8fc0-ad5fc66e4b0e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f2046c50-e9aa-4224-8fc0-ad5fc66e4b0e",
+        "title" : "volunteer management",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:adf6bcb1-6fbb-4b77-8be4-65ce20ee04e2?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/adf6bcb1-6fbb-4b77-8be4-65ce20ee04e2",
+        "title" : "prioritise tasks",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:4ed6d13e-a39e-4033-b1ae-d6f2c616d834?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/4ed6d13e-a39e-4033-b1ae-d6f2c616d834",
+        "title" : "advise customers on vehicle's extra services",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ab0d774b-7a45-4c76-817f-cb1e35a28758?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ab0d774b-7a45-4c76-817f-cb1e35a28758",
+        "title" : "maritime law",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:82cde242-eb70-4699-8589-7aa210e003e2?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/82cde242-eb70-4699-8589-7aa210e003e2",
+        "title" : "cover a variety of health conditions",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5ad75e18-5d5d-496e-9f97-ffb2adbb8d16?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/5ad75e18-5d5d-496e-9f97-ffb2adbb8d16",
+        "title" : "familiarise yourself with the work to be remounted",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fd4dc5dd-729e-4f6b-a348-77c591f8cb01?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/fd4dc5dd-729e-4f6b-a348-77c591f8cb01",
+        "title" : "plan self-organisation",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:7ef54ad8-083c-4f08-9191-1fe5fe113d8e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/7ef54ad8-083c-4f08-9191-1fe5fe113d8e",
+        "title" : "plan fabric manufacturing process",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:271e467f-0b74-48d1-9959-994a16000cd5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/271e467f-0b74-48d1-9959-994a16000cd5",
+        "title" : "maintain mulberry trees",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:14f4a9a6-8572-431e-9847-4da2975d85b4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/14f4a9a6-8572-431e-9847-4da2975d85b4",
+        "title" : "prepare, load and unload dangerous goods vehicles",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:2848e0ca-51c5-4a85-8b97-be680bd64eca?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/2848e0ca-51c5-4a85-8b97-be680bd64eca",
+        "title" : "show three-dimensional imagination",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1007aa13-9f18-4bcf-96f3-e108c40baf69?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1007aa13-9f18-4bcf-96f3-e108c40baf69",
+        "title" : "use a computer",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f7614435-13bf-4a4e-bbda-fb8299f2d51c?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f7614435-13bf-4a4e-bbda-fb8299f2d51c",
+        "title" : "deal with setbacks",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1dfdcd2a-0df8-40f2-991f-f033798b7ea7?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1dfdcd2a-0df8-40f2-991f-f033798b7ea7",
+        "title" : "stimulate the performers' kinaesthetic sense",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6e16f998-7648-4ed0-8232-1b03722d1a53?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6e16f998-7648-4ed0-8232-1b03722d1a53",
+        "title" : "analyse problems for opportunities",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:20ba084f-129c-4c5e-b39f-539913e0acc4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/20ba084f-129c-4c5e-b39f-539913e0acc4",
+        "title" : "operate handheld devices",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5f1dd9f6-dcb4-4384-88c9-f9f6a75305c9?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/5f1dd9f6-dcb4-4384-88c9-f9f6a75305c9",
+        "title" : "use online communication tools",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:59f56593-c5e6-4bfb-974c-c98643453ca1?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/59f56593-c5e6-4bfb-974c-c98643453ca1",
+        "title" : "attention to detail",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:38febf2d-fcf8-458a-bde9-2378aca6bf9c?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/38febf2d-fcf8-458a-bde9-2378aca6bf9c",
+        "title" : "handle medical emergencies without doctor",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:14d46944-61f1-451e-843c-318c2d7f8928?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/14d46944-61f1-451e-843c-318c2d7f8928",
+        "title" : "assess steps towards meeting requirements of artistic work",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:d5eabf8d-0ce5-48cb-ae89-84d2ba6d8674?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/d5eabf8d-0ce5-48cb-ae89-84d2ba6d8674",
+        "title" : "provide youth information services",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:3a4eeab2-15d9-4bbc-99e2-c1c8e8f4f225?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/3a4eeab2-15d9-4bbc-99e2-c1c8e8f4f225",
+        "title" : "liaise with relevant agencies involved in airfield management",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:12544cfe-f099-4890-b2c6-ab3139f6cd36?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/12544cfe-f099-4890-b2c6-ab3139f6cd36",
+        "title" : "identify the needs of your participants",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6a12273a-d498-4b09-a235-365ce7474496?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6a12273a-d498-4b09-a235-365ce7474496",
+        "title" : "use Google Search",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:4b88eb19-7152-44ff-a13a-dd355e54e4b9?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/4b88eb19-7152-44ff-a13a-dd355e54e4b9",
+        "title" : "conduct public relations related to the activities of a charity",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:11f49a71-1df4-45eb-a613-d66d12660052?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/11f49a71-1df4-45eb-a613-d66d12660052",
+        "title" : "develop awareness for your group participants",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:4e2ce047-1912-468f-8c04-ab7374c4a761?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/4e2ce047-1912-468f-8c04-ab7374c4a761",
+        "title" : "support cultural diversity",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fba28975-4544-4d37-8971-9bd72534018c?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/fba28975-4544-4d37-8971-9bd72534018c",
+        "title" : "attend to hygiene",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a9dc530e-0e1f-4eef-a739-47bdfe11930e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a9dc530e-0e1f-4eef-a739-47bdfe11930e",
+        "title" : "show social competences",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:09e28145-e205-4b7a-8b3b-5c4876396069?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/09e28145-e205-4b7a-8b3b-5c4876396069",
+        "title" : "interact with others",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0ab5084c-cbd0-46d5-b61f-f1b8e9cc0ca0?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/0ab5084c-cbd0-46d5-b61f-f1b8e9cc0ca0",
+        "title" : "make an effort",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:af6db8f7-aeb8-40e7-97e1-22110ce6c7c6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/af6db8f7-aeb8-40e7-97e1-22110ce6c7c6",
+        "title" : "use Bing",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:39c00771-5f26-4ced-837f-d5ffeae245aa?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/39c00771-5f26-4ced-837f-d5ffeae245aa",
+        "title" : "learn about customer service",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e7844840-0fc2-4e79-a0f7-384b4dbc88f6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e7844840-0fc2-4e79-a0f7-384b4dbc88f6",
+        "title" : "use Swoogle",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f0f93b8b-0ee4-4452-945e-4a2272c0d8dd?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f0f93b8b-0ee4-4452-945e-4a2272c0d8dd",
+        "title" : "make numerical calculations",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6e04cc9f-d409-49f0-9224-d9cb32e83631?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6e04cc9f-d409-49f0-9224-d9cb32e83631",
+        "title" : "persuade others",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:abf982c1-6b59-4572-a38c-97d3a6869af4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/abf982c1-6b59-4572-a38c-97d3a6869af4",
+        "title" : "make use of personal robots for practical support",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c69436b3-00ad-44e2-b240-a40cf166d0f4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c69436b3-00ad-44e2-b240-a40cf166d0f4",
+        "title" : "provide investment advice",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:236526e2-d5a8-436b-91d1-47e5d431e7ea?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/236526e2-d5a8-436b-91d1-47e5d431e7ea",
+        "title" : "apply quality standards",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:03ae1add-eecd-46b1-8117-742b4d7666d4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/03ae1add-eecd-46b1-8117-742b4d7666d4",
+        "title" : "work in an economically efficient manner",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:169239b5-3644-4e23-8a85-4f5896dbdb8e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/169239b5-3644-4e23-8a85-4f5896dbdb8e",
+        "title" : "apply medical first aid in case of emergency",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:943d07ec-fb75-4bb5-bc07-20451a2b66e4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/943d07ec-fb75-4bb5-bc07-20451a2b66e4",
+        "title" : "identify opportunities",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:698be2d3-8768-422d-a2d3-1cb701816089?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/698be2d3-8768-422d-a2d3-1cb701816089",
+        "title" : "search for information online",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:68d17d2e-2761-438b-af13-0f8d107720d8?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/68d17d2e-2761-438b-af13-0f8d107720d8",
+        "title" : "mobile agriculture",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:54173a92-b781-4a3f-880b-70fa3a375417?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/54173a92-b781-4a3f-880b-70fa3a375417",
+        "title" : "work analytically",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c291acb4-6992-46ff-bf72-681eb378daa5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c291acb4-6992-46ff-bf72-681eb378daa5",
+        "title" : "work as a team",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      } ]
+    }
+  }
+}

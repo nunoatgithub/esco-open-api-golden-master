@@ -1,0 +1,63 @@
+{
+  "capturedAt" : "2026-04-06T14:10:00.003903958Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 81,
+  "httpStatus" : 200,
+  "body" : {
+    "uri" : "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "className" : "Skill",
+    "classUri" : "http://data.europa.eu/esco/model#Skill",
+    "title" : "Python (computer programming)",
+    "referenceLanguage" : "en",
+    "preferredLabel" : {
+      "nl" : "Python (computerprogrammering)",
+      "da" : "Python (computerprogrammering)",
+      "sv" : "Python (datorprogrammering)",
+      "cs" : "Python (počítačové programování)",
+      "no" : "Python (dataprogrammering)",
+      "it" : "Python (programmazione informatica)",
+      "et" : "Python (arvutiprogrammeerimine)",
+      "fi" : "Python (tietokoneohjelmointi)",
+      "en" : "Python (computer programming)",
+      "ga" : "Python (ríomhchlárú)",
+      "fr" : "Python (programmation informatique)",
+      "uk" : "Python (комп’ютерне програмування)",
+      "sl" : "Python (računalniško programiranje)",
+      "pt" : "Python (programação informática)",
+      "el" : "Python (προγραμματισμός ηλεκτρονικών υπολογιστών)",
+      "pl" : "Python (programowanie komputerowe)",
+      "bg" : "Python (компютърно програмиране)",
+      "es" : "Python (programación informática)",
+      "mt" : "Python (programmar tal-kompjuter)",
+      "lv" : "Python (datorprogrammēšana)",
+      "ar" : "Python",
+      "lt" : "„Python“ (kompiuterinis programavimas)",
+      "hu" : "Python (számítógépes programozás)",
+      "de" : "Python (Computerprogrammierung)",
+      "sk" : "Python (počítačové programovanie)",
+      "hr" : "Python (računalno programiranje)",
+      "ro" : "Python (programare pe calculator)",
+      "is" : "Python (tölvuforritun)"
+    },
+    "status" : "released",
+    "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036" ],
+    "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+    "skillType" : "http://data.europa.eu/esco/skill-type/knowledge",
+    "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ccd0a1d9-afda-43d9-b901-96344886e14d?selectedVersion=v1.2.1",
+        "title" : "Python (computer programming)",
+        "uri" : "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d"
+      },
+      "broaderHierarchyConcept" : {
+        "count" : 1,
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ccd0a1d9-afda-43d9-b901-96344886e14d/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+      },
+      "broaderSkill" : {
+        "count" : 1,
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ccd0a1d9-afda-43d9-b901-96344886e14d/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+      }
+    }
+  }
+}

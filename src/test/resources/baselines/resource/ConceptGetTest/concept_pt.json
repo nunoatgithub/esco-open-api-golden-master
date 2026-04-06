@@ -1,0 +1,85 @@
+{
+  "capturedAt" : "2026-04-06T14:09:44.731657360Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 67,
+  "httpStatus" : 200,
+  "body" : {
+    "uri" : "http://data.europa.eu/esco/isco/C25",
+    "className" : "Concept",
+    "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "title" : "Especialistas em tecnologias da informação e comunicação",
+    "preferredLabel" : {
+      "hr" : "Stručnjaci/stručnjakinje za informacijsku i komunikacijsku tehnologiju",
+      "fr" : "Spécialistes des technologies de l’information et des communications",
+      "el" : "Επαγγελματίες του τομέα των τεχνολογιών πληροφόρησης και επικοινωνίας",
+      "da" : "Arbejde inden for informations- og kommunikationsteknologi",
+      "sl" : "Strokovnjaki/strokovnjakinje za informacijske in komunikacijske tehnologije",
+      "ro" : "Specialiști în tehnologia informației și comunicațiilor",
+      "nl" : "Specialisten op het gebied van informatie- en communicatietechnologie",
+      "mt" : "Professjonisti tat-teknoloġija tal-informazzjoni u l-komunikazzjonijiet",
+      "bg" : "Специалисти по информационни и комуникационни технологии",
+      "hu" : "Információs és kommunikációs technológiai foglalkozások",
+      "it" : "Specialisti delle tecnologie dell’informazione e della comunicazione",
+      "sk" : "Špecialisti v oblasti informačných a komunikačných technológií",
+      "et" : "Info- ja kommunikatsioonitehnoloogia spetsialistid",
+      "lv" : "Informācijas un komunikāciju tehnoloģiju vecākie speciālisti",
+      "cs" : "Specialisté v oblasti informačních a komunikačních technologií",
+      "de" : "Akademische und vergleichbare Fachkräfte in der Informations- und Kommunikationstechnologie",
+      "pl" : "Specjaliści do spraw technologii informacyjno-komunikacyjnych",
+      "en" : "Information and communications technology professionals",
+      "sv" : "Yrken med krav på fördjupad högskolekompetens inom it",
+      "lt" : "Informacinių technologijų ir ryšių specialistai",
+      "pt" : "Especialistas em tecnologias da informação e comunicação",
+      "uk" : "Професіонали в сфері інформаційно-комунікаційних технологій",
+      "es" : "Profesionales de tecnología de la información y las comunicaciones",
+      "no" : "IKT-rådgivere",
+      "fi" : "Tieto- ja viestintäteknologian erityisasiantuntijat"
+    },
+    "status" : "released",
+    "code" : "25",
+    "description" : {
+      "en" : "Information and communications technology professionals conduct research; plan, design, write, test, provide advice and improve information technology systems, hardware, software and related concepts for specific applications; develop associated documentation including principles, policies and procedures; and design, develop, control, maintain and support databases and other information systems to ensure optimal performance and data integrity and security.\nTasks performed by workers in this sub-major group usually include: researching information technology use in business functions; identifying areas for improvement and researching the theoretical aspects and operational methods for the use of computers; evaluating, planning and designing hardware or software configurations for specific applications including for Internet, Intranet and multimedia systems; designing, writing, testing and maintaining computer programs; designing and developing database architecture and database management systems; developing and implementing security plans and data administration policy, and administering computer networks and related computing environments; analysing, developing, interpreting and evaluating complex system design and architecture specifications, data models and diagrams in the development, configuration and integration of computer systems.\nOccupations in this sub-major group are classified into the following minor groups:\n251 Software and Applications Developers and Analysts\n252 Database and Network Professionals."
+    },
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C25?selectedVersion=v1.2.1",
+        "title" : "Especialistas em tecnologias da informação e comunicação",
+        "uri" : "http://data.europa.eu/esco/isco/C25"
+      },
+      "inScheme" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+        "title" : "CITP 2008"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title" : "Profissões ESCO"
+      } ],
+      "broaderConcept" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C2?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/isco/C2",
+        "title" : "Especialistas das actividades intelectuais e científicas"
+      } ],
+      "narrowerConcept" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C252?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/isco/C252",
+        "title" : "Especialistas em bases de dados e redes"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C251?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/isco/C251",
+        "title" : "Analistas e programadores de software e aplicações"
+      } ]
+    },
+    "_embedded" : {
+      "ancestors" : [ {
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C2?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C2",
+            "title" : "Especialistas das actividades intelectuais e científicas"
+          }
+        }
+      } ]
+    }
+  }
+}

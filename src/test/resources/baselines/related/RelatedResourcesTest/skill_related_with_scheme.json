@@ -1,0 +1,26 @@
+{
+  "capturedAt" : "2026-04-06T14:11:09.362020751Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 65,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 20,
+    "offset" : 0,
+    "total" : 0,
+    "language" : "en",
+    "uri" : "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "relation" : "isEssentialSkillForOccupation",
+    "inScheme" : "http://data.europa.eu/esco/concept-scheme/skills",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ccd0a1d9-afda-43d9-b901-96344886e14d/related?relation=isEssentialSkillForOccupation&inScheme=http://data.europa.eu/esco/concept-scheme/skills&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ccd0a1d9-afda-43d9-b901-96344886e14d/related?relation=isEssentialSkillForOccupation&inScheme=http://data.europa.eu/esco/concept-scheme/skills&language=en&offset=0&limit=20"
+      }
+    },
+    "_embedded" : {
+      "isEssentialSkillForOccupation" : [ ]
+    }
+  }
+}

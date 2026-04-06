@@ -1,0 +1,134 @@
+{
+  "capturedAt" : "2026-04-06T14:11:06.419125234Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 70,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 5,
+    "offset" : 0,
+    "total" : 70,
+    "language" : "en",
+    "uri" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+    "relation" : "relatedEssentialSkill",
+    "inScheme" : null,
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related?relation=relatedEssentialSkill&limit=5&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related?relation=relatedEssentialSkill&language=en&offset=0&limit=5"
+      },
+      "next" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related?relation=relatedEssentialSkill&language=en&offset=5&limit=5"
+      },
+      "last" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related?relation=relatedEssentialSkill&language=en&offset=65&limit=5"
+      }
+    },
+    "_embedded" : {
+      "relatedEssentialSkill" : [ {
+        "uri" : "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "listen actively",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "listen actively"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "broaderHierarchyConcept" : [ "http://data.europa.eu/esco/skill/d7d2a468-587b-4a03-a305-e0a399ba69e6" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a17286c5-238d-4f0b-bc24-29e9121345de?selectedVersion=v1.2.1",
+            "title" : "listen actively",
+            "uri" : "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/a28e8141-89ee-4b24-a3bb-1aebcc56c72d",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "apply nursing care in long-term care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "apply nursing care in long-term care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "broaderHierarchyConcept" : [ "http://data.europa.eu/esco/skill/73e602a0-f80f-4f56-8e21-3db4fd08709d" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a28e8141-89ee-4b24-a3bb-1aebcc56c72d?selectedVersion=v1.2.1",
+            "title" : "apply nursing care in long-term care",
+            "uri" : "http://data.europa.eu/esco/skill/a28e8141-89ee-4b24-a3bb-1aebcc56c72d"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/a46743b7-ff8c-49b6-99f7-7fa5bc241771",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "use electronic health records in nursing",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "use electronic health records in nursing"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+        "broaderHierarchyConcept" : [ "http://data.europa.eu/esco/skill/6a7fc30d-af16-4cc5-a957-29d174bdb61c" ],
+        "broaderSkill" : [ "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a46743b7-ff8c-49b6-99f7-7fa5bc241771?selectedVersion=v1.2.1",
+            "title" : "use electronic health records in nursing",
+            "uri" : "http://data.europa.eu/esco/skill/a46743b7-ff8c-49b6-99f7-7fa5bc241771"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "manage personal professional development",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "manage personal professional development"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/research" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/research",
+        "broaderHierarchyConcept" : [ "http://data.europa.eu/esco/skill/7e0b93e0-0de7-4607-b07f-27a6828d3ff0" ],
+        "broaderSkill" : [ "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a8d24a95-47b3-4f88-92e7-06600bcd3612?selectedVersion=v1.2.1",
+            "title" : "manage personal professional development",
+            "uri" : "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/ae965e49-06f1-442f-87bf-e48fc1e1d8b6",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "analyse quality of nurse care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "analyse quality of nurse care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "broaderHierarchyConcept" : [ "http://data.europa.eu/esco/skill/ec528c47-65f4-4187-9dc1-5a8889f84a06" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ae965e49-06f1-442f-87bf-e48fc1e1d8b6?selectedVersion=v1.2.1",
+            "title" : "analyse quality of nurse care",
+            "uri" : "http://data.europa.eu/esco/skill/ae965e49-06f1-442f-87bf-e48fc1e1d8b6"
+          }
+        }
+      } ]
+    }
+  }
+}

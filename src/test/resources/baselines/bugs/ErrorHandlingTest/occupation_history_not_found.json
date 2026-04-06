@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T14:09:33.480544625Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 69,
+  "httpStatus" : 500,
+  "body" : {
+    "timestamp" : "2026-04-06T14:09:33.605+00:00",
+    "status" : 500,
+    "error" : "Internal Server Error",
+    "path" : "/esco/open-api/occupation/occupation:00000000-0000-0000-0000-000000000000/history",
+    "eventId" : "202604061609_adf5864641ba4477",
+    "exceptionId" : "NotFoundException",
+    "message" : "Resource not found http://data.europa.eu/esco/occupation/00000000-0000-0000-0000-000000000000"
+  }
+}

@@ -1,0 +1,1216 @@
+{
+  "capturedAt" : "2026-04-06T14:09:54.944568183Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 134,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 5,
+    "offset" : 0,
+    "total" : 13939,
+    "language" : "en",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&limit=5&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&language=en&offset=0&limit=5"
+      },
+      "next" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&language=en&offset=5&limit=5"
+      },
+      "last" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&language=en&offset=9995&limit=5"
+      },
+      "concepts" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88db9d39-0188-4ef1-a504-35a61f992b4a?selectedVersion=v1.2.1",
+        "title" : "manage on board hazards",
+        "uri" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f57ecb-41c7-4ef3-b7cd-7b117dcc6fef?selectedVersion=v1.2.1",
+        "title" : "operate pile driver hammer",
+        "uri" : "http://data.europa.eu/esco/skill/88f57ecb-41c7-4ef3-b7cd-7b117dcc6fef"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f2ee42-01c8-4390-a108-e733cecaaa77?selectedVersion=v1.2.1",
+        "title" : "act discreetly",
+        "uri" : "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e?selectedVersion=v1.2.1",
+        "title" : "perform laboratory tests on footwear or leather goods",
+        "uri" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f649ef-eecc-452e-8f50-197cb07eb58c?selectedVersion=v1.2.1",
+        "title" : "core apples",
+        "uri" : "http://data.europa.eu/esco/skill/88f649ef-eecc-452e-8f50-197cb07eb58c"
+      } ]
+    },
+    "_embedded" : {
+      "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a" : {
+        "uri" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "manage on board hazards",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "el" : "διαχείριση κινδύνων επί του σκάφους",
+          "fr" : "gérer les dangers à bord",
+          "ro" : "gestionează pericolele la bord",
+          "ar" : "إدارة المخاطر على متن الطائرة",
+          "lv" : "pārvaldīt apdraudējumus uz kuģošanas līdzekļa",
+          "it" : "gestire i rischi a bordo",
+          "is" : "stjórna hættum um borð",
+          "es" : "gestionar los peligros de a bordo",
+          "pt" : "gerir os perigos a bordo",
+          "de" : "Gefahren an Bord bewältigen",
+          "sv" : "hantera risker ombord",
+          "sk" : "riadenie nebezpečenstiev na palube",
+          "pl" : "zarządzać zagrożeniami na pokładzie",
+          "sl" : "obvladovati nevarnosti na krovu",
+          "uk" : "керувати небезпеками на борту",
+          "cs" : "zvládání nebezpečí na palubě",
+          "hu" : "kezeli a fedélzeti veszélyeket",
+          "bg" : "управление на опасностите на борда",
+          "fi" : "hallita aluksen vaaratekijöitä",
+          "et" : "laeva pardal esinevaid ohte juhtima",
+          "hr" : "upravljati opasnostima na brodu",
+          "lt" : "valdyti pavojus laive",
+          "en" : "manage on board hazards",
+          "mt" : "ġestjoni tal-perikli abbord",
+          "nl" : "gevaren aan boord beheren",
+          "no" : "håndtere farer om bord",
+          "da" : "håndtere farer om bord",
+          "ga" : "guaiseacha ar bord a bhainistiú"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "de" : [ "Gefahren an Board bewältigen", "Gefahren an Bord erkennen", "Gesundheits- und Sicherheitsrisiken an Bord von Schiffen vermeiden", "Gefahren für Gesundheit und Sicherheit an Bord von Schiffen managen", "Gesundheits- und Sicherheitsrisiken an Bord von Schiffen managen", "Gesundheits- und Sicherheitsbedrohungen an Bord bekämpfen", "Risiken an Board eines Schiffs managen", "Gefahren für Gesundheit und Sicherheit an Bord eines Schiffs bewältigen", "Gesundheits- und Sicherheitsrisiken an Bord von Schiffen bewältigen" ],
+          "nl" : [ "omgaan met gevaren aan boord", "gevaren voor de gezondheid en veiligheid aan boord van schepen beheren", "gezondheids- en veiligheidsrisico's aan boord van schepen beheren", "gevaren aan boord identificeren", "risico's aan boord beheren" ],
+          "en" : [ "manage risks on board", "manage health and safety hazards on board ships", "handle hazards on board", "manage hazards to health and safety on board ships", "address threats to health and safety on board", "avoid health and safety hazards on board vessels", "handle on board dangers", "identify dangers on board" ],
+          "sl" : [ "ravnati z nevarnostmi na krovu", "obvladovati nevarnosti za zdravje in varnost na ladjah", "izogibanje nevarnostim za zdravje in varnost na krovu plovil", "obvladovati tveganja za zdravje in varnost na ladjah", "obravnavati nevarnosti za zdravje in varnost na krovu", "obravnavati nevarnosti na krovu", "obvladovati tveganja na krovu", "prepoznavati nevarnosti na krovu", "prepoznati nevarnosti na krovu", "izogibati se nevarnostim za zdravje in varnost na krovu plovil", "obvladovanje nevarnosti za zdravje in varnost na ladjah" ],
+          "et" : [ "pardal esinevaid ohte tuvastama", "laeval ohutust tagama", "laeva pardal esinevaid ohte haldama" ],
+          "el" : [ "διαχείριση κινδύνων επί του πλοίου", "χειρισμός κινδύνων επί του σκάφους", "εντοπισμός κινδύνων επί του σκάφους", "χειριστείτε τους κινδύνους επί του σκάφους", "εντοπίσει κινδύνους επί του πλοίου" ],
+          "pl" : [ "zaradzić zagrożeniom dla zdrowia i bezpieczeństwa na pokładzie", "radzić sobie z niebezpieczeństwami na pokładzie", "zidentyfikować niebezpieczeństwa na pokładzie", "unikać zagrożeń dla zdrowia i bezpieczeństwa na pokładach statków", "zarządzać ryzykiem na pokładzie", "zarządzać zagrożeniami dla zdrowia i bezpieczeństwa na statkach", "radzić sobie z zagrożeniami na pokładzie" ],
+          "sk" : [ "vyhnúť sa zdravotným a bezpečnostným rizikám na palube plavidiel", "riešiť ohrozenia zdravia a bezpečnosti na palube", "identifikovať nebezpečenstvá na palube", "riadiť riziká pre zdravie a bezpečnosť na palube lodí", "bezpečnostné a zdravotné riziká na palube" ],
+          "no" : [ "håndtere risiko om bord", "håndtering av risiko om bord", "håndtere helse- og sikkerhetsfarer om bord på skip", "identifisere farer om bord", "håndtere farer for helse og sikkerhet om bord på skip", "unngå helse- og sikkerhetsfarer om bord på fartøy", "håndtere trusler mot helse og sikkerhet om bord" ],
+          "mt" : [ "immaniġġar tal-perikli abbord", "jimmaniġġjaw il-perikli abbord", "immaniġġjar tal-perikli abbord" ],
+          "hr" : [ "nositi se s opasnostima na brodu", "upravljati opasnostima po zdravlje i sigurnost na brodovima", "upravljati zdravstvenim i sigurnosnim opasnostima na brodovima" ],
+          "pt" : [ "gerir os riscos para a saúde e a segurança a bordo dos navios", "gerir os riscos a bordo" ],
+          "ro" : [ "abordează amenințările la adresa sănătății și siguranței la bord", "identifica pericolele la bord", "evită pericolele pentru sănătate și siguranță la bordul navelor", "gestionează riscurile la bord", "gestionarea pericolelor la adresa sănătății și siguranței la bordul navelor", "gestionează pericolele de la bord", "gestionează pericolele pentru sănătate și siguranță la bordul navelor" ],
+          "fr" : [ "lutter contre les menaces pour la santé et la sécurité à bord", "gérer les risques à bord", "gérer les risques pour la santé et la sécurité à bord des navires", "éviter les risques pour la santé et la sécurité à bord des navires" ],
+          "lt" : [ "nustatyti galimus pavojus laive", "nustatyti pavojus laive", "šalinti grėsmes sveikatai ir saugai laive", "valdyti riziką laive", "valdyti pavojų sveikatai ir saugai laivuose", "išvengti pavojaus sveikatai ir saugai laivuose", "spręsti grėsmes sveikatai ir saugai laive" ],
+          "es" : [ "identificar peligros a bordo", "gestionar los riesgos a bordo", "identificar los peligros a bordo", "gestionar los peligros para la salud y la seguridad a bordo de los buques", "abordar las amenazas a la salud y la seguridad a bordo", "evitar riesgos para la salud y la seguridad a bordo de los buques", "manejar los peligros a bordo", "gestionar los riesgos para la salud y la seguridad a bordo de los buques", "hacer frente a las amenazas para la salud y la seguridad a bordo" ],
+          "fi" : [ "tunnistaa aluksella olevat vaarat", "käsitellä aluksella olevia terveyttä ja turvallisuutta koskevia uhkia", "välttää terveys- ja turvallisuusriskejä aluksilla", "hallita terveyteen ja turvallisuuteen kohdistuvia vaaroja aluksilla" ],
+          "cs" : "nebezpečí na palubě"
+        },
+        "description" : {
+          "sk" : "Predchádzať (elektrickým) rizikám na palube a účinne ich riešiť, ak sa vyskytnú, zabezpečiť bezpečné nalodenie a vylodenie plavidla.",
+          "sl" : "Preprečevanje (električnih) nevarnosti na krovu in učinkovito spopadanje z njimi, kadar se pojavijo; zagotovitev varnega vkrcavanja in izkrcavanja potnikov s plovila.",
+          "pt" : "Evitar riscos (elétricos) e lidar eficazmente com eles caso ocorram; assegurar a segurança do embarque e do desembarque do navio.",
+          "fr" : "Prévenir les dangers (électriques) à bord et les traiter efficacement le cas échéant; garantir l’embarquement et le débarquement en toute sécurité du navire.",
+          "fi" : "Aluksen (sähköisten) vaaratekijöiden ehkäiseminen ja tehokas puuttuminen niihin, jos niitä tapahtuu: aluksen turvallisen lastaamisen ja purkamisen varmistaminen.",
+          "lv" : "Novērst (elektriskos) apdraudējumus uz klāja un efektīvi rīkoties gadījumos, kad tādi rodas; nodrošināt drošu iekāpšanu kuģošanas līdzeklī un izkāpšanu no tā.",
+          "es" : "Evitar peligros (eléctricos) a bordo y manejar dichas situaciones con eficacia en caso de que ocurran; garantizar que el embarque y el desembarque del buque se desarrollan en condiciones de seguridad.",
+          "pl" : "Zapobieganie zagrożeniom na pokładzie (elektrycznym) i skuteczne radzenie sobie z nimi w razie ich wystąpienia; zapewnienie bezpiecznego wejścia na pokład i zejścia na ląd ze statku.",
+          "ar" : "منع المخاطر (الكهربائية) على متن السفينة والتعامل معها بفعالية في حالة حدوثها؛ مع ضمان الصعود إلى السفينة والنزول منها بأمان.",
+          "da" : "Forebygge (elektriske) farer om bord og effektiv håndtering af disse, hvis de skulle opstå; sørge for sikker indskibning og landsætning fra skibet.",
+          "bg" : "Предотвратяване на опасностите (електрическите) на борда и ефективно справяне с тях, в случай че възникнат; осигуряване на безопасно качване на кораба и слизане от него.",
+          "hu" : "A fedélzeten felmerülő (elektromos) veszélyek megelőzése és hatékony kezelése, ha azok előfordulnak; a hajóra történő biztonságos be és kiszállás biztosítása.",
+          "el" : "Πρόληψη των (ηλεκτρικών) κινδύνων επί του σκάφους και η αποτελεσματική αντιμετώπισή τους σε περίπτωση που συμβούν . Εξασφάλιση ασφαλούς επιβίβασης και αποβίβασης από το σκάφος.",
+          "de" : "Verhinderung von (elektrischen) Gefahren an Bord und bei Auftreten wirksamer Umgang damit; sichere Ein- und Ausschiffung.",
+          "et" : "Ohtude (elektriohtude) ennetamine pardal ja ilmnenud ohtude tõhus käsitlemine; ohutuse tagamine laeva sisenemisel ja laevast väljumisel.",
+          "mt" : "Prevenzjoni ta’ perikli (elettriċi) abbord u t-trattament b’mod effettiv tagħhom jekk iseħħu; żgurar ta’ imbarkazzjoni u żbark sikuri tal-bastiment.",
+          "ga" : "Cosc a chur ar ghuaiseacha (leictreacha) ar bord agus déileáil leo go héifeachtach má tharlaíonn siad; a chinntiú go dtabharfar bordáil agus díbhordáil shábháilte ar an soitheach.",
+          "no" : "Forebygge farer om bord (elektriske) og håndtere disse effektivt om de oppstår, sikre trygg ombordstigning og avstigning av fartøyet.",
+          "cs" : "Zabránění (elektrickým) rizikům na palubě a jejich efektivní zvládnutí; zajištění bezpečného nalodění a vylodění plavidla.",
+          "ro" : "Previne riscurile (electrice) la bordul navei și le abordează cu eficiență, în cazul în care apar; asigură îmbarcarea și debarcarea din navă.",
+          "hr" : "Spriječiti (električne) opasnosti na brodu i učinkovito se s njima nositi ako se dogode; osigurati siguran ukrcaj i iskrcaj plovila.",
+          "is" : "Forðastu rafmagnshættur um borð takast á við þær á áhrifaríkan hátt ef þær koma upp tryggja örugga útskipun og landgöngu af skipinu.",
+          "lt" : "Užkristi kelią (su elektra susijusiems) pavojams laive ir jiems kilus veiksmingai juos pašalinti; užtikrinti saugų laivo pakrovimą ir iškrovimą.",
+          "sv" : "Förhindra (elektriska) faror ombord på fartyg och hantera farliga händelser effektivt om de skulle inträffa. Säkerställa säker ombordstigning och landstigning.",
+          "it" : "Prevenire i rischi (elettrici) a bordo e gestirli efficacemente in caso si concretizzino; assicurare l’imbarco e lo sbarco dalla nave in sicurezza.",
+          "uk" : "Запобігати небезпечним ситуаціям на борту (небезпека ураження електричним струмом) та ефективно усувати їх у разі їх виникнення; забезпечувати безпечну посадку на судно та висадку з нього.\n\t",
+          "nl" : "Voorkomen van en effectief omgaan met (elektrische) gevaren, mochten deze zich voordoen, garanderen van veilige in- en ontscheping.",
+          "en" : "Prevent on board (electrical) hazards and effectively deal with them should they occur; ensure safe embarkation and disembarkation of the vessel."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88db9d39-0188-4ef1-a504-35a61f992b4a?selectedVersion=v1.2.1",
+            "title" : "manage on board hazards",
+            "uri" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          } ],
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:sector-specific?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+            "title" : "sector specific skills and competences"
+          },
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:7e153e1d-2b12-43ad-89f3-0cf82ebc4a30?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/7e153e1d-2b12-43ad-89f3-0cf82ebc4a30",
+            "title" : "performing risk analysis and management"
+          } ],
+          "broaderSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ef7562b2-f176-4d7c-a0b2-27ae8cce0b7d?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/ef7562b2-f176-4d7c-a0b2-27ae8cce0b7d",
+            "title" : "react to physical changes or hazards",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:ddb3e6a4-5bae-480a-a49a-748f93022892?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/ddb3e6a4-5bae-480a-a49a-748f93022892",
+            "title" : "decksman"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:bd22a34c-1dc2-48df-a254-66e5d03dec12?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/bd22a34c-1dc2-48df-a254-66e5d03dec12",
+            "title" : "matrose"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:6a2270bc-3f69-4cfd-b99b-fdc2c70d1779?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/6a2270bc-3f69-4cfd-b99b-fdc2c70d1779",
+            "title" : "ship steward/ship stewardess"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8f9b20ff-86b3-478c-8054-73a220973d6f?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8f9b20ff-86b3-478c-8054-73a220973d6f",
+            "title" : "automated cable vehicle controller"
+          } ],
+          "isOptionalSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:58ff0ec2-08ba-4b21-b765-babb6d76ca36?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/58ff0ec2-08ba-4b21-b765-babb6d76ca36",
+            "title" : "steward/stewardess"
+          } ],
+          "isOptionalSkillForSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:21fd9112-8abb-4a3d-a933-f84176df97b7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/21fd9112-8abb-4a3d-a933-f84176df97b7",
+            "title" : "inspect hazardous freight in accordance with regulations",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5f97fac8-2001-4b81-ae8b-22f9062d921a?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/5f97fac8-2001-4b81-ae8b-22f9062d921a",
+            "title" : "identify hazards in the workplace",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5d1a7c14-188d-4d90-9fcc-51bc1748c58e?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/5d1a7c14-188d-4d90-9fcc-51bc1748c58e",
+            "title" : "ensure smooth on board operations",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8071881c-d652-46e7-9cf4-e06a7f1e57c7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/8071881c-d652-46e7-9cf4-e06a7f1e57c7",
+            "title" : "manage major incidents",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a8109a61-55b2-4e89-8672-f589d455380a?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/a8109a61-55b2-4e89-8672-f589d455380a",
+            "title" : "conduct on board safety inspections",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/5A6908DE-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/21fd9112-8abb-4a3d-a933-f84176df97b7",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/541CA3AB-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/a8109a61-55b2-4e89-8672-f589d455380a",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/59794CEA-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/8f9b20ff-86b3-478c-8054-73a220973d6f",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5A79807E-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/ddb3e6a4-5bae-480a-a49a-748f93022892",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/56F03966-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/5f97fac8-2001-4b81-ae8b-22f9062d921a",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5573794A-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/58ff0ec2-08ba-4b21-b765-babb6d76ca36",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5A474C8A-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/5d1a7c14-188d-4d90-9fcc-51bc1748c58e",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5802210C-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/8071881c-d652-46e7-9cf4-e06a7f1e57c7",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/542D32ED-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/bd22a34c-1dc2-48df-a254-66e5d03dec12",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/59D3BCCB-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/6a2270bc-3f69-4cfd-b99b-fdc2c70d1779",
+            "target" : "http://data.europa.eu/esco/skill/88db9d39-0188-4ef1-a504-35a61f992b4a",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:0a2d70ee-d435-4965-9e96-702b2fb65740?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/0a2d70ee-d435-4965-9e96-702b2fb65740",
+                "title" : "information skills"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/0a2d70ee-d435-4965-9e96-702b2fb65740" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:3753e796-121e-46a3-9c27-dee31ce92c80?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/3753e796-121e-46a3-9c27-dee31ce92c80",
+                "title" : "analysing and evaluating information and data"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:12022223-8c30-418a-8f83-658396c9fec2?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/12022223-8c30-418a-8f83-658396c9fec2",
+                "title" : "physical and manual skills and competences"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/12022223-8c30-418a-8f83-658396c9fec2" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:e52389a2-1a05-45b0-8db3-4bda0f0c0b48?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/e52389a2-1a05-45b0-8db3-4bda0f0c0b48",
+                "title" : "responding to physical circumstances"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:7e153e1d-2b12-43ad-89f3-0cf82ebc4a30?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/7e153e1d-2b12-43ad-89f3-0cf82ebc4a30",
+                "title" : "performing risk analysis and management"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:04a13491-b58c-4d33-8b59-8fad0d55fe9e?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e",
+                "title" : "transversal skills and competences"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ef7562b2-f176-4d7c-a0b2-27ae8cce0b7d?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/ef7562b2-f176-4d7c-a0b2-27ae8cce0b7d",
+                "title" : "react to physical changes or hazards",
+                "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/88f57ecb-41c7-4ef3-b7cd-7b117dcc6fef" : {
+        "uri" : "http://data.europa.eu/esco/skill/88f57ecb-41c7-4ef3-b7cd-7b117dcc6fef",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "operate pile driver hammer",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "uk" : "експлуатувати копер",
+          "mt" : "tħaddim tal-martell tat-tpoġġija tal-puntali",
+          "lt" : "valdyti polių kalimo įrenginį",
+          "ga" : "sáiteoir pílí a oibriú",
+          "is" : "stjórnar stólpahamar",
+          "de" : "Pfahlrammhammer bedienen",
+          "lv" : "vadīt pāļdzini",
+          "fi" : "käyttää paalujunttaa",
+          "da" : "betjene piloteringshammer",
+          "sv" : "använda pålmaskin",
+          "nl" : "heimachines met hamer bedienen",
+          "pt" : "operar martelo hidráulico bate-estacas",
+          "cs" : "obsluhovat explozivní beranidlo",
+          "el" : "χειρισμός σφύρας τοποθέτησης πασσάλων",
+          "sk" : "obsluhovať kladivové baranidlo",
+          "sl" : "upravljati stroj za zabijanje pilotov",
+          "hr" : "rukovati strojevima za zabijanje pilota",
+          "en" : "operate pile driver hammer",
+          "ar" : "تشغيل مطرقة دق الركائز",
+          "ro" : "operează ciocanul pentru înfipt stâlpi",
+          "et" : "vaiarammi käitama",
+          "hu" : "cölöpverő gépet működtet",
+          "fr" : "utiliser un marteau pour le battage de pieux",
+          "pl" : "obsługiwać kafar wbijający pale",
+          "bg" : "боравене с ударна сонетка пилотонабивачка",
+          "es" : "operar martinete",
+          "no" : "betjene rambukkhammer",
+          "it" : "azionare il battipali"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "es" : [ "manejar martinete hidráulico", "manejar martinete de combustión interna" ],
+          "en" : [ "hammering piles", "operate piling rig", "pile driver operation", "driving piles", "pile driving", "drive piles", "operate pile driver", "operating piledriver", "hammer piles", "operating pile driver hammer", "piling rig operation", "operation of pile driver hammer", "pile driver hammer operation", "piledriving" ],
+          "nl" : "heimachines met hamer gebruiken",
+          "el" : "χειρισμός πασσαλομπήχτη"
+        },
+        "description" : {
+          "es" : "Operar un martinete que dirige las pilas al suelo con un movimiento de martilleo. Trabajar con martinetes diésel y martinetes hidráulicos, que son más silenciosos y más adecuados para las zonas sensibles a los ruidos fuertes o a las vibraciones de alto nivel.",
+          "ro" : "Operează un ciocan care înfige stâlpi în sol prin mișcări de ciocănire. Lucrează cu ciocane pentru înfipt stâlpi cu motor diesel și hidraulice, care sunt mai puțin zgomotoase și mai potrivite pentru zonele sensibile la zgomot puternic sau la vibrații.",
+          "et" : "Vaiade maapinna sisse vasardamiseks kasutatava vaiarammiga töötamine. Töötamine diiselkütusel toimivate ja hüdrauliliste vaiarammidega, mis on vaiksemad ja sobivad paremini kasutamiseks kohtades, kus tuleb piirata müra ja vibratsiooni.",
+          "ar" : "تشغيل آلة دق الركائز التي تدق الركائز في الأرض مستخدمة حركة المطرقة. استخدام مطارق دق الركائز التي تعمل بالديزل والمطارق الهيدروليكية والتي هي أكثر هدوءًا وملاءمة للمناطق الحساسة للضوضاء الصاخبة والاهتزازات.",
+          "sv" : "Sköta en pålmaskin som driver pålar i marken med hjälp av en hamrande rörelse. Arbeta med dieselpålmaskin och hydrauliska pålmaskiner, vilka är tystare och mer lämpade för områden som är känsliga för högt buller eller vibrationer.",
+          "bg" : "Борави с ударна сонетка, която набива пилотки в земята с помощта на чуково движение. Работи с дизелови ударни сонетки пилотонабивачки и хидравлични пилотонабивачки, които са по-тихи и по-подходящи за райони, чувствителни на силен шум или вибрации.",
+          "el" : "Χειρισμός μηχανής που οδηγεί τους πασσάλους εντός του εδάφους, με τη χρήση κίνησης της σφύρας. Εργασία με πετρελαιοκίνητες σφύρες τοποθέτησης πασσάλων και υδραυλικές μηχανές τοποθέτησης πασσάλων, οι οποίες είναι πιο ήσυχες και κατάλληλες για περιοχές ευαίσθητες στον δυνατό θόρυβο ή τους κραδασμούς.",
+          "cs" : "Obsluhovat explozivní beranidlo, které zatlouká pilíře do země pomocí kladivového pohybu. Pracovat s dieselovými nebo hydraulickými beranidly, která jsou tišší a vhodnější pro oblasti citlivé na hluk nebo vibrace.",
+          "nl" : "Bediening van een heimachine die heipalen in de grond drijft door te hameren. Werken met dieselheimachines met hamers en hydraulische heimachines, die stiller zijn en geschikter zijn voor gebieden die gevoelig zijn voor lawaai of trillingen.",
+          "pt" : "Operar um bate-estacas que crava estacas no solo com um movimento de martelagem. Trabalhar com martelos bate-estacas a gasóleo e hidráulicos, que são mais silenciosos e apropriados para zonas sensíveis a ruídos ou vibrações intensos.",
+          "is" : "Stjórna stólpahamar sem rekur stólpa í jörðu með hamarshreyfingu. Vinna með dísildrifnum og vökvadrifnum stólpahamar sem eru hljóðlátari og henta betur á svæði sem eru næm fyrir miklum hávaða eða titringi.",
+          "pl" : "Obsługiwać kafar wbijający pale w podłoże przy zastosowaniu ruchu młota. Obsługiwać spalinowy kafar i hydrauliczne wbijaki, które są cichsze i bardziej odpowiednie do obszarów wrażliwych na głośny hałas lub wibracje.",
+          "sl" : "Upravljati stroj za zabijanje pilotov v tla. Delati z dizelskimi ali hidravličnimi stroji za zabijanje pilotov, ki so tišji in primernejši za območja, občutljiva na hrup ali tresljaje.",
+          "mt" : "Ħaddem tagħmir tat-tpoġġija tal-puntali fl-art billi tuża moviment ta’ tismir. Aħdem b’martelli tat-tpoġġija tal-puntali u tagħmir tat-tpoġġija tal-puntali idrawliċi, li jaħdmu b’inqas ħoss u huma aktar xierqa għal żoni sensittivi għal storbju u vibrazzjonijiet b’livell għoli ta’ storbju.",
+          "lt" : "Valdyti polių įrenginį, kurį naudojant poliai įkalami į žemę. Naudoti dyzelinius ir hidraulinius polių kalimo įrenginius, kurie veikia tyliau ir yra tinkamesni vietovėms, neatsparioms triukšmui ar vibracijoms.",
+          "de" : "Bedienen einer Pfahlramme, die über eine Hammerbewegung Pfähle in den Boden treibt. Arbeiten mit dieselbetriebenen und hydraulischen Pfahlrammhämmern, die leiser sind und sich besser für lärm- und vibrationsempfindliche Flächen eignen.",
+          "fr" : "Faire fonctionner un engin de battage de pieux qui enfonce des pieux dans le sol à l’aide d’un mouvement de marteau. Travaux à l'aide de marteaux de battage de pieux à moteur diesel et des marteaux de battage hydrauliques, qui sont plus silencieux et plus appropriés pour les zones sensibles au bruit intense ou aux vibrations.",
+          "hr" : "Rukovati strojem za zabijanje pilota kojim se piloti zabijaju u tlo s pomoću zakucavanja. Raditi s dizelskim i hidrauličnim strojevima za zabijanje pilota koji su tiši i prikladniji područjima koja su osjetljiva na buku ili vibracije.",
+          "lv" : "Strādāt ar pāļdzini pāļu iedzīšanai zemē, veicot sišanai līdzīgu kustību. Strādāt ar dīzeļdzinēja pāļdzini un hidrauliskajiem pāļdziņiem, kas ir klusāki un piemērotāki zonām,kurās nav vēlams troksnis vai vibrācija.",
+          "fi" : "Käyttää paalujunttaa, joka junttaa paaluja maahan vasaramaisella liikkeellä. Käyttää dieselkäyttöisiä paalutusvasaroita ja hydraulisia paalujunttia, jotka ovat hiljaisempia ja sopivat paremmin käytettäväksi alueilla, joilla kova meteli tai tärinä voisi aiheuttaa ongelmia.",
+          "it" : "Azionare un battipali che spinge i pali nel terreno con movimenti di martellatura. Lavorare con i battipali diesel e idraulici, che sono più silenziosi e più adatti ad aree sensibili ai rumori forti o alle vibrazioni.",
+          "ga" : "Sáiteoir pílí a oibriú lena sáitear pílí isteach sa talamh ach leas a bhaint as gluaiseacht chasúireachta. Oibriú le casúir sháiteora díosail agus sáiteoirí pílí hiodrálacha, atá níos ciúine agus níos oiriúnaí do limistéir íogaire maidir le torann ard nó le creathanna.",
+          "hu" : "Kalapáló mozdulatot használó cölöpözőt működtet, amely a talajba veri a cölöpöket. Olyan dízelmeghajtású cölöpöző gépekkel és hidraulikus cölöpöző gépekkel dolgozik, amelyek csendesebbek, és jobban megfelelnek a hangos zaj vagy rezgés szempontjából érzékeny területeknek.",
+          "en" : "Operate a pile driver that drives piles into the ground using a hammering motion. Work with diesel pile driver hammers and hydraulic pile drivers, which are quieter and more appropriate to areas sensitive to loud noise or vibrations.",
+          "uk" : "Експлуатувати копер, який забиває палі в землю ударними рухами. Керувати дизельними та гідравлічними копрами, які тихіше працюють та більш підходять для місць, чутливих до гучного шуму чи вібрації.\n\t",
+          "no" : "Betjene en rambukk som kjører påler ned i bakken med en hammerbevegelse. Arbeide med dieseldrevne rambukkhammere og hydrauliske rambukker, som er mer stillegående og bedre egnet for områder som er følsomme for støy og vibrasjoner.",
+          "sk" : "Obsluhovať kladivové baranidlo, ktorými sa zatĺkajú stĺpy do zeme. Pracovať s dieselovými kladivovými baranidlami a hydraulickými baranidlami, ktoré sú tichšie a vhodnejšie pre oblasti citlivé na silný hluk alebo vibrácie.",
+          "da" : "Betjene en rambuk, der driver pæle ned i jorden ved hjælp af bankende bevægelse. Arbejde med rambukke med dieselmotor og hydrauliske rambukke, som er mere støjsvage og mere hensigtsmæssige i områder, der er følsomme over for høj støj eller rystelser."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f57ecb-41c7-4ef3-b7cd-7b117dcc6fef?selectedVersion=v1.2.1",
+            "title" : "operate pile driver hammer",
+            "uri" : "http://data.europa.eu/esco/skill/88f57ecb-41c7-4ef3-b7cd-7b117dcc6fef"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          } ],
+          "topConceptOf" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          },
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:occupation-specific?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/occupation-specific",
+            "title" : "occupation specific skills and competences"
+          },
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:19990cb0-e9d5-41c7-9638-88700b47271e?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/19990cb0-e9d5-41c7-9638-88700b47271e",
+            "title" : "operating earthmoving equipment"
+          } ],
+          "narrowerSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fd35b3da-239a-4abe-906b-443056a5e98e?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/fd35b3da-239a-4abe-906b-443056a5e98e",
+            "title" : "drive concrete piles",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b9747ec1-f3a7-4526-b226-59d903cbfa76?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/b9747ec1-f3a7-4526-b226-59d903cbfa76",
+            "title" : "drive metal sheet piles",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:85692956-3b40-4b90-96bc-621fc7495533?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/85692956-3b40-4b90-96bc-621fc7495533",
+            "title" : "drive steel piles",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:b4f4b21e-7664-45ca-9697-9123cfd8c9ef?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/b4f4b21e-7664-45ca-9697-9123cfd8c9ef",
+            "title" : "pile driving hammer operator"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : {
+            "uri" : "http://data.europa.eu/esco/relation/589B1CE0-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/b4f4b21e-7664-45ca-9697-9123cfd8c9ef",
+            "target" : "http://data.europa.eu/esco/skill/88f57ecb-41c7-4ef3-b7cd-7b117dcc6fef",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          },
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:9b8bb484-dcba-49af-8ae0-cfe8b6e9ed45?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/9b8bb484-dcba-49af-8ae0-cfe8b6e9ed45",
+                "title" : "working with machinery and specialised equipment"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/9b8bb484-dcba-49af-8ae0-cfe8b6e9ed45" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:da94d48b-5036-48e1-ad96-d85cba6ed29c?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/da94d48b-5036-48e1-ad96-d85cba6ed29c",
+                "title" : "operating mobile plant"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:19990cb0-e9d5-41c7-9638-88700b47271e?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/19990cb0-e9d5-41c7-9638-88700b47271e",
+                "title" : "operating earthmoving equipment"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77" : {
+        "uri" : "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "act discreetly",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "et" : "diskreetselt käituma",
+          "hu" : "diszkréten jár el",
+          "fi" : "käyttäytyä hillitysti",
+          "en" : "act discreetly",
+          "fr" : "agir avec discrétion",
+          "bg" : "проявяване на дискретност",
+          "cs" : "jednat diskrétně",
+          "lt" : "veikti apdairiai",
+          "mt" : "aġir b’diskrezzjoni",
+          "nl" : "zich discreet gedragen",
+          "uk" : "діяти непомітно",
+          "da" : "optræde diskret",
+          "lv" : "darboties diskrēti",
+          "de" : "diskret agieren",
+          "es" : "actuar discretamente",
+          "ar" : "التصرف بحذر",
+          "no" : "opptre diskret",
+          "sk" : "správať sa diskrétne",
+          "pl" : "zachowywać dyskrecję",
+          "ro" : "dă dovadă de discreție",
+          "hr" : "ponašati se diskretno",
+          "it" : "agire discretamente",
+          "is" : "hagar sér af háttvísi",
+          "sv" : "uppträda diskret",
+          "el" : "επίδειξη διακριτικής συμπεριφοράς",
+          "pt" : "agir discretamente",
+          "sl" : "ravnati diskretno",
+          "ga" : "gníomhú ar bhealach discréideach"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "en" : [ "comport oneself discreetly", "acting discreetly", "behave discreetly", "perform discreetly", "conduct oneself discreetly" ],
+          "nl" : "zich onopvallend gedragen",
+          "da" : "handle diskret"
+        },
+        "description" : {
+          "hu" : "Diszkréten viselkedik és nem hívja fel magára a figyelmet.",
+          "uk" : "Бути обачним та не привертати уваги.\n\t",
+          "cs" : "Jednat diskrétně a nepoutat pozornost.",
+          "et" : "Diskreetsuse säilitamine ja tähelepanu vältimine.",
+          "nl" : "Discreet zijn en geen aandacht trekken.",
+          "fr" : "Faire preuve de discrétion et ne pas attirer l’attention.",
+          "de" : "Ausüben von Diskretion und Zurückhaltung.",
+          "pt" : "Ser discreto/discreta e não chamar a atenção.",
+          "bg" : "Проявява дискретност и не привлича внимание.",
+          "en" : "Be discreet and don't draw attention.",
+          "sk" : "Byť diskrétny a nepútať pozornosť.",
+          "ro" : "Manifestă discreție și nu atrage atenția.",
+          "sv" : "Vara diskret och inte dra till sig uppmärksamhet.",
+          "ar" : "البقاء حذرًا وعدم لفت الانتباه.",
+          "da" : "Være diskret og ikke tiltrække sig opmærksomhed.",
+          "hr" : "Biti diskretni i ne privlačiti pozornost.",
+          "fi" : "Olla hienovarainen ja käyttäytyä huomiota herättämättömästi.",
+          "sl" : "Biti diskreten in ne opozarjati nase.",
+          "el" : "Επίδειξη διακριτικής συμπεριφοράς και αποφυγή εκδήλωσης προσοχής.",
+          "lt" : "Būti apdairiam ir neatkreipti į save dėmesio.",
+          "it" : "Essere discreti e non attirare l’attenzione.",
+          "mt" : "Kun diskret u tiġbidx l-attenzjoni.",
+          "is" : "Vera háttvís og ekki draga að sér athygli.",
+          "es" : "Ser discreto y no llamar la atención.",
+          "ga" : "Feidhmiú go discréideach agus gan aird a tharraingt.",
+          "lv" : "Ievērot diskrētumu un nepiesaistīt uzmanību.",
+          "pl" : "Być dyskretnym i nie zwracać uwagi.",
+          "no" : "Være diskret og ikke tiltrekke oppmerksomhet."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f2ee42-01c8-4390-a108-e733cecaaa77?selectedVersion=v1.2.1",
+            "title" : "act discreetly",
+            "uri" : "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          } ],
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:sector-specific?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+            "title" : "sector specific skills and competences"
+          },
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:91b0b918-942e-4661-b88c-70b9396529e5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/91b0b918-942e-4661-b88c-70b9396529e5",
+            "title" : "working with others"
+          } ],
+          "broaderSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:77b636e8-fab3-41a8-8022-1e0a354059dc?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+            "title" : "show empathy",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:578470d7-1848-44cd-a769-96cdd64b2c37?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/578470d7-1848-44cd-a769-96cdd64b2c37",
+            "title" : "civil registrar"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:e4fca489-4c79-4392-874f-9ea1051c05c8?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/e4fca489-4c79-4392-874f-9ea1051c05c8",
+            "title" : "extra"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:92df4ee3-bce3-45f6-a693-597df1b96f43?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/92df4ee3-bce3-45f6-a693-597df1b96f43",
+            "title" : "crisis helpline operator"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/56CE9022-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/4b05bef2-ded4-4b09-ab94-f4c6a555a775",
+            "target" : "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/59B1EAB4-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/578470d7-1848-44cd-a769-96cdd64b2c37",
+            "target" : "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/55D508C2-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/92df4ee3-bce3-45f6-a693-597df1b96f43",
+            "target" : "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/57F096F8-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/e4fca489-4c79-4392-874f-9ea1051c05c8",
+            "target" : "http://data.europa.eu/esco/skill/88f2ee42-01c8-4390-a108-e733cecaaa77",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/552c4f35-a2d1-49c2-8fda-afe26695c44a" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:82463bb1-85d1-4e99-a4ce-08508fc3b2a3?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/82463bb1-85d1-4e99-a4ce-08508fc3b2a3",
+                "title" : "supporting others"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:dc06de9f-dd3a-4f28-b58f-b01b5ae72ab8?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/dc06de9f-dd3a-4f28-b58f-b01b5ae72ab8",
+                "title" : "communication, collaboration and creativity"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:552c4f35-a2d1-49c2-8fda-afe26695c44a?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/552c4f35-a2d1-49c2-8fda-afe26695c44a",
+                "title" : "social and communication skills and competences"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/dc06de9f-dd3a-4f28-b58f-b01b5ae72ab8" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:548c3fbe-9eb1-4035-bc54-027fd5bc5315?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/548c3fbe-9eb1-4035-bc54-027fd5bc5315",
+                "title" : "working with others"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:04a13491-b58c-4d33-8b59-8fad0d55fe9e?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e",
+                "title" : "transversal skills and competences"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:77b636e8-fab3-41a8-8022-1e0a354059dc?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+                "title" : "show empathy",
+                "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:91b0b918-942e-4661-b88c-70b9396529e5?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/91b0b918-942e-4661-b88c-70b9396529e5",
+                "title" : "working with others"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e" : {
+        "uri" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "perform laboratory tests on footwear or leather goods",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "sl" : "izvajati laboratorijske preskuse na obutvi ali usnjenih izdelkih",
+          "no" : "utføre laboratorietester på sko eller skinnvarer",
+          "bg" : "извършване на лабораторни изпитвания върху обувни или кожени изделия",
+          "en" : "perform laboratory tests on footwear or leather goods",
+          "ar" : "إجراء الاختبارات المعملية على الأحذية أو السلع الجلدية",
+          "sk" : "vykonať laboratórne testy na obuvi alebo koženom tovare",
+          "nl" : "laboratoriumtesten op schoeisel of lederwaren uitvoeren",
+          "fr" : "réaliser des essais de laboratoire sur des articles chaussants ou des articles en cuir",
+          "el" : "διενέργεια εργαστηριακών δοκιμών σε υποδήματα ή δερμάτινα είδη",
+          "lt" : "atlikti avalynės ar odos dirbinių laboratorinius bandymus",
+          "da" : "udføre laboratorietest på fodtøj eller lædervarer",
+          "fi" : "tehdä laboratoriotestejä jalkineille tai nahkatuotteille",
+          "sv" : "utföra laboratorietester på skor eller läderartiklar",
+          "pl" : "wykonywać badania laboratoryjne dotyczące obuwia lub wyrobów skórzanych",
+          "ro" : "efectuează teste de laborator pentru încălțăminte și articole din piele",
+          "ga" : "tástálacha saotharlainne a dhéanamh ar choisbheart nó ar earraí leathair",
+          "uk" : "проводити лабораторні перевірки взуття або шкіряних виробів",
+          "mt" : "twettiq tat-testijiet tal-laboratorju fuq xedd is-saqajn u fuq l-oġġetti tal-ġilda",
+          "et" : "jalatsite või nahktoodete laborikatseid läbi viima",
+          "lv" : "veikt apavu vai ādas izstrādājumu laboratoriskās pārbaudes",
+          "es" : "realizar pruebas de laboratorio para el calzado y los artículos de piel y cuero",
+          "pt" : "realizar testes laboratoriais em calçado e artigos de couro",
+          "de" : "Labortests an Schuhwerk oder Lederwaren durchführen",
+          "cs" : "provádět laboratorní zkoušky na obuvi nebo koženém zboží",
+          "is" : "framkvæmir rannsóknarstofuprófanir á skófatnaði eða leðurvörum",
+          "it" : "svolgere prove di laboratorio sulle calzature e sugli articoli di pelletteria",
+          "hu" : "a cipő‑ és bőripari termékek vonatkozásában laboratóriumi vizsgálatokat végez",
+          "hr" : "obavljati laboratorijska ispitivanja obuće ili kožne galanterije"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "en" : [ "perform laboratory tests on leather goods", "perform laboratory tests for quality check on footwear and leatherwear", "carry out laboratory tests on footwear or leather goods", "perform laboratory tests on footwear", "carry out laboratory tests on footwear and leatherwear", "perform labvoratory tests on footwear and leatherwear", "perform laboratory tests for quality check on footwear and leather goods" ],
+          "es" : [ "realizar pruebas de laboratorio para el calzado y los artículos de marroquinería", "hacer pruebas de laboratorio para el calzado y los artículos de piel y cuero" ],
+          "lt" : "atlikti avalynės ar odos gaminių laboratorinius bandymus"
+        },
+        "description" : {
+          "es" : "Realizar pruebas de control de calidad en el laboratorio del calzado, artículos de piel y cuero o sus materiales o componentes, de acuerdo con las normas nacionales e internacionales. Preparar muestras y procedimientos. Analizar e interpretar los resultados de pruebas e informes elaborados. Cooperar con laboratorios externalizados.",
+          "sv" : "Utföra laboratorietester för kvalitetskontroll av skor, lädervaror eller dess material eller komponenter enligt nationella och internationella standarder. Förbereda prover och förfaranden. Analysera och tolka testresultat och utarbetade rapporter. Samarbeta med laboratorier som lagts ut på entreprenad.",
+          "hu" : "Nemzeti és nemzetközi szabványokat követve laboratóriumi minőség-ellenőrző vizsgálatokat végez a lábbelikre, bőrárukra vagy azok anyagaira vagy alkatrészeire vonatkozóan. Mintákat készít és eljárásokat végez. Elemzi és értelmezi a vizsgálati eredményeket és az elkészült jelentéseket. Együttműködik a kiszervezett laboratóriumokkal.",
+          "ro" : "Efectuează teste de laborator de control al calității articolelor de încălțăminte, a articolelor din piele sau a materialelor ori a componentelor acestora în conformitate cu standardele naționale și internaționale. Pregătește probe și proceduri. Analizează și interpretează rezultatele testelor și rapoartele elaborate. Cooperează cu laboratoarele externalizate.",
+          "no" : "Gjennomføre laboratorietester for å kontrollere kvaliteten på fottøy, lærvarer eller materialer eller komponenter i disse, i henhold til nasjonale eller internasjonale standarder. Klargjøre prøver og prosedyrer. Analysere og tolke testresultater og utarbeidede rapporter. Samarbeide med utkontraktert laboratorier.",
+          "ga" : "Tástálacha rialaithe cáilíochta saotharlainne a dhéanamh ar choisbheart, earraí leathair nó a ábhair nó a chomhpháirteanna ag cloí leis na caighdeáin náisiúnta agus idirnáisiúnta. Samplaí agus nósanna imeachta a ullmhú. Torthaí agus tuairiscí léirithe a anailísiú agus a léirmhíniú. Comhoibriú le saotharlanna seachfhoinsithe.",
+          "pl" : "Przeprowadzać laboratoryjne testy kontroli jakości obuwia, wyrobów skórzanych lub ich materiałów bądź komponentów zgodnie z normami krajowymi i międzynarodowymi. Przygotowywać próbki i procedury. Analizować i interpretować wyniki testów i tworzone raporty. Współpracować z zewnętrznymi laboratoriami.",
+          "pt" : "Realizar testes de controlo da qualidade laboratorial em calçado, em produtos de couro ou nos respetivos materiais ou componentes, seguindo as normas nacionais e internacionais. Preparar amostras e procedimentos. Analisar e interpretar os resultados dos testes e os relatórios produzidos. Cooperar com laboratórios subcontratados.",
+          "is" : "Framkvæma prófanir á gæðastjórnun á skóm, leðurvörum eða efnum þess eða íhlutum í samræmi við innlenda og alþjóðlega staðla. Útbúa sýni og verklagsreglur. Greina niðurstöður og skýrslur úr prófunum og túlka þær. Samstarf við innlendar rannsóknarstofur.",
+          "sk" : "Vykonávať laboratórne testy kvality obuvi, koženého tovaru alebo jeho materiálov alebo komponentov podľa vnútroštátnych a medzinárodných noriem. Pripravovať vzorky a postupy. Analyzovať a interpretovať výsledky testov a vypracúvať správy. Spolupracovať s externými laboratóriami.",
+          "uk" : "Проводити лабораторні перевірки якості взуття, шкіряних виробів або їхніх матеріалів чи компонентів відповідно до національних і міжнародних стандартів. Готувати зразки та процедури. Аналізувати та інтерпретувати результати тестів і складених звітів. Співпрацювати із зовнішніми лабораторіями.\n\t",
+          "en" : "Perform laboratory quality control tests on footwear, leather goods or its materials or components following national and international standards. Prepare samples and procedures. Analyse and interpret tests results and produced reports. Cooperate with outsourced laboratories.",
+          "sl" : "Izvajati preskuse nadzora kakovosti za obutev, usnjeno blago ali materiale ali sestavne dele v skladu z nacionalnimi in mednarodnimi standardi. Pripraviti vzorce in postopke. Analizirati in razložiti rezultate preskusov in pripraviti poročila. Sodelovati z zunanjimi laboratoriji.",
+          "hr" : "Obavljati laboratorijska ispitivanja kontrole kvalitete na obući, kožnoj galanteriji ili njezinim materijalima ili sastavnim dijelovima u skladu s nacionalnim i međunarodnim standardima. Pripremati uzorke i postupke. Analizirati i tumačiti rezultate ispitivanja i izrađenih izvješća. Surađivati s vanjskim laboratorijima.",
+          "mt" : "Wettaq testijiet tal-laboratorju ta’ kontroll tal-kwalità fuq xedd tas-saqajn, oġġetti tal-ġilda jew il-materjali jew il-komponenti tiegħu skont standards nazzjonali u internazzjonali. Ħejji kampjuni u proċeduri. Analizza u interpreta r-riżultati tat-testijiet u r-rapporti magħmula. Ikkoopera ma’ laboratorji esternalizzati.",
+          "lt" : "Laikantis nacionalinių ir tarptautinių standartų, atlikti avalynės, odos dirbinių arba jų medžiagų ar sudedamųjų dalių laboratorinius kokybės kontrolės bandymus. Paruošti mėginius ir parengti procedūras. Analizuoti ir aiškinti bandymų rezultatus ir parengtas ataskaitas. Bendradarbiauti su užsakomąsias paslaugas teikiančiomis laboratorijomis.",
+          "fr" : "Effectuer des essais de contrôle de qualité en laboratoire sur des articles chaussants, des articles en cuir ou leurs matériaux ou composants conformément aux normes nationales et internationales. Préparer des échantillons et des procédures. Analyser et interpréter les résultats des essais et établir des rapports. Coopérer avec les laboratoires extérieurs.",
+          "cs" : "Provádět laboratorní zkoušky kontroly kvality na obuvi nebo koženém zboží nebo souvisejících materiálech nebo dílech podle vnitrostátních a mezinárodních norem. Připravovat vzorky a postupy. Analyzovat a interpretovat výsledky zkoušek a vypracovávat zprávy. Spolupracovat s externími laboratořemi.",
+          "da" : "Udføre laboratoriekvalitetskontrol af fodtøj, lædervarer eller materialer dertil eller komponenter efter nationale og internationale standarder. Forberede prøver og procedurer. Analysere og fortolke testresultater og udarbejdede rapporter. Samarbejde med outsourcede laboratorier.",
+          "el" : "Διενέργεια εργαστηριακών δοκιμών ποιοτικού ελέγχου για τα υποδήματα, τα δερμάτινα είδη ή τα υλικά ή επί μέρους στοιχεία τους, σύμφωνα με τα εθνικά και διεθνή πρότυπα. Προετοιμασία δειγμάτων και διαδικασιών. Ανάλυση και ερμηνεία των αποτελεσμάτων των δοκιμών και των εκθέσεων που παράγονται. Συνεργασία με εργαστήρια εξωτερικής ανάθεσης.",
+          "et" : "Jalatsite, nahktoodete või nende materjalide või komponentide laboratoorse kvaliteedikontrolli tegemine, järgides riiklikke ja rahvusvahelisi standardeid. Proovide ja protseduuride ettevalmistamine. Katsete tulemuste ja koostatud aruannete analüüsimine ja tõlgendamine. Koostöö tegemine allhanke korras tööülesandeid täitvate laboritega.",
+          "de" : "Durchführung von Labortests zur Kontrolle der Qualität von Schuhen, Lederwaren und deren Materialien oder Komponenten nach nationalen und internationalen Normen. Vorbereitung von Proben und Verfahren. Analyse und Interpretation von Testergebnissen und erstellten Berichten. Zusammenarbeit mit externen Laboren.",
+          "bg" : "Извършва лабораторни изпитвания за контрол на качеството върху обувки, кожени изделия или върху техните материали или компоненти съгласно националните и международните стандарти. Подготвя мостри и процедури. Анализира и тълкува резултатите от изпитвания и изготвените доклади. Сътрудничи с лабораториите, с които е сключен договор за услуги на външен изпълнител.",
+          "fi" : "Suorittaa jalkineita, nahkatuotteita tai niiden materiaaleja tai komponentteja koskevia laboratorion laadunvalvontatestejä kansallisten ja kansainvälisten standardien mukaisesti. Valmistella näytteet ja menettelyt. Analysoida ja tulkita testituloksia ja laatia raportteja. Tehdä yhteistyötä ulkoistettujen laboratorioiden kanssa.",
+          "it" : "Eseguire prove di laboratorio di controllo della qualità su calzature, articoli di pelletteria o loro materiali o componenti nel rispetto delle norme nazionali e internazionali. Preparare i campioni e le procedure. Analizzare e interpretare i risultati delle prove e le relazioni predisposte. Cooperare con i laboratori esterni.",
+          "ar" : "إجراء اختبارات رقابة الجودة المعملية على الأحذية، أو السلع الجلدية، أو خاماتها أو مكوناتها التابعة للمعايير المحلية والدولية. تجهيز العينات والإجراءات. تحليل نتائج الاختبارات والتقارير الصادرة وتفسيرها. التعاون مع المختبرات الخارجية.",
+          "nl" : "Laboratoriumtesten uitvoeren betreffende de kwaliteit van schoeisel, lederwaren of de materialen of onderdelen daarvan overeenkomstig de nationale en internationale normen. Monsters en procedures voorbereiden. Analyseren en interpreteren van testresultaten en opgestelde verslagen. Samenwerken met uitbestede laboratoria.",
+          "lv" : "Saskaņā ar valsts un starptautiskajiem standartiem veikt laboratoriskas kvalitātes kontroles pārbaudes apaviem, ādas izstrādājumiem vai to sastāvdaļām. Sagatavot paraugus un veikt nepieciešamās procedūras. Analizēt un interpretēt pārbaužu rezultātus un sagatavotos ziņojumus. Sadarboties ar ārpakalpojumus sniedzošām laboratorijām."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e?selectedVersion=v1.2.1",
+            "title" : "perform laboratory tests on footwear or leather goods",
+            "uri" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          } ],
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:cross-sector?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+            "title" : "cross-sector skills and competences"
+          },
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:7ca69606-5ffc-4668-ae53-713c1f1612e6?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/7ca69606-5ffc-4668-ae53-713c1f1612e6",
+            "title" : "operating scientific and laboratory equipment"
+          } ],
+          "broaderSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2",
+            "title" : "perform laboratory tests",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:ed976196-3d5d-4121-9367-e1022af603fa?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/ed976196-3d5d-4121-9367-e1022af603fa",
+            "title" : "footwear quality control laboratory technician"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:45f8504d-24ac-4bcd-8692-a93acc74204c?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/45f8504d-24ac-4bcd-8692-a93acc74204c",
+            "title" : "leather goods quality control laboratory technician"
+          } ],
+          "isOptionalSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8a0c1556-f616-4d41-a03c-8a093a644807?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8a0c1556-f616-4d41-a03c-8a093a644807",
+            "title" : "footwear quality technician"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:0e68f523-3206-4896-b725-44150dd22057?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/0e68f523-3206-4896-b725-44150dd22057",
+            "title" : "leather goods production supervisor"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:1f8967ce-9faa-4d56-a656-50e041f7d07e?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/1f8967ce-9faa-4d56-a656-50e041f7d07e",
+            "title" : "leather goods quality manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:a659968d-0804-4357-bc60-735e4d41e65c?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/a659968d-0804-4357-bc60-735e4d41e65c",
+            "title" : "footwear production supervisor"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:02f26b2f-879c-4811-8381-65e8dd3f4a16?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/02f26b2f-879c-4811-8381-65e8dd3f4a16",
+            "title" : "footwear quality manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:2b48a4cd-2333-4abf-ac3e-6f63d6ed3663?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/2b48a4cd-2333-4abf-ac3e-6f63d6ed3663",
+            "title" : "footwear quality controller"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:371885b5-0f93-406f-b96a-58ecd5bbc3ce?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/371885b5-0f93-406f-b96a-58ecd5bbc3ce",
+            "title" : "leather goods quality controller"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:3e0b4b9b-b624-4ceb-9bc9-9627cdfb0b81?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/3e0b4b9b-b624-4ceb-9bc9-9627cdfb0b81",
+            "title" : "leather goods machine operator"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:7bf11599-d0bb-4789-9886-55c87f5da449?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/7bf11599-d0bb-4789-9886-55c87f5da449",
+            "title" : "leather goods quality technician"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/542D2D57-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/7bf11599-d0bb-4789-9886-55c87f5da449",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/542D2CF2-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/1f8967ce-9faa-4d56-a656-50e041f7d07e",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5A8A44AE-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/8a0c1556-f616-4d41-a03c-8a093a644807",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/542D2DC4-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/371885b5-0f93-406f-b96a-58ecd5bbc3ce",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/59F51A79-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/a659968d-0804-4357-bc60-735e4d41e65c",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/59E4C0A6-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/3e0b4b9b-b624-4ceb-9bc9-9627cdfb0b81",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5A059830-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/0e68f523-3206-4896-b725-44150dd22057",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5A8A43A0-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/ed976196-3d5d-4121-9367-e1022af603fa",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5A8A4238-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/2b48a4cd-2333-4abf-ac3e-6f63d6ed3663",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5A799640-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/02f26b2f-879c-4811-8381-65e8dd3f4a16",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/542D2E32-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/45f8504d-24ac-4bcd-8692-a93acc74204c",
+            "target" : "http://data.europa.eu/esco/skill/88f0a98e-4b90-479b-9b5a-f5f8cbe0b49e",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/4d7fb3eb-554a-4cf1-a576-bf6e153bdba2" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:7ca69606-5ffc-4668-ae53-713c1f1612e6?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/7ca69606-5ffc-4668-ae53-713c1f1612e6",
+                "title" : "operating scientific and laboratory equipment"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:9b8bb484-dcba-49af-8ae0-cfe8b6e9ed45?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/9b8bb484-dcba-49af-8ae0-cfe8b6e9ed45",
+                "title" : "working with machinery and specialised equipment"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/9b8bb484-dcba-49af-8ae0-cfe8b6e9ed45" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:4d7fb3eb-554a-4cf1-a576-bf6e153bdba2?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/4d7fb3eb-554a-4cf1-a576-bf6e153bdba2",
+                "title" : "using precision instrumentation and equipment"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2",
+                "title" : "perform laboratory tests",
+                "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/88f649ef-eecc-452e-8f50-197cb07eb58c" : {
+        "uri" : "http://data.europa.eu/esco/skill/88f649ef-eecc-452e-8f50-197cb07eb58c",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "core apples",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "lv" : "izgriezt ābolu serdes",
+          "fr" : "utiliser un vide-pomme",
+          "mt" : "tħaffir tal-qalba tat-tuffieħ",
+          "en" : "core apples",
+          "da" : "udkerne æbler",
+          "lt" : "išimti obuolių šerdis",
+          "hr" : "vaditi koštice iz jabuka",
+          "ar" : "نزع بذور التفاح",
+          "no" : "fjerne eplekjerner",
+          "it" : "rimuovere il torsolo dalle mele",
+          "sk" : "odstrániť jadierka z jabĺk",
+          "sl" : "odstranjevati jedra iz jabolk",
+          "ga" : "an croí a bhaint as úill",
+          "de" : "Äpfel entkernen",
+          "et" : "õunasüdamikke eemaldama",
+          "el" : "αφαίρεση των κουκουτσιών από τα μήλα",
+          "bg" : "премахване на сърцевината на ябълки",
+          "cs" : "odstranit jádro z jablek",
+          "pt" : "descaroçar maçãs",
+          "is" : "tekur kjarnann úr eplum",
+          "pl" : "drylować jabłka",
+          "es" : "quitar pepitas de manzanas",
+          "sv" : "kärna ur äpplen",
+          "hu" : "almát magoz ki",
+          "uk" : "вирізати серцевину з яблук",
+          "fi" : "poistaa omenoiden siemenkotia",
+          "ro" : "îndepărtează partea lemnoasă din interiorul merelor",
+          "nl" : "appels van klokhuizen ontdoen"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "es" : [ "eliminar las pepitas de las manzanas", "quitar el carozo de las manzanas", "cortar manzanas" ],
+          "en" : [ "coring an apple", "cut up apples", "core an apple", "cut up an apple" ],
+          "de" : "Äpfel vom Kerngehäuse befreien"
+        },
+        "description" : {
+          "ga" : "Croí a bhaint as úill agus iad a ghearradh ina gceathrúna ach leas a bhaint as croíghearrthóir úill.",
+          "cs" : "Odstranit jadérka z jablek a rozčtvrtit jablka pomocí vykrajovače jádřinců jablek.",
+          "ro" : "Îndepărtează partea lemnoasă din interiorul merelor și le taie în patru cu un aparat de curățat mere.",
+          "mt" : "Ħaffer it-tuffieħ u aqsmu f’erba’ biċċiet permezz ta’ apparat għat-tħaffir tal-qalba tat-tuffieħ.",
+          "es" : "Quitar el corazón y las pepitas a las manzanas y trocéelas a cuartos con un descorazonador.",
+          "fi" : "Poistaa omenoiden siemenkotia omenaporalla ja lohkoa omenat.",
+          "fr" : "Épépiner les pommes et les couper en quartiers à l'aide d'un vide-pomme.",
+          "pl" : "Drylować jabłka i ciąć je na ćwiartki z użyciem wydrążacza do jabłek.",
+          "de" : "Entkernen und Vierteln von Äpfeln mit einem Apfelausstecher.",
+          "uk" : "Вирізати серцевину з яблук і розділяти їх на четвертинки за допомогою ножа для видалення серцевини з яблук.\n\t",
+          "pt" : "Descaroçar maçãs e cortá-las em quartos utilizando um descaroçador de maçãs.",
+          "it" : "Rimuovere il torsolo dalle mele e dividerle in quattro parti con un cavatorsoli.",
+          "lt" : "Naudojant šerdžių išėmiklį, išimti obuolių šerdis ir supjaustyti obuolius į ketvirčius.",
+          "sk" : "Odstrániť jadierka z jablká a nakrájať ich na štvrtky s použitím vykrajovača jadrovníkov.",
+          "nl" : "Appels van klokhuizen ontdoen en snijden in kwarten met een appelboor.",
+          "da" : "Udkerne æbler og dele dem i kvarte ved hjælp af en kernehusudstikker.",
+          "en" : "Core apples and quarter them using an apple corer.",
+          "hr" : "Vaditi koštice iz jabuka i rezati ih na četvrtine s pomoću naprave za odstranjivanje koštica iz jabuka.",
+          "el" : "Αφαίρεση κουκουτσιών από τα μήλα και τεμαχισμός στα τέσσερα με τη χρήση εργαλείου αφαίρεσης κουκουτσιών από τα μήλα.",
+          "no" : "Fjerne eplekjerner og dele eplene i fire med en epledeler.",
+          "ar" : "نزع بذور التفاح وتقسيمهم إلى أرباع باستخدام الأداة الخاصة بنزع بذور التفاح.",
+          "sv" : "Kärna ur äpplen och dela dem i fyra delar med hjälp av ett instrument.",
+          "is" : "Taktu kjarnann úr eplum og skerðu þau í fernt með því að nota eplaskerara.",
+          "sl" : "Odstraniti peščišče iz jabolk z odstranjevalcem jabolčnih peščišč.",
+          "hu" : "Almát kimagoz és felnegyedel almamagozó segítségével.",
+          "bg" : "Премахва сърцевината на ябълки и ги разделя на четири парчета с помощта на разделител за ябълки.",
+          "lv" : "Izņemt ābolu serdes un sagriezt ābolus četrās daļās, izmantojot ābolu seržu izņēmēju.",
+          "et" : "Õunasüdamike eemaldamine ja õunte veeranditeks jagamine õunasüdamiku eemaldiga."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f649ef-eecc-452e-8f50-197cb07eb58c?selectedVersion=v1.2.1",
+            "title" : "core apples",
+            "uri" : "http://data.europa.eu/esco/skill/88f649ef-eecc-452e-8f50-197cb07eb58c"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          } ],
+          "topConceptOf" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          },
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:sector-specific?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+            "title" : "sector specific skills and competences"
+          },
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:89f8435a-ebc1-42b6-bf5c-496999e99776?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/89f8435a-ebc1-42b6-bf5c-496999e99776",
+            "title" : "preparing food and drinks"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:d2df16f3-87d7-4c6e-a640-95cee39a8f4e?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/d2df16f3-87d7-4c6e-a640-95cee39a8f4e",
+            "title" : "cider master"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:7235d075-ecf6-42ba-8a60-d7e79bbce152?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/7235d075-ecf6-42ba-8a60-d7e79bbce152",
+            "title" : "fruit-press operator"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/561E8286-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/7235d075-ecf6-42ba-8a60-d7e79bbce152",
+            "target" : "http://data.europa.eu/esco/skill/88f649ef-eecc-452e-8f50-197cb07eb58c",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/564282C6-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/d2df16f3-87d7-4c6e-a640-95cee39a8f4e",
+            "target" : "http://data.europa.eu/esco/skill/88f649ef-eecc-452e-8f50-197cb07eb58c",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:c73521be-c039-4e22-b037-3b01b3f6f9d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/c73521be-c039-4e22-b037-3b01b3f6f9d9",
+                "title" : "assisting and caring"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/c73521be-c039-4e22-b037-3b01b3f6f9d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:b85711bc-32d6-42af-ae0f-e2e566d0dfca?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/b85711bc-32d6-42af-ae0f-e2e566d0dfca",
+                "title" : "preparing and serving food and drinks"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:89f8435a-ebc1-42b6-bf5c-496999e99776?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/89f8435a-ebc1-42b6-bf5c-496999e99776",
+                "title" : "preparing food and drinks"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}

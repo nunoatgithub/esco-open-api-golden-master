@@ -1,0 +1,3608 @@
+{
+  "capturedAt" : "2026-04-06T14:11:23.734761631Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 120,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 20,
+    "offset" : 0,
+    "total" : 24,
+    "language" : "en",
+    "text" : "ICT",
+    "hasLabel" : null,
+    "hasLabelRole" : null,
+    "type" : [ "concept" ],
+    "inScheme" : null,
+    "facet" : null,
+    "facets" : { },
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/search?text=ICT&type=concept&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/search?text=ICT&type=concept&language=en&offset=0&limit=20"
+      },
+      "next" : {
+        "href" : "https://ec.europa.eu/esco/open-api/search?text=ICT&type=concept&language=en&offset=20&limit=20"
+      },
+      "last" : {
+        "href" : "https://ec.europa.eu/esco/open-api/search?text=ICT&type=concept&language=en&offset=4&limit=20"
+      }
+    },
+    "_embedded" : [ {
+      "uri" : "http://data.europa.eu/esco/skill/c53a55a1-8b2b-4d2c-b12d-626742a3833a",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "using digital tools for processing sound and images",
+      "preferredLabel" : {
+        "de" : "Nutzung computergestützter Tools zum Bearbeiten von Ton und Bild",
+        "no" : "bruke digitale verktøy for lyd- og bildebehandling",
+        "fi" : "käyttää digitaalisia välineitä äänen ja kuvan käsittelyssä",
+        "pt" : "utilizar ferramentas digitais para tratamento de sons e imagens",
+        "bg" : "използване на дигитални инструменти за обработка на звук и образи",
+        "lt" : "naudoti skaitmenines garso ir vaizdo apdorojimo priemones",
+        "hr" : "upotreba digitalnih alata za obradu zvuka i slika",
+        "lv" : "digitālu rīku izmantošana skaņas un attēlu apstrādei",
+        "fr" : "utiliser des outils numériques pour le traitement du son et des images",
+        "hu" : "digitális eszközöket használ hang- és képfeldolgozáshoz",
+        "uk" : "використання цифрових інструментів для обробки звуку й зображень",
+        "sk" : "používať digitálne nástroje na spracovane zvuku a obrazu",
+        "sl" : "uporabljati digitalna orodja za obdelavo zvokov in slik",
+        "ga" : "úsáid a bhaint as uirlisí digiteacha chun fuaim agus íomhánna a phróiseáil",
+        "sv" : "använda digitala verktyg för behandling av ljud och bilder",
+        "mt" : "l-użu ta’ għodod diġitali għall-ipproċessar tal-ħoss u l-immaġni",
+        "el" : "χρήση ψηφιακών εργαλείων για την επεξεργασία ήχου και εικόνας",
+        "en" : "using digital tools for processing sound and images",
+        "is" : "notkun stafrænna verkfæra fyrir hljóð- og myndvinnslu",
+        "it" : "utilizzare strumenti digitali per il trattamento del suono e delle immagini",
+        "es" : "utilizar herramientas digitales para el procesamiento de imágenes y sonido",
+        "et" : "digivahendite kasutamine heli ja kujutiste töötlemiseks",
+        "cs" : "používat digitální nástroje pro zpracování zvuku a obrazu",
+        "ar" : "استخدام الأدوات الرقمية لمعالجة الصوت والصور",
+        "pl" : "wykorzystywanie narzędzi cyfrowych do przetwarzania dźwięku i obrazu",
+        "da" : "anvende digitale værktøjer til behandling af lyd og billeder",
+        "ro" : "utilizează instrumente digitale pentru prelucrare de sunet și imagine",
+        "nl" : "gebruikmaken van digitale hulpmiddelen voor het verwerken van geluid en beeld"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Nutzung computergestützter Tools zum Bearbeiten von Ton und Bild",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "bruke digitale verktøy for lyd- og bildebehandling",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "käyttää digitaalisia välineitä äänen ja kuvan käsittelyssä",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "utilizar ferramentas digitais para tratamento de sons e imagens",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "използване на дигитални инструменти за обработка на звук и образи",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "naudoti skaitmenines garso ir vaizdo apdorojimo priemones",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "upotreba digitalnih alata za obradu zvuka i slika",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "digitālu rīku izmantošana skaņas un attēlu apstrādei",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "utiliser des outils numériques pour le traitement du son et des images",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "digitális eszközöket használ hang- és képfeldolgozáshoz",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "використання цифрових інструментів для обробки звуку й зображень",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "používať digitálne nástroje na spracovane zvuku a obrazu",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "uporabljati digitalna orodja za obdelavo zvokov in slik",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "úsáid a bhaint as uirlisí digiteacha chun fuaim agus íomhánna a phróiseáil",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "använda digitala verktyg för behandling av ljud och bilder",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "l-użu ta’ għodod diġitali għall-ipproċessar tal-ħoss u l-immaġni",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "χρήση ψηφιακών εργαλείων για την επεξεργασία ήχου και εικόνας",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "using digital tools for processing sound and images",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "notkun stafrænna verkfæra fyrir hljóð- og myndvinnslu",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "utilizzare strumenti digitali per il trattamento del suono e delle immagini",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "utilizar herramientas digitales para el procesamiento de imágenes y sonido",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "digivahendite kasutamine heli ja kujutiste töötlemiseks",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "používat digitální nástroje pro zpracování zvuku a obrazu",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "استخدام الأدوات الرقمية لمعالجة الصوت والصور",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "wykorzystywanie narzędzi cyfrowych do przetwarzania dźwięku i obrazu",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează instrumente digitale pentru prelucrare de sunet și imagine",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "anvende digitale værktøjer til behandling af lyd og billeder",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "gebruikmaken van digitale hulpmiddelen voor het verwerken van geluid en beeld",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Using ICT software and hardware to for processing sound and images."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:c53a55a1-8b2b-4d2c-b12d-626742a3833a?selectedVersion=v1.2.1",
+          "title" : "using digital tools for processing sound and images",
+          "uri" : "http://data.europa.eu/esco/skill/c53a55a1-8b2b-4d2c-b12d-626742a3833a"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/0b9968af-72de-470a-98e1-2d19577443fb",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "resolving computer problems",
+      "preferredLabel" : {
+        "no" : "løse dataproblemer",
+        "de" : "Lösen von Computerproblemen",
+        "fi" : "ratkaista tietokoneongelmia",
+        "pt" : "resolver problemas informáticos",
+        "bg" : "решаване на компютърни проблеми",
+        "lt" : "šalinti kompiuterių veiklos trikdžius",
+        "lv" : "datorproblēmu risināšana",
+        "hr" : "rješavanje problema povezanih s računalima",
+        "fr" : "résoudre des problèmes informatiques",
+        "hu" : "számítógépes problémákat old meg",
+        "uk" : "розв’язання комп’ютерних проблем",
+        "sk" : "riešiť problémy s výpočtovou technikou",
+        "sl" : "reševati računalniške težave",
+        "ga" : "fadhbanna ríomhaire a réiteach",
+        "sv" : "lösa datorproblem",
+        "mt" : "soluzzjoni għall-problemi tal-kompjuter",
+        "el" : "επίλυση προβλημάτων πληροφορικής",
+        "en" : "resolving computer problems",
+        "is" : "úrlausn tölvuvandamála",
+        "it" : "risolvere problemi informatici",
+        "es" : "resolver problemas informáticos",
+        "et" : "arvutiprobleemide lahendamine",
+        "cs" : "řešit problémy s počítači",
+        "ar" : "حل مشاكل الكمبيوتر",
+        "pl" : "rozwiązywanie problemów komputerowych",
+        "ro" : "soluționează probleme informatice",
+        "da" : "løse computerproblemer",
+        "nl" : "oplossen van computerproblemen"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Lösen von Computerproblemen",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "løse dataproblemer",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "ratkaista tietokoneongelmia",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "resolver problemas informáticos",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "решаване на компютърни проблеми",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "šalinti kompiuterių veiklos trikdžius",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "datorproblēmu risināšana",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "rješavanje problema povezanih s računalima",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "résoudre des problèmes informatiques",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "számítógépes problémákat old meg",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "розв’язання комп’ютерних проблем",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "riešiť problémy s výpočtovou technikou",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "reševati računalniške težave",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "fadhbanna ríomhaire a réiteach",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "lösa datorproblem",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "επίλυση προβλημάτων πληροφορικής",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "soluzzjoni għall-problemi tal-kompjuter",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "resolving computer problems",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "úrlausn tölvuvandamála",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "risolvere problemi informatici",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "resolver problemas informáticos",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "arvutiprobleemide lahendamine",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "řešit problémy s počítači",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "حل مشاكل الكمبيوتر",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "rozwiązywanie problemów komputerowych",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "soluționează probleme informatice",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "løse computerproblemer",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "oplossen van computerproblemen",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Identifying technical problems with ICT systems and devices and performing actions to solve the problems."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:0b9968af-72de-470a-98e1-2d19577443fb?selectedVersion=v1.2.1",
+          "title" : "resolving computer problems",
+          "uri" : "http://data.europa.eu/esco/skill/0b9968af-72de-470a-98e1-2d19577443fb"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/98fb499f-9155-412d-a8a0-95ba97126fec",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "using digital tools for collaboration and productivity",
+      "preferredLabel" : {
+        "no" : "bruke digitale verktøy for samarbeid og produktivitet",
+        "de" : "Nutzung digitaler Tools für Zusammenarbeit und Produktivität",
+        "fi" : "käyttää digitaalisia välineitä yhteistyössä ja tuottavuudessa",
+        "pt" : "utilizar ferramentas digitais para colaboração e produtividade",
+        "bg" : "използване на цифрови инструменти за сътрудничество и производителност",
+        "lt" : "naudoti skaitmenines priemones bendradarbiavimo ir našumo didinimo reikmėms",
+        "hr" : "upotreba digitalnih alata za suradnju i produktivnost",
+        "lv" : "digitālo rīku izmantošana sadarbībai un produktivitātei",
+        "fr" : "utiliser des outils numériques de collaboration et de productivité",
+        "hu" : "digitális eszközöket használ az együttműködéshez és a hatékonysághoz",
+        "uk" : "використання цифрових інструментів для співпраці й продуктивності",
+        "sk" : "používať digitálne nástroje na spoluprácu a produktivitu",
+        "sl" : "uporabljati digitalna orodja za sodelovanje in produktivnost",
+        "ga" : "úsáid a bhaint as uirlisí digiteacha ar mhaithe le comhoibriú agus táirgiúlacht",
+        "sv" : "använda digitala verktyg för samarbete och produktivitet",
+        "el" : "χρήση ψηφιακών εργαλείων για συνεργασία και παραγωγικότητα",
+        "mt" : "l-użu ta’ għodod diġitali għall-kollaborazzjoni u l-produttività",
+        "en" : "using digital tools for collaboration and productivity",
+        "is" : "notkun stafrænna verkfæra fyrir samvinnu og framleiðni",
+        "it" : "utilizzare strumenti digitali per la collaborazione e la produttività",
+        "es" : "utilizar herramientas digitales para la colaboración y la productividad",
+        "et" : "digivahendite kasutamine koostööks ja tootlikkuseks",
+        "cs" : "používat digitální nástroje pro spolupráci a produktivitu",
+        "ar" : "استخدام الأدوات الرقمية للتعاون والإنتاجية",
+        "pl" : "wykorzystywanie narzędzi cyfrowych do współpracy i produktywności",
+        "da" : "anvende digitale værktøjer til samarbejde og produktivitet",
+        "ro" : "utilizează instrumente digitale pentru colaborare și productivitate",
+        "nl" : "gebruikmaken van digitale hulpmiddelen voor samenwerking en productiviteit"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Nutzung digitaler Tools für Zusammenarbeit und Produktivität",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "bruke digitale verktøy for samarbeid og produktivitet",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "käyttää digitaalisia välineitä yhteistyössä ja tuottavuudessa",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "utilizar ferramentas digitais para colaboração e produtividade",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "използване на цифрови инструменти за сътрудничество и производителност",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "naudoti skaitmenines priemones bendradarbiavimo ir našumo didinimo reikmėms",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "upotreba digitalnih alata za suradnju i produktivnost",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "digitālo rīku izmantošana sadarbībai un produktivitātei",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "utiliser des outils numériques de collaboration et de productivité",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "digitális eszközöket használ az együttműködéshez és a hatékonysághoz",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "використання цифрових інструментів для співпраці й продуктивності",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "používať digitálne nástroje na spoluprácu a produktivitu",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "uporabljati digitalna orodja za sodelovanje in produktivnost",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "úsáid a bhaint as uirlisí digiteacha ar mhaithe le comhoibriú agus táirgiúlacht",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "använda digitala verktyg för samarbete och produktivitet",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "l-użu ta’ għodod diġitali għall-kollaborazzjoni u l-produttività",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "χρήση ψηφιακών εργαλείων για συνεργασία και παραγωγικότητα",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "using digital tools for collaboration and productivity",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "notkun stafrænna verkfæra fyrir samvinnu og framleiðni",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "utilizzare strumenti digitali per la collaborazione e la produttività",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "utilizar herramientas digitales para la colaboración y la productividad",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "digivahendite kasutamine koostööks ja tootlikkuseks",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "používat digitální nástroje pro spolupráci a produktivitu",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "استخدام الأدوات الرقمية للتعاون والإنتاجية",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "wykorzystywanie narzędzi cyfrowych do współpracy i produktywności",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "anvende digitale værktøjer til samarbejde og produktivitet",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează instrumente digitale pentru colaborare și productivitate",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "gebruikmaken van digitale hulpmiddelen voor samenwerking en productiviteit",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Using ICT software and hardware to collaborate and communicate with others and to improve productivity."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:98fb499f-9155-412d-a8a0-95ba97126fec?selectedVersion=v1.2.1",
+          "title" : "using digital tools for collaboration and productivity",
+          "uri" : "http://data.europa.eu/esco/skill/98fb499f-9155-412d-a8a0-95ba97126fec"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/185c56ee-098f-46a1-af87-56337085da6f",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "protecting ict devices",
+      "preferredLabel" : {
+        "de" : "Schützen von IKT-Geräten",
+        "no" : "beskytte it-enheter",
+        "fi" : "suojata tieto- ja viestintäteknisiä laitteita",
+        "pt" : "proteger dispositivos de tic",
+        "bg" : "защита на икт устройства",
+        "lt" : "saugoti irt prietaisus",
+        "lv" : "ikt ierīču aizsardzība",
+        "hr" : "zaštita ikt uređaja",
+        "fr" : "protéger des dispositifs tic",
+        "hu" : "gondoskodik az ikt eszközök védelméről",
+        "uk" : "захист пристроїв ІКТ",
+        "sk" : "zabezpečovať zariadenia ikt",
+        "sl" : "zagotavljati zaščito naprav ikt",
+        "ga" : "feistí tfc a chosaint",
+        "sv" : "skydda ikt-utrustning",
+        "mt" : "protezzjoni ta’ tagħmir tal-ict",
+        "el" : "προστασία συσκευών τπε",
+        "en" : "protecting ict devices",
+        "is" : "vernd upplýsinga- og fjarskiptitæknibúnaðar",
+        "it" : "proteggere dispositivi ict",
+        "es" : "proteger dispositivos de tic",
+        "et" : "ikt-seadmete kaitse",
+        "cs" : "chránit zařízení ikt",
+        "ar" : "حماية أجهزة تكنولوجيا المعلومات والاتصالات",
+        "pl" : "ochrona urządzeń ict",
+        "da" : "beskytte ikt-udstyr",
+        "ro" : "asigură protecția dispozitivelor tic",
+        "nl" : "beschermen van ict-apparaten"
+      },
+      "preferredTerm" : {
+        "no" : {
+          "label" : "beskytte it-enheter",
+          "roles" : [ "neutral" ]
+        },
+        "de" : {
+          "label" : "Schützen von IKT-Geräten",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "suojata tieto- ja viestintäteknisiä laitteita",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "proteger dispositivos de tic",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "защита на икт устройства",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "saugoti irt prietaisus",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "ikt ierīču aizsardzība",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "zaštita ikt uređaja",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "protéger des dispositifs tic",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "gondoskodik az ikt eszközök védelméről",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "захист пристроїв ІКТ",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "zabezpečovať zariadenia ikt",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "zagotavljati zaščito naprav ikt",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "feistí tfc a chosaint",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "skydda ikt-utrustning",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "protezzjoni ta’ tagħmir tal-ict",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "προστασία συσκευών τπε",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "protecting ict devices",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "vernd upplýsinga- og fjarskiptitæknibúnaðar",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "proteggere dispositivi ict",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "proteger dispositivos de tic",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "ikt-seadmete kaitse",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "chránit zařízení ikt",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "حماية أجهزة تكنولوجيا المعلومات والاتصالات",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "ochrona urządzeń ict",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "asigură protecția dispozitivelor tic",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "beskytte ikt-udstyr",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "beschermen van ict-apparaten",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Making use of tools and methods to protect and maximize security of ICT devices and information by controlling access, such as by requiring passwords, digital signatures, and biometric identification, and by protecting systems through the use of software."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:185c56ee-098f-46a1-af87-56337085da6f?selectedVersion=v1.2.1",
+          "title" : "protecting ict devices",
+          "uri" : "http://data.europa.eu/esco/skill/185c56ee-098f-46a1-af87-56337085da6f"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/446a36a5-2376-439f-b46b-4a214ba0acdf",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "using word processing, publishing and presentation software",
+      "preferredLabel" : {
+        "no" : "bruke programvare for tekstbehandling, publisering og presentasjon",
+        "de" : "Nutzung von Software für die Textverarbeitung, -veröffentlichung und -präsentation",
+        "fi" : "käyttää tekstinkäsittely-, julkaisu- ja esitysohjelmistoja",
+        "pt" : "utilizar programas informáticos de tratamento, edição e apresentação de textos",
+        "bg" : "използване на програми за текстообработка, приложения за публикации и презентации",
+        "lt" : "naudoti tekstų apdorojimo, leidybos ir pateikimo programinę įrangą",
+        "lv" : "teksta apstrādes, publicēšanas un prezentēšanas programmatūras izmantošana",
+        "hr" : "upotreba programske podrške za obradu teksta, izdavaštvo i prezentaciju",
+        "fr" : "utiliser des logiciels de traitement de texte, de publication et de présentation",
+        "hu" : "szövegszerkesztő, kiadó és bemutató szoftvereket használ",
+        "uk" : "використання програмного забезпечення для обробки текстів, публікації та презентації",
+        "sk" : "používať softvér na spracovanie textov, publikovanie a prezentácie",
+        "sl" : "uporabljati programsko opremo za urejanje, objavljanje in predstavitev besedil",
+        "ga" : "úsáid a bhaint as bogearraí próiseála focal, foilsitheoireachta agus cur i láthair",
+        "sv" : "använda programvara för ordbehandling, publicering och presentation",
+        "mt" : "l-użu ta’ softwer tal-ipproċessar tal-kliem, tal-pubblikazzjoni u l-preżentazzjoni",
+        "el" : "χρήση λογισμικού επεξεργασίας κειμένου, έκδοσης και παρουσίασης",
+        "en" : "using word processing, publishing and presentation software",
+        "is" : "notkun ritvinnslu-, útgáfu- og kynningarhugbúnaðar",
+        "it" : "utilizzare software di trattamento testi, editoria e presentazione",
+        "es" : "utilizar software de tratamiento de textos, edición y presentación",
+        "et" : "tekstitöötlus-, kirjastus- ja esitlustarkvara kasutamine",
+        "cs" : "používat software na zpracování textů, publikování a prezentace",
+        "ar" : "استخدام برامج معالجة النصوص والنشر والعرض التقديمي",
+        "pl" : "stosowanie oprogramowania do edycji tekstu, publikacji i prezentacji",
+        "ro" : "utilizează software de prelucrare de text, de editare și de prezentare",
+        "da" : "anvende software til tekstbehandling, offentliggørelse og præsentation",
+        "nl" : "gebruikmaken van software voor tekstverwerking, publicatie en presentatie"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Nutzung von Software für die Textverarbeitung, -veröffentlichung und -präsentation",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "bruke programvare for tekstbehandling, publisering og presentasjon",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "käyttää tekstinkäsittely-, julkaisu- ja esitysohjelmistoja",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "utilizar programas informáticos de tratamento, edição e apresentação de textos",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "използване на програми за текстообработка, приложения за публикации и презентации",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "naudoti tekstų apdorojimo, leidybos ir pateikimo programinę įrangą",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "teksta apstrādes, publicēšanas un prezentēšanas programmatūras izmantošana",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "upotreba programske podrške za obradu teksta, izdavaštvo i prezentaciju",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "utiliser des logiciels de traitement de texte, de publication et de présentation",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "szövegszerkesztő, kiadó és bemutató szoftvereket használ",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "використання програмного забезпечення для обробки текстів, публікації та презентації",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "používať softvér na spracovanie textov, publikovanie a prezentácie",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "uporabljati programsko opremo za urejanje, objavljanje in predstavitev besedil",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "úsáid a bhaint as bogearraí próiseála focal, foilsitheoireachta agus cur i láthair",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "använda programvara för ordbehandling, publicering och presentation",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "l-użu ta’ softwer tal-ipproċessar tal-kliem, tal-pubblikazzjoni u l-preżentazzjoni",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "χρήση λογισμικού επεξεργασίας κειμένου, έκδοσης και παρουσίασης",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "using word processing, publishing and presentation software",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "notkun ritvinnslu-, útgáfu- og kynningarhugbúnaðar",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "utilizzare software di trattamento testi, editoria e presentazione",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "utilizar software de tratamiento de textos, edición y presentación",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "tekstitöötlus-, kirjastus- ja esitlustarkvara kasutamine",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "používat software na zpracování textů, publikování a prezentace",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "استخدام برامج معالجة النصوص والنشر والعرض التقديمي",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "stosowanie oprogramowania do edycji tekstu, publikacji i prezentacji",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "anvende software til tekstbehandling, offentliggørelse og præsentation",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează software de prelucrare de text, de editare și de prezentare",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "gebruikmaken van software voor tekstverwerking, publicatie en presentatie",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Using ICT software and hardware to develop and edit the content of documents and audio-visual and prepare them for publication."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:446a36a5-2376-439f-b46b-4a214ba0acdf?selectedVersion=v1.2.1",
+          "title" : "using word processing, publishing and presentation software",
+          "uri" : "http://data.europa.eu/esco/skill/446a36a5-2376-439f-b46b-4a214ba0acdf"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/3399045f-8078-4066-8b46-475b49b260ab",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "working with digital devices and applications",
+      "preferredLabel" : {
+        "de" : "Arbeiten mit digitalen Geräten und Anwendungen",
+        "no" : "arbeide med digitale enheter og applikasjoner",
+        "fi" : "työskennellä digitaalisten laitteiden ja sovellusten kanssa",
+        "pt" : "trabalhar com dispositivos e aplicações digitais",
+        "bg" : "Работене с цифрови устройства и приложения",
+        "lt" : "darbas su skaitmeniniais prietaisais ir taikomosiomis programomis",
+        "lv" : "strādāt ar digitālajām ierīcēm un lietojumprogrammām",
+        "hr" : "rad s digitalnim uređajima i aplikacijama",
+        "fr" : "travailler avec des appareils et applications numériques",
+        "hu" : "munkavégzés digitális eszközökkel és alkalmazásokkal",
+        "uk" : "робота із цифровими пристроями й прикладними програмами",
+        "sk" : "práca s digitálnymi zariadeniami a aplikáciami",
+        "sl" : "delo z digitalnimi napravami in aplikacijami",
+        "ga" : "obair a dhéanamh le gairis agus feidhmchláir dhigiteacha",
+        "sv" : "arbeta med digitala enheter och applikationer",
+        "el" : "Εργασία με ψηφιακές συσκευές και εφαρμογές",
+        "mt" : "ħidma b’apparati u b’applikazzjonijiet diġitali",
+        "en" : "working with digital devices and applications",
+        "is" : "vinna með stafræn tæki og forrit",
+        "it" : "lavorare con applicazioni e dispositivi digitali",
+        "es" : "trabajar con dispositivos y aplicaciones digitales",
+        "et" : "töötama digiseadmete ja -rakendustega",
+        "cs" : "práce s digitálními přístroji a aplikacemi",
+        "ar" : "العمل مع الأجهزة والتطبيقات الرقمية",
+        "pl" : "pracować z urządzeniami i aplikacjami cyfrowymi",
+        "ro" : "Utilizează dispozitivele și aplicațiile digitale",
+        "da" : "arbejde med digitale enheder og applikationer",
+        "nl" : "werken met digitale apparaten en toepassingen"
+      },
+      "alternativeLabel" : {
+        "no" : [ "datakunnskaper", "digital og teknologibasert kompetanse", "arbeide med datamaskiner", "digital kompetanse" ],
+        "el" : [ "ψηφιακές ικανότητες", "εργασία με υπολογιστές", "ψηφιακές και βασισμένες στην τεχνολογία ικανότητες", "γνώσεις υπολογιστών" ],
+        "en" : [ "computer literacy", "working with computers", "digital competencies", "digital and technology-based competences" ],
+        "hr" : [ "rad s računalom", "digitalne kompetencije", "digitalne kompetencije i kompetencije koje se temelje na novim tehnologijama", "informatička pismenost" ],
+        "ro" : [ "alfabetizare în domeniul computerelor", "competențe digitale", "lucrează cu calculatoarele", "competențe digitale și bazate pe tehnologie" ]
+      },
+      "preferredTerm" : {
+        "no" : {
+          "label" : "arbeide med digitale enheter og applikasjoner",
+          "roles" : [ "neutral" ]
+        },
+        "de" : {
+          "label" : "Arbeiten mit digitalen Geräten und Anwendungen",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "työskennellä digitaalisten laitteiden ja sovellusten kanssa",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "trabalhar com dispositivos e aplicações digitais",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "Работене с цифрови устройства и приложения",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "darbas su skaitmeniniais prietaisais ir taikomosiomis programomis",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "rad s digitalnim uređajima i aplikacijama",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "strādāt ar digitālajām ierīcēm un lietojumprogrammām",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "travailler avec des appareils et applications numériques",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "munkavégzés digitális eszközökkel és alkalmazásokkal",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "робота із цифровими пристроями й прикладними програмами",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "práca s digitálnymi zariadeniami a aplikáciami",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "delo z digitalnimi napravami in aplikacijami",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "obair a dhéanamh le gairis agus feidhmchláir dhigiteacha",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "arbeta med digitala enheter och applikationer",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "ħidma b’apparati u b’applikazzjonijiet diġitali",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "Εργασία με ψηφιακές συσκευές και εφαρμογές",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "working with digital devices and applications",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "vinna með stafræn tæki og forrit",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "lavorare con applicazioni e dispositivi digitali",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "trabajar con dispositivos y aplicaciones digitales",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "töötama digiseadmete ja -rakendustega",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "práce s digitálními přístroji a aplikacemi",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "العمل مع الأجهزة والتطبيقات الرقمية",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "pracować z urządzeniami i aplikacjami cyfrowymi",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "Utilizează dispozitivele și aplicațiile digitale",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "arbejde med digitale enheder og applikationer",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "werken met digitale apparaten en toepassingen",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "alternativeTerms" : {
+        "no" : [ {
+          "label" : "datakunnskaper",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "digital og teknologibasert kompetanse",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "arbeide med datamaskiner",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "digital kompetanse",
+          "roles" : [ "neutral" ]
+        } ],
+        "el" : [ {
+          "label" : "ψηφιακές ικανότητες",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "γνώσεις υπολογιστών",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "εργασία με υπολογιστές",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "ψηφιακές και βασισμένες στην τεχνολογία ικανότητες",
+          "roles" : [ "neutral" ]
+        } ],
+        "en" : [ {
+          "label" : "working with computers",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "computer literacy",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "digital competencies",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "digital and technology-based competences",
+          "roles" : [ "labels" ]
+        } ],
+        "hr" : [ {
+          "label" : "digitalne kompetencije",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "rad s računalom",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "digitalne kompetencije i kompetencije koje se temelje na novim tehnologijama",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "informatička pismenost",
+          "roles" : [ "neutral" ]
+        } ],
+        "ro" : [ {
+          "label" : "competențe digitale și bazate pe tehnologie",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "lucrează cu calculatoarele",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "alfabetizare în domeniul computerelor",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "competențe digitale",
+          "roles" : [ "neutral" ]
+        } ]
+      },
+      "hiddenTerms" : {
+        "en" : [ {
+          "label" : "information and communication technology",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "IT affinity",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "ICT",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "working at the PC",
+          "roles" : [ "labels" ]
+        } ]
+      },
+      "description" : {
+        "de" : "Ausführen einfacher digitaler Aufgaben, wie z. B. bereits konfigurierte Hardware bedienen, Informationen im Internet finden, Standardsoftware für die Kommunikation oder Zusammenarbeit mit Anderen oder für die Erstellung und Bearbeitung einfacher Inhalte verwenden und Standardmaßnahmen zum Schutz von Geräten, personenbezogenen Daten und der Privatsphäre in digitalen Umgebungen auswählen.\n  ",
+        "no" : "Gjennomføre enkle digitale oppgaver som å bruke allerede konfigurert maskinvare, finne informasjon med søk på nett, bruke standard programvare for å kommunisere eller samarbeide med andre, eller for å utarbeide og redigere enkelt innhold og velge mellom standard tiltak for å beskytte enheter og personopplysninger i digitale miljøer.\n  ",
+        "fi" : "Suorittaa helppoja digitaalisia tehtäviä, kuten käyttää jo konfiguroitua laitteistoa, etsiä tietoa verkkohakujen avulla, käyttää perusohjelmistoja muiden kanssa viestimiseen, yhteistyöhön tai yksinkertaisen sisällön luomiseen ja muokkaamiseen sekä valita laitteiden, henkilötietojen ja yksityisyyden suojaamista koskevien tavanomaisten toimenpiteiden väliltä digitaalisissa ympäristöissä.\n  ",
+        "pt" : "Realizar tarefas digitais simples, como trabalhar com hardware já configurado, pesquisar informações na Internet, utilizar software convencional para comunicar ou colaborar com terceiros ou para criar e editar conteúdos simples, e escolher entre medidas habituais para proteger dispositivos, dados pessoais e a privacidade em ambientes digitais.\n  ",
+        "bg" : "Извършва прости цифрови задачи като работа с вече конфигуриран хардуер, намиране на информация чрез търсения в интернет, използване на стандартен софтуер за комуникация или сътрудничество с други хора или за създаване и редактиране на просто съдържание и избор между стандартни мерки за защита на устройствата, личните данни и неприкосновеността на личния живот в цифрова среда.\n  ",
+        "lt" : "Atlikti nesudėtingas skaitmenines užduotis, pavyzdžiui, valdyti jau sukonfigūruotą aparatinę įrangą, ieškoti informacijos atliekant paiešką internete, naudotis standartine programine įranga, skirta komunikacijai ar bendradarbiavimui su kitais arba paprasto turinio kūrimui ir redagavimui, ir pasirinkti standartines priemones, skirtas prietaisams, asmens duomenims ir privatumui skaitmeninėje aplinkoje apsaugoti.\n  ",
+        "hr" : "Obavljati jednostavne digitalne zadatke kao što je rad s već konfiguriranim hardverom, pronalaženje informacija pretraživanjem interneta, korištenje standardnog softvera za komunikaciju ili suradnju s drugima ili za stvaranje i uređivanje jednostavnog sadržaja te biranje standardnih mjera za zaštitu uređaja, osobnih podataka i privatnosti u digitalnim okruženjima.\n  ",
+        "lv" : "Veikt vienkāršus digitālos uzdevumus, piemēram, lietot konfigurētu aparatūru, meklēt informāciju internetā, izmantot standarta programmatūru, lai sazinātos vai sadarbotos ar citiem vai izveidotu un rediģētu vienkāršu saturu, un izvēlēties standarta pasākumus ierīču, persondatu un privātuma aizsardzībai digitālajā vidē.\n  ",
+        "fr" : "Effectuer des tâches numériques simples telles que l’utilisation de matériel informatique déjà configuré, la recherche d’informations sur l’internet, l’utilisation de logiciels standard pour communiquer ou collaborer avec d’autres personnes ou créer et éditer des contenus simples, et la sélection de mesures standard de protection des appareils, des données à caractère personnel et de la vie privée dans les environnements numériques.\n  ",
+        "hu" : "Egyszerű digitális feladatokat végez, mint például már konfigurált hardver üzemeltetése, információk megtalálása webes keresés útján, szabványos szoftver használata a másokkal való kommunikációhoz vagy együttműködéshez, illetve egyszerű tartalmak létrehozásához és szerkesztéséhez, valamint az eszközök, a személyes adatok és a magánélet védelmét szolgáló szokványos intézkedések kiválasztása a digitális környezetben.\n  ",
+        "sk" : "Vykonávať jednoduché úlohy pomocou digitálnych zariadení, napríklad obsluhovať vopred nakonfigurovaný hardvér, vyhľadávať informácie pomocou webových vyhľadávačov, používať bežný softvér na komunikáciu alebo spoluprácu s inými alebo na tvorbu a úpravu jednoduchého obsahu a vhodne si zvoliť bežné opatrenia na ochranu zariadení, osobných údajov a súkromia v digitálnom prostredí.",
+        "sl" : "Izvajati preproste digitalne naloge, kot so upravljanje že konfigurirane strojne opreme, iskanje informacij prek spleta, uporaba standardne programske opreme za komuniciranje ali sodelovanje z drugimi ali za ustvarjanje in urejanje preprostih vsebin ter izbiranje med standardnimi ukrepi za zaščito naprav, osebnih podatkov in zasebnosti v digitalnih okoljih.\n  ",
+        "ga" : "Tascanna digiteacha simplí a dhéanamh ar nós crua-earraí atá cumraithe cheana féin a oibriú, faisnéis a aimsiú trí chuardaigh ghréasáin a dhéanamh, úsáid a bhaint as bogearraí caighdeánacha chun cumarsáid a dhéanamh nó comhoibriú le daoine eile nó chun inneachar simplí a chruthú agus a chur in eagar, agus rogha a dhéanamh idir bearta caighdeánacha chun gairis, sonraí pearsanta agus príobháideachas a chosaint i dtimpeallachtaí digiteacha.\n  ",
+        "sv" : "Utföra enkla digitala uppgifter som att använda redan konfigurerad maskinvara, hitta information via webbsökningar, använda standardprogramvara för att kommunicera eller samarbeta med andra eller för att skapa och redigera enkelt innehåll samt välja mellan standardåtgärder för att skydda enheter, personuppgifter och privatlivet i digitala miljöer.\n  ",
+        "el" : "Εκτέλεση απλών ψηφιακών εργασιών, όπως η λειτουργία ήδη διαμορφωμένου υλισμικού, η αναζήτηση πληροφοριών μέσω αναζήτησης στο διαδίκτυο, η χρήση τυποποιημένου λογισμικού για την επικοινωνία ή τη συνεργασία με άλλους ή για τη δημιουργία και την επεξεργασία απλού περιεχομένου, και η επιλογή μεταξύ τυποποιημένων μέτρων για την προστασία των συσκευών, των δεδομένων προσωπικού χαρακτήρα και της ιδιωτικής ζωής σε ψηφιακά περιβάλλοντα.\n  ",
+        "mt" : "Twettiq ta’ kompiti diġitali sempliċi bħat-tħaddim ta’ hardware diġà kkonfigurat, is-sejbien ta’ informazzjoni permezz ta’ tfittxijiet fuq il-web, l-użu ta’ software standard għall-komunikazzjoni jew għall-kollaborazzjoni ma’ oħrajn jew għall-ħolqien u għall-editjar ta’ kontenut sempliċi u l-għażla bejn miżuri standard għall-protezzjoni tal-apparati, tad-data personali u tal-privatezza f’ambjenti diġitali.\n  ",
+        "en" : "Carry out simple digital tasks like operating already configured hardware, finding information via web searches, using standard software for communicating or collaborating with others or for creating and editing simple content and choosing between standard measures for protecting devices, personal data and privacy in digital environments.",
+        "is" : "Leysa einföld stafræn verkefni, s.s. að nota forstilltan vélbúnað, finna upplýsingar gegnum leit á netinu, nota algengan hugbúnað til að hafa samskipti eða vinna með öðrum eða til að búa til og breyta einföldu efni, og velja, meðal viðurkenndra valkosta, úrræði til að vernda tæki, persónuupplýsingar og friðhelgi einkalífs í stafrænu umhverfi.\n  ",
+        "it" : "Svolgere compiti digitali elementari, come far funzionare un hardware già configurato, reperire informazioni tramite ricerche sul web, utilizzare software standard per comunicare o collaborare con altre persone o per creare e modificare contenuti semplici e scegliere tra diverse misure standard di protezione dei dispositivi, dei dati personali e della privacy nei contesti digitali.\n  ",
+        "es" : "Llevar a cabo tareas digitales sencillas como utilizar hardware ya configurado, buscar información en internet, utilizar software estandarizado para la comunicación o la colaboración con otras personas, o para crear y editar contenido sencillo, y elegir entre las medidas normalizadas existentes destinadas a proteger los dispositivos, los datos personales y la privacidad en entornos digitales.\n  ",
+        "et" : "Lihtsate digiülesannete täitmine, näiteks juba seadistatud riistvara kasutamine, teabe leidmine veebiotsingute kaudu, standardse tarkvara kasutamine suhtlemiseks või koostöö tegemiseks või lihtsa sisu loomiseks ja toimetamiseks ning seadmete, isikuandmete ja eraelu puutumatuse kaitse standardmeetmete vahel valimine digikeskkonnas.\n  ",
+        "cs" : "Provádět jednoduché digitální úkoly, jako je používání již konfigurovaného hardwaru, vyhledávat informace pomocí internetových prohlížečů, používat standardní software pro komunikaci nebo spolupráci s ostatními nebo pro vytváření a úpravu jednoduchého obsahu a vybírat mezi standardními opatřeními na ochranu zařízení, osobních údajů a soukromí v digitálním prostředí.\n  ",
+        "ar" : "تنفيذ المهام الرقمية البسيطة مثل تشغيل أجهزة معدة مسبقاً، العثور على المعلومات من خلال البحث في الشبكة العنكبوتية، استخدام البرامج القياسية للاتصالات أو التعاون مع الآخرين أو من أجل خلق أو تحرير محتوى والاختيار ما بين التدابير المعيارية المختلفة لحماية الأجهزة والبيانات الشخصية والخصوصية داخل البيئات الرقمية.\n  ",
+        "pl" : "Wykonywać proste zadania cyfrowe, takie jak obsługa już skonfigurowanego sprzętu, wyszukiwać informacje w internecie, korzystać ze standardowego oprogramowania do komunikacji lub współpracy z innymi osobami bądź do tworzenia i edytowania prostych treści oraz dokonywać wyboru spośród standardowych środków ochrony urządzeń, danych osobowych i prywatności w środowisku cyfrowym.\n  ",
+        "ro" : "Îndeplinește sarcini digitale simple, cum ar fi operarea echipamentelor hardware deja configurate, găsirea de informații prin intermediul căutărilor pe internet, utilizarea de software standard pentru comunicarea sau colaborarea cu alte persoane sau pentru crearea și editarea de conținut simplu și alegerea între măsuri standard de protecție a dispozitivelor, a datelor cu caracter personal și a vieții private în mediile digitale.\n  ",
+        "da" : "Udføre simple digitale opgaver som at anvende allerede konfigureret hardware, finde oplysninger via websøgninger, anvende standardsoftware til at kommunikere eller samarbejde med andre eller til at skabe og redigere forenklet indhold og vælge mellem standardforanstaltninger til beskyttelse af enheder, personoplysninger og privatlivets fred i digitale miljøer.\n  ",
+        "nl" : "Eenvoudige digitale taken uitvoeren, zoals de bediening van voorgeconfigureerde hardware, informatie zoeken op het web, standaardsoftware gebruiken om met anderen te communiceren of samen te werken of om eenvoudige inhoud te creëren en te bewerken, en een keuze te maken uit standaardmaatregelen voor de beveiliging van apparaten, persoonsgegevens en privacy in digitale omgevingen.\n  "
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:3399045f-8078-4066-8b46-475b49b260ab?selectedVersion=v1.2.1",
+          "title" : "working with digital devices and applications",
+          "uri" : "http://data.europa.eu/esco/skill/3399045f-8078-4066-8b46-475b49b260ab"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skill-transversal-groups?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skill-transversal-groups",
+          "title" : "ESCO transversal skill groups"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/isco/C1330",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "Information and communications technology service managers",
+      "preferredLabel" : {
+        "no" : "Ledere av IKT-enheter",
+        "de" : "Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie",
+        "fi" : "Tieto- ja viestintäteknologiajohtajat",
+        "pt" : "Directores dos serviços das tecnologias da informação e comunicação",
+        "bg" : "Ръководители в областта на осигуряването на информационни и комуникационни технологии",
+        "lt" : "Informacinių ir ryšių technologijų paslaugų srities vadovai",
+        "hr" : "Direktori/direktorice u području informacijsko komunikacijskih tehnologija",
+        "lv" : "Vadītāji informācijas un komunikāciju tehnoloģiju pakalpojumu jomā",
+        "fr" : "Directeurs et cadres de direction, technologies de l’information et des communications",
+        "hu" : "Információs és kommunikációs technológiai szolgáltatások vezetői",
+        "uk" : "Менеджери з надання послуг в сфері інформаційно-комунікаційних технологій",
+        "sk" : "Riadiaci pracovníci (manažéri) v oblasti informačných a komunikačných technológií",
+        "sl" : "Menedžerji/menedžerke za informacijsko in komunikacijsko tehnologijo",
+        "sv" : "Chefer inom informations- och kommunikationsteknik (IKT)",
+        "el" : "Διευθυντές υπηρεσιών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+        "mt" : "Maniġers tas-servizzi ta’ teknoloġija tal-informazzjoni u komunikazzjoni",
+        "en" : "Information and communications technology service managers",
+        "it" : "Dirigenti nei servizi delle tecnologie dell’informazione e della comunicazione",
+        "es" : "Directores de servicios de tecnología de la información y las comunicaciones",
+        "et" : "Info- ja kommunikatsioonitehnoloogia juhid",
+        "cs" : "Vedoucí a řídící pracovníci v oblasti informačních a komunikačních technologií",
+        "pl" : "Kierownicy do spraw usług technologii informacyjno-komunikacyjnych",
+        "ro" : "Conducători în servicii de tehnologia informației și comunicațiilor",
+        "da" : "Ledelse af hovedaktiviteten inden for informations- og kommunikationsteknologi",
+        "nl" : "Leidinggevende functies op het gebied van informatie- en communicatietechnologie"
+      },
+      "preferredTerm" : {
+        "no" : {
+          "label" : "Ledere av IKT-enheter",
+          "roles" : [ "neutral" ]
+        },
+        "de" : {
+          "label" : "Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "Tieto- ja viestintäteknologiajohtajat",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "Directores dos serviços das tecnologias da informação e comunicação",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "Ръководители в областта на осигуряването на информационни и комуникационни технологии",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "Informacinių ir ryšių technologijų paslaugų srities vadovai",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "Vadītāji informācijas un komunikāciju tehnoloģiju pakalpojumu jomā",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "Direktori/direktorice u području informacijsko komunikacijskih tehnologija",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "Directeurs et cadres de direction, technologies de l’information et des communications",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "Információs és kommunikációs technológiai szolgáltatások vezetői",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "Менеджери з надання послуг в сфері інформаційно-комунікаційних технологій",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "Riadiaci pracovníci (manažéri) v oblasti informačných a komunikačných technológií",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "Menedžerji/menedžerke za informacijsko in komunikacijsko tehnologijo",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "Chefer inom informations- och kommunikationsteknik (IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "Maniġers tas-servizzi ta’ teknoloġija tal-informazzjoni u komunikazzjoni",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "Διευθυντές υπηρεσιών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "Information and communications technology service managers",
+          "roles" : [ "labels" ]
+        },
+        "it" : {
+          "label" : "Dirigenti nei servizi delle tecnologie dell’informazione e della comunicazione",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "Directores de servicios de tecnología de la información y las comunicaciones",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "Info- ja kommunikatsioonitehnoloogia juhid",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "Vedoucí a řídící pracovníci v oblasti informačních a komunikačních technologií",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "Kierownicy do spraw usług technologii informacyjno-komunikacyjnych",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "Conducători în servicii de tehnologia informației și comunicațiilor",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "Ledelse af hovedaktiviteten inden for informations- og kommunikationsteknologi",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "Leidinggevende functies op het gebied van informatie- en communicatietechnologie",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Information and communications technology services managers plan, direct and coordinate the acquisition, development, maintenance and use of computer and telecommunication systems, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks include -\n(a) consulting with users, management, vendors and technicians to assess computing needs and system requirements, and specifying technology to meet those needs; (b) formulating and directing information and communication technology (ICT) strategies, policies and plans; (c) directing the selection and installation of ICT resources and the provision of user training; (d) directing ICT operations, analysing workflow, establishing priorities, developing standards and setting deadlines;\n(e) overseeing the security of ICT systems;\n(f) assigning, reviewing, managing and leading the work of systems analysts, programmers and other computer-related workers;\n(g) evaluating the organization’s technology use and needs and recommending improvements such as hardware and software upgrades;\n(h) establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(i) establishing and directing operational and administrative procedures; (j) overseeing the selection, training and performance of staff; (k) representing the enterprise or organization at ICT-related conventions, seminars and conferences.\nExamples of the occupations classified here:\n- Application development manager\n- Chief information officer\n- Data operations manager - Data processing manager\n- ICT development manager\n- Information systems director\n- Information technology manager (IT manager)\n- Internet service provider\n- Network manager."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1330?selectedVersion=v1.2.1",
+          "title" : "Information and communications technology service managers",
+          "uri" : "http://data.europa.eu/esco/isco/C1330"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+          "title" : "ESCO Occupations"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+          "title" : "ISCO 2008"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/cacc62f3-2df4-4cc3-9d5d-0d014db56bd9",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "using digital tools for collaboration, content creation and problem solving",
+      "preferredLabel" : {
+        "no" : "bruk av digitale verktøy for samarbeid, innholdsoppretting og problemløsning",
+        "de" : "Nutzung digitaler Tools für die Zusammenarbeit, Inhaltserstellung und Problemlösung",
+        "fi" : "käyttää digitaalisia välineitä yhteistyötä, sisällön luomista ja ongelmanratkaisua varten",
+        "pt" : "utilizar ferramentas digitais para colaboração, criação de conteúdos e resolução de problemas",
+        "bg" : "използване на цифрови инструменти за сътрудничество, създаване на съдържание и разрешаване на проблеми",
+        "lt" : "naudoti skaitmenines priemones bendradarbiavimo, turinio kūrimo ir problemų sprendimo reikmėms",
+        "lv" : "digitālo rīku izmantošana sadarbībai, lai veidotu saturu un risinātu problēmas",
+        "hr" : "upotreba digitalnih alata za suradnju, stvaranje sadržaja i rješavanje problema",
+        "fr" : "utiliser des outils numériques pour la collaboration, la création de contenu et la résolution de problèmes",
+        "hu" : "digitális eszközöket használ együttműködéshez, tartalom létrehozásához és problémamegoldáshoz",
+        "uk" : "використання цифрових інструментів для співпраці, створення контенту й розв’язання проблем",
+        "sk" : "používať digitálne nástroje na spoluprácu, vytváranie obsahu a riešenie problémov",
+        "sl" : "uporabljati digitalna orodja za sodelovanje, ustvarjanje vsebin in reševanje problemov",
+        "ga" : "uirlisí digiteacha a úsáid ar mhaithe le comhar, ábhar a chruthú agus réiteach fadhbanna",
+        "sv" : "använda digitala verktyg för samarbete, skapande av innehåll och problemlösning",
+        "el" : "χρήση ψηφιακών εργαλείων για συνεργασία, δημιουργία περιεχομένου και επίλυση προβλημάτων",
+        "mt" : "l-użu ta’ għodod diġitali għall-kollaborazzjoni, il-ħolqien tal-kontenut u s-soluzzjoni tal-problemi",
+        "en" : "using digital tools for collaboration, content creation and problem solving",
+        "is" : "nota stafræn verkfæri í samstarfi, gerð efnis og úrlausnum vandamála",
+        "it" : "utilizzare strumenti digitali per la collaborazione, la creazione di contenuti e la risoluzione di problemi",
+        "es" : "utilizar herramientas digitales para el trabajo colaborativo, la creación de contenidos y la resolución de problemas",
+        "et" : "digivahendite kasutamine koostööks, sisu loomiseks ja probleemide lahendamiseks",
+        "cs" : "používat digitální nástroje ke spolupráci, vytváření obsahu a řešení problémů",
+        "ar" : "استخدام الأدوات الرقمية للتعاون وإنشاء المحتوى وحل المشاكل",
+        "pl" : "wykorzystywanie narzędzi cyfrowych do współpracy, tworzenia treści i rozwiązywania problemów",
+        "ro" : "utilizează instrumente digitale pentru colaborare, creare de conținuturi și soluționare de probleme",
+        "da" : "anvende digitale værktøjer til samarbejde, udarbejdelse af indhold og problemløsning",
+        "nl" : "gebruikmaken van digitale hulpmiddelen voor samenwerking, contentcreatie en probleemoplossing"
+      },
+      "alternativeLabel" : {
+        "en" : "using digital tools for collaboration and creativity"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Nutzung digitaler Tools für die Zusammenarbeit, Inhaltserstellung und Problemlösung",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "bruk av digitale verktøy for samarbeid, innholdsoppretting og problemløsning",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "käyttää digitaalisia välineitä yhteistyötä, sisällön luomista ja ongelmanratkaisua varten",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "utilizar ferramentas digitais para colaboração, criação de conteúdos e resolução de problemas",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "използване на цифрови инструменти за сътрудничество, създаване на съдържание и разрешаване на проблеми",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "naudoti skaitmenines priemones bendradarbiavimo, turinio kūrimo ir problemų sprendimo reikmėms",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "digitālo rīku izmantošana sadarbībai, lai veidotu saturu un risinātu problēmas",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "upotreba digitalnih alata za suradnju, stvaranje sadržaja i rješavanje problema",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "utiliser des outils numériques pour la collaboration, la création de contenu et la résolution de problèmes",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "digitális eszközöket használ együttműködéshez, tartalom létrehozásához és problémamegoldáshoz",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "використання цифрових інструментів для співпраці, створення контенту й розв’язання проблем",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "používať digitálne nástroje na spoluprácu, vytváranie obsahu a riešenie problémov",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "uporabljati digitalna orodja za sodelovanje, ustvarjanje vsebin in reševanje problemov",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "uirlisí digiteacha a úsáid ar mhaithe le comhar, ábhar a chruthú agus réiteach fadhbanna",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "använda digitala verktyg för samarbete, skapande av innehåll och problemlösning",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "l-użu ta’ għodod diġitali għall-kollaborazzjoni, il-ħolqien tal-kontenut u s-soluzzjoni tal-problemi",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "χρήση ψηφιακών εργαλείων για συνεργασία, δημιουργία περιεχομένου και επίλυση προβλημάτων",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "using digital tools for collaboration, content creation and problem solving",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "nota stafræn verkfæri í samstarfi, gerð efnis og úrlausnum vandamála",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "utilizzare strumenti digitali per la collaborazione, la creazione di contenuti e la risoluzione di problemi",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "utilizar herramientas digitales para el trabajo colaborativo, la creación de contenidos y la resolución de problemas",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "digivahendite kasutamine koostööks, sisu loomiseks ja probleemide lahendamiseks",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "používat digitální nástroje ke spolupráci, vytváření obsahu a řešení problémů",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "استخدام الأدوات الرقمية للتعاون وإنشاء المحتوى وحل المشاكل",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "wykorzystywanie narzędzi cyfrowych do współpracy, tworzenia treści i rozwiązywania problemów",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează instrumente digitale pentru colaborare, creare de conținuturi și soluționare de probleme",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "anvende digitale værktøjer til samarbejde, udarbejdelse af indhold og problemløsning",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "gebruikmaken van digitale hulpmiddelen voor samenwerking, contentcreatie en probleemoplossing",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "alternativeTerms" : {
+        "en" : [ {
+          "label" : "using digital tools for collaboration and creativity",
+          "roles" : [ "labels" ]
+        } ]
+      },
+      "description" : {
+        "en" : "Using ICT software and hardware to collaborate and communicate with others, creating and editing new content (from word processing to images and video) and solving conceptual, technical and practical problems."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:cacc62f3-2df4-4cc3-9d5d-0d014db56bd9?selectedVersion=v1.2.1",
+          "title" : "using digital tools for collaboration, content creation and problem solving",
+          "uri" : "http://data.europa.eu/esco/skill/cacc62f3-2df4-4cc3-9d5d-0d014db56bd9"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/b1115b14-fa16-4c1e-be6c-91fd49a1808b",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "using computer aided design and drawing tools",
+      "preferredLabel" : {
+        "de" : "Nutzung computergestützter Tools zum Konstruieren und Zeichnen",
+        "no" : "bruke dataassisterte design- og tegneverktøy",
+        "fi" : "käyttää tietokoneavusteisia suunnittelu- ja piirustustyökaluja",
+        "pt" : "utilizar ferramentas de conceção e desenho assistidas por computador",
+        "bg" : "използване на инструменти за компютърно проектиране и рисуване",
+        "lt" : "naudoti kompiuterines projektavimo ir piešimo priemones",
+        "lv" : "datorizētu projektēšanas un rasēšanas instrumentu izmantošana",
+        "hr" : "upotreba alata za računalno potpomognuto projektiranje i crtanje",
+        "fr" : "utiliser des outils de conception et de dessin assistés par ordinateur",
+        "hu" : "számítógéppel támogatott tervező és rajzoló eszközöket használ",
+        "uk" : "використання засобів комп’ютерного проєктування й креслення",
+        "sk" : "používať počítačové nástroje na dizajn a kreslenie",
+        "sl" : "uporabljati orodja za računalniško podprto oblikovanje in risanje",
+        "ga" : "úsáid a bhaint as uirlisí deartha agus líníochta ríomhchuidithe",
+        "sv" : "använda datorstödd konstruktion och ritverktyg",
+        "el" : "χρήση εργαλείων σχεδιασμού και σχεδίασης με τη βοήθεια ηλεκτρονικού υπολογιστή",
+        "mt" : "l-użu ta’ għodod għal disinjar u tpinġija permezz tal-kompjuter",
+        "en" : "using computer aided design and drawing tools",
+        "is" : "notkun tölvustuddra hönnunar- og teikniverkfæra",
+        "it" : "utilizzare strumenti di progettazione assistita da elaboratore e di disegno",
+        "es" : "utilizar herramientas de dibujo y diseño asistido por ordenador",
+        "et" : "raalprojekteerimise ja arvutipõhiste joonestusvahendite kasutamine",
+        "cs" : "používat nástroje pro projektování pomocí počítače (cad) a počítačové rýsovací nástroje",
+        "ar" : "استخدام أدوات التصميم والرسم بمساعدة الحاسوب",
+        "pl" : "stosowanie projektowania wspomaganego komputerowo i narzędzi kreślarskich",
+        "da" : "anvende computerstøttet design- og tegneredskaber",
+        "ro" : "utilizează instrumente pentru proiectarea asistată de calculator și pentru desen",
+        "nl" : "gebruikmaken van computerondersteunde ontwerp- en tekenhulpmiddelen"
+      },
+      "preferredTerm" : {
+        "no" : {
+          "label" : "bruke dataassisterte design- og tegneverktøy",
+          "roles" : [ "neutral" ]
+        },
+        "de" : {
+          "label" : "Nutzung computergestützter Tools zum Konstruieren und Zeichnen",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "käyttää tietokoneavusteisia suunnittelu- ja piirustustyökaluja",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "utilizar ferramentas de conceção e desenho assistidas por computador",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "използване на инструменти за компютърно проектиране и рисуване",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "naudoti kompiuterines projektavimo ir piešimo priemones",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "upotreba alata za računalno potpomognuto projektiranje i crtanje",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "datorizētu projektēšanas un rasēšanas instrumentu izmantošana",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "utiliser des outils de conception et de dessin assistés par ordinateur",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "számítógéppel támogatott tervező és rajzoló eszközöket használ",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "використання засобів комп’ютерного проєктування й креслення",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "používať počítačové nástroje na dizajn a kreslenie",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "uporabljati orodja za računalniško podprto oblikovanje in risanje",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "úsáid a bhaint as uirlisí deartha agus líníochta ríomhchuidithe",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "använda datorstödd konstruktion och ritverktyg",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "l-użu ta’ għodod għal disinjar u tpinġija permezz tal-kompjuter",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "χρήση εργαλείων σχεδιασμού και σχεδίασης με τη βοήθεια ηλεκτρονικού υπολογιστή",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "using computer aided design and drawing tools",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "notkun tölvustuddra hönnunar- og teikniverkfæra",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "utilizzare strumenti di progettazione assistita da elaboratore e di disegno",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "utilizar herramientas de dibujo y diseño asistido por ordenador",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "raalprojekteerimise ja arvutipõhiste joonestusvahendite kasutamine",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "používat nástroje pro projektování pomocí počítače (cad) a počítačové rýsovací nástroje",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "استخدام أدوات التصميم والرسم بمساعدة الحاسوب",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "stosowanie projektowania wspomaganego komputerowo i narzędzi kreślarskich",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "anvende computerstøttet design- og tegneredskaber",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează instrumente pentru proiectarea asistată de calculator și pentru desen",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "gebruikmaken van computerondersteunde ontwerp- en tekenhulpmiddelen",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Using ICT software and hardware to collaborate and communicate with others, creating and editing new content (from word processing to images and video) and solving conceptual, technical and practical problems."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:b1115b14-fa16-4c1e-be6c-91fd49a1808b?selectedVersion=v1.2.1",
+          "title" : "using computer aided design and drawing tools",
+          "uri" : "http://data.europa.eu/esco/skill/b1115b14-fa16-4c1e-be6c-91fd49a1808b"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/f774131e-8f2d-43b6-8c20-7fe35fa0f0bd",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "using digital tools for collaboration, content creation and problem solving",
+      "preferredLabel" : {
+        "de" : "Nutzung digitaler Tools für die Zusammenarbeit, Inhaltserstellung und Problemlösung",
+        "no" : "bruk av digitale verktøy for samarbeid, innholdsoppretting og problemløsning",
+        "fi" : "käyttää digitaalisia välineitä yhteistyötä, sisällön luomista ja ongelmanratkaisua varten",
+        "pt" : "utilizar ferramentas digitais para colaboração, criação de conteúdos e resolução de problemas",
+        "bg" : "използване на цифрови инструменти за сътрудничество, създаване на съдържание и разрешаване на проблеми",
+        "lt" : "naudoti skaitmenines priemones bendradarbiavimo, turinio kūrimo ir problemų sprendimo reikmėms",
+        "hr" : "upotreba digitalnih alata za suradnju, stvaranje sadržaja i rješavanje problema",
+        "lv" : "digitālo rīku izmantošana sadarbībai, lai veidotu saturu un risinātu problēmas",
+        "fr" : "utiliser des outils numériques pour la collaboration, la création de contenu et la résolution de problèmes",
+        "hu" : "digitális eszközöket használ együttműködéshez, tartalom létrehozásához és problémamegoldáshoz",
+        "uk" : "використання цифрових інструментів для співпраці, створення контенту й розв’язання проблем",
+        "sk" : "používať digitálne nástroje na spoluprácu, vytváranie obsahu a riešenie problémov",
+        "sl" : "uporabljati digitalna orodja za sodelovanje, ustvarjanje vsebin in reševanje problemov",
+        "ga" : "uirlisí digiteacha a úsáid ar mhaithe le comhar, ábhar a chruthú agus réiteach fadhbanna",
+        "sv" : "använda digitala verktyg för samarbete, skapande av innehåll och problemlösning",
+        "el" : "χρήση ψηφιακών εργαλείων για συνεργασία, δημιουργία περιεχομένου και επίλυση προβλημάτων",
+        "mt" : "l-użu ta’ għodod diġitali għall-kollaborazzjoni, il-ħolqien tal-kontenut u s-soluzzjoni tal-problemi",
+        "en" : "using digital tools for collaboration, content creation and problem solving",
+        "is" : "nota stafræn verkfæri í samstarfi, gerð efnis og úrlausnum vandamála",
+        "it" : "utilizzare strumenti digitali per la collaborazione, la creazione di contenuti e la risoluzione di problemi",
+        "es" : "utilizar herramientas digitales para el trabajo colaborativo, la creación de contenidos y la resolución de problemas",
+        "et" : "digivahendite kasutamine koostööks, sisu loomiseks ja probleemide lahendamiseks",
+        "cs" : "používat digitální nástroje ke spolupráci, vytváření obsahu a řešení problémů",
+        "ar" : "استخدام الأدوات الرقمية للتعاون وإنشاء المحتوى وحل المشاكل",
+        "pl" : "wykorzystywanie narzędzi cyfrowych do współpracy, tworzenia treści i rozwiązywania problemów",
+        "da" : "anvende digitale værktøjer til samarbejde, udarbejdelse af indhold og problemløsning",
+        "ro" : "utilizează instrumente digitale pentru colaborare, creare de conținuturi și soluționare de probleme",
+        "nl" : "gebruikmaken van digitale hulpmiddelen voor samenwerking, contentcreatie en probleemoplossing"
+      },
+      "alternativeLabel" : {
+        "en" : "using digital tools for collaboration and creativity"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Nutzung digitaler Tools für die Zusammenarbeit, Inhaltserstellung und Problemlösung",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "bruk av digitale verktøy for samarbeid, innholdsoppretting og problemløsning",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "käyttää digitaalisia välineitä yhteistyötä, sisällön luomista ja ongelmanratkaisua varten",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "utilizar ferramentas digitais para colaboração, criação de conteúdos e resolução de problemas",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "използване на цифрови инструменти за сътрудничество, създаване на съдържание и разрешаване на проблеми",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "naudoti skaitmenines priemones bendradarbiavimo, turinio kūrimo ir problemų sprendimo reikmėms",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "upotreba digitalnih alata za suradnju, stvaranje sadržaja i rješavanje problema",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "digitālo rīku izmantošana sadarbībai, lai veidotu saturu un risinātu problēmas",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "utiliser des outils numériques pour la collaboration, la création de contenu et la résolution de problèmes",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "digitális eszközöket használ együttműködéshez, tartalom létrehozásához és problémamegoldáshoz",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "використання цифрових інструментів для співпраці, створення контенту й розв’язання проблем",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "používať digitálne nástroje na spoluprácu, vytváranie obsahu a riešenie problémov",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "uporabljati digitalna orodja za sodelovanje, ustvarjanje vsebin in reševanje problemov",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "uirlisí digiteacha a úsáid ar mhaithe le comhar, ábhar a chruthú agus réiteach fadhbanna",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "använda digitala verktyg för samarbete, skapande av innehåll och problemlösning",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "l-użu ta’ għodod diġitali għall-kollaborazzjoni, il-ħolqien tal-kontenut u s-soluzzjoni tal-problemi",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "χρήση ψηφιακών εργαλείων για συνεργασία, δημιουργία περιεχομένου και επίλυση προβλημάτων",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "using digital tools for collaboration, content creation and problem solving",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "nota stafræn verkfæri í samstarfi, gerð efnis og úrlausnum vandamála",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "utilizzare strumenti digitali per la collaborazione, la creazione di contenuti e la risoluzione di problemi",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "utilizar herramientas digitales para el trabajo colaborativo, la creación de contenidos y la resolución de problemas",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "digivahendite kasutamine koostööks, sisu loomiseks ja probleemide lahendamiseks",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "používat digitální nástroje ke spolupráci, vytváření obsahu a řešení problémů",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "استخدام الأدوات الرقمية للتعاون وإنشاء المحتوى وحل المشاكل",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "wykorzystywanie narzędzi cyfrowych do współpracy, tworzenia treści i rozwiązywania problemów",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează instrumente digitale pentru colaborare, creare de conținuturi și soluționare de probleme",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "anvende digitale værktøjer til samarbejde, udarbejdelse af indhold og problemløsning",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "gebruikmaken van digitale hulpmiddelen voor samenwerking, contentcreatie en probleemoplossing",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "alternativeTerms" : {
+        "en" : [ {
+          "label" : "using digital tools for collaboration and creativity",
+          "roles" : [ "labels" ]
+        } ]
+      },
+      "description" : {
+        "en" : "Using ICT software and hardware to collaborate and communicate with others, creating and editing new content (from word processing to images and video) and solving conceptual, technical and practical problems."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:f774131e-8f2d-43b6-8c20-7fe35fa0f0bd?selectedVersion=v1.2.1",
+          "title" : "using digital tools for collaboration, content creation and problem solving",
+          "uri" : "http://data.europa.eu/esco/skill/f774131e-8f2d-43b6-8c20-7fe35fa0f0bd"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/isco/C133",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "Information and communications technology service managers",
+      "preferredLabel" : {
+        "no" : "Ledere av IKT-enheter",
+        "de" : "Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie",
+        "fi" : "Tieto- ja viestintäteknologiajohtajat",
+        "pt" : "Directores dos serviços das tecnologias da informação e comunicação",
+        "bg" : "Ръководители в областта на осигуряването на информационни и комуникационни технологии",
+        "lt" : "Informacinių ir ryšių technologijų paslaugų srities vadovai",
+        "lv" : "Vadītāji informācijas un komunikāciju tehnoloģiju pakalpojumu jomā",
+        "hr" : "Direktori/direktorice u području informacijsko komunikacijskih tehnologija",
+        "fr" : "Directeurs et cadres de direction, technologies de l’information et des communications",
+        "hu" : "Információs és kommunikációs technológiai szolgáltatások vezetői",
+        "uk" : "Менеджери з надання послуг в сфері інформаційно-комунікаційних технологій",
+        "sk" : "Riadiaci pracovníci (manažéri) v oblasti informačných a komunikačných technológií",
+        "sl" : "Menedžerji/menedžerke za informacijsko in komunikacijsko tehnologijo",
+        "sv" : "Chefer inom informations- och kommunikationsteknik (IKT)",
+        "el" : "Διευθυντές υπηρεσιών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+        "mt" : "Maniġers tat-teknoloġija tal-informazzjoni u l-komunikazzjoni",
+        "en" : "Information and communications technology service managers",
+        "it" : "Dirigenti nei servizi delle tecnologie dell’informazione e della comunicazione",
+        "es" : "Directores de servicios de tecnología de la información y las comunicaciones",
+        "et" : "Info- ja kommunikatsioonitehnoloogia juhid",
+        "cs" : "Vedoucí a řídící pracovníci v oblasti informačních a komunikačních technologií",
+        "pl" : "Kierownicy do spraw usług technologii informacyjno-komunikacyjnych",
+        "da" : "Ledelse af hovedaktiviteten inden for informations- og kommunikationsteknologi",
+        "ro" : "Conducători în servicii de tehnologia informației și comunicațiilor",
+        "nl" : "Leidinggevende functies op het gebied van informatie- en communicatietechnologie"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "Ledere av IKT-enheter",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "Tieto- ja viestintäteknologiajohtajat",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "Directores dos serviços das tecnologias da informação e comunicação",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "Ръководители в областта на осигуряването на информационни и комуникационни технологии",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "Informacinių ir ryšių technologijų paslaugų srities vadovai",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "Direktori/direktorice u području informacijsko komunikacijskih tehnologija",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "Vadītāji informācijas un komunikāciju tehnoloģiju pakalpojumu jomā",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "Directeurs et cadres de direction, technologies de l’information et des communications",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "Információs és kommunikációs technológiai szolgáltatások vezetői",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "Менеджери з надання послуг в сфері інформаційно-комунікаційних технологій",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "Riadiaci pracovníci (manažéri) v oblasti informačných a komunikačných technológií",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "Menedžerji/menedžerke za informacijsko in komunikacijsko tehnologijo",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "Chefer inom informations- och kommunikationsteknik (IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "Maniġers tat-teknoloġija tal-informazzjoni u l-komunikazzjoni",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "Διευθυντές υπηρεσιών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "Information and communications technology service managers",
+          "roles" : [ "labels" ]
+        },
+        "it" : {
+          "label" : "Dirigenti nei servizi delle tecnologie dell’informazione e della comunicazione",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "Directores de servicios de tecnología de la información y las comunicaciones",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "Info- ja kommunikatsioonitehnoloogia juhid",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "Vedoucí a řídící pracovníci v oblasti informačních a komunikačních technologií",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "Kierownicy do spraw usług technologii informacyjno-komunikacyjnych",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "Conducători în servicii de tehnologia informației și comunicațiilor",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "Ledelse af hovedaktiviteten inden for informations- og kommunikationsteknologi",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "Leidinggevende functies op het gebied van informatie- en communicatietechnologie",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Information and communications technology services managers plan, direct and coordinate the acquisition, development, maintenance and use of computer and telecommunication systems, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks performed usually include: consulting with users, management, vendors and technicians to assess computing needs and system requirements, and specifying technology to meet those needs; formulating and directing information and communication technology (ICT) strategies, policies and plans; directing the selection and installation of ICT resources and the provision of user training; directing ICT operations, analysing workflow, establishing priorities, developing standards and setting deadlines; overseeing the security of ICT systems; assigning, reviewing, managing and leading the work of systems analysts, programmers and other computer-related workers; evaluating the organization’s technology use and needs and recommending improvements such as hardware and software upgrades; establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources; establishing and directing operational and administrative procedures; overseeing the selection, training and performance of staff; representing the enterprise or organization at ICT-related conventions, seminars and conferences.\nOccupations in this minor group are classified into the following unit group:\n1330 Information and Communications Technology Services Managers."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C133?selectedVersion=v1.2.1",
+          "title" : "Information and communications technology service managers",
+          "uri" : "http://data.europa.eu/esco/isco/C133"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+          "title" : "ISCO 2008"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+          "title" : "ESCO Occupations"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/b590d4e5-7c62-4b4a-abc2-c270b482e0ce",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "designing ict systems or applications",
+      "preferredLabel" : {
+        "de" : "Entwickeln von IKT-Systemen oder -Anwendungen",
+        "no" : "designe it-system eller -programvare",
+        "fi" : "suunnitella tieto- ja viestintäteknisiä järjestelmiä tai sovelluksia",
+        "pt" : "conceber sistemas ou aplicações tic",
+        "bg" : "проектиране на икт системи или приложения",
+        "lt" : "kurti irt sistemas ar taikomąsias programas",
+        "lv" : "ikt sistēmu vai lietojumprogrammu izstrāde",
+        "hr" : "dizajniranje sustava ili aplikacija ikt-a",
+        "fr" : "concevoir des systèmes ou applications tic",
+        "hu" : "ikt rendszereket vagy alkalmazásokat tervez",
+        "uk" : "проєктування систем або програм ІКТ",
+        "sk" : "navrhovať systémy a aplikácie ikt",
+        "sl" : "projektirati sisteme ali aplikacije ikt",
+        "ga" : "córais nó feidhmchláir tfc a dhearadh",
+        "sv" : "konstruera ikt-system eller ikt-tillämpningar",
+        "el" : "σχεδιασμός συστημάτων ή εφαρμογών τπε",
+        "mt" : "tfassil ta’ sistemi jew applikazzjonijiet tal-ict",
+        "en" : "designing ict systems or applications",
+        "is" : "hönnun upplýsinga- og fjarskiptatæknikerfa eða -forrita",
+        "it" : "progettare sistemi e applicazioni tic",
+        "es" : "diseñar sistemas o aplicaciones de tic",
+        "et" : "ikt-süsteemide või _x001e_rakenduste projekteerimine",
+        "cs" : "navrhovat systémy nebo aplikace ikt",
+        "ar" : "تصميم أنظمة أو تطبيقات تكنولوجيا المعلومات والاتصالات",
+        "pl" : "opracowywanie systemów lub aplikacji ict",
+        "da" : "designe ikt-systemer eller -applikationer",
+        "ro" : "proiectează sisteme sau aplicații tic",
+        "nl" : "ontwerpen van ict-systemen en -applicaties"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Entwickeln von IKT-Systemen oder -Anwendungen",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "designe it-system eller -programvare",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "suunnitella tieto- ja viestintäteknisiä järjestelmiä tai sovelluksia",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "conceber sistemas ou aplicações tic",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "проектиране на икт системи или приложения",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "kurti irt sistemas ar taikomąsias programas",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "ikt sistēmu vai lietojumprogrammu izstrāde",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "dizajniranje sustava ili aplikacija ikt-a",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "concevoir des systèmes ou applications tic",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "ikt rendszereket vagy alkalmazásokat tervez",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "проєктування систем або програм ІКТ",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "navrhovať systémy a aplikácie ikt",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "projektirati sisteme ali aplikacije ikt",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "córais nó feidhmchláir tfc a dhearadh",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "konstruera ikt-system eller ikt-tillämpningar",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "tfassil ta’ sistemi jew applikazzjonijiet tal-ict",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "σχεδιασμός συστημάτων ή εφαρμογών τπε",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "designing ict systems or applications",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "hönnun upplýsinga- og fjarskiptatæknikerfa eða -forrita",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "progettare sistemi e applicazioni tic",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "diseñar sistemas o aplicaciones de tic",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "ikt-süsteemide või _x001e_rakenduste projekteerimine",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "navrhovat systémy nebo aplikace ikt",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "تصميم أنظمة أو تطبيقات تكنولوجيا المعلومات والاتصالات",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "opracowywanie systemów lub aplikacji ict",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "designe ikt-systemer eller -applikationer",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "proiectează sisteme sau aplicații tic",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "ontwerpen van ict-systemen en -applicaties",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Creating a plan or specification for the design of information systems, computer games, databases and computer networks, systems and applications."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:b590d4e5-7c62-4b4a-abc2-c270b482e0ce?selectedVersion=v1.2.1",
+          "title" : "designing ict systems or applications",
+          "uri" : "http://data.europa.eu/esco/skill/b590d4e5-7c62-4b4a-abc2-c270b482e0ce"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/39499028-35bf-4d69-9275-fb98902ed88b",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "working with computers",
+      "preferredLabel" : {
+        "de" : "Arbeiten mit Computern",
+        "no" : "arbeide med datamaskiner",
+        "fi" : "työskennellä tietokoneiden kanssa",
+        "pt" : "trabalhar com computadores",
+        "bg" : "работа с компютри",
+        "lt" : "dirbti su kompiuteriais",
+        "lv" : "darbs ar datoriem",
+        "hr" : "rad na računalima",
+        "fr" : "travailler avec des ordinateurs",
+        "hu" : "számítógéppel végez munkát",
+        "uk" : "робота з комп’ютерами",
+        "sk" : "pracovať s počítačom",
+        "sl" : "delati z računalniki",
+        "ga" : "ag obair le ríomhairí",
+        "sv" : "arbeta med datorer",
+        "mt" : "xogħol bil-kompjuters",
+        "el" : "εργασία με υπολογιστές",
+        "en" : "working with computers",
+        "is" : "vinna með tölvur",
+        "it" : "lavorare con computer",
+        "es" : "trabajar con ordenadores",
+        "et" : "arvutitega töötamine",
+        "cs" : "pracovat s počítačem",
+        "ar" : "العمل باستخدام أجهزة الكمبيوتر",
+        "pl" : "praca z wykorzystaniem komputerów",
+        "da" : "arbejde med computere",
+        "ro" : "utilizează calculatorul",
+        "nl" : "werken met computers"
+      },
+      "alternativeLabel" : {
+        "en" : "digital skills"
+      },
+      "preferredTerm" : {
+        "no" : {
+          "label" : "arbeide med datamaskiner",
+          "roles" : [ "neutral" ]
+        },
+        "de" : {
+          "label" : "Arbeiten mit Computern",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "työskennellä tietokoneiden kanssa",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "trabalhar com computadores",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "работа с компютри",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "dirbti su kompiuteriais",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "rad na računalima",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "darbs ar datoriem",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "travailler avec des ordinateurs",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "számítógéppel végez munkát",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "робота з комп’ютерами",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "pracovať s počítačom",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "delati z računalniki",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "ag obair le ríomhairí",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "arbeta med datorer",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "εργασία με υπολογιστές",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "xogħol bil-kompjuters",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "working with computers",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "vinna með tölvur",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "lavorare con computer",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "trabajar con ordenadores",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "arvutitega töötamine",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "pracovat s počítačem",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "العمل باستخدام أجهزة الكمبيوتر",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "praca z wykorzystaniem komputerów",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează calculatorul",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "arbejde med computere",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "werken met computers",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "alternativeTerms" : {
+        "en" : [ {
+          "label" : "digital skills",
+          "roles" : [ "labels" ]
+        } ]
+      },
+      "description" : {
+        "en" : "Using computers and other digital tools to develop, install and maintain ICT software and infrastructure and to browse, search, filter, organise, store, retrieve, and analyse data, to collaborate and communicate with others, to create and edit new content."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:39499028-35bf-4d69-9275-fb98902ed88b?selectedVersion=v1.2.1",
+          "title" : "working with computers",
+          "uri" : "http://data.europa.eu/esco/skill/39499028-35bf-4d69-9275-fb98902ed88b"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/243eb885-07c7-4b77-ab9c-827551d83dc4",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "working with computers",
+      "preferredLabel" : {
+        "de" : "Arbeiten mit Computern",
+        "no" : "arbeide med datamaskiner",
+        "fi" : "työskennellä tietokoneiden kanssa",
+        "pt" : "trabalhar com computadores",
+        "bg" : "работа с компютри",
+        "lt" : "dirbti su kompiuteriais",
+        "hr" : "rad na računalima",
+        "lv" : "darbs ar datoriem",
+        "fr" : "travailler avec des ordinateurs",
+        "hu" : "számítógéppel végez munkát",
+        "uk" : "робота з комп’ютерами",
+        "sk" : "pracovať s počítačom",
+        "sl" : "delati z računalniki",
+        "ga" : "ag obair le ríomhairí",
+        "sv" : "arbeta med datorer",
+        "el" : "εργασία με υπολογιστές",
+        "mt" : "xogħol bil-kompjuters",
+        "en" : "working with computers",
+        "is" : "vinna með tölvur",
+        "it" : "lavorare con computer",
+        "es" : "trabajar con ordenadores",
+        "et" : "arvutitega töötamine",
+        "cs" : "pracovat s počítačem",
+        "ar" : "العمل باستخدام أجهزة الكمبيوتر",
+        "pl" : "praca z wykorzystaniem komputerów",
+        "ro" : "utilizează calculatorul",
+        "da" : "arbejde med computere",
+        "nl" : "werken met computers"
+      },
+      "alternativeLabel" : {
+        "en" : "digital skills"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Arbeiten mit Computern",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "arbeide med datamaskiner",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "työskennellä tietokoneiden kanssa",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "trabalhar com computadores",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "работа с компютри",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "dirbti su kompiuteriais",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "rad na računalima",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "darbs ar datoriem",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "travailler avec des ordinateurs",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "számítógéppel végez munkát",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "робота з комп’ютерами",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "pracovať s počítačom",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "delati z računalniki",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "ag obair le ríomhairí",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "arbeta med datorer",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "εργασία με υπολογιστές",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "xogħol bil-kompjuters",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "working with computers",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "vinna með tölvur",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "lavorare con computer",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "trabajar con ordenadores",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "arvutitega töötamine",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "pracovat s počítačem",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "العمل باستخدام أجهزة الكمبيوتر",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "praca z wykorzystaniem komputerów",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează calculatorul",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "arbejde med computere",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "werken met computers",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "alternativeTerms" : {
+        "en" : [ {
+          "label" : "digital skills",
+          "roles" : [ "labels" ]
+        } ]
+      },
+      "description" : {
+        "en" : "Using computers and other digital tools to develop, install and maintain ICT software and infrastructure and to browse, search, filter, organise, store, retrieve, and analyse data, to collaborate and communicate with others, to create and edit new content."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:243eb885-07c7-4b77-ab9c-827551d83dc4?selectedVersion=v1.2.1",
+          "title" : "working with computers",
+          "uri" : "http://data.europa.eu/esco/skill/243eb885-07c7-4b77-ab9c-827551d83dc4"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/f5328159-dfe9-4f25-b8e7-a03fb0d3a991",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "working with computers",
+      "preferredLabel" : {
+        "no" : "arbeide med datamaskiner",
+        "de" : "Arbeiten mit Computern",
+        "fi" : "työskennellä tietokoneiden kanssa",
+        "pt" : "trabalhar com computadores",
+        "bg" : "работа с компютри",
+        "lt" : "dirbti su kompiuteriais",
+        "hr" : "rad na računalima",
+        "lv" : "darbs ar datoriem",
+        "fr" : "travailler avec des ordinateurs",
+        "hu" : "számítógéppel végez munkát",
+        "uk" : "робота з комп’ютерами",
+        "sk" : "pracovať s počítačom",
+        "sl" : "delati z računalniki",
+        "ga" : "ag obair le ríomhairí",
+        "sv" : "arbeta med datorer",
+        "el" : "εργασία με υπολογιστές",
+        "mt" : "xogħol bil-kompjuters",
+        "en" : "working with computers",
+        "is" : "vinna með tölvur",
+        "it" : "lavorare con computer",
+        "es" : "trabajar con ordenadores",
+        "et" : "arvutitega töötamine",
+        "cs" : "pracovat s počítačem",
+        "ar" : "العمل باستخدام أجهزة الكمبيوتر",
+        "pl" : "praca z wykorzystaniem komputerów",
+        "ro" : "utilizează calculatorul",
+        "da" : "arbejde med computere",
+        "nl" : "werken met computers"
+      },
+      "alternativeLabel" : {
+        "en" : "digital skills"
+      },
+      "preferredTerm" : {
+        "no" : {
+          "label" : "arbeide med datamaskiner",
+          "roles" : [ "neutral" ]
+        },
+        "de" : {
+          "label" : "Arbeiten mit Computern",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "työskennellä tietokoneiden kanssa",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "trabalhar com computadores",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "работа с компютри",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "dirbti su kompiuteriais",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "darbs ar datoriem",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "rad na računalima",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "travailler avec des ordinateurs",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "számítógéppel végez munkát",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "робота з комп’ютерами",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "pracovať s počítačom",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "delati z računalniki",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "ag obair le ríomhairí",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "arbeta med datorer",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "xogħol bil-kompjuters",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "εργασία με υπολογιστές",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "working with computers",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "vinna með tölvur",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "lavorare con computer",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "trabajar con ordenadores",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "arvutitega töötamine",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "pracovat s počítačem",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "العمل باستخدام أجهزة الكمبيوتر",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "praca z wykorzystaniem komputerów",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "utilizează calculatorul",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "arbejde med computere",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "werken met computers",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "alternativeTerms" : {
+        "en" : [ {
+          "label" : "digital skills",
+          "roles" : [ "labels" ]
+        } ]
+      },
+      "description" : {
+        "en" : "Using computers and other digital tools to develop, install and maintain ICT software and infrastructure and to browse, search, filter, organise, store, retrieve, and analyse data, to collaborate and communicate with others, to create and edit new content."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:f5328159-dfe9-4f25-b8e7-a03fb0d3a991?selectedVersion=v1.2.1",
+          "title" : "working with computers",
+          "uri" : "http://data.europa.eu/esco/skill/f5328159-dfe9-4f25-b8e7-a03fb0d3a991"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/isco/C2433",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "Technical and medical sales professionals (excluding ICT)",
+      "preferredLabel" : {
+        "no" : "Salgskonsulenter innen tekniske og medisinske produkter",
+        "de" : "Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)",
+        "fi" : "Myynti-insinöörit ja lääke-esittelijät (pl. tieto- ja viestintätekniikka)",
+        "pt" : "Especialistas em vendas, de material técnico e médico (excluindo TIC)",
+        "bg" : "Специалисти по продажби в областта на медицината и техниката (без информационни и комуникационни технологии)",
+        "lt" : "Techninės ir medicinos sričių pardavimo specialistai (išskyrus informacinių technologijų ir ryšių)",
+        "lv" : "Vecākie speciālisti tehnisko un medicīnas preču tirdzniecības jomā (izņemot IKT)",
+        "hr" : "Stručnjaci/stručnjakinje za prodaju tehničke i medicinske opreme (osim opreme informacijske i komunikacijske tehnologije)",
+        "fr" : "Spécialistes des ventes, secteurs médical et technique (à l’exception des TIC)",
+        "hu" : "Műszaki és gyógyászati termékek/szolgáltatások értékesítői (kivéve az IKT-t)",
+        "uk" : "Професіонали з продажу в сфері техніки та медицини (за виключенням інформаційно-комунікаційних технологій",
+        "sk" : "Špecialisti v oblasti predaja technického a lekárskeho vybavenia (okrem IKT)",
+        "sl" : "Strokovnjaki/strokovnjakinje za prodajo tehničnih in medicinskih izdelkov (razen IKT)",
+        "sv" : "Försäljare inom teknik och medicin (utom IKT)",
+        "el" : "Επαγγελματίες σύμβουλοι τεχνικών και ιατρικών πωλήσεων (εξαιρουμένου του τομέα των ΤΠΕ)",
+        "mt" : "Professjonisti tal-bejgħ tekniku u mediku (esklużi l-ICT)",
+        "en" : "Technical and medical sales professionals (excluding ICT)",
+        "it" : "Informatori tecnici e scientifici (ad eccezione del settore ICT)",
+        "es" : "Profesionales de ventas técnicas y médicas (excluyendo la TIC)",
+        "et" : "Tehnika (v.a info- ja kommunikatsioonitehnoloogia) ja meditsiiniseadmete müügispetsialistid",
+        "cs" : "Specialisté v oblasti prodeje technických a lékařských produktů (kromě informačních a komunikačních technologií)",
+        "pl" : "Specjaliści do spraw sprzedaży produktów technicznych i medycznych (z wyłączeniem technologii informacyjno-komunikacyjnych)",
+        "ro" : "Specialiști în vânzarea de produse tehnice și medicale (exclusiv TIC)",
+        "da" : "Arbejde inden for teknisk og medicinsk salg (undtagen informations- og kommunikationsteknologi)",
+        "nl" : "Technisch verkopers en artsenbezoekers (m.u.v. ICT)"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "Salgskonsulenter innen tekniske og medisinske produkter",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "Myynti-insinöörit ja lääke-esittelijät (pl. tieto- ja viestintätekniikka)",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "Especialistas em vendas, de material técnico e médico (excluindo TIC)",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "Специалисти по продажби в областта на медицината и техниката (без информационни и комуникационни технологии)",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "Techninės ir medicinos sričių pardavimo specialistai (išskyrus informacinių technologijų ir ryšių)",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "Vecākie speciālisti tehnisko un medicīnas preču tirdzniecības jomā (izņemot IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "Stručnjaci/stručnjakinje za prodaju tehničke i medicinske opreme (osim opreme informacijske i komunikacijske tehnologije)",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "Spécialistes des ventes, secteurs médical et technique (à l’exception des TIC)",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "Műszaki és gyógyászati termékek/szolgáltatások értékesítői (kivéve az IKT-t)",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "Професіонали з продажу в сфері техніки та медицини (за виключенням інформаційно-комунікаційних технологій",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "Špecialisti v oblasti predaja technického a lekárskeho vybavenia (okrem IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "Strokovnjaki/strokovnjakinje za prodajo tehničnih in medicinskih izdelkov (razen IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "Försäljare inom teknik och medicin (utom IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "Επαγγελματίες σύμβουλοι τεχνικών και ιατρικών πωλήσεων (εξαιρουμένου του τομέα των ΤΠΕ)",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "Professjonisti tal-bejgħ tekniku u mediku (esklużi l-ICT)",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "Technical and medical sales professionals (excluding ICT)",
+          "roles" : [ "labels" ]
+        },
+        "it" : {
+          "label" : "Informatori tecnici e scientifici (ad eccezione del settore ICT)",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "Profesionales de ventas técnicas y médicas (excluyendo la TIC)",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "Tehnika (v.a info- ja kommunikatsioonitehnoloogia) ja meditsiiniseadmete müügispetsialistid",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "Specialisté v oblasti prodeje technických a lékařských produktů (kromě informačních a komunikačních technologií)",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "Specjaliści do spraw sprzedaży produktów technicznych i medycznych (z wyłączeniem technologii informacyjno-komunikacyjnych)",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "Arbejde inden for teknisk og medicinsk salg (undtagen informations- og kommunikationsteknologi)",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "Specialiști în vânzarea de produse tehnice și medicale (exclusiv TIC)",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "Technisch verkopers en artsenbezoekers (m.u.v. ICT)",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Technical and medical sales professionals (excluding ICT) represent companies in selling a range of industrial, medical and pharmaceutical goods and services to industrial, business, professional and other establishments.\nTasks include - (a) compiling lists of prospective client businesses by using directories and other sources; (b) acquiring and updating knowledge of employers’ and competitors’ goods and services, and of market conditions; (c) visiting regular and prospective client businesses to establish and act on selling opportunities; (d) assessing clients’ needs and resources and recommending appropriate goods or services; (e) providing input to product design where goods or services must be tailored to suit clients’ needs; (f) developing reports and proposals as part of sales presentations to demonstrate benefits from the use of goods or services;\n(g) estimating costs of installing and maintaining equipment or service; (h) monitoring customers’ changing needs and competitor activity, and reporting these developments to sales management; (i) quoting and negotiating prices and credit terms, and preparing and administering sales contracts; (j) arranging delivery of goods, installation of equipment and the provision of services; (k) reporting to sales management on sales made and the marketability of goods and services; (l) consulting with clients after sale to ensure a satisfactory resolution of any problems, and provide ongoing support.\nExamples of the occupations classified here:\n- Sales representative (industrial products) - Sales representative (medical and pharmaceutical products) - Technical sales representative\nSome related occupations classified elsewhere:\n- Commercial sales representatives - 3322\n- Sales representative (computers)\n- Sales representative (communications technology)."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C2433?selectedVersion=v1.2.1",
+          "title" : "Technical and medical sales professionals (excluding ICT)",
+          "uri" : "http://data.europa.eu/esco/isco/C2433"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+          "title" : "ISCO 2008"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+          "title" : "ESCO Occupations"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/isco/C3512",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "Information and communications technology user support technicians",
+      "preferredLabel" : {
+        "de" : "Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie",
+        "no" : "Brukerstøtte",
+        "fi" : "Käytön tukihenkilöt",
+        "pt" : "Técnicos de apoio ao utilizador das tecnologias da informação e comunicação",
+        "bg" : "Техници по обслужване на потребители в областта на информационните и комуникационните технологии",
+        "lt" : "Pagalbos informacinių technologijų ir ryšių sistemų naudotojams technikai",
+        "hr" : "Tehničari/tehničarke informacijske i komunikacijske tehnologije za podršku korisnicima",
+        "lv" : "Informācijas un komunikāciju tehnoloģiju lietotāju atbalsta speciālisti",
+        "fr" : "Techniciens des technologies de l’information et des communications, soutien aux utilisateurs",
+        "hu" : "Információs és kommunikációs technológiák felhasználói támogatását biztosító technikusok",
+        "uk" : "Спеціалізовані фахівці користувачів інформаційно-комунікаційних технологій",
+        "sk" : "Technici užívateľskej podpory informačných a komunikačných technológií",
+        "sl" : "Tehniki/tehnice za podporo uporabnikom na področju informacijske in komunikacijske tehnologije",
+        "sv" : "Datatekniker, service och support",
+        "mt" : "Tekniċi tat-teknoloġija tal-appoġġ lill-utent fil-qasam tal-informazzjoni u l-komunikazzjoni",
+        "el" : "Τεχνικοί υποστήριξης χρηστών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+        "en" : "Information and communications technology user support technicians",
+        "it" : "Tecnici per l’assistenza agli utenti della tecnologia dell’informazione e della comunicazione",
+        "es" : "Técnicos en asistencia al usuario de tecnología de la información y las comunicaciones",
+        "et" : "Info- ja kommunikatsioonitehnoloogia kasutajatoetusteenuse pakkujad",
+        "cs" : "Technici uživatelské podpory informačních a komunikačních technologií",
+        "pl" : "Technicy do spraw wsparcia użytkownika technologii informacyjno-komunikacyjnych",
+        "ro" : "Tehnicieni pentru asigurarea suportului tehnic pentru utilizatori",
+        "da" : "Brugersupportarbejde inden for informations- og kommunikationsteknologi",
+        "nl" : "Technici voor informatie- en communicatietechnologie: gebruikersondersteuning"
+      },
+      "preferredTerm" : {
+        "no" : {
+          "label" : "Brukerstøtte",
+          "roles" : [ "neutral" ]
+        },
+        "de" : {
+          "label" : "Techniker für die Anwenderbetreuung in der Informations- und Kommunikationstechnologie",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "Käytön tukihenkilöt",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "Técnicos de apoio ao utilizador das tecnologias da informação e comunicação",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "Техници по обслужване на потребители в областта на информационните и комуникационните технологии",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "Pagalbos informacinių technologijų ir ryšių sistemų naudotojams technikai",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "Informācijas un komunikāciju tehnoloģiju lietotāju atbalsta speciālisti",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "Tehničari/tehničarke informacijske i komunikacijske tehnologije za podršku korisnicima",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "Techniciens des technologies de l’information et des communications, soutien aux utilisateurs",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "Információs és kommunikációs technológiák felhasználói támogatását biztosító technikusok",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "Спеціалізовані фахівці користувачів інформаційно-комунікаційних технологій",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "Technici užívateľskej podpory informačných a komunikačných technológií",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "Tehniki/tehnice za podporo uporabnikom na področju informacijske in komunikacijske tehnologije",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "Datatekniker, service och support",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "Tekniċi tat-teknoloġija tal-appoġġ lill-utent fil-qasam tal-informazzjoni u l-komunikazzjoni",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "Τεχνικοί υποστήριξης χρηστών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "Information and communications technology user support technicians",
+          "roles" : [ "labels" ]
+        },
+        "it" : {
+          "label" : "Tecnici per l’assistenza agli utenti della tecnologia dell’informazione e della comunicazione",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "Técnicos en asistencia al usuario de tecnología de la información y las comunicaciones",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "Info- ja kommunikatsioonitehnoloogia kasutajatoetusteenuse pakkujad",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "Technici uživatelské podpory informačních a komunikačních technologií",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "Technicy do spraw wsparcia użytkownika technologii informacyjno-komunikacyjnych",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "Brugersupportarbejde inden for informations- og kommunikationsteknologi",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "Tehnicieni pentru asigurarea suportului tehnic pentru utilizatori",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "Technici voor informatie- en communicatietechnologie: gebruikersondersteuning",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Information and communications technology user support technicians provide technical assistance to users, either directly or by telephone, email or other electronic means, including diagnosing and resolving issues and problems with software, hardware, computer peripheral equipment, networks, databases and the Internet, and providing guidance and support in the deployment, installation and maintenance of systems.\nTasks include -\n(a) answering user inquiries regarding software or hardware operation to resolve problems;\n(b) entering commands and observing system functioning to verify correct operations and detect errors; (c) installing and performing minor repairs to hardware, software or peripheral equipment, following design or installation specifications;\n(d) overseeing the daily performance of communications and computer systems;\n(e) setting up equipment for employee use and performing or ensuring proper installation of cables, operating systems or appropriate software; (f) maintaining records of daily data communication transactions, problems and remedial actions taken, or installation activities;\n(g) emulating or reproducing technical problems encountered by users;\n(h) consulting user guides, technical manuals and other documents to research and implement solutions;\n(i) assisting applications programmers, systems developers and other ICT professionals to develop and test ICT products and services.\nExamples of the occupations classified here: - Communications assistant (ICT)\n- Computer database assistant\n- Computer help desk operator\n- Computer programming assistant\n- Computer systems analysis assistant."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C3512?selectedVersion=v1.2.1",
+          "title" : "Information and communications technology user support technicians",
+          "uri" : "http://data.europa.eu/esco/isco/C3512"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+          "title" : "ISCO 2008"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+          "title" : "ESCO Occupations"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/skill/12022223-8c30-418a-8f83-658396c9fec2",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "physical and manual skills and competences",
+      "preferredLabel" : {
+        "de" : "Körperliche und manuelle Fähigkeiten und Kompetenzen",
+        "no" : "fysiske og manuelle ferdigheter",
+        "fi" : "fyysiset ja manuaaliset taidot ja kyvyt",
+        "pt" : "aptidões e competências manuais e físicas",
+        "bg" : "физически и ръчни умения и компетентности",
+        "lt" : "fiziniai ir rankų darbo įgūdžiai ir gebėjimai",
+        "lv" : "fiziskās un manuālās prasmes un kompetences",
+        "hr" : "fizičke i manualne vještine i kompetencije",
+        "fr" : "aptitudes et compétences physiques et manuelles",
+        "hu" : "fizikai és manuális készségek és kompetenciák",
+        "uk" : "фізичні й ручні навички та компетенції",
+        "sk" : "fyzické a manuálne zručnosti a kompetencie",
+        "sl" : "fizične in ročne spretnosti in kompetence",
+        "ga" : "scileanna agus inniúlachtaí fisiceacha agus scileanna agus inniúlachtaí a bhaineann leis an obair láimhe",
+        "sv" : "fysiska och manuella färdigheter och kompetenser",
+        "el" : "σωματικές και χειρωνακτικές δεξιότητες και ικανότητες",
+        "mt" : "ħiliet u kompetenzi fiżiċi u manwali",
+        "en" : "physical and manual skills and competences",
+        "is" : "líkamleg færni og handlagni",
+        "it" : "abilità e competenze fisiche e manuali",
+        "es" : "capacidades y competencias físicas y manuales",
+        "et" : "füüsilised ning käelised oskused ja -pädevused",
+        "cs" : "fyzické a manuální dovednosti a kompetence",
+        "ar" : "المهارات والخبرات البدنية واليدوية",
+        "pl" : "umiejętności i kompetencje fizyczne i manualne",
+        "ro" : "aptitudini și competențe fizice și manuale",
+        "da" : "fysiske og manuelle færdigheder og kompetencer",
+        "nl" : "fysieke en handmatige vaardigheden en competenties"
+      },
+      "alternativeLabel" : {
+        "no" : [ "psykomotoriske evner", "fingerferdighet", "fysisk form", "fysisk fleksibilitet og koordinasjon" ],
+        "el" : [ "ψυχοκινητικές ικανότητες", "χειρωνακτική επιδεξιότητα", "σωματική ικανότητα", "φυσική ευελιξία και συντονισμός" ],
+        "en" : [ "physical flexibility and coordination", "physical fitness", "manual dexterity", "psychomotor abilities" ],
+        "ro" : [ "starea fizică", "abilități psihomotorii", "dexteritate manuală", "flexibilitate fizică și coordonare" ]
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Körperliche und manuelle Fähigkeiten und Kompetenzen",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "fysiske og manuelle ferdigheter",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "fyysiset ja manuaaliset taidot ja kyvyt",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "aptidões e competências manuais e físicas",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "физически и ръчни умения и компетентности",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "fiziniai ir rankų darbo įgūdžiai ir gebėjimai",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "fizičke i manualne vještine i kompetencije",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "fiziskās un manuālās prasmes un kompetences",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "aptitudes et compétences physiques et manuelles",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "fizikai és manuális készségek és kompetenciák",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "фізичні й ручні навички та компетенції",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "fyzické a manuálne zručnosti a kompetencie",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "fizične in ročne spretnosti in kompetence",
+          "roles" : [ "neutral" ]
+        },
+        "ga" : {
+          "label" : "scileanna agus inniúlachtaí fisiceacha agus scileanna agus inniúlachtaí a bhaineann leis an obair láimhe",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "fysiska och manuella färdigheter och kompetenser",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "ħiliet u kompetenzi fiżiċi u manwali",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "σωματικές και χειρωνακτικές δεξιότητες και ικανότητες",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "physical and manual skills and competences",
+          "roles" : [ "labels" ]
+        },
+        "is" : {
+          "label" : "líkamleg færni og handlagni",
+          "roles" : [ "neutral" ]
+        },
+        "it" : {
+          "label" : "abilità e competenze fisiche e manuali",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "capacidades y competencias físicas y manuales",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "füüsilised ning käelised oskused ja -pädevused",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "fyzické a manuální dovednosti a kompetence",
+          "roles" : [ "neutral" ]
+        },
+        "ar" : {
+          "label" : "المهارات والخبرات البدنية واليدوية",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "umiejętności i kompetencje fizyczne i manualne",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "aptitudini și competențe fizice și manuale",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "fysiske og manuelle færdigheder og kompetencer",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "fysieke en handmatige vaardigheden en competenties",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "alternativeTerms" : {
+        "no" : [ {
+          "label" : "fingerferdighet",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "fysisk fleksibilitet og koordinasjon",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "fysisk form",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "psykomotoriske evner",
+          "roles" : [ "neutral" ]
+        } ],
+        "el" : [ {
+          "label" : "φυσική ευελιξία και συντονισμός",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "σωματική ικανότητα",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "χειρωνακτική επιδεξιότητα",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "ψυχοκινητικές ικανότητες",
+          "roles" : [ "neutral" ]
+        } ],
+        "en" : [ {
+          "label" : "physical fitness",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "physical flexibility and coordination",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "psychomotor abilities",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "manual dexterity",
+          "roles" : [ "labels" ]
+        } ],
+        "ro" : [ {
+          "label" : "starea fizică",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "abilități psihomotorii",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "dexteritate manuală",
+          "roles" : [ "neutral" ]
+        }, {
+          "label" : "flexibilitate fizică și coordonare",
+          "roles" : [ "neutral" ]
+        } ]
+      },
+      "hiddenTerms" : {
+        "en" : [ {
+          "label" : "olfactory skills",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "good sense of hearing",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "coordination",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "dynamic flexibility",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "good sense of taste",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "good sense of smell",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "reaction time",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "good sense of touch",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "climb",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "speed",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "good sense of pressure and touch",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "good eyesight",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "athletic performance",
+          "roles" : [ "labels" ]
+        }, {
+          "label" : "color sense",
+          "roles" : [ "labels" ]
+        } ]
+      },
+      "description" : {
+        "de" : "Fähigkeiten und Kompetenzen, die sich auf die Ausführung von Aufgaben und Tätigkeiten beziehen, die manuelle Geschicklichkeit, Beweglichkeit und/oder Körperkraft erfordern. Dies zeigt sich in der Ausführung von Aufgaben und Tätigkeiten in anspruchsvollen oder gefährlichen Umgebungen, die Ausdauer oder Durchhaltevermögen erfordern. Diese Aufgaben und Tätigkeiten können manuell, mit anderen direkten körperlichen Eingriffen oder unter Verwendung von Geräten, Werkzeugen oder Technologien (wie IKT-Geräte, Maschinen, Handwerksgeräte oder Musikinstrumente) ausgeführt werden, die Führung, Bewegung oder Kraft erfordern.\n  ",
+        "no" : "Ferdigheter og kompetanse knyttet til evnen til å utføre oppgaver og aktiviteter som krever manuelle ferdigheter, smidighet og/eller kroppslig styrke. Dette demonstreres ved å utføre oppgaver og aktiviteter i krevende eller farlige miljøer som krever utholdenhet. Disse oppgavene og aktivitetene kan utføres for hånd, med annen direkte fysisk inngripen, eller ved bruk av utstyr, verktøy eller teknologi (for eksempel IKT-enheter, maskiner, håndverk eller musikkinstrumenter) som krever styring, bevegelse eller kraft.\n  ",
+        "fi" : "Taidot ja osaaminen, jotka liittyvät manuaalista näppäryyttä, ketteryyttä ja/tai fyysistä voimaa edellyttävien tehtävien ja toimintojen suorittamiseen. Tämä osoitetaan suorittamalla kuntoa tai kestävyyttä edellyttäviä tehtäviä tai toimintoja vaativissa tai vaarallisissa ympäristöissä. Nämä tehtävät ja toiminnot voidaan suorittaa käsin, muulla suoralla fyysisellä toiminnalla tai käyttämällä ohjausta, liikkumista tai voimaa edellyttäviä laitteita, välineitä tai teknologiaa (kuten tieto- ja viestintätekniset laitteet, koneet, käsityövälineet tai soittimet).\n  ",
+        "pt" : "Aptidões e competências relacionadas com a capacidade de executar tarefas e atividades que exijam destreza manual, agilidade e/ou força corporal. Tal é demonstrado pela realização de tarefas e atividades em ambientes exigentes ou perigosos que requerem resistência ou energia física. Estas tarefas e atividades podem ser realizadas à mão, com outra intervenção física direta, ou utilizando equipamentos, ferramentas ou tecnologias (tais como dispositivos TIC, máquinas ou instrumentos musicais) que exijam orientação, movimento ou força.\n  ",
+        "bg" : "Умения и компетентности, свързани със способността да се извършват задачи и дейности, изискващи сръчност на ръцете, бързина и/или телесна сила. Това се демонстрира чрез изпълнение на задачи и дейности в трудна или опасна среда, изискваща издръжливост или неуморимост. Тези задачи и дейности могат да се извършват на ръка, с друга пряка физическа намеса или чрез използване на оборудване, инструменти или технологии (като ИКТ устройства, машини, занаятчийски или музикални инструменти), за което се изисква насочване, движение или сила.\n  ",
+        "lt" : "Įgūdžiai ir gebėjimai, susiję su gebėjimu atlikti užduotis ir veiklą, kuriems būtinas tikslus rankų valdymas, lankstumas ir (arba) kūno stiprumas. Šie įgūdžiai naudojami atliekant užduotis ir veiklą sudėtingoje arba pavojingoje aplinkoje, kurioje būtina ištvermė. Šios užduotys ir veikla gali būti atliekamos rankomis, atliekant kitą tiesioginę fizinę intervenciją arba naudojant įrangą, įrankius ar technologijas (pvz., IRT prietaisus, mašinas, amatų ar muzikos instrumentus), kuriems reikia valdymo, judėjimo ar jėgos.\n  ",
+        "lv" : "Prasmes un kompetences, kas saistītas ar spēju veikt uzdevumus un darbības, kurām nepieciešama roku veiklība, izveicība un/vai fizisks spēks. Par tām liecina uzdevumu un darbību veikšana sarežģītos apstākļos vai bīstamā vidē, kas prasa izturību. Šos uzdevumus un darbības var veikt manuāli vai kā citādi pielietojot tiešu fizisku spēku, vai izmantojot aprīkojumu, instrumentus vai tehnoloģijas (piemēram, IKT ierīces, mehānismus, amatniecības instrumentus vai mūzikas instrumentus), ko nepieciešams vadīt, kustināt vai virzīt ar spēku.\n  ",
+        "hr" : "Vještine i kompetencije povezane sa sposobnošću obavljanja zadataka i aktivnosti za koje je potrebna ručna spretnost, okretnost i/ili tjelesna snaga. Dokazuju se provođenjem zadaća i aktivnosti u zahtjevnim ili opasnim okruženjima koja iziskuju izdržljivost ili dobru fizičku kondiciju. Te se zadaće i aktivnosti mogu provoditi ručno, drugom izravnom fizičkom intervencijom ili korištenjem opreme, alata ili tehnologije (kao što su IKT uređaji, strojevi, obrtnički alati ili glazbeni instrumenti), što iziskuje usmjerivanje, pomicanje ili primjenu sile.\n  ",
+        "fr" : "Aptitudes et compétences liées à la capacité d’exécuter des tâches et des activités nécessitant de la dextérité manuelle, de l’agilité ou de la force physique. Il s’agit notamment d’effectuer des tâches et des activités dans des environnements exigeants ou dangereux nécessitant de l’endurance ou de la résistance. Ces tâches et activités peuvent être réalisées à la main, avec d’autres interventions physiques directes, ou à l’aide d’équipements, d’outils ou de technologies (tels que des appareils TIC, des machines, des outils d’artisanat ou des instruments de musique) qui nécessitent un guidage, l’exécution de mouvements ou l’application d’une force.\n  ",
+        "hu" : "A kézügyességet, gyorsaságot és/vagy testi erőt igénylő feladatok és tevékenységek végzésére való képességhez kapcsolódó készségek és kompetenciák. Mindez nehéz vagy veszélyes környezetben végzett, kitartást vagy állóképességet igénylő feladatok és tevékenységek elvégzése során nyilvánul meg. Az ilyen feladatok és tevékenységek kézzel, más közvetlen fizikai beavatkozással, illetve olyan berendezésekkel, eszközökkel vagy technológiákkal (pl. IKT-eszközök, gépek, vízi járművek vagy hangszerek) végezhetők, amelyek használata irányítást, mozgatást vagy erőkifejtést igényel.\n  ",
+        "sk" : "Zručnosti a kompetencie spojené s vykonávaním úloh a činností, ktoré vyžadujú manuálnu šikovnosť, obratnosť a/alebo telesnú silu. Prejavujú sa vykonávaním úloh a činností v náročnom alebo nebezpečnom prostredí, ktoré vyžadujú vytrvalosť alebo odolnosť. Tieto úlohy a činnosti sa môžu vykonávať ručne, iným priamym fyzickým pôsobením alebo s použitím vybavenia, nástrojov alebo technológií (ako IKT zariadení, strojov, remeselných alebo hudobných nástrojov), ktoré vyžadujú ovládanie, pohyb alebo silu.\n  ",
+        "sl" : "Spretnosti in kompetence, povezane s sposobnostjo opravljanja nalog in dejavnosti, ki zahtevajo ročno spretnost, gibčnost in/ali telesno moč. To se izkazuje z izvajanjem nalog in dejavnosti v zahtevnih ali nevarnih okoljih, ki zahtevajo vztrajnost ali vzdržljivost. Te naloge in dejavnosti se lahko izvajajo ročno, z drugimi neposrednimi fizičnimi posegi ali uporabo opreme, orodja ali tehnologije (kot so naprave IKT, stroji, rokodelski pripomočki ali glasbila), ki jih je treba upravljati, premikati ali poganjati.\n  ",
+        "ga" : "Scileanna agus inniúlachtaí a bhaineann leis an gcumas tascanna agus gníomhaíochtaí a dhéanamh a dteastaíonn deaslámhacht, aclaíocht agus/nó neart coirp lena n-aghaidh. Léirítear é sin trí thascanna agus gníomhaíochtaí a dhéanamh i dtimpeallachtaí diana nó contúirteacha, tascanna agus gníomhaíochtaí a dteastaíonn seasmhacht nó teacht aniar lena n-aghaidh. Féadfar na cúraimí agus na gníomhaíochtaí sin a dhéanamh de láimh, le hidirghabháil fhisiceach dhíreach, nó trí úsáid a bhaint as trealamh, uirlisí nó teicneolaíocht (cuir i gcás gairis TFC, innealra, ceardaíocht nó uirlisí ceoil) a dteastaíonn treoraíocht, gluaiseacht nó fórsa lena n-aghaidh.\n  ",
+        "sv" : "Färdigheter och kompetenser som hör ihop med förmågan att utföra uppgifter och aktiviteter som kräver fingerfärdighet, smidighet och/eller kroppsstyrka. Detta demonstreras genom att man utför uppgifter och aktiviteter i krävande eller farliga miljöer som kräver uthållighet eller ihärdighet. Dessa uppgifter och aktiviteter kan utföras för hand, med andra direkta fysiska insatser, eller med hjälp av utrustning, verktyg eller teknik (t.ex. IKT-utrustning, maskiner, verktyg eller musikinstrument) som kräver styrning, rörelse eller kraft.\n  ",
+        "el" : "Δεξιότητες και ικανότητες που σχετίζονται με την ικανότητα εκτέλεσης εργασιών και δραστηριοτήτων που απαιτούν χειρωνακτική επιδεξιότητα, ευκινησία και/ή σωματική δύναμη. Αυτό αποδεικνύεται με την εκτέλεση εργασιών και δραστηριοτήτων σε απαιτητικά ή επικίνδυνα περιβάλλοντα που απαιτούν ανθεκτικότητα ή αντοχή. Οι εν λόγω εργασίες και δραστηριότητες μπορούν να εκτελούνται χειρωνακτικά, με άλλη άμεση σωματική παρέμβαση, ή με τη χρήση εξοπλισμού, εργαλείων ή τεχνολογίας (όπως συσκευές ΤΠΕ, μηχανήματα, είδη χειροτεχνίας ή μουσικά όργανα) που απαιτούν καθοδήγηση, κίνηση ή δύναμη.\n  ",
+        "mt" : "Ħiliet u kompetenzi relatati mal-kapaċità li jitwettqu kompiti u attivitajiet li jeħtieġu desterità manwali, aġilità u/jew saħħa fiżika. Dawn jintwerew bit-twettiq ta’ kompiti u ta’ attivitajiet f’ambjenti esiġenti jew perikolużi li jeħtieġu reżistenza jew stamina. Dawn il-kompiti u l-attivitajiet jistgħu jitwettqu bl-idejn, b’intervent fiżiku dirett ieħor, jew bl-użu ta’ tagħmir, ta’ għodod jew ta’ teknoloġija (bħal apparati tal-ICT, makkinarju, strumenti tas-sengħa jew strumenti mużikali) li jeħtieġu gwida, moviment jew forza.\n  ",
+        "en" : "Skills and competences relating to the ability to perform tasks and activities requiring manual dexterity, agility and/or bodily strength. This is demonstrated by carrying out tasks and activities in demanding or hazardous environments requiring endurance or stamina. These tasks and activities may be carried out by hand, with other direct physical intervention, or by using equipment, tools or technology (such as ICT devices, machinery, craft or musical instruments) which requires guidance, movement or force.",
+        "is" : "Færni sem tengist getunni til að leysa verkefni og sinna athöfnum sem kalla á leikni handa, snerpu og/eða líkamlegan styrk. Þetta er sýnt með því að sinna verkefnum og athöfnum í krefjandi eða hættulegum aðstæðum þar sem þörf er á seiglu eða úthaldi. Þessi verkefni og athafnir kunna að vera leyst með handafli, með annarri beinni líkamlegri aðkomu eða með því að nota búnað, áhöld eða tækni (svo sem UST-tæki, vélarbúnað, handverkfæri eða hljóðfæri) sem krefst leiðsagnar, hreyfingar eða krafts.\n  ",
+        "it" : "Abilità e competenze relative alla capacità di eseguire compiti e attività per cui occorrono manualità, agilità e/o forza fisica. Ciò si dimostra svolgendo compiti e attività in ambienti impegnativi o pericolosi che richiedono doti di resistenza o tenuta. Tali compiti e attività possono essere svolti manualmente, con altri interventi fisici diretti oppure impiegando attrezzature, utensili o tecnologie (come dispositivi TIC, macchinari, strumenti artigianali o musicali) che comportano la necessità di istruzioni, di movimento o forza.\n  ",
+        "es" : "Capacidades y competencias relacionadas con la habilidad para llevar a cabo tareas y actividades que requieran destreza manual, agilidad o fuerza física. Esto se demuestra al llevar a cabo tareas y actividades en entornos exigentes o peligrosos que requieren resistencia o fortaleza. Estas tareas y actividades pueden llevarse a cabo de forma manual, con otra intervención física directa o utilizando equipos, herramientas o tecnología (como dispositivos de TIC, maquinaría, artesanía o instrumentos musicales) que requieran orientación, movimiento o fuerza.\n  ",
+        "et" : "Oskused ja pädevused, mille täitmine on seotud käelise osavusega, paindlikkuse ja/või kehalise tugevusega. Näiteks ülesannete täitmine ja tegevuste läbiviimine nõudlikus või ohtlikus keskkonnas, mis nõuab kestvust ja vastupidavust. Neid ülesandeid ja tegevusi võib ellu viia käsitsi, muu otsese füüsilise sekkumisega või kasutades seadmeid, tööriistu või tehnoloogiat (nt info- ja kommunikatsioonitehnoloogia seadmeid, masinaid, käsitöövahendeid või muusikariistu), mis nõuavad juhtimist, liigutamist või jõudu.",
+        "cs" : "Dovednosti a kompetence týkající se schopnosti provádět úkoly a činnosti, které vyžadují manuální zručnost, hbitost a/nebo fyzickou sílu. To se projevuje prováděním úkolů a činností v náročném či nebezpečném prostředí, které vyžaduje výdrž a vytrvalost. Tyto úkoly a činnosti mohou být prováděny ručně, jiným přímým fyzickým zásahem nebo pomocí zařízení, nástrojů či technologií (například zařízení IKT, strojů, řemeslných či hudebních nástrojů), které vyžadují vedení, pohyb nebo sílu.\n  ",
+        "ar" : "المهارات والخبرات المتصلة بالقدرة على أداء المهام والأنشطة التي تتطلب براعة ومهارة يدوية، و/أو قوة بدنية. ويظهر ذلك في القيام بالمهام والأنشطة في بيئات متطلبة أو خطرة وتحتاج للصمود والتحمل. هذه المهام والأنشطة قد تُنفذ باليد، مع تدخل مباشر بدني من الآخرين، أو بواسطة المعدات والأدوات أو التكنولوجيا (مثل أجهزة تكنولوجيا المعلومات والاتصالات، الماكينات، الحرف أو الأدوات الموسيقية) وتحتاج لتوجيه وحركة أو قوة.\n  ",
+        "pl" : "Umiejętności i kompetencje związane ze zdolnością do wykonywania zadań i czynności wymagających sprawności manualnej, zręczności lub siły fizycznej. Dotyczy to wykonywania zadań i czynności w trudnych lub niebezpiecznych warunkach wymagających wytrzymałości lub wytrwałości. Te zadania i czynności mogą być wykonywane ręcznie, przy innej bezpośredniej interwencji fizycznej lub przy użyciu sprzętu, narzędzi lub technologii (takich jak urządzenia ICT, maszyny, narzędzia rzemiosła lub instrumenty muzyczne), które wymagają operowania nimi, ruchu lub siły.\n  ",
+        "ro" : "Aptitudini și competențe legate de capacitatea de a executa sarcini și activități care necesită dexteritate manuală, agilitate și/sau putere corporală. Acest lucru este demonstrat prin îndeplinirea de sarcini și activități în medii exigente sau periculoase care necesită rezistență sau anduranță. Aceste sarcini și activități pot fi efectuate manual, cu altă intervenție fizică directă sau prin utilizarea de echipamente, instrumente sau tehnologii (cum ar fi dispozitive TIC, utilaje, instrumente artizanale sau muzicale) care necesită ghidare, mișcare sau forță.\n  ",
+        "da" : "Færdigheder og kompetencer, der vedrører evnen til at udføre opgaver og aktiviteter, der kræver praktisk håndelag, smidighed og/eller kropsstyrke. Dette demonstreres ved at udføre opgaver og aktiviteter i krævende eller farlige miljøer, der kræver sejhed og udholdenhed. Disse opgaver og aktiviteter kan udføres manuelt, ved hjælp af anden direkte fysisk indgriben eller ved at anvende udstyr, værktøjer eller teknologi (f.eks. IKT-udstyr, maskiner, håndværk eller musikinstrumenter), der kræver vejledning, bevægelse eller kraft.\n  ",
+        "nl" : "Vaardigheden en competenties die verband houden met het vermogen om taken en activiteiten uit te voeren waarvoor handvaardigheid, behendigheid en/of lichaamskracht vereist zijn. Dit wordt aangetoond door het uitvoeren van taken en activiteiten in veeleisende of gevaarlijke omgevingen die uithoudingsvermogen of conditie vereisen. Deze taken en activiteiten kunnen worden uitgevoerd met de hand, met een andere directe fysieke tussenkomst, of met behulp van apparatuur, gereedschap of technologie (zoals ICT-toestellen, machines, handwerk- of muziekinstrumenten) waarvoor sturing, beweging of kracht nodig is.\n  "
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/skill:12022223-8c30-418a-8f83-658396c9fec2?selectedVersion=v1.2.1",
+          "title" : "physical and manual skills and competences",
+          "uri" : "http://data.europa.eu/esco/skill/12022223-8c30-418a-8f83-658396c9fec2"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skill-transversal-groups?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skill-transversal-groups",
+          "title" : "ESCO transversal skill groups"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+          "title" : "ESCO skills"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills-hierarchy?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skills-hierarchy",
+          "title" : "ESCO skills hierarchy"
+        } ],
+        "topConceptOf" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skill-transversal-groups?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/skill-transversal-groups",
+          "title" : "ESCO transversal skill groups"
+        }
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/isco/C243",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "Sales, marketing and public relations professionals",
+      "preferredLabel" : {
+        "de" : "Akademische und vergleichbare Fachkräfte in Vertrieb, Marketing und Öffentlichkeitsarbeit",
+        "no" : "Rådgivere innen salg",
+        "fi" : "Myynnin, markkinoinnin ja tiedotuksen erityisasiantuntijat",
+        "pt" : "Especialistas de vendas, marketing e relações públicas",
+        "bg" : "Специалисти по продажби, маркетинг и връзки с обществеността",
+        "lt" : "Pardavimo, rinkodaros ir ryšių su visuomene specialistai",
+        "hr" : "Stručnjaci/stručnjakinje za prodaju, marketing i odnose s javnošću",
+        "lv" : "Tirdzniecības, tirgzinības un sabiedrisko attiecību vecākie speciālisti",
+        "fr" : "Spécialistes des ventes, de la commercialisation et des relations publiques",
+        "hu" : "Értékesítési, marketing- és PR-foglalkozások",
+        "uk" : "Професіонали з продажів, маркетингу й зв’язків із громадськістю",
+        "sk" : "Špecialisti v oblasti predaja, marketingu a styku s verejnosťou",
+        "sl" : "Strokovnjaki/strokovnjakinje za prodajo, trženje in odnose z javnostmi",
+        "sv" : "Marknadsförare, informatörer och försäljare med teoretisk specialistkompetens",
+        "mt" : "Professjonisti tal-bejgħ, tqegħid fis-suq u relazzjonijiet pubbliċi",
+        "el" : "Επαγγελματίες σύμβουλοι πωλήσεων, μάρκετινγκ και δημοσίων σχέσεων",
+        "en" : "Sales, marketing and public relations professionals",
+        "it" : "Specialisti delle vendite, del marketing e delle pubbliche relazioni",
+        "es" : "Profesionales de las ventas, la comercialización y las relaciones públicas",
+        "et" : "Müügi-, turundus- ja avalike suhete spetsialistid",
+        "cs" : "Specialisté v oblasti prodeje, marketingu a styku s veřejností",
+        "pl" : "Specjaliści do spraw sprzedaży, marketingu i public relations",
+        "da" : "Arbejde inden for salg, marketing og PR",
+        "ro" : "Specialiști în vânzări, marketing și relații publice",
+        "nl" : "Specialisten op het gebied van de verkoop, marketing en public relations"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Akademische und vergleichbare Fachkräfte in Vertrieb, Marketing und Öffentlichkeitsarbeit",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "Rådgivere innen salg",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "Myynnin, markkinoinnin ja tiedotuksen erityisasiantuntijat",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "Especialistas de vendas, marketing e relações públicas",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "Специалисти по продажби, маркетинг и връзки с обществеността",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "Pardavimo, rinkodaros ir ryšių su visuomene specialistai",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "Tirdzniecības, tirgzinības un sabiedrisko attiecību vecākie speciālisti",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "Stručnjaci/stručnjakinje za prodaju, marketing i odnose s javnošću",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "Spécialistes des ventes, de la commercialisation et des relations publiques",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "Értékesítési, marketing- és PR-foglalkozások",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "Професіонали з продажів, маркетингу й зв’язків із громадськістю",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "Špecialisti v oblasti predaja, marketingu a styku s verejnosťou",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "Strokovnjaki/strokovnjakinje za prodajo, trženje in odnose z javnostmi",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "Marknadsförare, informatörer och försäljare med teoretisk specialistkompetens",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "Professjonisti tal-bejgħ, tqegħid fis-suq u relazzjonijiet pubbliċi",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "Επαγγελματίες σύμβουλοι πωλήσεων, μάρκετινγκ και δημοσίων σχέσεων",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "Sales, marketing and public relations professionals",
+          "roles" : [ "labels" ]
+        },
+        "it" : {
+          "label" : "Specialisti delle vendite, del marketing e delle pubbliche relazioni",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "Profesionales de las ventas, la comercialización y las relaciones públicas",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "Müügi-, turundus- ja avalike suhete spetsialistid",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "Specialisté v oblasti prodeje, marketingu a styku s veřejností",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "Specjaliści do spraw sprzedaży, marketingu i public relations",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "Specialiști în vânzări, marketing și relații publice",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "Arbejde inden for salg, marketing og PR",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "Specialisten op het gebied van de verkoop, marketing en public relations",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Sales, marketing and public relations professionals plan, develop, coordinate and implement programmes of information dissemination to promote organizations, goods and services; and represent companies in selling a range of technical, industrial, medical, pharmaceutical and ICT goods and services.\nTasks performed usually include: commissioning and undertaking market research, analysing the findings and planning advertising, marketing and public relations activities; supporting business growth and development through the preparation and execution of marketing objectives, policies and programmes; planning and organizing publicity campaigns; appraising and selecting material submitted by writers, photographers, illustrators and others to create favourable publicity; acquiring and updating knowledge of employers’ and competitors’ goods and services, and of market conditions; assessing customers’ needs and explaining and demonstrating goods and services to them; visiting regular and prospective client businesses to establish and act on marketing opportunities; quoting and negotiating prices and credit terms, and completing contracts.\nOccupations in this minor group are classified into the following unit groups:\n2431 Advertising and Marketing Professionals\n2432 Public Relations Professionals\n2433 Technical and Medical Sales Professionals (excluding ICT)\n2434 Information and Communications Technology Sales Professionals."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C243?selectedVersion=v1.2.1",
+          "title" : "Sales, marketing and public relations professionals",
+          "uri" : "http://data.europa.eu/esco/isco/C243"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+          "title" : "ISCO 2008"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+          "title" : "ESCO Occupations"
+        } ]
+      }
+    }, {
+      "uri" : "http://data.europa.eu/esco/isco/C2434",
+      "className" : "Concept",
+      "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "title" : "Information and communications technology sales professionals",
+      "preferredLabel" : {
+        "no" : "Salgskonsulenter innen IKT-produkter",
+        "de" : "Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie",
+        "fi" : "Tieto- ja viestintätekniikan myynnin erityisasiantuntijat",
+        "pt" : "Especialistas em vendas, de tecnologias da informação e comunicação",
+        "bg" : "Специалисти по продажби в областта на информационните и комуникационни технологии",
+        "lt" : "Informacinių technologijų ir ryšių paslaugų pardavimo specialistai",
+        "lv" : "Informācijas un komunikāciju tehnoloģiju tirdzniecības vecākie speciālisti",
+        "hr" : "Stručnjaci/stručnjakinje za prodaju informacijsko-komunikacijske tehnologije",
+        "fr" : "Spécialistes des ventes, des technologies de l’information et des communications",
+        "hu" : "Információs és kommunikációs technológiák értékesítői",
+        "uk" : "Професіонали з продажу в сфері інформаційно-комунікаційних технологій",
+        "sk" : "Špecialisti v oblasti predaja informačných a komunikačných technológií (IKT)",
+        "sl" : "Strokovnjaki/strokovnjakinje za prodajo informacijske in komunikacijske tehnologije",
+        "sv" : "Försäljare inom informations- och kommunikationsteknik (IKT)",
+        "el" : "Επαγγελματίες σύμβουλοι πωλήσεων στον τομέα των τεχνολογιών πληροφόρησης και επικοινωνίας",
+        "mt" : "Professjonisti tat-teknoloġija tal-informazzjoni u l-komunikazzjonijiet",
+        "en" : "Information and communications technology sales professionals",
+        "it" : "Specialisti delle vendite nel settore delle tecnologie dell’informazione e della comunicazione",
+        "es" : "Profesionales de ventas de tecnología de la información y las comunicaciones",
+        "et" : "Info- ja kommunikatsioonitehnoloogia müügispetsialistid",
+        "cs" : "Specialisté v oblasti prodeje informačních a komunikačních technologií",
+        "pl" : "Specjaliści do spraw sprzedaży z dziedziny technologii informacyjno-komunikacyjnych",
+        "ro" : "Specialiști în vânzarea produselor de tehnologia informației și comunicațiilor",
+        "da" : "Arbejde inden for salg af informations- og kommunikationsteknologi",
+        "nl" : "Verkopers informatie- en communicatietechnologie"
+      },
+      "preferredTerm" : {
+        "de" : {
+          "label" : "Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie",
+          "roles" : [ "neutral" ]
+        },
+        "no" : {
+          "label" : "Salgskonsulenter innen IKT-produkter",
+          "roles" : [ "neutral" ]
+        },
+        "fi" : {
+          "label" : "Tieto- ja viestintätekniikan myynnin erityisasiantuntijat",
+          "roles" : [ "neutral" ]
+        },
+        "pt" : {
+          "label" : "Especialistas em vendas, de tecnologias da informação e comunicação",
+          "roles" : [ "neutral" ]
+        },
+        "bg" : {
+          "label" : "Специалисти по продажби в областта на информационните и комуникационни технологии",
+          "roles" : [ "neutral" ]
+        },
+        "lt" : {
+          "label" : "Informacinių technologijų ir ryšių paslaugų pardavimo specialistai",
+          "roles" : [ "neutral" ]
+        },
+        "hr" : {
+          "label" : "Stručnjaci/stručnjakinje za prodaju informacijsko-komunikacijske tehnologije",
+          "roles" : [ "neutral" ]
+        },
+        "lv" : {
+          "label" : "Informācijas un komunikāciju tehnoloģiju tirdzniecības vecākie speciālisti",
+          "roles" : [ "neutral" ]
+        },
+        "fr" : {
+          "label" : "Spécialistes des ventes, des technologies de l’information et des communications",
+          "roles" : [ "neutral" ]
+        },
+        "hu" : {
+          "label" : "Információs és kommunikációs technológiák értékesítői",
+          "roles" : [ "neutral" ]
+        },
+        "uk" : {
+          "label" : "Професіонали з продажу в сфері інформаційно-комунікаційних технологій",
+          "roles" : [ "neutral" ]
+        },
+        "sk" : {
+          "label" : "Špecialisti v oblasti predaja informačných a komunikačných technológií (IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "sl" : {
+          "label" : "Strokovnjaki/strokovnjakinje za prodajo informacijske in komunikacijske tehnologije",
+          "roles" : [ "neutral" ]
+        },
+        "sv" : {
+          "label" : "Försäljare inom informations- och kommunikationsteknik (IKT)",
+          "roles" : [ "neutral" ]
+        },
+        "el" : {
+          "label" : "Επαγγελματίες σύμβουλοι πωλήσεων στον τομέα των τεχνολογιών πληροφόρησης και επικοινωνίας",
+          "roles" : [ "neutral" ]
+        },
+        "mt" : {
+          "label" : "Professjonisti tat-teknoloġija tal-informazzjoni u l-komunikazzjonijiet",
+          "roles" : [ "neutral" ]
+        },
+        "en" : {
+          "label" : "Information and communications technology sales professionals",
+          "roles" : [ "labels" ]
+        },
+        "it" : {
+          "label" : "Specialisti delle vendite nel settore delle tecnologie dell’informazione e della comunicazione",
+          "roles" : [ "neutral" ]
+        },
+        "es" : {
+          "label" : "Profesionales de ventas de tecnología de la información y las comunicaciones",
+          "roles" : [ "neutral" ]
+        },
+        "et" : {
+          "label" : "Info- ja kommunikatsioonitehnoloogia müügispetsialistid",
+          "roles" : [ "neutral" ]
+        },
+        "cs" : {
+          "label" : "Specialisté v oblasti prodeje informačních a komunikačních technologií",
+          "roles" : [ "neutral" ]
+        },
+        "pl" : {
+          "label" : "Specjaliści do spraw sprzedaży z dziedziny technologii informacyjno-komunikacyjnych",
+          "roles" : [ "neutral" ]
+        },
+        "ro" : {
+          "label" : "Specialiști în vânzarea produselor de tehnologia informației și comunicațiilor",
+          "roles" : [ "neutral" ]
+        },
+        "da" : {
+          "label" : "Arbejde inden for salg af informations- og kommunikationsteknologi",
+          "roles" : [ "neutral" ]
+        },
+        "nl" : {
+          "label" : "Verkopers informatie- en communicatietechnologie",
+          "roles" : [ "neutral" ]
+        }
+      },
+      "description" : {
+        "en" : "Information and communications technology (ICT) sales professionals sell, at the wholesale level, a range of computer hardware, software and other information and communications technology goods and services including installations, and provide specialized information as required.\nTasks include -\n(a) soliciting orders and selling goods to retail, industrial, wholesale and other establishments;\n(b) selling technical equipment, supplies and related services to business establishments or individuals;\n(c) discussing the needs of new and existing customers and providing specialized information about how particular equipment, supplies and services meet those needs;\n(d) quoting and negotiating prices and credit terms, and completing contracts and recording orders;\n(e) updating customer records and preparing sales reports;\n(f) arranging delivery of goods, installation of equipment and the provision of services;\n(g) reporting customers’ reactions and requirements to manufacturers.\nExamples of the occupations classified here:\n- Sales representative (computers)\n- Sales representative (communications technology)\nSome related occupations classified elsewhere:\n- Shop sales assistants - 5223."
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C2434?selectedVersion=v1.2.1",
+          "title" : "Information and communications technology sales professionals",
+          "uri" : "http://data.europa.eu/esco/isco/C2434"
+        },
+        "inScheme" : [ {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+          "title" : "ISCO 2008"
+        }, {
+          "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+          "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+          "title" : "ESCO Occupations"
+        } ]
+      }
+    } ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T14:09:27.787859283Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 54,
+  "httpStatus" : 400,
+  "body" : {
+    "timestamp" : "2026-04-06T14:09:27.883+00:00",
+    "status" : 400,
+    "error" : "Bad Request",
+    "path" : "/esco/open-api/api/skill-groups",
+    "eventId" : "202604061609_56dfe1df76b70d65",
+    "exceptionId" : "MissingServletRequestParameterException",
+    "message" : "Required request parameter 'occupationUri' for method parameter type String is not present"
+  }
+}

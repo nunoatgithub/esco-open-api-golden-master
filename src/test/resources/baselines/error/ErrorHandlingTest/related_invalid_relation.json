@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T14:09:29.499566152Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 60,
+  "httpStatus" : 400,
+  "body" : {
+    "timestamp" : "2026-04-06T14:09:29.597+00:00",
+    "status" : 400,
+    "error" : "Bad Request",
+    "path" : "/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related",
+    "eventId" : "202604061609_ce07500a6810f2cf",
+    "exceptionId" : "IllegalArgumentException",
+    "message" : "Failed to convert value of type 'java.lang.String' to required type 'zone.cogni.esco.openapi.api.generated.model.OccupationRelatedRelationEnum'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@javax.validation.constraints.NotNull @io.swagger.v3.oas.annotations.Parameter @javax.validation.Valid @org.springframework.web.bind.annotation.RequestParam zone.cogni.esco.openapi.api.generated.model.OccupationRelatedRelationEnum] for value [nonsense]; nested exception is java.lang.IllegalArgumentException: Unexpected value 'nonsense' || Unexpected value 'nonsense'"
+  }
+}

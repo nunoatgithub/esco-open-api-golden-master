@@ -1,0 +1,574 @@
+{
+  "capturedAt" : "2026-04-06T14:11:10.509196890Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 78,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 20,
+    "offset" : 0,
+    "total" : 70,
+    "language" : "en",
+    "uri" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+    "relation" : "relatedEssentialSkill",
+    "inScheme" : null,
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related-hierarchy?relation=relatedEssentialSkill&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related-hierarchy?relation=relatedEssentialSkill&language=en&offset=0&limit=20"
+      },
+      "next" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related-hierarchy?relation=relatedEssentialSkill&language=en&offset=20&limit=20"
+      },
+      "last" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba/related-hierarchy?relation=relatedEssentialSkill&language=en&offset=50&limit=20"
+      }
+    },
+    "_embedded" : {
+      "relatedEssentialSkill" : [ {
+        "uri" : "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "listen actively",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "listen actively"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a17286c5-238d-4f0b-bc24-29e9121345de?selectedVersion=v1.2.1",
+            "title" : "listen actively",
+            "uri" : "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a17286c5-238d-4f0b-bc24-29e9121345de/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/a28e8141-89ee-4b24-a3bb-1aebcc56c72d",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "apply nursing care in long-term care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "apply nursing care in long-term care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a28e8141-89ee-4b24-a3bb-1aebcc56c72d?selectedVersion=v1.2.1",
+            "title" : "apply nursing care in long-term care",
+            "uri" : "http://data.europa.eu/esco/skill/a28e8141-89ee-4b24-a3bb-1aebcc56c72d"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a28e8141-89ee-4b24-a3bb-1aebcc56c72d/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/a46743b7-ff8c-49b6-99f7-7fa5bc241771",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "use electronic health records in nursing",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "use electronic health records in nursing"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a46743b7-ff8c-49b6-99f7-7fa5bc241771?selectedVersion=v1.2.1",
+            "title" : "use electronic health records in nursing",
+            "uri" : "http://data.europa.eu/esco/skill/a46743b7-ff8c-49b6-99f7-7fa5bc241771"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a46743b7-ff8c-49b6-99f7-7fa5bc241771/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a46743b7-ff8c-49b6-99f7-7fa5bc241771/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "manage personal professional development",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "manage personal professional development"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/research" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/research",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a8d24a95-47b3-4f88-92e7-06600bcd3612?selectedVersion=v1.2.1",
+            "title" : "manage personal professional development",
+            "uri" : "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a8d24a95-47b3-4f88-92e7-06600bcd3612/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a8d24a95-47b3-4f88-92e7-06600bcd3612/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/ae965e49-06f1-442f-87bf-e48fc1e1d8b6",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "analyse quality of nurse care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "analyse quality of nurse care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ae965e49-06f1-442f-87bf-e48fc1e1d8b6?selectedVersion=v1.2.1",
+            "title" : "analyse quality of nurse care",
+            "uri" : "http://data.europa.eu/esco/skill/ae965e49-06f1-442f-87bf-e48fc1e1d8b6"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ae965e49-06f1-442f-87bf-e48fc1e1d8b6/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "promote inclusion",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "promote inclusion"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:bcd2ce08-ba12-4d66-865f-f4ba36419707?selectedVersion=v1.2.1",
+            "title" : "promote inclusion",
+            "uri" : "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:bcd2ce08-ba12-4d66-865f-f4ba36419707/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 2,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:bcd2ce08-ba12-4d66-865f-f4ba36419707/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/c82f9319-cf46-4257-a8ce-542d0a7fed8f",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "provide treatment strategies for challenges to human health",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "provide treatment strategies for challenges to human health"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c82f9319-cf46-4257-a8ce-542d0a7fed8f?selectedVersion=v1.2.1",
+            "title" : "provide treatment strategies for challenges to human health",
+            "uri" : "http://data.europa.eu/esco/skill/c82f9319-cf46-4257-a8ce-542d0a7fed8f"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c82f9319-cf46-4257-a8ce-542d0a7fed8f/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 2,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c82f9319-cf46-4257-a8ce-542d0a7fed8f/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/ce0d6a42-59c1-433e-ab62-adfc969c46bb",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "ensure safety of healthcare users",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "ensure safety of healthcare users"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ce0d6a42-59c1-433e-ab62-adfc969c46bb?selectedVersion=v1.2.1",
+            "title" : "ensure safety of healthcare users",
+            "uri" : "http://data.europa.eu/esco/skill/ce0d6a42-59c1-433e-ab62-adfc969c46bb"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ce0d6a42-59c1-433e-ab62-adfc969c46bb/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 2,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ce0d6a42-59c1-433e-ab62-adfc969c46bb/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/049c8caf-dd12-45fc-9bfa-b64051f32a19",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "respond to changing situations in health care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "respond to changing situations in health care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:049c8caf-dd12-45fc-9bfa-b64051f32a19?selectedVersion=v1.2.1",
+            "title" : "respond to changing situations in health care",
+            "uri" : "http://data.europa.eu/esco/skill/049c8caf-dd12-45fc-9bfa-b64051f32a19"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:049c8caf-dd12-45fc-9bfa-b64051f32a19/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 3,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:049c8caf-dd12-45fc-9bfa-b64051f32a19/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/05befef9-cb0b-410c-b5fc-f8a3c3598fca",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "manage hospital-acquired infections",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "manage hospital-acquired infections"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:05befef9-cb0b-410c-b5fc-f8a3c3598fca?selectedVersion=v1.2.1",
+            "title" : "manage hospital-acquired infections",
+            "uri" : "http://data.europa.eu/esco/skill/05befef9-cb0b-410c-b5fc-f8a3c3598fca"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:05befef9-cb0b-410c-b5fc-f8a3c3598fca/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/092f44f6-8631-460c-a862-f79f5c15dc03",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "delegate emergency care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "delegate emergency care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:092f44f6-8631-460c-a862-f79f5c15dc03?selectedVersion=v1.2.1",
+            "title" : "delegate emergency care",
+            "uri" : "http://data.europa.eu/esco/skill/092f44f6-8631-460c-a862-f79f5c15dc03"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:092f44f6-8631-460c-a862-f79f5c15dc03/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 2,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:092f44f6-8631-460c-a862-f79f5c15dc03/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/0b5aaee4-c948-4853-bf8d-b9cd6c4917ee",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "inform policy makers on health-related challenges",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "inform policy makers on health-related challenges"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0b5aaee4-c948-4853-bf8d-b9cd6c4917ee?selectedVersion=v1.2.1",
+            "title" : "inform policy makers on health-related challenges",
+            "uri" : "http://data.europa.eu/esco/skill/0b5aaee4-c948-4853-bf8d-b9cd6c4917ee"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0b5aaee4-c948-4853-bf8d-b9cd6c4917ee/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/13724e7d-b946-4773-915e-9621340237bc",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "contribute to continuity of health care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "contribute to continuity of health care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:13724e7d-b946-4773-915e-9621340237bc?selectedVersion=v1.2.1",
+            "title" : "contribute to continuity of health care",
+            "uri" : "http://data.europa.eu/esco/skill/13724e7d-b946-4773-915e-9621340237bc"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:13724e7d-b946-4773-915e-9621340237bc/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/16636767-c215-4cf0-b126-e144fea20926",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "use e-health and mobile health technologies",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "use e-health and mobile health technologies"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036", "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:16636767-c215-4cf0-b126-e144fea20926?selectedVersion=v1.2.1",
+            "title" : "use e-health and mobile health technologies",
+            "uri" : "http://data.europa.eu/esco/skill/16636767-c215-4cf0-b126-e144fea20926"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:16636767-c215-4cf0-b126-e144fea20926/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:16636767-c215-4cf0-b126-e144fea20926/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/8e0bfbba-6e9d-48e0-b152-2cc949e5022a",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "implement scientific decision making in healthcare",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "implement scientific decision making in healthcare"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8e0bfbba-6e9d-48e0-b152-2cc949e5022a?selectedVersion=v1.2.1",
+            "title" : "implement scientific decision making in healthcare",
+            "uri" : "http://data.europa.eu/esco/skill/8e0bfbba-6e9d-48e0-b152-2cc949e5022a"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8e0bfbba-6e9d-48e0-b152-2cc949e5022a/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8e0bfbba-6e9d-48e0-b152-2cc949e5022a/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/9fd3b0ab-8eb4-4790-9733-9d383df53df3",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "evaluation in specialised nursing care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "evaluation in specialised nursing care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/occupation-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9fd3b0ab-8eb4-4790-9733-9d383df53df3?selectedVersion=v1.2.1",
+            "title" : "evaluation in specialised nursing care",
+            "uri" : "http://data.europa.eu/esco/skill/9fd3b0ab-8eb4-4790-9733-9d383df53df3"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9fd3b0ab-8eb4-4790-9733-9d383df53df3/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 2,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9fd3b0ab-8eb4-4790-9733-9d383df53df3/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/9fcf9918-fdef-49c3-aedc-518eb1e7e1f5",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "comply with legislation related to health care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "comply with legislation related to health care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "topConceptOf" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9fcf9918-fdef-49c3-aedc-518eb1e7e1f5?selectedVersion=v1.2.1",
+            "title" : "comply with legislation related to health care",
+            "uri" : "http://data.europa.eu/esco/skill/9fcf9918-fdef-49c3-aedc-518eb1e7e1f5"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9fcf9918-fdef-49c3-aedc-518eb1e7e1f5/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/a32e7fb1-af9e-4c09-8ea7-72b7442e9cda",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "solve problems in healthcare",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "solve problems in healthcare"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a32e7fb1-af9e-4c09-8ea7-72b7442e9cda?selectedVersion=v1.2.1",
+            "title" : "solve problems in healthcare",
+            "uri" : "http://data.europa.eu/esco/skill/a32e7fb1-af9e-4c09-8ea7-72b7442e9cda"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a32e7fb1-af9e-4c09-8ea7-72b7442e9cda/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a32e7fb1-af9e-4c09-8ea7-72b7442e9cda/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/aa238394-8126-4ada-be2f-9dfe065cf314",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "adhere to organisational guidelines",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "adhere to organisational guidelines"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:aa238394-8126-4ada-be2f-9dfe065cf314?selectedVersion=v1.2.1",
+            "title" : "adhere to organisational guidelines",
+            "uri" : "http://data.europa.eu/esco/skill/aa238394-8126-4ada-be2f-9dfe065cf314"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:aa238394-8126-4ada-be2f-9dfe065cf314/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:aa238394-8126-4ada-be2f-9dfe065cf314/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/skill/b55f61a4-5f9e-4741-ba95-9ac04b64119b",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "work in a multicultural environment in health care",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "en" : "work in a multicultural environment in health care"
+        },
+        "status" : "released",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/skills", "http://data.europa.eu/esco/concept-scheme/member-skills" ],
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill",
+        "skillReuseLevel" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b55f61a4-5f9e-4741-ba95-9ac04b64119b?selectedVersion=v1.2.1",
+            "title" : "work in a multicultural environment in health care",
+            "uri" : "http://data.europa.eu/esco/skill/b55f61a4-5f9e-4741-ba95-9ac04b64119b"
+          },
+          "broaderHierarchyConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b55f61a4-5f9e-4741-ba95-9ac04b64119b/related-hierarchy?relation=broaderHierarchyConcept&selectedVersion=v1.2.1"
+          },
+          "broaderSkill" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b55f61a4-5f9e-4741-ba95-9ac04b64119b/related-hierarchy?relation=broaderSkill&selectedVersion=v1.2.1"
+          }
+        }
+      } ]
+    }
+  }
+}

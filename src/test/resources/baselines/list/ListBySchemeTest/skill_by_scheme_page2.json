@@ -1,0 +1,1235 @@
+{
+  "capturedAt" : "2026-04-06T14:09:51.735337852Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 94,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 5,
+    "offset" : 5,
+    "total" : 13939,
+    "language" : "en",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&limit=5&offset=5&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&language=en&offset=0&limit=5"
+      },
+      "previous" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&language=en&offset=0&limit=5"
+      },
+      "next" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&language=en&offset=10&limit=5"
+      },
+      "last" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fskills&language=en&offset=9995&limit=5"
+      },
+      "concepts" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f823da-ab17-4559-8985-69b1507675ca?selectedVersion=v1.2.1",
+        "title" : "discharge employees",
+        "uri" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:890e0046-184f-4b1d-a00c-41f6eb34481f?selectedVersion=v1.2.1",
+        "title" : "use hair removal lasers",
+        "uri" : "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:89423614-b96a-44f5-9e63-1501549d8f31?selectedVersion=v1.2.1",
+        "title" : "pharmaceutical manufacturing quality systems",
+        "uri" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:894f3286-ae58-4a13-a8ed-9aa7c5c77c18?selectedVersion=v1.2.1",
+        "title" : "interact verbally in Romani",
+        "uri" : "http://data.europa.eu/esco/skill/894f3286-ae58-4a13-a8ed-9aa7c5c77c18"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:89364a58-c32b-4fab-b3ca-622648bbe443?selectedVersion=v1.2.1",
+        "title" : "inspect vessel",
+        "uri" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443"
+      } ]
+    },
+    "_embedded" : {
+      "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca" : {
+        "uri" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "discharge employees",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "da" : "afskedige medarbejdere",
+          "hu" : "munkavállalókat bocsát el",
+          "es" : "despedir a trabajadores",
+          "et" : "töötajaid vallandama",
+          "is" : "leysir fólk frá störfum",
+          "ar" : "فصل الموظفين من العمل",
+          "sk" : "prepustiť zamestnancov",
+          "sl" : "odpuščati zaposlene",
+          "fr" : "licencier des employés",
+          "mt" : "tkeċċija tal-impjegati",
+          "fi" : "erottaa työntekijöitä",
+          "pl" : "zwalniać pracowników",
+          "uk" : "звільняти працівників",
+          "ga" : "fostaithe a bhriseadh as a bpost",
+          "no" : "avskjedige ansatte",
+          "bg" : "освобождаване на служители",
+          "lt" : "atleisti darbuotojus",
+          "lv" : "atlaist darbiniekus",
+          "cs" : "propouštět zaměstnance",
+          "el" : "απόλυση υπαλλήλων",
+          "nl" : "werknemers ontslaan",
+          "sv" : "avskeda anställda",
+          "pt" : "demitir pessoal",
+          "it" : "licenziare i dipendenti",
+          "en" : "discharge employees",
+          "hr" : "otpuštati zaposlenike",
+          "de" : "Beschäftigte entlassen",
+          "ro" : "disponibilizează angajați"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "en" : [ "lay off employees", "let employees go", "discharge employee", "dismiss employees", "sack employees", "fire employees", "discharging employees" ],
+          "fi" : "antaa potkuja",
+          "sl" : "odpuščati uslužbence",
+          "nl" : "werknemers afdanken",
+          "el" : "παύση υπαλλήλων"
+        },
+        "description" : {
+          "en" : "Dismiss employees from their job.",
+          "it" : "Licenziare i dipendenti dal lavoro.",
+          "cs" : "Propouštět zaměstnance z pracovního místa.",
+          "is" : "Víkja starfsfólki úr starfi.",
+          "sv" : "Avskeda arbetstagare från sitt arbete.",
+          "fr" : "Licencier des employés.",
+          "pt" : "Despedir trabalhadores do seu emprego.",
+          "ar" : "فصل الموظفين من وظيفتهم.",
+          "nl" : "Werknemers ontslaan van hun taak.",
+          "sl" : "Odpuščati zaposlene z njihovega delovnega mesta.",
+          "lt" : "Atleisti darbuotojus iš pareigų.",
+          "fi" : "Irtisanoa työntekijöitä.",
+          "ga" : "Fostaithe a bhriseadh as a bpost.",
+          "de" : "Entlassen von Arbeitnehmern/-nehmerinnen.",
+          "no" : "Avskjedige ansatte fra stillingene sine.",
+          "bg" : "Уволнява служители от работа.",
+          "es" : "Despedir a los trabajadores de su puesto de trabajo.",
+          "hu" : "Munkavállalókat bocsát el.",
+          "el" : "Απόλυση υπαλλήλων από την εργασία τους.",
+          "mt" : "Keċċi impjegati mill-impjieg tagħhom.",
+          "uk" : "Звільняти працівників з роботи.\n\t",
+          "ro" : "Concediază angajați din posturile lor.",
+          "sk" : "Prepustiť zamestnancov zo zamestnania.",
+          "da" : "Afskedige medarbejdere fra deres stillinger.",
+          "lv" : "Atlaist darbiniekus.",
+          "et" : "Töötajate ametist vabastamine.",
+          "pl" : "Zwalniać pracowników z pracy.",
+          "hr" : "Otpuštati zaposlenike s njihova radnog mjesta."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:88f823da-ab17-4559-8985-69b1507675ca?selectedVersion=v1.2.1",
+            "title" : "discharge employees",
+            "uri" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          } ],
+          "topConceptOf" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          },
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:cross-sector?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+            "title" : "cross-sector skills and competences"
+          },
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:aab9f44d-fe0e-46d8-a470-11ce82a64846?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+            "title" : "supervising a team or group"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:080fc550-b7ca-4576-aaf5-06fffbede994?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/080fc550-b7ca-4576-aaf5-06fffbede994",
+            "title" : "spa manager"
+          } ],
+          "isOptionalSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8c8b5cba-14b2-4728-b22c-eb90f1786e00?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8c8b5cba-14b2-4728-b22c-eb90f1786e00",
+            "title" : "medical practice manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:44cd9d91-5552-4735-86b8-4b2c5d39efc8?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/44cd9d91-5552-4735-86b8-4b2c5d39efc8",
+            "title" : "laundry and dry cleaning manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:070e94a8-a933-4557-9b95-fefe7f4f1763?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/070e94a8-a933-4557-9b95-fefe7f4f1763",
+            "title" : "public employment service manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:dfb93ddb-ce34-4d2e-a178-541d45a7d98b?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/dfb93ddb-ce34-4d2e-a178-541d45a7d98b",
+            "title" : "laundry workers supervisor"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:f5166c6b-3467-4fc4-9343-d12e870d9def?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/f5166c6b-3467-4fc4-9343-d12e870d9def",
+            "title" : "contact centre manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:af355ac4-dd89-44df-99a6-bba70202d6fe?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/af355ac4-dd89-44df-99a6-bba70202d6fe",
+            "title" : "data entry supervisor"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:f605bcd2-90b6-45a0-a558-d05016d68a77?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/f605bcd2-90b6-45a0-a558-d05016d68a77",
+            "title" : "human resources manager"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/538F8EAC-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/af355ac4-dd89-44df-99a6-bba70202d6fe",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/53158A09-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/44cd9d91-5552-4735-86b8-4b2c5d39efc8",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/58E0A896-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/f605bcd2-90b6-45a0-a558-d05016d68a77",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/543E0ACC-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/080fc550-b7ca-4576-aaf5-06fffbede994",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/55F7EFE0-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/8c8b5cba-14b2-4728-b22c-eb90f1786e00",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/53385C40-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/bcc2c1db-f969-4355-bebf-4878ff6c2a94",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/540B4255-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/f5166c6b-3467-4fc4-9343-d12e870d9def",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/531588FB-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/dfb93ddb-ce34-4d2e-a178-541d45a7d98b",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/59E4BBB0-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/070e94a8-a933-4557-9b95-fefe7f4f1763",
+            "target" : "http://data.europa.eu/esco/skill/88f823da-ab17-4559-8985-69b1507675ca",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/869fc2ce-478f-4420-8766-e1f02cec4fb2" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:7a00c77c-4a1c-4fd6-a83f-004bda65d81a?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/7a00c77c-4a1c-4fd6-a83f-004bda65d81a",
+                "title" : "supervising people"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:869fc2ce-478f-4420-8766-e1f02cec4fb2?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/869fc2ce-478f-4420-8766-e1f02cec4fb2",
+                "title" : "management skills"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:aab9f44d-fe0e-46d8-a470-11ce82a64846?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/aab9f44d-fe0e-46d8-a470-11ce82a64846",
+                "title" : "supervising a team or group"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f" : {
+        "uri" : "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "use hair removal lasers",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "it" : "utilizzare il laser per la depilazione",
+          "sk" : "používať laser na odstraňovanie chĺpkov",
+          "ro" : "utilizează laserul pentru îndepărtarea părului",
+          "ar" : "استخدام ليزر إزالة الشعر",
+          "hu" : "lézeres szőrzeteltávolítást alkalmaz",
+          "da" : "bruge laserapparat til hårfjerning",
+          "pt" : "utilizar tecnologias de laser para depilação",
+          "bg" : "използване на лазери за обезкосмяване",
+          "nl" : "laser om haar te verwijderen gebruiken",
+          "sl" : "uporabljati laserje za odstranjevanje dlak",
+          "ga" : "léasair bhaint gruaige a úsáid",
+          "es" : "utilizar láseres para depilar",
+          "et" : "karvaeemalduslasereid kasutama",
+          "hr" : "upotrebljavati lasere za uklanjanje dlaka",
+          "pl" : "posługiwać się urządzeniami laserowymi do usuwania włosów",
+          "fr" : "utiliser un laser d’épilation",
+          "sv" : "använda laser för hårborttagning",
+          "is" : "notar háreyðingarleysa",
+          "de" : "Lasergeräte zur Haarentfernung nutzen",
+          "en" : "use hair removal lasers",
+          "lt" : "naudoti plaukų šalinimo lazerius",
+          "no" : "bruke hårfjerningslasere",
+          "fi" : "käyttää karvanpoistolasereita",
+          "el" : "χρήση ακτίνων λέιζερ για την αφαίρεση τριχών",
+          "lv" : "lietot apmatojuma likvidēšanas lāzerus",
+          "uk" : "використовувати лазери, які видаляють волосся",
+          "mt" : "użu tal-lasers tat-tneħħija tax-xagħar",
+          "cs" : "používat depilační lasery"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "en" : [ "use hair removal laser", "use lasers to remove hair", "using hair removal lasers", "perform laser hair removal", "utilize hair removal lasers" ]
+        },
+        "description" : {
+          "uk" : "Використовувати лазери, які видаляють волосся шляхом впливу на волосся імпульсів лазерного світла, які руйнують волосяні фолікули.\n\t",
+          "pt" : "Utilizar lasers que removem pelos expondo-os aos impulsos da luz laser, os quais destroem os folículos capilares.",
+          "mt" : "Uża lasers li jneħħu x-xagħar billi tesponi x-xagħar għal pulsazzjonijiet ta’ dawl tal-laser li jeqirdu l-follikoli tax-xagħar.",
+          "bg" : "Използва лазери, които премахват косми чрез излагането им на импулси от лазерна светлина, която унищожава фоликулите на космите.",
+          "fi" : "Käyttää sellaisia laserlaitteita, joilla poistetaan karvoja tuhoamalla karvatupet laservalopulssilla.",
+          "da" : "Bruge laserapparater, som fjerner hår ved at udsætte håret for laserlys, der ødelægger hårfolliklerne.",
+          "cs" : "Používat lasery, které odstraňují chlupy, a to laserovým světlem, které ničí folikuly chlupů.",
+          "pl" : "Używać laserów usuwających włosy poprzez wystawianie włosów na działanie światła laserowego, które niszczą mieszki włosowe.",
+          "hr" : "Upotrebljavati lasere radi uklanjanja dlaka izlaganjem dlaka impulsima laserskog svjetla kojima se uništavaju folikuli dlaka.",
+          "is" : "Nota leysitækni til að fjarlægja hár með því að skjóta leysigeislum að rót hársins til að eyðileggja hársekkina.",
+          "fr" : "Utiliser des lasers qui éliminent les cheveux en exposant les cheveux aux impulsions laser qui détruisent les follicules pileux.",
+          "sl" : "Uporabljati laserje za odstranjevanje dlak z laserskim žarkom, ki uniči mešiček dlačice.",
+          "ar" : "استخدام الليزر الذي يزيل الشعر عن طريق تعريض الشعر لنبضات ضوء الليزر التي تدمر بصيلات الشعر.",
+          "lt" : "Naudoti plaukų šalinimo lazerius, kai plaukai veikiami lazerio šviesos impulsų ir taip sunaikinami plaukų folikulai.",
+          "sv" : "Använda lasrar som avlägsnar hår genom att utsätta håret för pulser med laserljus som förstör hårfolliklarna.",
+          "sk" : "Používať lasery, ktoré odstraňujú chĺpky tým, že ich vystavujú impulzom laserového svetla, ktoré ničia folikuly chĺpkov.",
+          "de" : "Nutzung von Lasergeräten zum Entfernen von Haaren, indem die Haare Laserlicht ausgesetzt werden, sodass die Haarfollikel zerstört werden.",
+          "es" : "Utilizar láseres que eliminen el vello exponiéndolo a pulsos de luz láser que destruyen los folículos pilosos.",
+          "lv" : "Izmantot lāzerus apmatojuma likvidēšanai. Iedarbojoties uz apmatojumu ar lāzera gaismas impulsiem, kas iznīcina matiņu folikulas.",
+          "nl" : "Lasers gebruiken die haar verwijderen door haar bloot te stellen aan laser lichtpulsen die haarzakjes vernietigen.",
+          "no" : "Bruke lasere som fjerner hår ved å utsette hårene for pulserende laserlys som ødelegger hårsekkene.",
+          "hu" : "Lézereket használ, amelyek eltávolítják a szőrt azáltal, hogy a szőrt olyan lézersugár-impulzusnak teszik ki, amely elpusztítja a szőrtüszőket.",
+          "en" : "Use lasers that remove hair by exposing the hair to pulses of laser light that destroy hair follicles.",
+          "ga" : "Léasair a úsáid lena mbaintear an ghruaig, trí bhíthin an ghruaig a nochtadh do bhíoga solais léasair lena scriostar falacailí gruaige.",
+          "et" : "Laserimpulsside abil karvanääpse hävitava karvaeemalduslaseri kasutamine.",
+          "ro" : "Utilizează lasere care îndepărtează părul prin expunerea părului la impulsurile luminii laser care distrug foliculii părului.",
+          "it" : "Utilizzare i laser che rimuovono i peli esponendo i peli a impulsi di luce laser che ne distruggono i follicoli.",
+          "el" : "Χρήση ακτίνων λέιζερ που αφαιρούν τρίχες μέσω έκθεσής τους σε παλμούς φωτός λέιζερ που καταστρέφουν τους θύλακες των τριχών."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:890e0046-184f-4b1d-a00c-41f6eb34481f?selectedVersion=v1.2.1",
+            "title" : "use hair removal lasers",
+            "uri" : "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          } ],
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:sector-specific?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+            "title" : "sector specific skills and competences"
+          },
+          "relatedOptionalSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a4d11250-9fd2-4dc6-b998-0fcf529aeb86?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/a4d11250-9fd2-4dc6-b998-0fcf529aeb86",
+            "title" : "hair removal techniques",
+            "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+          } ],
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:5f92ff3e-288b-44aa-864d-5ebb1adb7925?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/5f92ff3e-288b-44aa-864d-5ebb1adb7925",
+            "title" : "styling hair and providing beauty treatments"
+          } ],
+          "broaderSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c1ce197d-6806-4a4b-871a-ac15451edda7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/c1ce197d-6806-4a4b-871a-ac15451edda7",
+            "title" : "use hair removal techniques",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ],
+          "isOptionalSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:72413d91-f212-4ad6-bf95-8b78a37c041a?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/72413d91-f212-4ad6-bf95-8b78a37c041a",
+            "title" : "hair removal technician"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:1978c6ff-37b4-48f1-9aa6-88b9c568f74f?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/1978c6ff-37b4-48f1-9aa6-88b9c568f74f",
+            "title" : "masseur/masseuse"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:9487f835-b5a9-4742-8ecf-35520911e28c?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/9487f835-b5a9-4742-8ecf-35520911e28c",
+            "title" : "massage therapist"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/59B1DE7B-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f",
+            "target" : "http://data.europa.eu/esco/skill/a4d11250-9fd2-4dc6-b998-0fcf529aeb86",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/543E04A0-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/72413d91-f212-4ad6-bf95-8b78a37c041a",
+            "target" : "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/543E08E2-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/9487f835-b5a9-4742-8ecf-35520911e28c",
+            "target" : "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/55E73C40-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/1978c6ff-37b4-48f1-9aa6-88b9c568f74f",
+            "target" : "http://data.europa.eu/esco/skill/890e0046-184f-4b1d-a00c-41f6eb34481f",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/e7a48651-3f68-4762-bf93-57cc1af47016" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:5f92ff3e-288b-44aa-864d-5ebb1adb7925?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/5f92ff3e-288b-44aa-864d-5ebb1adb7925",
+                "title" : "styling hair and providing beauty treatments"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:c73521be-c039-4e22-b037-3b01b3f6f9d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/c73521be-c039-4e22-b037-3b01b3f6f9d9",
+                "title" : "assisting and caring"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/c73521be-c039-4e22-b037-3b01b3f6f9d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:e7a48651-3f68-4762-bf93-57cc1af47016?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/e7a48651-3f68-4762-bf93-57cc1af47016",
+                "title" : "providing general personal care"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c1ce197d-6806-4a4b-871a-ac15451edda7?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/c1ce197d-6806-4a4b-871a-ac15451edda7",
+                "title" : "use hair removal techniques",
+                "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31" : {
+        "uri" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "pharmaceutical manufacturing quality systems",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "ar" : "نظم جودة تصنيع الأدوية",
+          "es" : "sistemas de garantía de calidad en la elaboración de medicamentos",
+          "uk" : "системи якості фармацевтичного виробництва",
+          "hr" : "sustavi kvalitete za farmaceutsku proizvodnju",
+          "pt" : "sistemas de qualidade na indústria farmacêutica",
+          "el" : "συστήματα ποιότητας φαρμακοποιίας",
+          "sk" : "systémy kvality farmaceutickej výroby",
+          "it" : "sistemi di qualità per la fabbricazione farmaceutica",
+          "de" : "pharmazeutisches Qualitätssystem für die Arzneimittelherstellung",
+          "lv" : "zāļu ražošanas kvalitātes sistēmas",
+          "sv" : "kvalitetssystem för läkemedelstillverkning",
+          "is" : "gæðakerfi lyfjafræðilegrar framleiðslu",
+          "hu" : "gyógyszergyártási minőségrendszerek",
+          "sl" : "sistemi za kakovost v farmacevtski proizvodnji",
+          "pl" : "systemy zapewniania jakości w ramach procesu produkcji wyrobów farmaceutycznych",
+          "ro" : "controlul calității produselor farmaceutice",
+          "et" : "farmaatsiatööstuse kvaliteedisüsteemid",
+          "cs" : "systémy k zajištění kvality ve farmaceutické výrobě",
+          "lt" : "vaistų gamybos kokybės sistemos",
+          "ga" : "córais cháilíochta le haghaidh monarú earraí cógaisíochta",
+          "da" : "kvalitetssystemer for lægemiddelfremstilling",
+          "mt" : "sistemi tal-kwalità tal-manifattura farmaċewtika",
+          "nl" : "kwaliteitssystemen voor de productie van farmaceutische producten",
+          "no" : "kvalitetssystemer for farmasøytisk produksjon",
+          "fr" : "systèmes de management de la qualité dans la production pharmaceutique",
+          "bg" : "системи за качество за фармацевтични предприятия",
+          "en" : "pharmaceutical manufacturing quality systems",
+          "fi" : "lääkkeiden valmistuksen laatujärjestelmät"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "pt" : "[SUBSTITUIR PELO TNP]",
+          "et" : "ravimitööstuse kvaliteedisüsteemid",
+          "en" : [ "quality assurance in pharmaceutical manufacturing", "pharmaceutical manufacturing quality system types", "types of pharmaceutical manufacturing quality systems", "quality assurance in pharmaceutical manufacture", "manufacturing quality assurance in pharmaceuticals", "typology of pharmaceutical manufacturing quality systems" ],
+          "sv" : "kvalitetssystem för läkemedelsproduktion",
+          "fi" : "lääkkeiden valmistamisen laatujärjestelmät",
+          "ga" : "córais cháilíochta le haghaidh monarú earraí cógaseolaíocha",
+          "nl" : "kwaliteitssystemen voor de productie van geneesmiddelen"
+        },
+        "description" : {
+          "ar" : "نموذج أنظمة الجودة الذي ينطبق على الشركات المصنعة للأدوية. يضمن النظام الأكثر شيوعًا جودة المرافق ونظام المعدات، ونظام المراقبة المختبرية، ونظام المواد، ونظام الإنتاج، ونظام التغليف والتوسيم.",
+          "ga" : "Samhail an chórais cháilíochta a bhfuil feidhm acu in earnáil na cógaisíochta. Faoin gcóras is coitianta áirithítear cáilíocht na saoráidí agus an chórais trealaimh, córas rialaithe saotharlainne, córas ábhar, córas táirgthe agus pacáistiú agus córas lipéadaithe.",
+          "fi" : "Laatujärjestelmämalli, jota sovelletaan lääkkeiden valmistukseen. Yleisimmällä järjestelmällä varmistetaan tilojen ja laitteiden laatu, laboratorion valvontajärjestelmä, materiaalijärjestelmä, tuotantojärjestelmä sekä pakkaus- ja merkintäjärjestelmä.",
+          "bg" : "Моделът на системите за качество, който се прилага във фармацевтичните предприятия. Най-обикновената система гарантира качество в система за съоръженията и оборудването, система за лабораторен контрол, система за материали, система за производство и система за опаковане и етикетиране.",
+          "sv" : "Den kvalitetssystemmodell som ska tillämpas för läkemedelstillverkning. Det vanligaste systemet säkerställer kvaliteten i fråga om anläggningar och utrustning, laboratoriekontrollsystem, materialsystem, produktionssystem samt förpacknings- och märkningssystem.",
+          "fr" : "Le modèle de systèmes de qualité qui s’applique à la production pharmaceutique. Le système le plus courant garantit la qualité des systèmes d’installations et d’équipements, le système de contrôles des laboratoires, le système des matériaux, le système de production et le système d’emballage et d’étiquetage.",
+          "en" : "The quality systems model that apply in pharmaceutical manufacturies. The most common system ensures quality in facilities and equipment system, laboratory controls system, materials system, production system and packaging and labelling system.",
+          "sl" : "Model sistemov za kakovost, ki se uporabljajo v farmacevtski proizvodnji. Najpogostejši sistem zagotavlja kakovost sistema naprav in opreme, sistema laboratorijskega nadzora, sistema za materiale, proizvodnega sistema ter sistema pakiranja in označevanja.",
+          "da" : "Den kvalitetssystemmodel, der gælder for farmaceutiske fremstillingsvirksomheder. Det mest almindelige system sikrer kvalitet i faciliteter og udstyrssystem, laboratoriekontrolsystemer, materialesystem, produktionssystem og emballerings- og mærkningssystem.",
+          "cs" : "Model systémů jakosti, který se používá ve farmaceutických výrobnách. Nejběžnější systém zajišťuje kvalitu zařízení a systému vybavení, systému laboratorních kontrol, systému materiálů, systému výroby a systému balení a označování.",
+          "mt" : "Il-mudell tas-sistemi tal-kwalità li japplika fil-manifatturi farmaċewtiċi. Is-sistema l-aktar komuni tiżgura l-kwalità fis-sistema tal-faċilitajiet u tat-tagħmir, is-sistema ta’ kontrolli fil-laboratorji, is-sistema tal-materjali, is-sistema tal-produzzjoni u s-sistema tal-imballaġġ u t-tikkettar.",
+          "pt" : "O modelo de sistemas de qualidade aplicável aos fabricantes de produtos farmacêuticos. O sistema mais comum assegura a qualidade das instalações e do sistema de equipamento, do sistema de controlo laboratorial, do sistema de materiais, do sistema de produção e do sistema de embalagem e rotulagem.",
+          "lv" : "Kvalitātes nodrošināšanas sistēmu modelis, ko piemēro farmaceitiskajā rūpniecībā. Parastā sistēma nodrošina kvalitāti iekārtās un aprīkojuma sistēmā, laboratorijas kontroles sistēmā, materiālu sistēmā, ražošanas sistēmā un iepakošanas un marķēšanas sistēmā.",
+          "pl" : "Model systemów jakości stosowany w produkcji farmaceutycznej. Najbardziej rozpowszechniony system zapewniający jakość wyposażenia i urządzeń, system kontroli laboratoryjnych, system materiałowy, system produkcji oraz system pakowania i etykietowania.",
+          "hr" : "Model sustava kvalitete koji se primjenjuje u farmaceutskoj proizvodnji. Najčešći sustav osigurava kvalitetu sustava objekata i opreme, laboratorijskih regulacijskih sustava, sustava materijala, sustava proizvodnje te sustava pakiranja i označivanja.",
+          "et" : "Farmaatsiatööstuses kasutatavate kvaliteedisüsteemide mudel. Kõige tavalisem süsteem tagab rajatiste ja seadmete süsteemi, labori juhtsüsteemi, materjalisüsteemi, tootmissüsteemi ning pakendamis- ja märgistussüsteemi kvaliteedi.",
+          "ro" : "Modelul sistemelor de calitate care se aplică în industria farmaceutică. Sistemul cel mai comun asigură calitatea instalațiilor și a echipamentelor, a sistemului de control al laboratoarelor, a sistemului de materiale, a sistemului de producție și a sistemului de ambalare și etichetare.",
+          "nl" : "Het kwaliteitssysteemmodel dat van toepassing is in de farmaceutische industrie. Het meest gebruikte systeem zorgt voor de kwaliteit van uitrusting en apparatuur, het controlesysteem van het laboratorium, het materiaalsysteem, het productiesysteem en het verpakkings- en etiketteringssysteem.",
+          "sk" : "Model systémov kvality, ktorý sa uplatňuje vo farmaceutickej výrobe. Najbežnejším systémom sa zabezpečuje kvalita zariadení a vybavenia, laboratórneho kontrolného systému, systému obehu materiálov, systému výroby a systému balenia a označovania.",
+          "it" : "Il modello dei sistemi di qualità applicati all’industria farmaceutica. Il sistema più comune assicura la qualità del sistema delle strutture e delle attrezzature, del sistema dei controlli di laboratorio, del sistema dei materiali, del sistema di produzione e del sistema di imballaggio ed etichettatura.",
+          "no" : "Kvalitetssystemmodellen som gjelder i farmasøytisk produksjon. Det vanligste systemet sikrer kvalitet i anlegg og utstyrssystemer laboratoriekontrollsystemer, materialsystemer, produksjonssystemer og pakkings- og merkingssystemer.",
+          "uk" : "Модель систем якості, які застосовуються на фармацевтичних виробництвах. Найпоширеніша система забезпечує якість у системі об’єктів та обладнання, системі лабораторного контролю, системі матеріалів, системі виробництва та системі пакування та маркування.\n\t",
+          "el" : "Το μοντέλο των συστημάτων ποιότητας που ισχύει στη φαρμακευτική βιομηχανία. Το συνηθέστερο σύστημα διασφαλίζει την ποιότητα των εγκαταστάσεων και του εξοπλισμού, του συστήματος εργαστηριακών ελέγχων, του συστήματος υλικών, του συστήματος παραγωγής και του συστήματος συσκευασίας και επισήμανσης.",
+          "lt" : "Kokybės sistemų modelis, taikomas vaistų gamykloms. Labiausiai paplitusi sistema užtikrina įrenginių ir įrangos sistemos, laboratorinės kontrolės sistemos, medžiagų sistemos, gamybos sistemos ir pakavimo bei ženklinimo sistemų kokybę.",
+          "de" : "Das Qualitätssystemmodell für die Herstellung von Arzneimitteln. Das verbreitetste System gewährleistet die Qualität des Einrichtungs- und Ausrüstungssystems, des Laborkontrollsystems, des Materialsystems, des Produktionssystems sowie das Verpackungs- und Etikettierungssystems.",
+          "is" : "Gæðakerfislíkan sem á við í lyfjafræðilegri framleiðslu. Algengasta kerfið tryggir gæði í aðstöðu og búnaði, eftirlitskerfi fyrir rannsóknarstofur, efniskerfi, framleiðslukerfi og umbúða- og merkingarkerfi.",
+          "hu" : "A gyógyszeripari gyártás során alkalmazott minőségbiztosítási rendszermodell. A legáltalánosabb rendszer, amely biztosítja a létesítmények és berendezések, a laboratóriumi ellenőrző rendszer, az anyagrendszer, a termelési rendszer, valamint a csomagolási és címkézési rendszer minőségét.",
+          "es" : "El modelo de sistemas de calidad que se aplica a las industrias farmacéuticas. El sistema más común garantiza la calidad en el sistema de instalaciones y de equipo, el sistema de controles de laboratorio, el sistema de materiales, el sistema de producción y el sistema de envasado, empaquetado, embalaje y etiquetado."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:89423614-b96a-44f5-9e63-1501549d8f31?selectedVersion=v1.2.1",
+            "title" : "pharmaceutical manufacturing quality systems",
+            "uri" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          } ],
+          "topConceptOf" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          },
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:knowledge?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/knowledge",
+            "title" : "knowledge"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:cross-sector?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/cross-sector",
+            "title" : "cross-sector skills and competences"
+          },
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isced-f:0916?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isced-f/0916",
+            "title" : "pharmacy"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:e2a495fb-68a3-46f9-8753-6ce566a7a085?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/e2a495fb-68a3-46f9-8753-6ce566a7a085",
+            "title" : "pharmaceutical engineer"
+          } ],
+          "isOptionalSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:f9433fdb-dde1-46cf-9e91-b49d243946a7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/f9433fdb-dde1-46cf-9e91-b49d243946a7",
+            "title" : "bioengineer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:0d21a30d-25d9-427b-b8e4-339408425ff5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/0d21a30d-25d9-427b-b8e4-339408425ff5",
+            "title" : "chemical production manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:10291962-c0c7-4e5b-a7ed-0762b4d9b010?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/10291962-c0c7-4e5b-a7ed-0762b4d9b010",
+            "title" : "pharmacologist"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:f3e23761-0663-4ae0-97a2-0b2dd3fa38a1?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/f3e23761-0663-4ae0-97a2-0b2dd3fa38a1",
+            "title" : "biochemical engineer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:ec21ce88-ce14-49b6-be0a-cc53cf5a3a67?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/ec21ce88-ce14-49b6-be0a-cc53cf5a3a67",
+            "title" : "chemical engineer"
+          } ],
+          "isOptionalSkillForSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:7b34af45-c010-4f1e-a2f3-b3d690addb45?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/7b34af45-c010-4f1e-a2f3-b3d690addb45",
+            "title" : "ensure quality assurance for pharmaceutical products",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8ee6763c-ca7b-4c0d-9208-b8f26f100e72?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/8ee6763c-ca7b-4c0d-9208-b8f26f100e72",
+            "title" : "manufacture medicines",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/5967B913-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/f9433fdb-dde1-46cf-9e91-b49d243946a7",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/57015200-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/8ee6763c-ca7b-4c0d-9208-b8f26f100e72",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5460DBCF-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/10291962-c0c7-4e5b-a7ed-0762b4d9b010",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/58CF9269-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/f3e23761-0663-4ae0-97a2-0b2dd3fa38a1",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/52DE932D-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/ec21ce88-ce14-49b6-be0a-cc53cf5a3a67",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5924639D-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/e2a495fb-68a3-46f9-8753-6ce566a7a085",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/583416A8-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/0d21a30d-25d9-427b-b8e4-339408425ff5",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/53270C38-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/6426ada1-4d8c-4612-99e3-91bc569805ee",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/56DF5786-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/7b34af45-c010-4f1e-a2f3-b3d690addb45",
+            "target" : "http://data.europa.eu/esco/skill/89423614-b96a-44f5-9e63-1501549d8f31",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isced-f:09?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isced-f/09",
+                "title" : "health and welfare"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isced-f/09" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isced-f:091?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isced-f/091",
+                "title" : "health"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isced-f:0916?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isced-f/0916",
+                "title" : "pharmacy"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:c46fcb45-5c14-4ffa-abed-5a43f104bb22?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22",
+                "title" : "knowledge"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/894f3286-ae58-4a13-a8ed-9aa7c5c77c18" : {
+        "uri" : "http://data.europa.eu/esco/skill/894f3286-ae58-4a13-a8ed-9aa7c5c77c18",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "interact verbally in Romani",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "fr" : "interagir verbalement en romani",
+          "bg" : "устно общуване на ромски език",
+          "uk" : "спілкуватися ромською мовою",
+          "sk" : "verbálne komunikovať v rómčine",
+          "is" : "hefur munnleg samskipti á rómanímáli",
+          "hr" : "usmeno komunicirati na romskom jeziku",
+          "pt" : "comunicar verbalmente em romani",
+          "et" : "suuliselt roma keeles suhtlema",
+          "ro" : "interacționează verbal în limba romani",
+          "fi" : "viestiä suullisesti romanikielellä",
+          "cs" : "ústně komunikovat v romštině",
+          "es" : "interactuar verbalmente en romaní",
+          "lt" : "žodžiu bendrauti romų kalba",
+          "no" : "samhandle muntlig på romani",
+          "de" : "Romani sprechen",
+          "el" : "προφορική επικοινωνία στα ρομανί",
+          "it" : "interagire verbalmente in romaní",
+          "hu" : "beszéli a romani nyelvet",
+          "sl" : "ustno se sporazumevati v romščini",
+          "ga" : "idirghníomhú ó bhéal i Romainis",
+          "pl" : "posługiwać się językiem romskim w mowie",
+          "da" : "føre en samtale på romani",
+          "lv" : "sarunāties romu valodā",
+          "mt" : "ikkomunika verbalment bir-Romani",
+          "sv" : "kommunicera muntligt på romani",
+          "en" : "interact verbally in Romani",
+          "nl" : "mondeling in het Romani communiceren",
+          "ar" : "التواصل شفهيًا باللغة الرومانية"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "fr" : "s'exprimer oralement en romani",
+          "ro" : [ "vorbește fluent limba romani", "vorbește romani", "vorbește rromani", "comunică oral în limba romani" ],
+          "nl" : [ "Romani spreken", "verbaal in het Romani communiceren" ],
+          "de" : "Romanes sprechen",
+          "fi" : [ "puhua romania", "puhua romanin kieltä", "puhua romanikieltä" ],
+          "en" : [ "communicate verbally in Romani", "verbally interact in Romani", "speak Romany", "speak Romani" ],
+          "lt" : "susikalbėti romų kalba",
+          "sv" : "kommunicera muntligt på romska"
+        },
+        "description" : {
+          "mt" : "Ikkomunika oralment bir-Romani.",
+          "fr" : "Communiquer oralement en langue Romani.",
+          "lt" : "Žodžiu susikalbėti romų kalba.",
+          "bg" : "Общува устно на ромски език.",
+          "it" : "Comunicare oralmente in romaní.",
+          "cs" : "Ústně komunikovat v romštině.",
+          "fi" : "Puhua romanikieltä.",
+          "lv" : "Sazināties mutiski romu valodā.",
+          "ro" : "Comunică oral în limba romani.",
+          "da" : "Kommunikere mundtligt på romani.",
+          "es" : "Comunicarse oralmente en romaní.",
+          "sk" : "Ústne komunikovať v rómčine.",
+          "ga" : "Cumarsáid labhartha a dhéanamh sa Romainis.",
+          "uk" : "Спілкуватися усно ромською мовою.\n\t",
+          "el" : "Προφορική επικοινωνία στα ρομανί.",
+          "pt" : "Comunicar oralmente em romani.",
+          "hr" : "Komunicirati usmeno na romskom jeziku.",
+          "is" : "Hafa munnleg samskipti á rómanímáli.",
+          "hu" : "Szóban kommunikál romani nyelven.",
+          "pl" : "Porozumiewanie się ustnie w języku romskim.",
+          "en" : "Communicate orally in Romani.",
+          "no" : "Kommunisere muntlig på romani.",
+          "sl" : "Ustno se sporazumevati v romščini.",
+          "sv" : "Kommunicera muntligt på romani.",
+          "nl" : "Mondeling communiceren in het Romani.",
+          "ar" : "التواصل شفهيًّا باللغة الرومانية.",
+          "de" : "Mündliches Kommunizieren auf Romani.",
+          "et" : "Sõnaline suuline suhtlemine roma keeles."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:894f3286-ae58-4a13-a8ed-9aa7c5c77c18?selectedVersion=v1.2.1",
+            "title" : "interact verbally in Romani",
+            "uri" : "http://data.europa.eu/esco/skill/894f3286-ae58-4a13-a8ed-9aa7c5c77c18"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skill-language-groups?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skill-language-groups",
+            "title" : "Language"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          } ],
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:transversal?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/transversal",
+            "title" : "transversal skills and competences"
+          },
+          "broaderSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8ef3eccc-a847-430e-b828-cf178803b8c1?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/8ef3eccc-a847-430e-b828-cf178803b8c1",
+            "title" : "Romani",
+            "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/b94686e3-cce5-47a2-a8d8-402a0d0ed44e" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:9adca63b-9c75-4804-8dab-d62872540a10?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/9adca63b-9c75-4804-8dab-d62872540a10",
+                "title" : "mastering languages"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/e35a5936-091d-4e87-bafe-f264e55bd656" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:43f425aa-f45d-4bb4-a200-6f82fa211b66?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/43f425aa-f45d-4bb4-a200-6f82fa211b66",
+                "title" : "languages"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:b94686e3-cce5-47a2-a8d8-402a0d0ed44e?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/b94686e3-cce5-47a2-a8d8-402a0d0ed44e",
+                "title" : "core skills and competences"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8ef3eccc-a847-430e-b828-cf178803b8c1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/8ef3eccc-a847-430e-b828-cf178803b8c1",
+                "title" : "Romani",
+                "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:e35a5936-091d-4e87-bafe-f264e55bd656?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/e35a5936-091d-4e87-bafe-f264e55bd656",
+                "title" : "language skills and knowledge"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:04a13491-b58c-4d33-8b59-8fad0d55fe9e?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e",
+                "title" : "transversal skills and competences"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443" : {
+        "uri" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+        "className" : "Skill",
+        "classUri" : "http://data.europa.eu/esco/model#Skill",
+        "title" : "inspect vessel",
+        "referenceLanguage" : "en",
+        "preferredLabel" : {
+          "ga" : "cigireacht a dhéanamh ar shoithí",
+          "fi" : "tarkastaa alus",
+          "en" : "inspect vessel",
+          "lt" : "tikrinti laivą",
+          "mt" : "spezzjonar tal-bastimenti",
+          "es" : "inspeccionar embarcaciones",
+          "sk" : "skontrolovať plavidlo",
+          "pl" : "przeprowadzać kontrolę statku",
+          "hu" : "hajókat vizsgál meg",
+          "is" : "skoðar skip",
+          "cs" : "provádět kontrolu plavidla",
+          "el" : "επιθεώρηση σκάφους",
+          "nl" : "vaartuigen inspecteren",
+          "pt" : "inspecionar o navio",
+          "it" : "ispezionare la nave",
+          "lv" : "pārbaudīt kuģi",
+          "hr" : "pregledati plovilo",
+          "uk" : "інспектувати судно",
+          "et" : "laeva inspekteerima",
+          "no" : "inspisere fartøy",
+          "bg" : "инспектиране на кораб",
+          "sl" : "pregledovati plovila",
+          "ar" : "معاينة السفن",
+          "ro" : "inspectează nave",
+          "de" : "Schiffe begutachten",
+          "da" : "inspicere fartøjer",
+          "sv" : "inspektera fartyg",
+          "fr" : "inspecter des navires"
+        },
+        "status" : "released",
+        "alternativeLabel" : {
+          "en" : [ "vessel inspecting", "inspecting vessel", "inspecting vessels", "checking vessel", "vessel checking", "vessels checking", "checking vessels", "vessels inspecting", "inspect vessels", "check vessels", "check vessel" ],
+          "es" : [ "observar barcos", "controlar barcos", "examinar barcos" ],
+          "pl" : "przeprowadzać kontrolę okrętu"
+        },
+        "description" : {
+          "ro" : "Inspectează navele pentru a asigura funcționarea lor eficientă și sigură. Menține nava și echipamentul acesteia în conformitate cu reglementările.",
+          "bg" : "Инспектира плавателните съдове, за да гарантира ефективната им и безопасна експлоатация. Поддържа кораба и оборудването в съответствие с нормативната уредба.",
+          "lv" : "Pārbaudīt kuģošanas līdzekļus ar mērķi nodrošināt to efektīvu un drošu ekspluatāciju. Saskaņā ar noteikumiem uzturēt kārtībā kuģošanas līdzekli un tā aprīkojumu.",
+          "ga" : "Soithí a chigireacht chun a n -oibriú éifeachtach agus sábháilte a áirithiú. An soitheach agus an trealamh atá aige a choinneáil i gcomhréir le rialacháin.",
+          "ar" : "معاينة السفن لضمان تشغيلها الفعال والآمن. الحفاظ على السفينة ومعداتها وفقًا للوائح.",
+          "pl" : "Przeprowadzać kontrolę statków w celu zapewnienia ich skutecznego i bezpiecznego działania. Zapewniać zgodność statku i jego wyposażenia z przepisami.",
+          "de" : "Kontrolle von Schiffen, um deren effizienten und sicheren Betrieb zu gewährleisten. Ergreifen von Maßnahmen, damit das Schiff und seine Ausrüstung den Vorschriften entsprechen.",
+          "en" : "Inspect vessels to ensure their effective and safe operation. Keep the vessel and its equipment in conformance to regulations.",
+          "fr" : "Inspecter les navires pour en assurer l’efficacité et la sécurité. Maintenir le navire et son équipement conformément aux règlementations.",
+          "el" : "Επιθεώρηση σκαφών για τη διασφάλιση της αποτελεσματικής και ασφαλούς λειτουργίας τους. Τήρηση κανονισμών στο σκάφος και τον εξοπλισμό του.",
+          "is" : "Skoðaðuskip til að tryggja skilvirka og örugga notkun þeirra. Passa að skip og búnaður sé í samræmi við reglur.",
+          "mt" : "Spezzjona l-bastimenti biex tiżgura l-operat effettiv u sikur tagħhom. Żomm il-bastiment u t-tagħmir tiegħu f’konformità mar-regolamenti.",
+          "sl" : "Pregledovati plovila, da se zagotovi njihovo učinkovito in varno delovanje. Vzdrževati plovilo in njegovo opremo v skladu s predpisi.",
+          "sk" : "Skontrolovať plavidlá, aby sa zabezpečila ich účinná a bezpečná prevádzka. Udržiavať plavidlo a jeho vybavenie v súlade s predpismi.",
+          "uk" : "Оглядати судна, щоб забезпечити їх ефективну та безпечну експлуатацію. Підтримувати судно та його обладнання у відповідності до нормативних вимог.\n\t",
+          "fi" : "Tarkastaa aluksia niiden tehokkaan ja turvallisen toiminnan varmistamiseksi. Aluksen ja sen varusteiden pitäminen säännösten mukaisena.",
+          "it" : "Ispezionare le navi per garantirne il funzionamento efficace e sicuro. Tenere la nave e le sue attrezzature in conformità alla regolamentazione.",
+          "no" : "Inspisere fartøy for å sikre at de kan driftes på en effektiv og trygg måte. Sørge for at fartøyet og utstyret overholder regelverket.",
+          "hr" : "Pregledati plovila kako bi se osigurao njihov učinkovit i siguran rad. Čuvati plovilo i njegovu opremu u skladu s propisima.",
+          "es" : "Inspeccionar embarcaciones para garantizar su funcionamiento eficaz y seguro. Mantener el buque y su equipo conforme a la normativa.",
+          "pt" : "Inspecionar os navios a fim de garantir o seu funcionamento eficaz e seguro. Manter o navio e o seu equipamento em conformidade com os regulamentos.",
+          "sv" : "Inspektera fartyg för att se till att de fungerar på ett effektivt och säkert sätt. Hålla fartyget och dess utrustning i det skick som krävs enligt reglerna.",
+          "et" : "Laevade inspekteerimine, et tagada tõhus ja ohutu töö. Veendumine, et laev ja selle varustus vastavad eeskirjadele.",
+          "da" : "Inspicere fartøjer for at sikre, at de fungerer effektivt og sikkert. Holde fartøjet og dets udstyr i overensstemmelse med forskrifterne.",
+          "hu" : "Megvizsgálja a hajókat a hatékony és biztonságos működésük biztosítása érdekében. A hajót és a berendezését a rendelkezéseknek megfelelő állapotban tartja.",
+          "nl" : "De vaartuigen inspecteren om de doeltreffende en veilige werking ervan te waarborgen. Het vaartuig en de uitrusting in overeenstemming met de voorschriften houden.",
+          "lt" : "Tikrinti laivus siekiant užtikrinti jų veiksmingą ir saugų eksploatavimą. Prižiūrėti, kad laivas ir jo įranga atitiktų taisykles.",
+          "cs" : "Provádět kontrolu plavidel s cílem zajistit jejich účinný a bezpečný provoz. Udržovat plavidlo a jeho vybavení v souladu s předpisy."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:89364a58-c32b-4fab-b3ca-622648bbe443?selectedVersion=v1.2.1",
+            "title" : "inspect vessel",
+            "uri" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+            "title" : "ESCO skills"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+            "title" : "ESCO member skills"
+          } ],
+          "skillType" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:skill?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-type/skill",
+            "title" : "skill"
+          },
+          "skillReuseLevel" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:sector-specific?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+            "title" : "sector specific skills and competences"
+          },
+          "relatedOptionalSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:2ee670aa-c687-4ff7-92eb-0abc9b57e5f2?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/2ee670aa-c687-4ff7-92eb-0abc9b57e5f2",
+            "title" : "mechanics of vessels",
+            "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+          } ],
+          "broaderHierarchyConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/skill:0e0a44a8-654c-4e85-986a-fb4386114838?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/0e0a44a8-654c-4e85-986a-fb4386114838",
+            "title" : "monitoring safety or security"
+          } ],
+          "broaderSkill" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/skill/skill:36e9c099-614e-44f1-ab0a-5e6fda4a0763?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/skill/36e9c099-614e-44f1-ab0a-5e6fda4a0763",
+            "title" : "undertake inspections",
+            "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+          } ],
+          "isEssentialSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:384ed128-e86e-4dd8-96ff-b6e6657cb027?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/384ed128-e86e-4dd8-96ff-b6e6657cb027",
+            "title" : "marine surveyor"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:2c027db0-d2a6-43f0-9c4a-caff27c7c54a?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/2c027db0-d2a6-43f0-9c4a-caff27c7c54a",
+            "title" : "vessel steering instructor"
+          } ],
+          "isOptionalSkillForOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:0b1d8dcb-d941-4d79-99bf-fc10c1806c43?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/0b1d8dcb-d941-4d79-99bf-fc10c1806c43",
+            "title" : "fleet commander"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:da6220cb-21ee-4076-8796-1e922b44c394?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/da6220cb-21ee-4076-8796-1e922b44c394",
+            "title" : "vessel engine inspector"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:26a86453-4236-49a3-ae3a-313c1cacb5ff?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/26a86453-4236-49a3-ae3a-313c1cacb5ff",
+            "title" : "boat rigger"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:e58eadca-e512-4167-96f1-fff980f117e3?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/e58eadca-e512-4167-96f1-fff980f117e3",
+            "title" : "vessel engine tester"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:a464015d-a622-44aa-a4fe-bf01e412e120?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/a464015d-a622-44aa-a4fe-bf01e412e120",
+            "title" : "vessel assembly inspector"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:bca2528a-5a87-4576-a3b5-1edbbce40a9f?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/bca2528a-5a87-4576-a3b5-1edbbce40a9f",
+            "title" : "driving instructor"
+          } ]
+        },
+        "_embedded" : {
+          "hasAssociation" : [ {
+            "uri" : "http://data.europa.eu/esco/relation/5812D70E-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/26a86453-4236-49a3-ae3a-313c1cacb5ff",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5956CB0C-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/384ed128-e86e-4dd8-96ff-b6e6657cb027",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5812CBCF-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/a464015d-a622-44aa-a4fe-bf01e412e120",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/53038D26-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/e58eadca-e512-4167-96f1-fff980f117e3",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/5795BC60-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/bca2528a-5a87-4576-a3b5-1edbbce40a9f",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/57A5B46C-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/0b1d8dcb-d941-4d79-99bf-fc10c1806c43",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/53E7A791-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "target" : "http://data.europa.eu/esco/skill/2ee670aa-c687-4ff7-92eb-0abc9b57e5f2",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/53038BA0-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/da6220cb-21ee-4076-8796-1e922b44c394",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+          }, {
+            "uri" : "http://data.europa.eu/esco/relation/55E73025-1AD9-11E7-B43F-E10FE2FA9FC2",
+            "type" : "esco:AssociationObject",
+            "isAssociationFor" : "http://data.europa.eu/esco/occupation/2c027db0-d2a6-43f0-9c4a-caff27c7c54a",
+            "target" : "http://data.europa.eu/esco/skill/89364a58-c32b-4fab-b3ca-622648bbe443",
+            "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+            "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+          } ],
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/skill/0a2d70ee-d435-4965-9e96-702b2fb65740" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:1e95cef2-9c35-4f9f-b6a9-cb458c3e5379?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/1e95cef2-9c35-4f9f-b6a9-cb458c3e5379",
+                "title" : "monitoring, inspecting and testing"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:552c4f35-a2d1-49c2-8fda-afe26695c44a?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/552c4f35-a2d1-49c2-8fda-afe26695c44a",
+                "title" : "social and communication skills and competences"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/1e95cef2-9c35-4f9f-b6a9-cb458c3e5379" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:54f7432d-a8b6-4ed4-a50e-9ec882320595?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/54f7432d-a8b6-4ed4-a50e-9ec882320595",
+                "title" : "monitoring, inspecting and testing"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/1e95cef2-9c35-4f9f-b6a9-cb458c3e5379" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:0e0a44a8-654c-4e85-986a-fb4386114838?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/0e0a44a8-654c-4e85-986a-fb4386114838",
+                "title" : "monitoring safety or security"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:0a2d70ee-d435-4965-9e96-702b2fb65740?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/0a2d70ee-d435-4965-9e96-702b2fb65740",
+                "title" : "information skills"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/skill/552c4f35-a2d1-49c2-8fda-afe26695c44a" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:fe5eabaa-63f6-4c44-b405-fc3ded8d56cb?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/fe5eabaa-63f6-4c44-b405-fc3ded8d56cb",
+                "title" : "leading others"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:75d8e5d9-bef3-418b-9011-01bff9f27207?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/75d8e5d9-bef3-418b-9011-01bff9f27207",
+                "title" : "lead others",
+                "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:36e9c099-614e-44f1-ab0a-5e6fda4a0763?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/36e9c099-614e-44f1-ab0a-5e6fda4a0763",
+                "title" : "undertake inspections",
+                "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:335228d2-297d-4e0e-a6ee-bc6a8dc110d9?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9",
+                "title" : "skills"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/skill:04a13491-b58c-4d33-8b59-8fad0d55fe9e?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e",
+                "title" : "transversal skills and competences"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f9d70f2a-c3f0-475d-ac55-dc2e2ba856e8?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/skill/f9d70f2a-c3f0-475d-ac55-dc2e2ba856e8",
+                "title" : "lead inspections",
+                "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "capturedAt" : "2026-04-06T14:09:52.938881631Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 81,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 5,
+    "offset" : 0,
+    "total" : 619,
+    "language" : "en",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&limit=5&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&language=en&offset=0&limit=5"
+      },
+      "next" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&language=en&offset=5&limit=5"
+      },
+      "last" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&language=en&offset=614&limit=5"
+      },
+      "concepts" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1219?selectedVersion=v1.2.1",
+        "title" : "Business services and administration managers not elsewhere classified",
+        "uri" : "http://data.europa.eu/esco/isco/C1219"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+        "title" : "Sales, marketing and development managers",
+        "uri" : "http://data.europa.eu/esco/isco/C122"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1223?selectedVersion=v1.2.1",
+        "title" : "Research and development managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1223"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1222?selectedVersion=v1.2.1",
+        "title" : "Advertising and public relations managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1222"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+        "title" : "Production and specialised services managers",
+        "uri" : "http://data.europa.eu/esco/isco/C13"
+      } ]
+    },
+    "_embedded" : {
+      "http://data.europa.eu/esco/isco/C1219" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1219",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Business services and administration managers not elsewhere classified",
+        "preferredLabel" : {
+          "fi" : "Muut hallintojohtajat ja kaupalliset johtajat",
+          "sv" : "Övriga chefer inom företagstjänster och administration",
+          "hr" : "Poslovni i administrativni direktori/direktorice d. n.",
+          "it" : "Dirigenti nei servizi alle imprese e dell’amministrazione non classificati altrove",
+          "bg" : "Ръководители в бизнес услугите и административните дейности, некласифицирани другаде",
+          "de" : "Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt",
+          "pt" : "Directores administrativos e de serviços às empresas não classificados em outra parte",
+          "es" : "Directores de administración y servicios no clasificados bajo otros epígrafes",
+          "el" : "Διευθυντές και ανώτερα διευθυντικά στελέχη επιχειρηματικών υπηρεσιών και διοίκησης π.δ.κ.α.",
+          "nl" : "Leidinggevende functies op het gebied van zakelijke diensten en op administratief gebied, niet elders geclassificeerd",
+          "en" : "Business services and administration managers not elsewhere classified",
+          "lt" : "Kitur nepriskirti verslo paslaugų srities ir administracijos vadovai",
+          "da" : "Ledelse inden for anden forretningsservice og andre administrative funktioner",
+          "no" : "Andre administrative ledere",
+          "lv" : "Citur neklasificēti komercpakalpojumu un administrācijas jomas vadītāji",
+          "sl" : "Upravno-administrativni in poslovni menedžerji, d. n.",
+          "cs" : "Vedoucí a řídící pracovníci univerzálních dílčích celků jinde neuvedení",
+          "sk" : "Riadiaci pracovníci (manažéri) administratívnych a podporných činností inde neuvedení",
+          "hu" : "Máshová nem sorolható üzleti és igazgatási vezetők",
+          "et" : "Põhitegevuse juhid ja haldusdirektorid, mujal liigitamata",
+          "uk" : "Менеджери (управителі) з бізнес-послуг та адміністрування, не віднесені до до інших категорій",
+          "ro" : "Directori de întreprinderi și conducători din domeniul administrativ neclasificați în grupele de bază anterioare",
+          "fr" : "Directeurs des services administratifs non classés ailleurs",
+          "mt" : "Maniġers tas-servizzi ta’ negozju u amministrazzjoni mhumiex ikklassifikati x’imkien ieħor",
+          "pl" : "Kierownicy do spraw obsługi biznesu i zarządzania gdzie indziej niesklasyfikowani"
+        },
+        "status" : "released",
+        "code" : "1219",
+        "description" : {
+          "en" : "This unit group covers business services and administration managers not classified elsewhere in Minor Group 121: Business Services and Administration Managers. For instance, the group includes occupations such as facilities manager, cleaning services manager and administrative services manager employed either as the manager of a department of a large enterprise and organization, or of an enterprise that provides such services to other enterprises and organizations.\nIn such cases tasks would include -\n(a) providing administrative, strategic planning and operational support, research and advice to senior management on matters such as the management of building facilities and administrative services;\n(b) developing and managing the organization’s administrative and physical resources;\n(c) developing and implementing administrative and procedural statements and guidelines for use by staff in the organization; (d) analysing complex resource management issues and initiatives that affect the organization, and preparing associated reports, correspondence and submissions;\n(e) providing information and support for the preparation of financial reports and budgets;\n(f) leading, managing and developing administrative staff to ensure smooth business operations and the provision of accurate and timely information;\n(g) representing the enterprise or organization in negotiations, and at conventions, seminars, public hearings and forums;\n(h) establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(i) planning and directing daily operations;\n(j) overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n- Administrative services manager\n- Cleaning services manager\n- Corporate services manager\n- Facilities manager."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1219?selectedVersion=v1.2.1",
+            "title" : "Business services and administration managers not elsewhere classified",
+            "uri" : "http://data.europa.eu/esco/isco/C1219"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C121?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C121",
+            "title" : "Business services and administration managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:680831bb-64fc-4fc8-ae58-c450327d9700?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/680831bb-64fc-4fc8-ae58-c450327d9700",
+            "title" : "manufacturing facility manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:bea99fea-0383-4c63-b944-70d4799de2c5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5",
+            "title" : "project manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:109e0a5d-203d-4af6-8f70-692111335ec3?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/109e0a5d-203d-4af6-8f70-692111335ec3",
+            "title" : "quality services manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8b26eec6-7497-4218-8364-9b5983b04ae7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8b26eec6-7497-4218-8364-9b5983b04ae7",
+            "title" : "defence administration officer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:94e0bedd-e56e-42be-a5a4-b74a260f437c?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/94e0bedd-e56e-42be-a5a4-b74a260f437c",
+            "title" : "department manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:1313aeea-63a9-4b4d-82d1-dbe00ff9ed10?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/1313aeea-63a9-4b4d-82d1-dbe00ff9ed10",
+            "title" : "corporate social responsibility manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:3c136897-4e0e-41ef-bb57-d8152323b93a?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/3c136897-4e0e-41ef-bb57-d8152323b93a",
+            "title" : "business service manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C12" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C121?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C121",
+                "title" : "Business services and administration managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C122" : {
+        "uri" : "http://data.europa.eu/esco/isco/C122",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Sales, marketing and development managers",
+        "preferredLabel" : {
+          "nl" : "Leidinggevende functies op het gebied van verkoop, marketing en ontwikkeling",
+          "uk" : "Менеджери з продажів, маркетингу й розвитку",
+          "el" : "Διευθυντές πωλήσεων, μάρκετινγκ και ανάπτυξης",
+          "mt" : "Maniġers ta’ bejgħ, tqegħid fis-suq u żvilupp",
+          "it" : "Dirigenti nei servizi di vendita, commercializzazione e sviluppo",
+          "fi" : "Myynti-, markkinointi- ja kehitysjohtajat",
+          "ro" : "Conducători în domeniul vânzări, marketing și dezvoltare",
+          "sl" : "Menedžerji/menedžerke za trženje, prodajo in razvoj",
+          "hu" : "Értékesítési-, marketing- és fejlesztési vezetők",
+          "sv" : "Försäljnings-, marknads- och utvecklingschefer",
+          "lt" : "Pardavimo, rinkodaros ir plėtros vadovai",
+          "et" : "Müügi- ja turundusjuhid ning arendusjuhid",
+          "en" : "Sales, marketing and development managers",
+          "lv" : "Tirdzniecības, tirgzinības un attīstības jomas vadītāji",
+          "hr" : "Direktori/direktorice prodaje, marketinga i razvoja",
+          "bg" : "Ръководители на звена за продажби, маркетинг и развойна дейност",
+          "pt" : "Directores de vendas, marketing e desenvolvimento de negócios",
+          "sk" : "Riadiaci pracovníci (manažéri) odbytu, marketingu, výskumu a vývoja",
+          "pl" : "Kierownicy do spraw sprzedaży, marketingu i rozwoju",
+          "de" : "Führungskräfte in Vertrieb, Marketing und Entwicklung",
+          "no" : "Ledere av salgs-",
+          "es" : "Directores de ventas, comercialización y desarrollo",
+          "da" : "Ledelse af forretnings- og udviklingsorienterede funktioner",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti prodeje, marketingu, výzkumu, vývoje, reklamy a styku s veřejností",
+          "fr" : "Directeurs et cadres de direction, ventes, commercialisation et développement"
+        },
+        "status" : "released",
+        "code" : "122",
+        "description" : {
+          "en" : "Sales, marketing and development managers plan, organize, direct, control and coordinate the advertising, public relations, research and development, and sales and marketing activities of enterprises and organizations, or of enterprises that provide such services to other enterprises and organizations.\nTasks performed usually include: formulating and implementing policies and plans for advertising, public relations, product development, sales and marketing in consultation with other managers; directing the development of initiatives for new products or scientific research, marketing, public relations and advertising campaigns; determining and directing sales activities, product mix, customer service standards and merchandising methods and distribution policy; setting prices and credit arrangements; establishing and managing budgets and controlling expenditure to ensure the efficient use of resources; overseeing the selection, training and performance of staff; representing the enterprise or organization at conventions, trade exhibitions and other forums.\nOccupations in this minor group are classified into the following unit groups:\n1221 Sales and Marketing Managers\n1222 Advertising and Public Relations Managers 1223 Research and Development Managers."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+            "title" : "Sales, marketing and development managers",
+            "uri" : "http://data.europa.eu/esco/isco/C122"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C12",
+            "title" : "Administrative and commercial managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1223?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1223",
+            "title" : "Research and development managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1222?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1222",
+            "title" : "Advertising and public relations managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1221?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1221",
+            "title" : "Sales and marketing managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1223" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1223",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Research and development managers",
+        "preferredLabel" : {
+          "sk" : "Riadiaci pracovníci (manažéri) v oblasti výskumu a vývoja",
+          "et" : "Uurimis- ja arendusjuhid",
+          "ro" : "Conducători în domeniul cercetării și dezvoltării",
+          "sl" : "Menedžerji/menedžerke za raziskave in razvoj",
+          "da" : "Ledelse af kommerciel forskning og udvikling",
+          "mt" : "Maniġers ta’ riċerka u żvilupp",
+          "en" : "Research and development managers",
+          "lt" : "Mokslinių tyrimų ir plėtros vadovai",
+          "fi" : "Tutkimus- ja kehitysjohtajat",
+          "bg" : "Ръководители на звена за научноизследователска и развойна дейност",
+          "el" : "Διευθυντές έρευνας και ανάπτυξης",
+          "hr" : "Direktori/direktorice istraživanja i razvoja",
+          "hu" : "Kutatási és fejlesztési vezetők",
+          "fr" : "Directeurs et cadres de direction, recherche-développement",
+          "lv" : "Pētniecības un attīstības jomas vadītāji",
+          "nl" : "Leidinggevende functies op het gebied van speur- en ontwikkelingswerk",
+          "pt" : "Directores de investigação e desenvolvimento",
+          "uk" : "Менеджери з досліджень і розробок",
+          "it" : "Dirigenti nel settore ricerca e sviluppo",
+          "sv" : "Forsknings- och utvecklingschefer",
+          "es" : "Directores de investigación y desarrollo",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti výzkumu a vývoje",
+          "de" : "Führungskräfte in Forschung und Entwicklung",
+          "pl" : "Kierownicy do spraw badań i rozwoju",
+          "no" : "Forsknings- og utviklingsledere"
+        },
+        "status" : "released",
+        "code" : "1223",
+        "description" : {
+          "en" : "Research and development managers plan, direct and coordinate the research and development activities of an enterprise or organization or of enterprises that provide related services to other enterprises and organizations.\nTasks include -\n(a) planning, directing and coordinating research and development activities, in-house or commissioned from external research organizations, to develop new or improved technical processes, products, knowledge, or utilization of materials;\n(b) planning the overall research and development programme of an enterprise or organization, specifying goals and budgetary requirements;\n(c) leading and managing the activities of research and development staff;\n(d) establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(e) establishing and directing operational and administrative procedures;\n(f) planning and directing daily operations;\n(g) overseeing the selection, training and performance of staff;\n(h) representing the enterprise or organization at conventions, seminars and conferences.\nExamples of the occupations classified here:\n- Product development manager\n- Research manager."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1223?selectedVersion=v1.2.1",
+            "title" : "Research and development managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1223"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C122",
+            "title" : "Sales, marketing and development managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:9f508305-80ce-4111-8722-f2c9b4a44890?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/9f508305-80ce-4111-8722-f2c9b4a44890",
+            "title" : "product manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:73ceb2f9-18e3-4cfe-9c06-e9fb31ece440?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/73ceb2f9-18e3-4cfe-9c06-e9fb31ece440",
+            "title" : "research and development manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8a0afc76-4a09-449a-9e7b-a33495889f95?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8a0afc76-4a09-449a-9e7b-a33495889f95",
+            "title" : "chief product officer"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C12" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C122",
+                "title" : "Sales, marketing and development managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1222" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1222",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Advertising and public relations managers",
+        "preferredLabel" : {
+          "en" : "Advertising and public relations managers",
+          "nl" : "Leidinggevende functies op het gebied van reclame en public relations",
+          "bg" : "Ръководители на звена за реклама и връзки с обществеността",
+          "fi" : "Mainos- ja tiedotusjohtajat",
+          "hr" : "Direktori/direktorice promidžbe i odnosa s javnošću",
+          "et" : "Reklaami- ja suhtekorraldusjuhid",
+          "lv" : "Reklāmas un sabiedrisko attiecību jomas vadītāji",
+          "el" : "Διευθυντές διαφήμισης και δημοσίων σχέσεων",
+          "es" : "Directores de publicidad y relaciones públicas",
+          "sk" : "Riadiaci pracovníci (manažéri) v oblasti reklamy a styku s verejnosťou",
+          "it" : "Dirigenti nei servizi di pubblicità e pubbliche relazioni",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti reklamy a styku s veřejností",
+          "lt" : "Reklamos ir ryšių su visuomene srities vadovai",
+          "uk" : "Менеджери з реклами й зв’язків із громадськістю",
+          "de" : "Führungskräfte in Werbung und Öffentlichkeitsarbeit",
+          "sl" : "Menedžerji/menedžerke za oglaševanje in odnose z javnostmi",
+          "mt" : "Maniġers tar-reklamar u relazzjonijiet pubbliċi",
+          "pt" : "Directores de publicidade e relações públicas",
+          "pl" : "Kierownicy do spraw reklamy i public relations",
+          "ro" : "Conducători în domeniul publicității și relațiilor publice",
+          "da" : "Ledelse af reklame og PR",
+          "sv" : "Informations-, kommunikations- och pr-chefer",
+          "no" : "PR- og informasjonssjefer",
+          "hu" : "Reklám- és PR-vezetők",
+          "fr" : "Directeurs et cadres de direction, publicité et relations publiques"
+        },
+        "status" : "released",
+        "code" : "1222",
+        "description" : {
+          "en" : "Advertising and public relations managers plan, direct and coordinate the advertising, public relations and public information activities of enterprises and organizations or of enterprises that provide related services to other enterprises and organizations.\nTasks include -\n(a) planning, directing and coordinating the advertising and public relations activities of an enterprise or organization;\n(b) negotiating advertising contracts with clients or with newspapers, radio and television stations, sports and cultural organizations and advertising agencies;\n(c) planning and managing information programmes to inform legislators, the mass media and the general public about the plans, accomplishments and points of view of the enterprise or organization;\n(d) leading and managing the activities of advertising and public relations staff;\n(e) establishing and managing budgets and controlling expenditure and ensuring the efficient use of resources;\n(f) establishing and directing operational and administrative procedures;\n(g) planning and directing daily operations;\n(h) overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n- Advertising manager\n- Public relations manager."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1222?selectedVersion=v1.2.1",
+            "title" : "Advertising and public relations managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1222"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C122",
+            "title" : "Sales, marketing and development managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:cd7b838c-51f6-41ec-9067-bb974c0f991b?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/cd7b838c-51f6-41ec-9067-bb974c0f991b",
+            "title" : "communication manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C12" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C122",
+                "title" : "Sales, marketing and development managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C13" : {
+        "uri" : "http://data.europa.eu/esco/isco/C13",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Production and specialised services managers",
+        "preferredLabel" : {
+          "fr" : "Directeurs et cadres de direction, production et services spécialisés",
+          "sl" : "Menedžerji/menedžerke za proizvodnjo in specializirane storitve",
+          "hr" : "Direktori/direktorice proizvodnje i specijaliziranih usluga",
+          "de" : "Führungskräfte in der Produktion und bei speziellen Dienstleistungen",
+          "el" : "Διευθυντές παραγωγής και εξειδικευμένων υπηρεσιών",
+          "lt" : "Gamybos ir specializuotų paslaugų srities vadovai",
+          "es" : "Directores y gerentes de producción y operaciones",
+          "bg" : "Ръководители в производството и специализираните услуги",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti výroby, informačních technologií, vzdělávání a v příbuzných oborech",
+          "nl" : "Leidinggevende functies op het gebied van productie en gespecialiseerde diensten",
+          "pt" : "Directores de produção de serviços especializados",
+          "et" : "Tootmisjuhid ja põhitegevuse juhid (tegevusalade kaupa)",
+          "da" : "Ledelse af hovedaktiviteten inden for produktions- og servicevirksomhed",
+          "sk" : "Riadiaci pracovníci (manažéri) vo výrobe a v špecializovaných službách",
+          "pl" : "Kierownicy do spraw produkcji i wyspecjalizowanych usług",
+          "ro" : "Conducători de unități din industrie și servicii",
+          "fi" : "Tuotantotoiminnan ja yhteiskunnan peruspalvelujen asiantuntijajohtajat",
+          "mt" : "Maniġers ta’ produzzjoni u servizzi speċjalizzati",
+          "lv" : "Ražošanas un specializēto pakalpojumu jomas vadītāji",
+          "en" : "Production and specialised services managers",
+          "hu" : "Termelési vezetők, szakszolgáltatások vezetői",
+          "sv" : "Driftchefer inom tillverkning, utbildning, vård m.m.",
+          "it" : "Dirigenti nei servizi di produzione e specializzati",
+          "uk" : "Менеджери з виробництва та спеціалізованих послуг",
+          "no" : "Ledere av enheter for vareproduksjon og tjenesteyting"
+        },
+        "status" : "released",
+        "code" : "13",
+        "description" : {
+          "en" : "Production and specialized services managers plan, direct and coordinate the production of the goods and the provision of the specialized professional and technical services provided by an enterprise or organization, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers. They are responsible for manufacturing, mining, construction, logistics, information and communications technology operations for large-scale agricultural, forestry and fisheries operations, and for the provision of health, education, social welfare, banking, insurance and other professional and technical services. Competent performance in most occupations in this sub-major group requires skills at the fourth ISCO skill level.\nTasks performed by workers in this sub-major group usually include: planning details of activities in terms of output, services provided, quality, quantity, cost, timeliness and labour requirements; setting standards and objectives; controlling the operation of plant and of procedures; assuring quality of the goods produced and services provided; preparing tenders and contract bids; establishing and managing budgets, monitoring costs, and adjusting activities, procedures and resources to minimize costs; overseeing the acquisition and installation of new plant and equipment; coordinating the implementation of health and safety requirements; planning and directing daily operations; overseeing the selection, training and performance of staff; preparing, or arranging for the preparation of, reports, budgets and forecasts; representing the enterprise or organization in negotiations with other agencies, and at conventions, seminars, public hearings and forums.\nOccupations in this sub-major group are classified into the following minor groups:\n131 Production Managers in Agriculture, Forestry and Fisheries\n132 Manufacturing, Mining, Construction and Distribution Managers\n133 Information and Communications Technology Services Managers\n134 Professional Services Managers\nNote\nSpecialized qualifications and extensive experience relevant to one or more occupations classified in Major Group 2: Professionals, or Major Group 3: Technicians and Associate Professionals, are usually required. Regional managers and other senior managers who coordinate and supervise the activities of subordinate managers who have a diverse range of functional responsibilities are included in Unit Group 1120: Managing Directors and Chief Executives."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+            "title" : "Production and specialised services managers",
+            "uri" : "http://data.europa.eu/esco/isco/C13"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1",
+            "title" : "Managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C131",
+            "title" : "Production managers in agriculture, forestry and fisheries"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C134?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C134",
+            "title" : "Professional services managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C133?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C133",
+            "title" : "Information and communications technology service managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C132",
+            "title" : "Manufacturing, mining, construction, and distribution managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T14:09:35.750399789Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 54,
+  "httpStatus" : 400,
+  "body" : {
+    "timestamp" : "2026-04-06T14:09:35.886+00:00",
+    "status" : 400,
+    "error" : "Bad Request",
+    "path" : "/esco/open-api/search",
+    "eventId" : "202604061609_e9bae8fe7abd8a6a",
+    "exceptionId" : "IllegalArgumentException",
+    "message" : "Failed to convert value of type 'java.lang.String' to required type 'java.util.List'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@io.swagger.v3.oas.annotations.Parameter @javax.validation.Valid @org.springframework.web.bind.annotation.RequestParam zone.cogni.esco.openapi.api.generated.model.TypeEnum] for value [invalid]; nested exception is java.lang.IllegalArgumentException: Unexpected value 'invalid' || Unexpected value 'invalid'"
+  }
+}
