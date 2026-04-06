@@ -110,4 +110,4 @@ All properties in `src/test/resources/esco-test.properties` are overridable via 
 
 ## Tech Stack
 
-Java 25, Maven, JUnit 5, Jackson, JsonUnit, AssertJ, `java.net.http.HttpClient`. No DI framework.
+Java 21, Maven, JUnit 5, Jackson, JsonUnit, AssertJ, `java.net.http.HttpClient`. No DI framework.
