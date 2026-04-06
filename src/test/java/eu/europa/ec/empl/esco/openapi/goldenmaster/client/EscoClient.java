@@ -100,7 +100,8 @@ public final class EscoClient {
             HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
             long durationMs = System.currentTimeMillis() - start;
 
-            LOG.info("  → {} ({} ms)", response.statusCode(), durationMs);
+            String bodySize = humanReadableSize(response.body().length());
+            LOG.info("  → {} ({} ms, {})", response.statusCode(), durationMs, bodySize);
             LOG.debug("  → body: {}", response.body());
             return new ApiResponse(request.uri().toString(), response.statusCode(), response.body(), durationMs);
         } catch (InterruptedException e) {
@@ -119,5 +120,11 @@ public final class EscoClient {
                 Thread.currentThread().interrupt();
             }
         }
+    }
+
+    private static String humanReadableSize(long bytes) {
+        if (bytes < 1024) return bytes + " B";
+        if (bytes < 1024 * 1024) return String.format("%.1f KB", bytes / 1024.0);
+        return String.format("%.1f MB", bytes / (1024.0 * 1024));
     }
 }

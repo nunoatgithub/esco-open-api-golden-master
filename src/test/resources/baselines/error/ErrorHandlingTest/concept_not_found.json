@@ -1,9 +1,0 @@
-{
-  "capturedAt" : "2026-04-06T12:15:06.633832750Z",
-  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
-  "responseTimeMs" : 82,
-  "httpStatus" : 404,
-  "body" : {
-    "message" : "Concept not found http://data.europa.eu/esco/isco/C9999"
-  }
-}

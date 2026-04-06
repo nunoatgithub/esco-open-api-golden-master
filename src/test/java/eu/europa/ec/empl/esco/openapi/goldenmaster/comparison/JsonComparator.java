@@ -1,11 +1,11 @@
 package eu.europa.ec.empl.esco.openapi.goldenmaster.comparison;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.TextNode;
 import net.javacrumbs.jsonunit.assertj.JsonAssertions;
-import net.javacrumbs.jsonunit.core.Option;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -18,17 +18,23 @@ import java.util.Set;
  * <p>
  * Rules:
  * <ul>
- *   <li><b>Ignore:</b> {@code logref}</li>
+ *   <li><b>Ignore:</b> non-deterministic fields ({@code logref}, {@code timestamp},
+ *       {@code eventId}, {@code id}) — stripped before comparison.</li>
  *   <li><b>Normalize:</b> {@code href} values — the deployment base URL is replaced
  *       with a placeholder so that alternative deployments can be validated.</li>
- *   <li><b>Lenient array order:</b> arrays in {@code _embedded.*}</li>
- *   <li><b>Exact match:</b> everything else</li>
+ *   <li><b>Exact match:</b> everything else (including array order)</li>
  * </ul>
  */
 public final class JsonComparator {
 
-    private static final Set<String> IGNORED_PATHS = Set.of(
-            "logref"
+    private static final ObjectMapper MAPPER = new ObjectMapper();
+
+    /** Fields ignored during comparison — server-generated, non-deterministic values. */
+    private static final Set<String> IGNORED_FIELDS = Set.of(
+            "logref",
+            "timestamp",
+            "eventId",
+            "id"
     );
 
     /** Placeholder that replaces deployment-specific base URLs in {@code href} values. */
@@ -62,21 +68,15 @@ public final class JsonComparator {
             ));
         }
 
-        // Normalize href values in both trees before comparison
-        JsonNode normalizedBaseline = normalizeHrefs(baseline, baselineBaseUrl);
-        JsonNode normalizedActual = normalizeHrefs(actual, actualBaseUrl);
+        // Normalize both trees: replace base URLs in hrefs, strip non-deterministic fields
+        JsonNode normalizedBaseline = normalize(baseline, baselineBaseUrl);
+        JsonNode normalizedActual = normalize(actual, actualBaseUrl);
 
         List<String> differences = new ArrayList<>();
 
         try {
-            var assertion = JsonAssertions.assertThatJson(normalizedActual.toString())
-                    .when(Option.IGNORING_ARRAY_ORDER);
-
-            for (String path : IGNORED_PATHS) {
-                assertion = assertion.whenIgnoringPaths(path);
-            }
-
-            assertion.isEqualTo(normalizedBaseline.toString());
+            JsonAssertions.assertThatJson(normalizedActual.toString())
+                    .isEqualTo(normalizedBaseline.toString());
         } catch (AssertionError e) {
             differences.add(e.getMessage());
         }
@@ -102,31 +102,41 @@ public final class JsonComparator {
     }
 
     /**
-     * Returns a deep copy of the given JSON tree where every {@code "href"} field
-     * whose string value starts with {@code baseUrl} has that prefix replaced
-     * with {@link #BASE_URL_PLACEHOLDER}.
+     * Normalizes a JSON tree for comparison:
+     * <ul>
+     *   <li>Replaces deployment-specific base URLs in {@code href} values with a placeholder.</li>
+     *   <li>Strips non-deterministic fields (timestamp, eventId, etc.).</li>
+     * </ul>
+     * Only allocates new nodes on the path to an actual change — unchanged subtrees are shared.
      */
-    static JsonNode normalizeHrefs(JsonNode node, String baseUrl) {
+    static JsonNode normalize(JsonNode node, String baseUrl) {
         if (node.isObject()) {
-            ObjectNode copy = node.deepCopy();
-            Iterator<Map.Entry<String, JsonNode>> fields = copy.fields();
+            ObjectNode copy = MAPPER.createObjectNode();
+            Iterator<Map.Entry<String, JsonNode>> fields = node.fields();
             while (fields.hasNext()) {
                 Map.Entry<String, JsonNode> entry = fields.next();
-                if ("href".equals(entry.getKey()) && entry.getValue().isTextual()) {
+                String key = entry.getKey();
+                // Skip non-deterministic fields entirely
+                if (IGNORED_FIELDS.contains(key)) {
+                    continue;
+                }
+                if ("href".equals(key) && entry.getValue().isTextual()) {
                     String value = entry.getValue().asText();
                     if (value.startsWith(baseUrl)) {
-                        copy.set(entry.getKey(),
+                        copy.set(key,
                                 new TextNode(BASE_URL_PLACEHOLDER + value.substring(baseUrl.length())));
+                    } else {
+                        copy.set(key, entry.getValue());
                     }
                 } else {
-                    copy.set(entry.getKey(), normalizeHrefs(entry.getValue(), baseUrl));
+                    copy.set(key, normalize(entry.getValue(), baseUrl));
                 }
             }
             return copy;
         } else if (node.isArray()) {
-            ArrayNode copy = node.deepCopy();
-            for (int i = 0; i < copy.size(); i++) {
-                copy.set(i, normalizeHrefs(copy.get(i), baseUrl));
+            ArrayNode copy = MAPPER.createArrayNode();
+            for (JsonNode child : node) {
+                copy.add(normalize(child, baseUrl));
             }
             return copy;
         }

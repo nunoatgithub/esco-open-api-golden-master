@@ -69,25 +69,41 @@ public final class GoldenMasterAssertions {
 
     private static void compare(String group, String testClass, String testMethod,
                                 ApiResponse response) {
+        String testId = "%s/%s/%s".formatted(group, testClass, testMethod);
         Baseline baseline = BaselineStore.load(group, testClass, testMethod)
-                .orElseThrow(() -> new IllegalStateException(
-                        "No baseline found for %s/%s/%s".formatted(group, testClass, testMethod)));
+                .orElseThrow(() -> new IllegalStateException("No baseline found for " + testId));
 
         // 1. Status code must match exactly
         assertThat(response.status())
-                .as("HTTP status mismatch for %s/%s/%s\n  URI: %s\n  body: %s",
-                        group, testClass, testMethod, response.uri(), response.body())
+                .as("HTTP status mismatch for %s\n  URI: %s\n  body: %s",
+                        testId, response.uri(), response.body())
                 .isEqualTo(baseline.httpStatus());
 
         // 2. Body comparison
+        LOG.info("Comparing baseline for {} …", testId);
+        long start = System.currentTimeMillis();
         JsonNode actualBody = parseBody(response.body());
         ComparisonResult result = JsonComparator.compare(
                 baseline.body(), actualBody,
                 baseline.capturedBaseUrl(), TestConfig.instance().baseUrl());
+        long compareMs = System.currentTimeMillis() - start;
+        LOG.info("Comparison done for {} ({} ms)", testId, compareMs);
         if (!result.match()) {
-            fail("Body mismatch for %s/%s/%s\n  URI: %s\n%s",
-                    group, testClass, testMethod, response.uri(),
-                    String.join("\n", result.differences()));
+            String prettyActual;
+            String prettyExpected;
+            try {
+                var writer = BaselineStore.mapper().writerWithDefaultPrettyPrinter();
+                prettyActual = writer.writeValueAsString(actualBody);
+                prettyExpected = writer.writeValueAsString(baseline.body());
+            } catch (Exception e) {
+                prettyActual = response.body();
+                prettyExpected = baseline.body().toString();
+            }
+            fail("Body mismatch for %s/%s/%s\n\n── Request ──\n  URI: %s\n  HTTP status: %d\n\n── Differences ──\n%s\n\n── Expected (baseline) ──\n%s\n\n── Actual (HTTP response) ──\n%s",
+                    group, testClass, testMethod,
+                    response.uri(), response.status(),
+                    String.join("\n", result.differences()),
+                    prettyExpected, prettyActual);
         }
 
         // 3. Performance check

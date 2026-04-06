@@ -5,7 +5,7 @@
         </encoder>
     </appender>
 
-    <logger name="eu.europa.ec.esco.goldenmaster" level="DEBUG"/>
+    <logger name="eu.europa.ec.empl.esco.openapi.goldenmaster" level="DEBUG"/>
 
     <root level="WARN">
         <appender-ref ref="CONSOLE"/>
