@@ -1,0 +1,9 @@
+{
+  "capturedAt" : "2026-04-06T12:15:08.336405845Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 67,
+  "httpStatus" : 404,
+  "body" : {
+    "message" : "Skill not found http://data.europa.eu/esco/skill/00000000-0000-0000-0000-000000000000"
+  }
+}

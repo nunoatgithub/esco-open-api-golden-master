@@ -1,0 +1,70 @@
+{
+  "capturedAt" : "2026-04-06T12:16:39.609047802Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 62,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 20,
+    "offset" : 0,
+    "total" : 2,
+    "language" : "en",
+    "uri" : "http://data.europa.eu/esco/isco/C25",
+    "relation" : "narrowerConcept",
+    "inScheme" : null,
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C25/related-hierarchy?relation=narrowerConcept&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C25/related-hierarchy?relation=narrowerConcept&language=en&offset=0&limit=20"
+      }
+    },
+    "_embedded" : {
+      "narrowerConcept" : [ {
+        "uri" : "http://data.europa.eu/esco/isco/C251",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Software and applications developers and analysts",
+        "preferredLabel" : {
+          "en" : "Software and applications developers and analysts"
+        },
+        "status" : "released",
+        "code" : "251",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/occupations", "http://data.europa.eu/esco/concept-scheme/isco" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C251?selectedVersion=v1.2.1",
+            "title" : "Software and applications developers and analysts",
+            "uri" : "http://data.europa.eu/esco/isco/C251"
+          },
+          "broaderConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C251/related-hierarchy?relation=broaderConcept&selectedVersion=v1.2.1"
+          }
+        }
+      }, {
+        "uri" : "http://data.europa.eu/esco/isco/C252",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Database and network professionals",
+        "preferredLabel" : {
+          "en" : "Database and network professionals"
+        },
+        "status" : "released",
+        "code" : "252",
+        "inScheme" : [ "http://data.europa.eu/esco/concept-scheme/isco", "http://data.europa.eu/esco/concept-scheme/occupations" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C252?selectedVersion=v1.2.1",
+            "title" : "Database and network professionals",
+            "uri" : "http://data.europa.eu/esco/isco/C252"
+          },
+          "broaderConcept" : {
+            "count" : 1,
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C252/related-hierarchy?relation=broaderConcept&selectedVersion=v1.2.1"
+          }
+        }
+      } ]
+    }
+  }
+}

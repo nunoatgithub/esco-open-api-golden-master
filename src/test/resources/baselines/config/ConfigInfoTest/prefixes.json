@@ -1,0 +1,37 @@
+{
+  "capturedAt" : "2026-04-06T12:14:53.115180070Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 76,
+  "httpStatus" : 200,
+  "body" : [ {
+    "name" : "skill",
+    "uri" : "http://data.europa.eu/esco/skill/"
+  }, {
+    "name" : "occupation",
+    "uri" : "http://data.europa.eu/esco/occupation/"
+  }, {
+    "name" : "isco",
+    "uri" : "http://data.europa.eu/esco/isco/"
+  }, {
+    "name" : "isced-f",
+    "uri" : "http://data.europa.eu/esco/isced-f/"
+  }, {
+    "name" : "skill-type",
+    "uri" : "http://data.europa.eu/esco/skill-type/"
+  }, {
+    "name" : "skill-reuse-level",
+    "uri" : "http://data.europa.eu/esco/skill-reuse-level/"
+  }, {
+    "name" : "regulated-professions",
+    "uri" : "http://data.europa.eu/esco/regulated-professions/"
+  }, {
+    "name" : "concept-scheme",
+    "uri" : "http://data.europa.eu/esco/concept-scheme/"
+  }, {
+    "name" : "label-role",
+    "uri" : "http://data.europa.eu/esco/label-role/"
+  }, {
+    "name" : "relationship-type",
+    "uri" : "http://data.europa.eu/esco/relationship-type/"
+  } ]
+}

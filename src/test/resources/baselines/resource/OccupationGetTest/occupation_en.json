@@ -1,0 +1,2168 @@
+{
+  "capturedAt" : "2026-04-06T12:15:19.082547494Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 166,
+  "httpStatus" : 200,
+  "body" : {
+    "uri" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+    "className" : "Occupation",
+    "classUri" : "http://data.europa.eu/esco/model#Occupation",
+    "title" : "specialist nurse",
+    "referenceLanguage" : "en",
+    "preferredLabel" : {
+      "et" : "eriõde",
+      "lv" : "medmāsa speciāliste",
+      "ro" : "asistent medical specializat/asistentă medicală specializată",
+      "mt" : "infermier speċjalista/infermiera speċjalista",
+      "cs" : "všeobecná sestra se specializací",
+      "fr" : "infirmier spécialiste/infirmière spécialiste",
+      "no" : "spesialsykepleier",
+      "it" : "infermiere specialista/infermiera specialista",
+      "en" : "specialist nurse",
+      "pt" : "Enfermeiro especialista/Enfermeira especialista",
+      "fi" : "erikoissairaanhoitaja",
+      "da" : "specialsygeplejerske",
+      "sl" : "specializirani zdravstveni tehnik/specializirana medicinska sestra",
+      "ga" : "altra is speisialtóir",
+      "nl" : "gespecialiseerd verpleegkundige",
+      "bg" : "специализирана медицинска сестра",
+      "hr" : "medicinski tehničar specijalist / medicinska sestra specijalistica",
+      "hu" : "szakápoló",
+      "de" : "Fachkrankenpfleger/Fachkrankenschwester",
+      "sk" : "zdravotný brat špecialista/zdravotná sestra špecialistka",
+      "es" : "enfermero especialista/enfermera especialista",
+      "is" : "sérhæfðir hjúkrunarfræðingar",
+      "pl" : "pielęgniarz - specjalista/pielęgniarka – specjalista",
+      "uk" : "брат медичний/сестра медична",
+      "el" : "ειδικευμένος νοσηλευτής/ειδικευμένη νοσηλεύτρια",
+      "ar" : "ممرض متخصص / ممرضة متخصصة",
+      "sv" : "specialistsjuksköterska",
+      "lt" : "slaugytojas specialistas"
+    },
+    "status" : "released",
+    "code" : "2221.3",
+    "preferredTerm" : {
+      "ga" : {
+        "label" : "altra is speisialtóir",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "mt" : {
+        "label" : "infermier speċjalista/infermiera speċjalista",
+        "roles" : [ "neutral" ]
+      },
+      "cs" : {
+        "label" : "všeobecná sestra se specializací",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "et" : {
+        "label" : "eriõde",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "de" : {
+        "label" : "Fachkrankenpfleger/Fachkrankenschwester",
+        "roles" : [ "neutral" ]
+      },
+      "is" : {
+        "label" : "sérhæfðir hjúkrunarfræðingar",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "da" : {
+        "label" : "specialsygeplejerske",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "sl" : {
+        "label" : "specializirani zdravstveni tehnik/specializirana medicinska sestra",
+        "roles" : [ "neutral" ]
+      },
+      "sv" : {
+        "label" : "specialistsjuksköterska",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "ar" : {
+        "label" : "ممرض متخصص / ممرضة متخصصة",
+        "roles" : [ "neutral" ]
+      },
+      "es" : {
+        "label" : "enfermero especialista/enfermera especialista",
+        "roles" : [ "neutral" ]
+      },
+      "hr" : {
+        "label" : "medicinski tehničar specijalist / medicinska sestra specijalistica",
+        "roles" : [ "neutral" ]
+      },
+      "it" : {
+        "label" : "infermiere specialista/infermiera specialista",
+        "roles" : [ "neutral" ]
+      },
+      "bg" : {
+        "label" : "специализирана медицинска сестра",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "ro" : {
+        "label" : "asistent medical specializat/asistentă medicală specializată",
+        "roles" : [ "neutral" ]
+      },
+      "sk" : {
+        "label" : "zdravotný brat špecialista/zdravotná sestra špecialistka",
+        "roles" : [ "neutral" ]
+      },
+      "no" : {
+        "label" : "spesialsykepleier",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "lv" : {
+        "label" : "medmāsa speciāliste",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "nl" : {
+        "label" : "gespecialiseerd verpleegkundige",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "lt" : {
+        "label" : "slaugytojas specialistas",
+        "roles" : [ "standard-male", "male", "neutral" ]
+      },
+      "pt" : {
+        "label" : "Enfermeiro especialista/Enfermeira especialista",
+        "roles" : [ "neutral" ]
+      },
+      "el" : {
+        "label" : "ειδικευμένος νοσηλευτής/ειδικευμένη νοσηλεύτρια",
+        "roles" : [ "neutral" ]
+      },
+      "pl" : {
+        "label" : "pielęgniarz - specjalista/pielęgniarka – specjalista",
+        "roles" : [ "neutral" ]
+      },
+      "hu" : {
+        "label" : "szakápoló",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "fr" : {
+        "label" : "infirmier spécialiste/infirmière spécialiste",
+        "roles" : [ "neutral" ]
+      },
+      "uk" : {
+        "label" : "брат медичний/сестра медична",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "en" : {
+        "label" : "specialist nurse",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      },
+      "fi" : {
+        "label" : "erikoissairaanhoitaja",
+        "roles" : [ "standard-female", "standard-male", "female", "male", "neutral" ]
+      }
+    },
+    "alternativeTerms" : {
+      "fr" : [ {
+        "label" : "infirmière praticienne en gérontologie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "spécialiste en soins infirmiers",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmière d'entreprise",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmier spécialisé/infirmière spécialisée",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmière maladies cardiaques",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmière cardiovasculaire",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmière en diabète",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmier spécialiste clinique/infirmière spécialiste clinique",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmier / infirmière en puériculture",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmière en soins intensifs",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmière vasculaire",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "cardiologue",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "infirmière spécialiste",
+        "roles" : [ "standard-female", "female" ]
+      }, {
+        "label" : "infirmière spécialiste clinique",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infirmière spécialisée",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infirmier spécialiste",
+        "roles" : [ "standard-male", "male" ]
+      }, {
+        "label" : "infirmier spécialisé",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infirmier spécialiste clinique",
+        "roles" : [ "male" ]
+      } ],
+      "bg" : [ {
+        "label" : "медицински брат, диабетни заболявания",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "фирмен медицински брат",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, апаратно поддържане на извънтелесно кръвообращение",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, сърдечна недостатъчност",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, специфични грижи за пациенти с онкологични заболявания",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, сърдечносъдови болести",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, съдови заболявания",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, диабет",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, сърдечносъдови заболявания",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, съдови болести",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, диабетни болести",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "специализиран медицински брат",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, със специалност в системата на здравеопазването",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, сърдечни заболявания",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицински брат, сърдечни болести",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "медицинска сестра, сърдечносъдови болести",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, диабет",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, диабетни заболявания",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, диабетни болести",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, сърдечна недостатъчност",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, съдови болести",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, със специалност в системата на здравеопазването",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, сърдечносъдови заболявания",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "фирмена медицинска сестра",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, сърдечни заболявания",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, апаратно поддържане на извънтелесно кръвообращение",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, специфични грижи за пациенти с онкологични заболявания",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, съдови заболявания",
+        "roles" : [ "female", "neutral" ]
+      }, {
+        "label" : "медицинска сестра, сърдечни болести",
+        "roles" : [ "female", "neutral" ]
+      } ],
+      "pl" : [ {
+        "label" : "pielęgniarka naczyniowa",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka kardiologiczna",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka diabetologiczna",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka pediatryczna",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka intensywnej terapii",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "specjalista pielęgniarstwa",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka geriatryczna",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka firmowa",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka specjalistyczna",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pielęgniarka – specjalista",
+        "roles" : [ "standard-female", "female" ]
+      }, {
+        "label" : "pielęgniarz – specjalista",
+        "roles" : [ "standard-male", "male" ]
+      } ],
+      "pt" : [ {
+        "label" : "Enfermeiro especialista em reabilitação",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "Enfermeiro especialista em saúde infantil e pediátrica",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "Enfermeiro especialista",
+        "roles" : [ "male", "standard-male" ]
+      }, {
+        "label" : "Enfermeiro especialista em saúde mental e psiquiátrica",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "Enfermeiro especialista em enfermagem comunitária",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "Enfermeiro especialista em enfermagem médico-cirúrgica",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "Enfermeira especialista em saúde infantil e pediátrica",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "Enfermeira especialista em enfermagem médico-cirúrgica",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "Enfermeira especialista em reabilitação",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "Enfermeira especialista",
+        "roles" : [ "female", "standard-female" ]
+      }, {
+        "label" : "Enfermeira especialista em enfermagem comunitária",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "Enfermeira especialista em saúde mental e psiquiátrica",
+        "roles" : [ "female" ]
+      } ],
+      "de" : [ {
+        "label" : "Fachkrankenpfleger/in - Klinische Geriatrie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Intensivpfleger",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Altenpfleger",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkrankenpfleger/in - Operations-/Endoskopiedienst",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Krankenschwester auf der Intensivstation",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : " Fachkrankenpfleger/in - Intensivpflege/Anästhesie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkrankenpfleger/in - Nephrologie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : " Fachkrankenpfleger/in - Hygiene",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Krankenschwester in der Entbindungsstation",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Altenpflegerin",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Geriatriepflegerin",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Spezialist für gerontologische Pflege",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Psychiatrie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Operations-/Endoskopiedienst",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Gerontologiepfleger",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Neonatal Krankenschwester Praktiker",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Kinderkrankenpflegerin",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Rehabilitation/Langzeitpflege",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Intensivpflegerin",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : " Fachkrankenpfleger/in - Psychiatrie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkrankenpfleger/in - Palliativ- und Hospizpflege",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : " Fachkrankenpfleger/in - Intermediate Care",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkrankenpfleger/in - Onkologie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Nephrologie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Geriatriepfleger",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Intensivpflege/Anästhesie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Krankenschwester für Neugeborene",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkrankenpfleger/in - Rehabilitation/Langzeitpflege",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Intermediate Care",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Onkologie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Hygiene",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger/in - Notfallpflege",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkrankenpfleger/in - Notfallpflege",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Kinderkrankenschwester",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Kinderkrankenpfleger",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : " Fachkinderkrankenpfleger/in - Palliativ-/Hospizpflege",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "Fachkrankenschwester",
+        "roles" : [ "standard-female", "female" ]
+      }, {
+        "label" : "Fachkinderkrankenschwester",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "Fachkinderkrankenpfleger",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "Fachkrankenpfleger",
+        "roles" : [ "male", "standard-male" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Intensivpflege",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Pflege bei Nierenersatztherapie",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Kinderkrankenpflege",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Krankenhaushygiene",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Psychogeriatrische Pflege",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Wundmanagement und Stomaversorgung",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : " Dipl. Gesundheits- und KrankenpflegerIn - Psychiatrische Gesundheits- und Krankenpflege",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Lehraufgaben",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Kinder- und Jugendlichenpflege",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Pflege im Operationsbereich",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "Dipl. Gesundheits- und KrankenpflegerIn - Hospiz- und Palliativversorgung",
+        "roles" : [ "labels" ]
+      } ],
+      "mt" : [ {
+        "label" : "infermier tal-kumpanija",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermier tal-mard tal-qalb",
+        "roles" : [ "male", "female", "neutral" ]
+      }, {
+        "label" : "infermier kardjovaskulari",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermier tad-dijabete",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermier vaskulari",
+        "roles" : [ "male", "female", "neutral" ]
+      }, {
+        "label" : "infermier tal-insuffiċjenza tal-qalb",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermiera tal-insuffiċjenza tal-qalb",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermiera kardjovaskulari",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermiera tad-dijabete",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermiera tal-kumpanija",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermier speċjalizzat",
+        "roles" : [ "neutral" ]
+      } ],
+      "hu" : [ {
+        "label" : "kardiológiai és angiológiai szakápoló",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "ápoló",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "nővér",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "angiológiai szakápoló",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "kardiológiai szakápoló",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "diabetológiai szakápoló",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "ápolónő",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "kardiológiai és angiológiai szakasszisztens",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "szakasszisztens",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "szakápolónő",
+        "roles" : [ "female" ]
+      } ],
+      "ro" : [ {
+        "label" : "asistent medical",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistentă medicală specializată",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "specialist asistență medicală",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical pediatru",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical de geriatrie, gerontologie și asistență socială pentru vârstnici",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical diabetici",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "specialist in asistenta medicala",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistenta medicala boli de inima",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistentă medicală de geriatrie, gerontologie și asistență socială pentru vârstnici",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical gerontologic",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical nutriționist și dietetician",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical medicină vasculară",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical specializat",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistenta de diabet",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistentă de terapie intensivă",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical în cadrul companiei",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistentă medicală nutriționistă și dieteticiană",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical specialist",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical insuficiență cardiacă",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistentă medicală de igienă și sănătate publică",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical de specialitate",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical medicină cardiovasculară",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "asistent medical de igienă și sănătate publică",
+        "roles" : [ "neutral" ]
+      } ],
+      "nl" : [ {
+        "label" : "verpleegkundige orthopedie",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "IC-verpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "psychiatrisch verpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige dermatologie",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige urologie",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige cardiologie",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige GGZ",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "O&G-verpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "geriatrisch verpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige hematologie",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "kraamverpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "kinderverpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige neurologie",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "brandwondenverpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige intensieve zorg",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "kraamverpleegster",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "diabetesverpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "bedrijfsverpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "verpleegkundige oncologie",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "obstetrie- en gynaecologieverpleegkundige",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "gespecialiseerde verpleegster",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "verpleegkundige intensive care",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "gespecialiseerd verpleger",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "verpleegkundige zorg intensief",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "cardiovasculair verpleegkundige",
+        "roles" : [ "neutral" ]
+      } ],
+      "et" : [ {
+        "label" : "radioloogiaõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "meditsiiniõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "intensiivraviõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "intensiivõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "onkoloogiaõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "kooliõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "operatsiooniõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "vaimse tervise õde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "kliiniline õde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "lasteõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "taastusraviõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "intensiivravi õde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "üldõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pereõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "kiirabiõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "diabeediõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "töötervishoiuõde",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "terviseõde",
+        "roles" : [ "neutral" ]
+      } ],
+      "es" : [ {
+        "label" : "enfermera especialista en diabetes",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "enfermera especialista",
+        "roles" : [ "female", "standard-female" ]
+      }, {
+        "label" : "enfermera acompañante",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "enfermero vascular",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "enfermera practicante",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "enfermera vascular",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "enfermero practicante",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "enfermera pediátrica practicante",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "enfermero acompañante",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "enfermero especialista en diabetes",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "enfermero especialista",
+        "roles" : [ "male", "standard-male" ]
+      } ],
+      "sl" : [ {
+        "label" : "specializirani zdravstveni tehnik",
+        "roles" : [ "standard-male", "male" ]
+      }, {
+        "label" : "specializirana medicinska sestra",
+        "roles" : [ "standard-female", "female" ]
+      }, {
+        "label" : "gerontološka medicinska sestra",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "medicinska sestra na intenzivni negi",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "pediatrična medicinska sestra",
+        "roles" : [ "neutral" ]
+      } ],
+      "lt" : [ {
+        "label" : "gerontologijos slaugytojas",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "intensyviosios terapijos slaugytojas",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "slaugytojas su specializacija",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "traumatologijos skyriaus slaugytojas",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "intensyviosios terapijos slaugytoja",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "širdies ligų skyriaus slaugytojas",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "vaikų slaugytojas",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "slaugytoja specialistė",
+        "roles" : [ "standard-female", "female" ]
+      } ],
+      "el" : [ {
+        "label" : "ειδικευμένος νοσηλευτής",
+        "roles" : [ "standard-male", "male" ]
+      }, {
+        "label" : "ειδικευμένος νοσοκόμος",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "ειδικός νοσοκόμος",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "ειδική νοσοκόμα",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "ειδικευμένη νοσοκόμα",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "ειδικευμένη νοσηλεύτρια",
+        "roles" : [ "female", "standard-female" ]
+      }, {
+        "label" : "νοσηλευτής εξειδικευμένης φροντίδας",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "νοσηλευτής εντατικής θεραπείας",
+        "roles" : [ "neutral" ]
+      } ],
+      "da" : [ {
+        "label" : "operationssygeplejerske",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "diabetessygeplejerske",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "bedriftssygeplejerske",
+        "roles" : [ "female", "male", "neutral" ]
+      } ],
+      "no" : [ {
+        "label" : "sykepleier hjertesykdommer",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "intensivsykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sykepleier, spesialist",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "hjerte-/karsykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "klinisk sykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "spesialist i klinisk sykepleie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "gerontologisk sykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sykepleier, hjerteavdeling",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "bedriftssykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "spesialistsykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "klinisk sykepleier, geriatri",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "spesialist i sykepleie",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "klinisk sykepleier, gerontologi",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sykepleierspesialist",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "klinisk sykepleier, pediatri",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "barnesykepleier",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "diabetessykepleier",
+        "roles" : [ "neutral" ]
+      } ],
+      "sv" : [ {
+        "label" : "sjuksköterska hjärtsjukdomar",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "geriatriksjuksköterska",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "barnsjuksköterska",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "företagssjuksköterska",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "intensivvårdssjuksköterska",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "hjärtsjuksköterska",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "diabetessjuksköterska",
+        "roles" : [ "neutral" ]
+      } ],
+      "fi" : [ {
+        "label" : "teho-osastohoitaja",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "tehohoidon sairaanhoitaja",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "erikoistunut sairaanhoitaja",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "kliinisesti erikoistunut sairaanhoitaja",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "gerontologinen sairaanhoitaja",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "lastensairaanhoitaja",
+        "roles" : [ "neutral" ]
+      } ],
+      "sk" : [ {
+        "label" : "sestra špecialistka",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sestra na kardiológii",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "zdravotná sestra",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sestra na geriatrii",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sestra s certifikátom v certifikovanej pracovnej činnosti",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "praktická sestra - asistent",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sestra na intenzívnej starostlivosti",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sestra s odbornou spôsobilosťou na výkon odborných pracovných činností samostatne",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "diabetologická sestra",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "sestra na pediatrii",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "zdravotný brat špecialista",
+        "roles" : [ "standard-male", "male" ]
+      }, {
+        "label" : "zdravotná sestra špecialistka",
+        "roles" : [ "standard-female", "female" ]
+      } ],
+      "it" : [ {
+        "label" : "infermiere vascolare",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermiere cardiovascolare",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermiere specialista",
+        "roles" : [ "male", "standard-male" ]
+      }, {
+        "label" : "infermiere specializzato",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermiere pediatrico",
+        "roles" : [ "male" ]
+      }, {
+        "label" : "infermiera specializzata",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermiera vascolare",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermiera cardiovascolare",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermiera pediatrica",
+        "roles" : [ "female" ]
+      }, {
+        "label" : "infermiera specialista",
+        "roles" : [ "female", "standard-female" ]
+      } ],
+      "en" : [ {
+        "label" : "vascular nurse",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "heart failure nurse",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "nurse heart diseases",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "nurse specialist",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "cardiovascular nurse",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "diabetes nurse",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "nursing specialist",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "nurse practitioner",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "specialist nurse practitioner",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "company nurse",
+        "roles" : [ "female", "male", "neutral" ]
+      }, {
+        "label" : "intensive care nurse",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "paediatric nurse practitioner",
+        "roles" : [ "labels" ]
+      }, {
+        "label" : "gerontological nurse practitioner",
+        "roles" : [ "labels" ]
+      } ],
+      "hr" : [ {
+        "label" : "medicinski tehničar specijalist",
+        "roles" : [ "standard-male", "male" ]
+      }, {
+        "label" : "medicinska sestra/medicinski tehničar",
+        "roles" : [ "neutral" ]
+      }, {
+        "label" : "medicinska sestra specijalist",
+        "roles" : [ "standard-female", "female" ]
+      } ]
+    },
+    "alternativeLabel" : {
+      "et" : [ "diabeediõde", "terviseõde", "radioloogiaõde", "lasteõde", "taastusraviõde", "kooliõde", "meditsiiniõde", "intensiivõde", "kliiniline õde", "üldõde", "onkoloogiaõde", "kiirabiõde", "vaimse tervise õde", "intensiivraviõde", "töötervishoiuõde", "intensiivravi õde", "pereõde", "operatsiooniõde" ],
+      "sv" : [ "intensivvårdssjuksköterska", "diabetessjuksköterska", "geriatriksjuksköterska", "barnsjuksköterska", "företagssjuksköterska", "hjärtsjuksköterska", "sjuksköterska hjärtsjukdomar" ],
+      "es" : [ "enfermero especialista en diabetes", "enfermera pediátrica practicante", "enfermero acompañante", "enfermera vascular", "enfermera especialista en diabetes", "enfermero practicante", "enfermera practicante", "enfermero vascular", "enfermera acompañante", "enfermero especialista", "enfermera especialista" ],
+      "sk" : [ "diabetologická sestra", "sestra na kardiológii", "zdravotný brat špecialista", "zdravotná sestra", "sestra na pediatrii", "sestra na intenzívnej starostlivosti", "sestra s certifikátom v certifikovanej pracovnej činnosti", "sestra špecialistka", "zdravotná sestra špecialistka", "sestra na geriatrii", "sestra s odbornou spôsobilosťou na výkon odborných pracovných činností samostatne", "praktická sestra - asistent" ],
+      "fr" : [ "infirmière vasculaire", "infirmier spécialisé", "infirmière en diabète", "infirmière maladies cardiaques", "infirmière en soins intensifs", "infirmier spécialiste", "infirmière spécialisée", "infirmière spécialiste clinique", "infirmière praticienne en gérontologie", "infirmier spécialiste clinique", "spécialiste en soins infirmiers", "infirmier / infirmière en puériculture", "infirmière d'entreprise", "infirmière cardiovasculaire", "cardiologue", "infirmier spécialisé/infirmière spécialisée", "infirmier spécialiste clinique/infirmière spécialiste clinique", "infirmière spécialiste" ],
+      "el" : [ "ειδικευμένος νοσοκόμος", "ειδικευμένη νοσοκόμα", "ειδικευμένος νοσηλευτής", "ειδική νοσοκόμα", "νοσηλευτής εντατικής θεραπείας", "ειδικός νοσοκόμος", "νοσηλευτής εξειδικευμένης φροντίδας", "ειδικευμένη νοσηλεύτρια" ],
+      "de" : [ "Dipl. Gesundheits- und KrankenpflegerIn - Pflege im Operationsbereich", "Dipl. Gesundheits- und KrankenpflegerIn - Psychogeriatrische Pflege", "Fachkinderkrankenpfleger/in - Onkologie", " Fachkrankenpfleger/in - Psychiatrie", "Fachkinderkrankenpfleger/in - Intermediate Care", " Fachkrankenpfleger/in - Intermediate Care", "Gerontologiepfleger", "Fachkrankenschwester", "Intensivpfleger", "Dipl. Gesundheits- und KrankenpflegerIn - Kinder- und Jugendlichenpflege", " Fachkrankenpfleger/in - Intensivpflege/Anästhesie", "Fachkinderkrankenpfleger/in - Rehabilitation/Langzeitpflege", "Fachkrankenpfleger/in - Klinische Geriatrie", " Fachkinderkrankenpfleger/in - Palliativ-/Hospizpflege", "Fachkrankenpfleger", "Altenpflegerin", "Dipl. Gesundheits- und KrankenpflegerIn - Wundmanagement und Stomaversorgung", "Fachkrankenpfleger/in - Nephrologie", "Fachkrankenpfleger/in - Onkologie", "Fachkinderkrankenpfleger/in - Hygiene", "Fachkinderkrankenpfleger/in - Intensivpflege/Anästhesie", " Dipl. Gesundheits- und KrankenpflegerIn - Psychiatrische Gesundheits- und Krankenpflege", "Fachkinderkrankenschwester", "Dipl. Gesundheits- und KrankenpflegerIn - Pflege bei Nierenersatztherapie", "Dipl. Gesundheits- und KrankenpflegerIn - Krankenhaushygiene", "Krankenschwester für Neugeborene", "Dipl. Gesundheits- und KrankenpflegerIn - Kinderkrankenpflege", "Kinderkrankenschwester", "Dipl. Gesundheits- und KrankenpflegerIn - Intensivpflege", "Kinderkrankenpfleger", "Fachkrankenpfleger/in - Notfallpflege", "Dipl. Gesundheits- und KrankenpflegerIn - Lehraufgaben", "Kinderkrankenpflegerin", "Krankenschwester in der Entbindungsstation", "Fachkinderkrankenpfleger/in - Operations-/Endoskopiedienst", "Fachkrankenpfleger/in - Operations-/Endoskopiedienst", "Fachkinderkrankenpfleger/in - Nephrologie", "Fachkrankenpfleger/in - Palliativ- und Hospizpflege", "Fachkrankenpfleger/in - Rehabilitation/Langzeitpflege", "Fachkinderkrankenpfleger/in - Notfallpflege", "Spezialist für gerontologische Pflege", "Geriatriepflegerin", "Krankenschwester auf der Intensivstation", "Geriatriepfleger", "Fachkinderkrankenpfleger", "Neonatal Krankenschwester Praktiker", "Altenpfleger", "Dipl. Gesundheits- und KrankenpflegerIn - Hospiz- und Palliativversorgung", "Intensivpflegerin", " Fachkrankenpfleger/in - Hygiene", "Fachkinderkrankenpfleger/in - Psychiatrie" ],
+      "hu" : [ "kardiológiai szakápoló", "ápoló", "kardiológiai és angiológiai szakasszisztens", "nővér", "ápolónő", "angiológiai szakápoló", "diabetológiai szakápoló", "szakápolónő", "szakasszisztens", "kardiológiai és angiológiai szakápoló" ],
+      "lt" : [ "gerontologijos slaugytojas", "slaugytojas su specializacija", "intensyviosios terapijos slaugytojas", "traumatologijos skyriaus slaugytojas", "širdies ligų skyriaus slaugytojas", "vaikų slaugytojas", "intensyviosios terapijos slaugytoja", "slaugytoja specialistė" ],
+      "en" : [ "nursing specialist", "intensive care nurse", "nurse practitioner", "diabetes nurse", "gerontological nurse practitioner", "company nurse", "vascular nurse", "heart failure nurse", "paediatric nurse practitioner", "specialist nurse practitioner", "cardiovascular nurse", "nurse heart diseases", "nurse specialist" ],
+      "mt" : [ "infermiera tal-insuffiċjenza tal-qalb", "infermier speċjalizzat", "infermier vaskulari", "infermier tal-kumpanija", "infermier tal-insuffiċjenza tal-qalb", "infermier tal-mard tal-qalb", "infermiera kardjovaskulari", "infermiera tal-kumpanija", "infermier tad-dijabete", "infermiera tad-dijabete", "infermier kardjovaskulari" ],
+      "ro" : [ "asistent medical de geriatrie, gerontologie și asistență socială pentru vârstnici", "asistent medical medicină cardiovasculară", "asistent medical pediatru", "asistentă medicală de igienă și sănătate publică", "asistent medical gerontologic", "asistent medical în cadrul companiei", "asistenta de diabet", "asistent medical specialist", "asistent medical insuficiență cardiacă", "specialist in asistenta medicala", "asistent medical de specialitate", "asistent medical specializat", "specialist asistență medicală", "asistent medical", "asistent medical de igienă și sănătate publică", "asistent medical diabetici", "asistenta medicala boli de inima", "asistentă medicală de geriatrie, gerontologie și asistență socială pentru vârstnici", "asistentă medicală specializată", "asistent medical medicină vasculară", "asistentă medicală nutriționistă și dieteticiană", "asistent medical nutriționist și dietetician", "asistentă de terapie intensivă" ],
+      "bg" : [ "медицинска сестра, сърдечна недостатъчност", "фирмена медицинска сестра", "медицинска сестра, специфични грижи за пациенти с онкологични заболявания", "медицинска сестра, диабетни болести", "медицинска сестра, съдови заболявания", "медицински брат, сърдечносъдови заболявания", "фирмен медицински брат", "медицинска сестра, сърдечносъдови заболявания", "медицински брат, специфични грижи за пациенти с онкологични заболявания", "специализиран медицински брат", "медицински брат, диабетни болести", "медицинска сестра, сърдечни заболявания", "медицински брат, диабет", "медицински брат, съдови заболявания", "медицински брат, апаратно поддържане на извънтелесно кръвообращение", "медицинска сестра, диабет", "медицинска сестра, съдови болести", "медицински брат, диабетни заболявания", "медицинска сестра, диабетни заболявания", "медицинска сестра, сърдечни болести", "медицински брат, със специалност в системата на здравеопазването", "медицински брат, сърдечна недостатъчност", "медицински брат, сърдечни болести", "медицински брат, съдови болести", "медицинска сестра, със специалност в системата на здравеопазването", "медицински брат, сърдечни заболявания", "медицински брат, сърдечносъдови болести", "медицинска сестра, апаратно поддържане на извънтелесно кръвообращение", "медицинска сестра, сърдечносъдови болести" ],
+      "hr" : [ "medicinski tehničar specijalist", "medicinska sestra specijalist", "medicinska sestra/medicinski tehničar" ],
+      "nl" : [ "verpleegkundige urologie", "O&G-verpleegkundige", "verpleegkundige neurologie", "verpleegkundige intensive care", "IC-verpleegkundige", "kraamverpleegkundige", "verpleegkundige zorg intensief", "bedrijfsverpleegkundige", "verpleegkundige orthopedie", "verpleegkundige hematologie", "verpleegkundige oncologie", "verpleegkundige cardiologie", "obstetrie- en gynaecologieverpleegkundige", "kraamverpleegster", "psychiatrisch verpleegkundige", "verpleegkundige dermatologie", "brandwondenverpleegkundige", "kinderverpleegkundige", "gespecialiseerd verpleger", "geriatrisch verpleegkundige", "verpleegkundige intensieve zorg", "cardiovasculair verpleegkundige", "verpleegkundige GGZ", "diabetesverpleegkundige", "gespecialiseerde verpleegster" ],
+      "no" : [ "hjerte-/karsykepleier", "sykepleier, spesialist", "klinisk sykepleier", "sykepleier hjertesykdommer", "spesialist i sykepleie", "sykepleier, hjerteavdeling", "intensivsykepleier", "klinisk sykepleier, gerontologi", "diabetessykepleier", "sykepleierspesialist", "bedriftssykepleier", "sykepleier", "barnesykepleier", "spesialistsykepleier", "klinisk sykepleier, geriatri", "spesialist i klinisk sykepleie", "klinisk sykepleier, pediatri", "gerontologisk sykepleier" ],
+      "it" : [ "infermiera vascolare", "infermiere pediatrico", "infermiere vascolare", "infermiere specializzato", "infermiera pediatrica", "infermiera specialista", "infermiera cardiovascolare", "infermiere cardiovascolare", "infermiera specializzata", "infermiere specialista" ],
+      "fi" : [ "tehohoidon sairaanhoitaja", "erikoistunut sairaanhoitaja", "teho-osastohoitaja", "kliinisesti erikoistunut sairaanhoitaja", "gerontologinen sairaanhoitaja", "lastensairaanhoitaja" ],
+      "pl" : [ "pielęgniarka naczyniowa", "pielęgniarka pediatryczna", "pielęgniarka diabetologiczna", "pielęgniarka – specjalista", "pielęgniarz – specjalista", "pielęgniarka", "pielęgniarka firmowa", "pielęgniarka intensywnej terapii", "pielęgniarka kardiologiczna", "specjalista pielęgniarstwa", "pielęgniarka specjalistyczna", "pielęgniarka geriatryczna" ],
+      "pt" : [ "Enfermeiro especialista em enfermagem comunitária", "Enfermeiro especialista em enfermagem médico-cirúrgica", "Enfermeiro especialista em saúde infantil e pediátrica", "Enfermeira especialista em saúde mental e psiquiátrica", "Enfermeiro especialista em reabilitação", "Enfermeira especialista em reabilitação", "Enfermeira especialista em enfermagem médico-cirúrgica", "Enfermeira especialista em saúde infantil e pediátrica", "Enfermeira especialista em enfermagem comunitária", "Enfermeira especialista", "Enfermeiro especialista em saúde mental e psiquiátrica", "Enfermeiro especialista" ],
+      "sl" : [ "specializirani zdravstveni tehnik", "specializirana medicinska sestra", "pediatrična medicinska sestra", "gerontološka medicinska sestra", "medicinska sestra na intenzivni negi" ],
+      "da" : [ "operationssygeplejerske", "diabetessygeplejerske", "bedriftssygeplejerske" ]
+    },
+    "description" : {
+      "cs" : "Všeobecné sestry se specializací podporují a obnovují zdraví lidí, diagnostikují nemoci a pečují o nemocné osoby v rámci konkrétních oborů ošetřovatelství. Příklady těchto specializovaných ošetřovatelských profesí jsou mimo jiné: ambulantní zdravotní sestra, kvalifikovaná zdravotní sestra, zdravotní sestra pro kardiologii, dentální zdravotní sestra, všeobecná zdravotní sestra, forenzní zdravotní sestra, gastroenterologická zdravotní sestra, zdravotní sestra v hospicích a paliativní péči, dětská sestra, zdravotní sestra pro veřejné zdraví, rehabilitační sestra, zdravotní sestra pro nefrologii a školní zdravotní sestra. Všeobecné sestry se specializací jsou všeobecné sestry, které mají přípravu nad rámec všeobecného zaměření a jsou oprávněné vykonávat praxi jako specialistky se specifickými odbornými znalostmi v jednom z ošetřovatelských oborů. \n ",
+      "it" : "Gli infermieri specialisti promuovono e ripristinano la salute delle persone, oltre a contribuire alla diagnosi e all’assistenza in un ramo specifico del settore infermieristico. Esempi di tali professioni infermieristiche specialistiche includono, ma non esclusivamente, quelle elencate in appresso: infermieri ambulatoriali, infermieri di pratica avanzata, infermieri cardiaci, infermieri dentali, infermieri di comunità, infermieri forensi, infermieri di gastroenterologia, infermieri di hospice e cure palliative, infermieri pediatrici, infermieri di sanità pubblica, infermieri di riabilitazione, infermieri renali e infermieri scolastici. Gli infermieri specialisti sono infermieri responsabili dell’assistenza generale, con un livello di preparazione superiore a quello degli infermieri generalisti, autorizzati a esercitare la professione come specialisti con competenze specifiche in un ramo del settore infermieristico. \n ",
+      "hu" : "A szakápolók elősegítik és helyreállítják az emberek egészségét, diagnosztizálják és gondozzák őket az ápolás terén. Az ilyen szakápolói foglalkozások közé tartoznak többek között, de nem kizárólag a következők: ambuláns ápoló, osztályvezető ápolók, kardiológus ápoló, fogászati ápoló, közösségi egészségügyi ápoló, igazságügyi ápoló, gasztroenterológiai ápoló, hospice ellátással foglalkozó és palliatív ápoló, gyermekápoló, közegészségügyi ápoló, rehabilitációs ápoló és iskolai ápoló. A szakápolók olyan általános orvosi ápolók, akik az általános ápolók szintje felett dolgoznak, és akik engedéllyel az ápolói szakterületen szaktudással rendelkező, szakosodott ápolóként járhatnak el. \n ",
+      "mt" : "L-infermiera speċjalisti jippromwovu u jirrestawraw is-saħħa tan-nies, u jiddijanjostikaw u jieħdu ħsieb fi ħdan fergħa speċifika tal-qasam tal-infermiera. Eżempji ta’ tali xogħlijiet ta’ infermiera speċjalisti jinkludu iżda mhumiex limitati għal; infermiera tal-kura ambulatorja, infermiera ta’ prattika avvanzata, infermiera tal-qalb, infermiera tas-snien, infermiera tas-saħħa pubblika, infermiera forensika, infermiera tal-gastroenteroloġija, infermiera tal-ospitalità u infermiera tal-kura palljativa, infermiera għar-rijabilitazzjoni, infermiera fil-kliewi, u infermiera fi skola. L-infermiera speċjalisti huma infermiera tal-kura ġenerali ppreparati lil hinn mil-livell ta’ infirmiera ġeneralisti u awtorizzati biex jipprattikaw bħala speċjalisti b’għarfien espert speċifiku f’fergħa tal-qasam tal-infermiera. \n ",
+      "et" : "Eriõed edendavad ja taastavad inimeste tervist ning diagnoosivad ja hooldavad inimesi õendusvaldkonna konkreetse haru raames. Selliste eriõendusametite näited on muu hulgas ambulatoorse ravi meditsiiniõde, eriõde, südameõde, hambaõde, kogukonnatervise õde, kohtuekspertiisi õde, gastroenteroloogiaõde, hooldushaiglate ja palliatiivhoolduse õde, pediaatriaõde, rahvaterviseõde, taastusraviõde, neeruõde ja kooliõde. Eriõed on üldõed, kes on saanud parema ettevalmistuse kui õendusspetsialistid ning kellel on õigus praktiseerida õendusvaldkonnas eriteadmistega spetsialistidena. \n ",
+      "pt" : "Os enfermeiros especialistas promovem e restauram a saúde das pessoas, bem como diagnosticam e prestam cuidados num setor específico do domínio da enfermagem. Os enfermeiros especialistas podem incluir, entre outros: enfermeiros de cuidados ambulatórios, enfermeiros de prática avançada, enfermeiros cardíacos, enfermeiros dentistas, enfermeiros de cuidados à comunidade, enfermeiros de medicina legal, enfermeiros de gastroenterologia, enfermeiros de cuidados paliativos, enfermeiros pediátricos, enfermeiros de saúde pública, enfermeiros de cuidados de saúde, enfermeiros de reabilitação, enfermeiros renais e enfermeiros escolares. Os enfermeiros especialistas são enfermeiros generalistas com preparação para além do nível de um enfermeiro generalista e estão autorizados a exercer a profissão de especialista com competências específicas num domínio da enfermagem. \n ",
+      "ro" : "Asistenții medicali specializați promovează și restabilesc sănătatea pacienților, diagnostichează și oferă îngrijiri în cadrul unei anumite ramuri a asistenței medicale. Printre locurile de muncă ca asistent medical specializat se numără, de exemplu, asistent medical în ambulatoriu, asistent medical principal, asistent medical cardiologie, asistent medical stomatologie, asistent medical comunitar, asistent medical criminalistică, asistent medical gastroenterologie, asistent medical îngrijiri paliative, asistent medical pediatrie, asistent medical sănătate publică, asistent medical reabilitare, asistent medical nefrologie și asistent medical școlar. Asistenții medicali specializați sunt asistenți medicali generaliști, cu pregătire suplimentară față de asistentul medical de medicină generală, autorizați să profeseze ca specialiști cu expertiză specifică într-o ramură a asistenței medicale. \n ",
+      "lv" : "Medmāsas speciālistes veicina veselības saglabāšanu un atjaunošanu, nosaka pacientiem diagnozi un apmierina aprūpes vajadzības saistībā ar konkrēto aprūpes jomu. Viņu specializācijas jomas var būt, bet ne tikai: ambulatorās aprūpes māsa, augsti kvalificēta medicīnas māsa, kardioloģijas nodaļas medicīnas māsa, zobārstniecības māsa, tiesu medicīnas māsa, gastroenteroloģijas māsa, paliatīvās aprūpes māsa, pediatrijas māsa, sabiedriskās veselības aprūpes māsa, fizikālās terapijas māsa, rehabilitācijas māsa, nieru aizstājterapijas māsa un skolas medicīnas māsa. Māsas speciālistes ir vispārējās aprūpes māsas, proti, māsas ar attiecīgu kvalifikāciju, kas ir augstāka par vispārējas māsas kvalifikāciju, un ar tiesībām praktizēt kā māsām speciālistēm savā attiecīgajā aprūpes jomā.",
+      "uk" : "Медичні сестри (медичні брати) допомагають зміцнювати й поліпшувати здоров’я людей, а також діагностувати та доглядати пацієнтів у певних галузях сестринської справи. До медичних сестер (медичних братів) належать, зокрема, але не виключно, такі: сестра медична поліклініки, головна медична сестра, сестра медична з кардіології, сестра медична зі стоматології, дільнична медична сестра, судово-медична сестра, медична сестра гастроентерологічного відділення, медична сестра з паліативно-хоспісної допомоги, медична сестра педіатричного відділення, медична сестра громадського здоров’я, медична сестра реабілітаційного відділення, медична сестра нефрологічного відділення і шкільна медична сестра. Спеціалізовані медичні сестри (медичні брати) – це медичні сестри (медичні брати) загального профілю, які мають вищій від медичних сестер (медичні брати) загального профілю рівень підготовки та які мають дозвіл практикувати як спеціалісти з особливим досвідом у певній галузі сестринської справи.\n\t",
+      "nl" : "Gespecialiseerde verpleegkundigen zorgen voor de bevordering en het herstel van de gezondheid van de mensen en stellen een diagnose en verzorging van de zorg in een specifieke tak van de verpleegkunde. Voorbeelden van dergelijke gespecialiseerde verpleegkundigen omvatten, maar zijn niet beperkt tot: ambulant verpleegkundige, leidinggevend verpleegkundige, hartverpleegkundige, tandheelkundig verpleegkundige, wijkverpleegkundige, forensisch verpleegkundige, maag-, darm- en leververpleegkundige, hospiceverpleegkundige en palliatief verpleegkundige, pediatrisch verpleegkundige, revalidatieverpleegkundige, nierverpleegkundige en schoolverpleegkundige. Gespecialiseerde ziekenverplegers zijn verantwoordelijk algemeen ziekenverplegers die verder gaan dan het niveau van een algemeen verpleegkundige en die bevoegd zijn om te werken als specialisten met specifieke deskundigheid op een tak van de verpleegkunde. \n ",
+      "en" : "Specialist nurses promote and restore people's health, and diagnose and care within a specific branch of the nursing field. Examples of such specialist nursing jobs include but are not restricted to; ambulatory care nurse, advanced practice nurse, cardiac nurse, dental nurse, community health nurse, forensic nurse, gastroenterology nurse, hospice and palliative care nurse, paediatric nurse, public health nurse, rehabilitation nurse, renal nurse and school nurse. Specialist nurses are general care nurses prepared beyond the level of a nurse generalist and authorised to practice as specialists with specific expertise in a branch of the nursing field.",
+      "ar" : "يعمل الممرضون المتخصصون على تحسين صحة الأشخاص وتعافيهم، والتشخيص والرعاية داخل فرع معين من مجال التمريض. وتشمل الأمثلة على وظائف التمريض المتخصصة هذه، على سبيل المثال لا الحصر، ممرّضو الرعاية الجَوَّالَة وممرّضو الممارسة المتقدمة وممرّضو الرعاية القلبية وممرّضو طب الأسنان وممرّضو الصحة المجتمعية وممرّضو الطب الشرعي وممرّضو أمراض الجهاز الهضمي وممرّضو الرعاية التلطيفية ورعاية المحتضرين وممرّضو الأطفال وممرّضو الصحة العامة وممرّضو الكلى وممرّضو التأهيل وممرّضو المدرسة. الممرضون المتخصصون هم ممرّضو رعاية عامة يتم إعدادهم بعد مستوى ممرضة عامة ومُصَّرح لهم الممارسة كمتخصصين يتميزون بخبرة خاصة في فرع من مجال التمريض. \n ",
+      "el" : "Οι ειδικευμένοι νοσηλευτές προάγουν και αποκαθιστούν την υγεία των ανθρώπων, προβαίνουν σε διαγνώσεις και παρέχουν φροντίδα στο πλαίσιο συγκεκριμένου κλάδου της νοσηλευτικής. Ορισμένα παραδείγματα εργασιών ειδικευμένων νοσηλευτών είναι τα ακόλουθα: νοσηλευτής εξωτερικών ιατρείων, νοσηλευτής προηγμένης πρακτικής, νοσηλευτής καρδιολογικού, νοσηλευτής οδοντιατρικής, νοσηλευτής κοινότητας, ιατροδικαστικός νοσηλευτής, νοσηλευτής γαστρεντερολογικού, νοσηλευτής παρηγορητικής αγωγής, νοσηλευτής παιδιατρικής, νοσηλευτής δημόσιας υγείας, νοσηλευτής αποκατάστασης, νοσηλευτής νεφρολογικού και σχολικός νοσηλευτής. Οι ειδικευμένοι νοσηλευτές είναι νοσηλευτές γενικής φροντίδας με κατάρτιση πέραν του επιπέδου ενός γενικού νοσηλευτή, που έχουν λάβει άδεια άσκησης επαγγέλματος ως ειδικοί με εμπειρογνωμοσύνη σε συγκεκριμένο κλάδο της νοσηλευτικής.",
+      "no" : "Spesialsykepleiere fremmer og rehabiliterer folks helse, og diagnostiserer og arbeider innenfor en spesifikk grein av sykepleien. Eksempler på slike spesialsykepleierjobber er blant annet poliklinisk sykepleier, oversykepleier, hjertesykepleier, tannsykepleier, rettsmedisinsk sykepleier, gastroenterologisykepleier, sykehus- og palliasjonssykepleier, barnesykepleier, folkehelsesykepleier, rehabiliteringssykepleier, nyresykepleier og helsesøster. Spesialsykepleiere er sykepleiere som har tatt videreutdanning innen et bestemt fagfelt. \n ",
+      "pl" : "Pielęgniarze specjaliści wspierają i przywracają zdrowie ludzi oraz diagnozują i dbają o opiekę w ramach określonej gałęzi pielęgniarskiej. Przykładami takich specjalistycznych zadań pielęgniarskich są między innymi: pielęgniarka ambulatoryjna, pielęgniarka z dużą praktyką, pielęgniarka kardiologiczna, pielęgniarka stomatologiczna, pielęgniarka środowiskowa, pielęgniarka w dziedzinie medycyny sądowej, pielęgniarka gastroenterologiczna, pielęgniarka w hospicjum i w zakresie opieki paliatywnej, pielęgniarka pediatryczna, pielęgniarka zdrowia publicznego, pielęgniarka rehabilitacyjna, pielęgniarka wyspecjalizowana w chorobach związanych z nerkami i pielęgniarka szkolna. Pielęgniarze specjaliści to pielęgniarze odpowiedzialni za opiekę ogólną, którzy są przygotowywani poza poziomem wykształcenia pielęgniarskiego i są uprawnieni do wykonywania zawodu specjalisty o wiedzy specjalistycznej w dziedzinie pielęgniarskiej. \n ",
+      "sv" : "Specialistsjuksköterskor främjar och återställer människors hälsa samt diagnostiserar och tillhandahåller vård inom sitt specialområde av vård. Exempel på sådana sjuksköterskeyrken inkluderar men är inte begränsade till: sjuksköterska inom ambulatorisk vård, avancerad specialistsjuksköterska, hjärtsjuksköterska, tandsjuksköterska, hemsjuksköterska, kriminalteknisk sjuksköterska, gastroenterologisjuksköterska, sjuksköterska inom hospis- och palliativvård, barnsjuksköterska, folkhälsosjuksköterska, rehabiliteringssjuksköterska, njursjuksköterska och skolsjuksköterska. Specialistsjuksköterskor är sjuksköterskor inom allmän vård som är mer specialiserade än en allmänutbildad sjuksköterska och är kvalificerade för att arbeta som specialister med specialkompetens inom ett visst vårdområde. \n ",
+      "de" : "Fachkrankenpfleger/Fachkrankenschwestern fördern und verbessern den Gesundheitszustand von Menschen und diagnostizieren und pflegen innerhalb eines bestimmten Krankenpflegegebiets. Beispiele für Bereiche, in denen Fachkrankenpfleger/Fachkrankenschwestern tätig sind, sind unter anderem: ambulante Pflege, erweiterte Pflegepraxis, Herzmedizin, Zahnpflege, medizinische Grundversorgung, forensische Pflege, Gastroenterologie, Hospiz- und Palliativpflege, Kinder - und Jugendpflege, Volksgesundheit, Reha, Nierenmedizin und Schulkrankenpflege. Fachkrankenpfleger/Fachkrankenschwestern sind Pflegekräfte der allgemeinen Gesundheitsversorgung mit höherer Qualifikation als generelle Pflegekräfte. Sie sind befugt, als Fachkräfte mit speziellem Fachwissen in einem Bereich der Krankenpflege zu praktizieren. \n ",
+      "es" : "Los enfermeros especialistas promueven y ayudan a recobrar la salud a las personas, además de diagnosticar y ocuparse del cuidado de pacientes en una rama específica de la enfermería. Entre los ejemplos de este tipo de empleos en el ámbito de la enfermería especializada figuran: enfermero/a de asistencia ambulatoria, enfermero/a de práctica avanzada, enfermero/a de cardiología, enfermero/a de odontología, enfermero/a familiar y comunitario, enfermero/a forense, enfermero/a de gastroenterología, enfermero/a de cuidados paliativos, enfermero/a de pediatría, enfermero/a de salud pública, enfermero/a de rehabilitación, enfermero/a de nefrología y enfermero/a escolar. Se trata de personal de enfermería que se ha seguido formando más allá del nivel de cuidados generales y están autorizados a ejercer como especialistas con experiencia específica en una rama del campo de enfermería. \n ",
+      "fi" : "Erikoissairaanhoitajat edistävät ihmisten terveyttä sekä parantavat, määrittävät ja hoitavat erikoisalansa mukaisia sairauksia. Esimerkkejä erikoissairaanhoidon työstä ovat esimerkiksi sydänsairauksien tai haavanhoidon hoitotyö, lasten ja nuorten hoito, dialyysihoito tai psykiatrinen hoitotyö.  He ovat sairaanhoitajia, jotka ovat yleissairaanhoitajan tasoa laajempi tietyn erikoisalan osaaminen ja joilla on lupa harjoittaa ammattiaan oman erkoisalansa asiantuntijoina. Heillä voi olla rajattu oikeus määrätä lääkkeitä potilaille. \n ",
+      "is" : "Sérhæfðir hjúkrunarfræðingar efla heilbrigði manna og koma því aftur í fyrra horf og greina og annast sjúklinga innan tiltekins hjúkrunarsviðs.  Dæmi um slíka sérhæfingu hjúkrunarfræðinga eru (en einskorðast ekki við) hjúkrunarfræðingar í sjúkrabílum, sérfræðihjúkrun, hjartalækningum, tannlækningum, heilsugæslu, rannsóknum, meltingarfærafræðum, líknardeild, við líknandi meðferð, barnalækningum, lýðheilsu, endurhæfingu, nýrnasjúkdómum og skólahjúkrun.  Sérhæfðir hjúkrunarfræðingar eru almennir umönnunaraðilar sem starfa út fyrir stig hjúkrunarfræðinga í almennri hjúkrun og er heimilt að nota þá sem sérfræðinga með sérstaka sérþekkingu á sviði hjúkrunar. \n ",
+      "hr" : "Medicinski tehničari specijalisti / medicinske sestre specijalistice promiču i obnavljaju zdravlje ljudi te dijagnosticiraju i pružaju skrb u određenoj grani djelatnosti zdravstvene njege. Primjeri takvih poslova specijaliziranih sestara uključuju, ali nisu ograničeni na sljedeće: medicinska sestra / medicinski tehničar u području ambulantne skrbi, napredne prakse, kardiologije, stomatologije, patronaže, forenzike, gastroenterologije, hospicija i palijativne njege, pedijatrije, javnog zdravstva, rehabilitacije, dijalize i školstva. Medicinski tehničari specijalisti / medicinske sestre specijalistice su medicinski tehničari /medicinske sestre za opću zdravstvenu njegu koji se pripremaju na višoj razini od razine medicinskog tehničara /medicinske sestre opće prakse te su ovlašteni za obavljanje djelatnosti specijalista s posebnim stručnim znanjem u grani djelatnosti zdravstvene njege. \n ",
+      "da" : "Specialsygeplejersker fremmer og restituerer menneskers sundhed og diagnosticerer og plejer inden for et specifikt sygeplejeområde. Eksempler på sådanne specialiserede sygeplejejob inkluderer, men er ikke begrænset til, sygeplejerske til ambulant pleje, sygeplejerske til avanceret praksis, hjertesygeplejerske, klinikassistent, hjemmesygeplejerske, retsmedicinsk sygeplejerske, gastroenterologisk sygeplejerske, hospicesygeplejerske og palliativ sygeplejerske, pædiatrisk sygeplejerske, sygeplejerske inden for folkesundhed, rehabiliteringssygeplejerske, nyresygeplejerske og skolesygeplejerske. Specialsygeplejersker er videreuddannede almene sygeplejersker, der har tilladelse til at virke som specialister med særlig ekspertise inden for en gren af sygeplejersken. \n ",
+      "lt" : "Slaugytojai specialistai skatina ir padeda žmonėms atgauti sveikatą, taip pat diagnozuoja ir teikia priežiūros paslaugas tam tikroje slaugos sektoriaus srityje. Tokių slaugytojų specialistų darbų pavyzdžiai, be kita ko, yra: ambulatorinės priežiūros slaugytojas, vyresnysis slaugytojas, širdies ligų srities slaugytojas, odontologijos srities slaugytojas, bendruomenės sveikatos srities slaugytojas, teismo medicinos srities slaugytojas, gastroenterologijos srities slaugytojas, hospiso ir paliatyviosios slaugos slaugytojas, vaikų slaugytojas, visuomenės sveikatos srities slaugytojas, reabilitacijos srities slaugytojas, inkstų ligų srities slaugytojas ir mokykloje dirbantis slaugytojas. Slaugytojai specialistai yra bendrosios praktikos slaugytojai, rengiami aukštesniu lygiu nei bendrosios praktikos slaugytojai, ir turi teisę dirbti tam tikroje slaugos sektoriaus srityje kaip tos srities profesinių žinių turintys specialistai. \n ",
+      "sl" : "Specializirani zdravstveni tehniki/specializirane medicinske sestre spodbujajo zdravljenje in pomagajo ljudem ozdraveti ter določajo diagnoze in izvajajo nego v okviru določene panoge na področju zdravstvene nege. Primeri takih posebnih dejavnosti na področju zdravstvene nege med drugim vključujejo oskrbo, ki jo izvajajo: ambulantni zdravstvenih tehniki/ambulantne medicinske sestre, višji zdravstveni tehniki/višje medicinske sestre, zdravstveni tehniki/medicinske sestre na oddelkih za kardiologijo, zobozdravstvo, zdravstveno varstvo, sodno medicino, gastroenterologijo, hospice in paliativno nego, pediatrijo, javno zdravje, rehabilitacijo in nefrologijo ter šolski zdravstveni tehniki/šolske medicinske sestre. Specializirani zdravstveni tehniki/specializirane medicinske sestre so zdravstveni tehniki/medicinske sestre za splošno zdravstveno nego z višjo ravnjo usposobljenosti kot splošni zdravstveni tehniki/medicinske sestre in so pooblaščeni za izvajanje del kot specialisti znotraj določenega strokovnega znanja na področju zdravstvene nege. \n ",
+      "fr" : "Les infirmiers spécialistes/infirmières spécialistes promeuvent et rétablissent la santé des personnes, diagnostiquent et dispensent des soins dans une branche spécifique du domaine infirmier. Parmi les emplois en soins infirmiers spécialisés, on peut citer: les infirmiers/infirmières en soins ambulatoires, les infirmiers/infirmières en pratique avancée, les infirmiers/infirmières en cardiologie, les infirmiers/infirmières dentaires, les infirmiers/infirmières en santé communautaire, les infirmiers/infirmières judiciaires, les infirmiers/infirmières en gastroentérologie, les infirmiers/infirmières en établissements de soins palliatifs, les infirmiers/infirmières en pédiatrie, les infirmiers/infirmières de santé publique, les infirmiers/infirmières en rééducation, les infirmiers/infirmières en dialyse et les infirmiers/infirmières scolaires. Les infirmiers spécialistes/infirmières spécialistes sont des infirmiers/infirmières généralistes préparé-e-s au-delà du niveau d’infirmier/infirmière généraliste et autorisé-e-s à pratiquer en tant que spécialistes possédant une expertise spécifique dans une branche du domaine infirmier. \n ",
+      "bg" : "Специализираните медицински сестри насърчават и възстановяват здравето на хората и ги диагностицират и се грижат за тях в рамките на специфичната част от сферата на грижите. Примери за специализирани сестрински професии включват, но не се ограничават до: сестра за амбулаторна грижа, напреднала практикуваща сестра, сестра в сърдечно отделение, сестра в стоматологичен кабинет, сестра по обществено здраве, сестра в съдебната медицина, сестра в гастроентерологията, сестра в хосписите, извършваща палиативни грижи, педиатрична сестра, сестра в общественото здравеопазване, сестра в отделението за рехабилитация, сестра, занимаваща се с бъбречни болести, и училищна сестра. Специализираните медицински сестри са медицински сестри с общ профил, които имат подготовка над нивото на обикновените медицински сестри и имат разрешение да практикуват като специалисти със специфични експертни знания в сферата на сестринските грижи. \n ",
+      "sk" : "Zdravotné sestry špecialistky pomáhajú pacientom v procese uzdravovania, vykonávajú diagnostiku a poskytujú starostlivosť v rámci konkrétnej ošetrovateľskej oblasti. Príklady takýchto špecializovaných ošetrovateľských pracovných miest zahŕňajú, ale nie sú obmedzené na tieto povolania: ambulantná sestra, zdravotná sestra s pokročilými skúsenosťami, zdravotná sestra na kardiologickej ambulancii, zubná sestra, komunitná zdravotná sestra, zdravotná sestra na oddelení súdneho lekárstva, zdravotná sestra na oddelení gastroenterológie, hospicová a paliatívna sestra, detská sestra, zdravotná sestra pre verejné zdravie, rehabilitačná sestra, urologická sestra a školská zdravotná sestra. Zdravotné sestry špecialistky sú zdravotné sestry zodpovedné za všeobecnú starostlivosť, ktoré absolvovali odbornú prípravu nad rámec všeobecných zdravotných sestier a sú oprávnené vykonávať prax ako špecialistky so špecifickými odbornými znalosťami v danej oblasti ošetrovateľstva. \n ",
+      "ga" : "Déanann sainaltraí sláinte daoine a chur chun cinn agus a athbhunú, chomh maith le cúram agus cúram daoine a chur chun cinn laistigh de bhrainse ar leith de réimse na haltrachta. Áirítear le samplaí saineolaí dá leithéid sin, ach gan a bheith teoranta do: altra siúlach, altra ar a dtugtar ardchleachtas, altra chairteacha, altra ar an tsláinte pobail, altra ar an tsláinte pobail, altra fhóiréinseach, altra fhóiréinsic agus cúraim mhaolaithigh, altra péidiatraiceach, altra sláinte poiblí, altra na sláinte poiblí, altra ar an tsláinte phoiblí, altra ná altra scoile. Is altraí cúraim ginearálta iad sainaltraí a bhíonn ullmhaithe thar an leibhéal altra, agus iad a bheith údaraithe chun cleachtadh mar shaineolaithe a mbíonn saineolas ar leith acu i mbrainse de réimse na haltrachta. \n "
+    },
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:18e14e61-495b-44cc-a7c6-df4c625934ba?selectedVersion=v1.2.1",
+        "title" : "specialist nurse",
+        "uri" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba"
+      },
+      "inScheme" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-occupations?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/member-occupations",
+        "title" : "ESCO member occupations"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title" : "ESCO Occupations"
+      } ],
+      "topConceptOf" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-occupations?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/member-occupations",
+        "title" : "ESCO member occupations"
+      },
+      "relatedEssentialSkill" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6c3e28d6-e3cc-4b25-a5da-a0dce043cf17?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6c3e28d6-e3cc-4b25-a5da-a0dce043cf17",
+        "title" : "manage information in health care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:092f44f6-8631-460c-a862-f79f5c15dc03?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/092f44f6-8631-460c-a862-f79f5c15dc03",
+        "title" : "delegate emergency care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6d23d9b2-3eb0-454b-bb1a-bb5b277c98b5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6d23d9b2-3eb0-454b-bb1a-bb5b277c98b5",
+        "title" : "promote health in specialised care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:848c6821-5578-4104-9060-f1bf75bb3a80?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/848c6821-5578-4104-9060-f1bf75bb3a80",
+        "title" : "provide comprehensive care for patients with surgical conditions",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:60b2dd49-c677-4f47-816e-aff3b577e113?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+        "title" : "provide health education",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:2475cd27-8d6c-4318-a364-21395b23acba?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/2475cd27-8d6c-4318-a364-21395b23acba",
+        "title" : "empathise with the healthcare user",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f90d4810-8bac-4e5e-b870-3e35a4138ff7?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f90d4810-8bac-4e5e-b870-3e35a4138ff7",
+        "title" : "accept own accountability",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:097098fc-6d89-44e9-9305-98ac5c0a78ac?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "title" : "educate on the prevention of illness",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:16636767-c215-4cf0-b126-e144fea20926?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/16636767-c215-4cf0-b126-e144fea20926",
+        "title" : "use e-health and mobile health technologies",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:79c012c7-4b09-497e-8152-e73e5d1d3384?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/79c012c7-4b09-497e-8152-e73e5d1d3384",
+        "title" : "adapt leadership styles in healthcare",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:aa238394-8126-4ada-be2f-9dfe065cf314?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/aa238394-8126-4ada-be2f-9dfe065cf314",
+        "title" : "adhere to organisational guidelines",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8232979d-6aa4-40c9-a12b-5152a52a76b8?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/8232979d-6aa4-40c9-a12b-5152a52a76b8",
+        "title" : "advise on healthcare users' informed consent",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1023ac61-250f-4eef-b7a9-238cf071685f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1023ac61-250f-4eef-b7a9-238cf071685f",
+        "title" : "provide professional care in nursing",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:2057cf5f-4aa7-4094-bbf0-819777405eb7?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/2057cf5f-4aa7-4094-bbf0-819777405eb7",
+        "title" : "perform bronchoscopy",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b9f16465-56a9-426b-a047-0f9f1f95ec92?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92",
+        "title" : "address problems critically",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a32e7fb1-af9e-4c09-8ea7-72b7442e9cda?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a32e7fb1-af9e-4c09-8ea7-72b7442e9cda",
+        "title" : "solve problems in healthcare",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a28e8141-89ee-4b24-a3bb-1aebcc56c72d?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a28e8141-89ee-4b24-a3bb-1aebcc56c72d",
+        "title" : "apply nursing care in long-term care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e18a6a3c-4f26-4141-8c72-4b4f01d77914?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e18a6a3c-4f26-4141-8c72-4b4f01d77914",
+        "title" : "apply context specific clinical competences",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:4be3c34e-47ba-4881-ac74-8bd244e0b04c?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/4be3c34e-47ba-4881-ac74-8bd244e0b04c",
+        "title" : "participate in health personnel training",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:78de3e5f-e3ea-4da2-aa09-3704d03ba622?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622",
+        "title" : "advise on healthy lifestyles",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a8d24a95-47b3-4f88-92e7-06600bcd3612?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "title" : "manage personal professional development",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:bcd2ce08-ba12-4d66-865f-f4ba36419707?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707",
+        "title" : "promote inclusion",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:05befef9-cb0b-410c-b5fc-f8a3c3598fca?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/05befef9-cb0b-410c-b5fc-f8a3c3598fca",
+        "title" : "manage hospital-acquired infections",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:7d874411-d555-4320-8356-6f7715c15ef5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/7d874411-d555-4320-8356-6f7715c15ef5",
+        "title" : "perform diagnostic testing for allergies",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f735e153-1f57-4841-afe9-4712cc740054?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f735e153-1f57-4841-afe9-4712cc740054",
+        "title" : "manage multiple patients simultaneously",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:13724e7d-b946-4773-915e-9621340237bc?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/13724e7d-b946-4773-915e-9621340237bc",
+        "title" : "contribute to continuity of health care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:049c8caf-dd12-45fc-9bfa-b64051f32a19?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/049c8caf-dd12-45fc-9bfa-b64051f32a19",
+        "title" : "respond to changing situations in health care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:27a638bc-6362-45f8-afce-5596a606269b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/27a638bc-6362-45f8-afce-5596a606269b",
+        "title" : "impact of social contexts on health",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:298a166c-24d6-4635-9731-8376617fb0ff?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/298a166c-24d6-4635-9731-8376617fb0ff",
+        "title" : "manage communicable disease",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:76395873-7fe2-4f9a-b4b6-9932f8cbd0b4?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/76395873-7fe2-4f9a-b4b6-9932f8cbd0b4",
+        "title" : "follow clinical guidelines",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:46003629-a579-4d0a-b3ea-80ef890699d6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/46003629-a579-4d0a-b3ea-80ef890699d6",
+        "title" : "diagnose nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:98eb1f3b-3480-416b-bd4b-811946f7e347?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/98eb1f3b-3480-416b-bd4b-811946f7e347",
+        "title" : "comply with quality standards related to healthcare practice",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ae965e49-06f1-442f-87bf-e48fc1e1d8b6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ae965e49-06f1-442f-87bf-e48fc1e1d8b6",
+        "title" : "analyse quality of nurse care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a46743b7-ff8c-49b6-99f7-7fa5bc241771?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a46743b7-ff8c-49b6-99f7-7fa5bc241771",
+        "title" : "use electronic health records in nursing",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9fcf9918-fdef-49c3-aedc-518eb1e7e1f5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/9fcf9918-fdef-49c3-aedc-518eb1e7e1f5",
+        "title" : "comply with legislation related to health care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:7a63f944-6948-4ae4-9c1f-d08e492535c9?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/7a63f944-6948-4ae4-9c1f-d08e492535c9",
+        "title" : "apply person-centred care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fa477985-066a-4d7f-972f-c21d0d1095a6?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/fa477985-066a-4d7f-972f-c21d0d1095a6",
+        "title" : "carry out invasive cardiovascular procedures",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a17286c5-238d-4f0b-bc24-29e9121345de?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "title" : "listen actively",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b55f61a4-5f9e-4741-ba95-9ac04b64119b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/b55f61a4-5f9e-4741-ba95-9ac04b64119b",
+        "title" : "work in a multicultural environment in health care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1b3370df-c280-470c-ac35-951f42ca8b19?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1b3370df-c280-470c-ac35-951f42ca8b19",
+        "title" : "promote a positive image of nursing",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9fd3b0ab-8eb4-4790-9733-9d383df53df3?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/9fd3b0ab-8eb4-4790-9733-9d383df53df3",
+        "title" : "evaluation in specialised nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:441707bb-9ad3-406c-9975-a6bec96f537b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/441707bb-9ad3-406c-9975-a6bec96f537b",
+        "title" : "empower individuals, families and groups",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ce0d6a42-59c1-433e-ab62-adfc969c46bb?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ce0d6a42-59c1-433e-ab62-adfc969c46bb",
+        "title" : "ensure safety of healthcare users",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:eb9f8a48-4be4-434b-be9d-293ff5c07f97?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/eb9f8a48-4be4-434b-be9d-293ff5c07f97",
+        "title" : "refer healthcare users",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e98a5096-de98-46d2-88c8-951f4029c038?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e98a5096-de98-46d2-88c8-951f4029c038",
+        "title" : "evaluate nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e13d2b8f-fc81-4f60-8958-74b8be492ad0?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e13d2b8f-fc81-4f60-8958-74b8be492ad0",
+        "title" : "contribute to the advancements in specialised nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:51e79cb4-fab3-404c-88f3-cd4a1bd5879e?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/51e79cb4-fab3-404c-88f3-cd4a1bd5879e",
+        "title" : "deal with emergency care situations",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6acf652c-33b2-4e28-8f79-1e553f255229?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6acf652c-33b2-4e28-8f79-1e553f255229",
+        "title" : "plan nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5cc97a45-69fc-4f37-a973-402d5ac561ac?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/5cc97a45-69fc-4f37-a973-402d5ac561ac",
+        "title" : "initiate life preserving measures",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f98e06f5-a09a-4356-b6a8-d55a7d3c5356?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f98e06f5-a09a-4356-b6a8-d55a7d3c5356",
+        "title" : "implement nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:cae8a697-1047-4da2-ac7d-77065dade235?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/cae8a697-1047-4da2-ac7d-77065dade235",
+        "title" : "manage adverse reactions to drugs",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:d15ce60f-ddab-41ce-ba56-398451b77b60?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/d15ce60f-ddab-41ce-ba56-398451b77b60",
+        "title" : "have computer literacy",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c82f9319-cf46-4257-a8ce-542d0a7fed8f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c82f9319-cf46-4257-a8ce-542d0a7fed8f",
+        "title" : "provide treatment strategies for challenges to human health",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:eba85523-6ad2-4cd9-9b27-a0b6a39b8cfa?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/eba85523-6ad2-4cd9-9b27-a0b6a39b8cfa",
+        "title" : "work in multidisciplinary health teams",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:516e324b-03fc-4d3b-9986-e46e9834cd43?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/516e324b-03fc-4d3b-9986-e46e9834cd43",
+        "title" : "implement fundamentals of nursing",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:646d871b-4503-4dc8-a076-06d7085e4cde?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+        "title" : "promote human rights",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ef1e6c93-2a90-4abf-951b-a8ae283d368d?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ef1e6c93-2a90-4abf-951b-a8ae283d368d",
+        "title" : "carry out nurse-led discharge",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:99a09006-31f4-41d3-b3aa-feb2aeff730b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/99a09006-31f4-41d3-b3aa-feb2aeff730b",
+        "title" : "specialist nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0b5aaee4-c948-4853-bf8d-b9cd6c4917ee?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/0b5aaee4-c948-4853-bf8d-b9cd6c4917ee",
+        "title" : "inform policy makers on health-related challenges",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:71480db1-a706-47f9-952f-bdc5036e3df3?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/71480db1-a706-47f9-952f-bdc5036e3df3",
+        "title" : "coordinate care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:7110bf9f-b245-4adc-9159-5081013fd64d?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/7110bf9f-b245-4adc-9159-5081013fd64d",
+        "title" : "communicate in healthcare",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e6bf6e73-230a-434c-97b2-a0c042a8b7ac?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e6bf6e73-230a-434c-97b2-a0c042a8b7ac",
+        "title" : "apply sustainability principles in health care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:d5c8ec12-202d-4b39-a71e-b6dcc24a358b?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/d5c8ec12-202d-4b39-a71e-b6dcc24a358b",
+        "title" : "coach individuals in specialised nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5986140f-daac-4a44-9c77-756db279e3ac?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/5986140f-daac-4a44-9c77-756db279e3ac",
+        "title" : "manage trauma through surgical means",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8e0bfbba-6e9d-48e0-b152-2cc949e5022a?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/8e0bfbba-6e9d-48e0-b152-2cc949e5022a",
+        "title" : "implement scientific decision making in healthcare",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:d93f9e29-9740-4231-8486-13d377b99f05?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/d93f9e29-9740-4231-8486-13d377b99f05",
+        "title" : "develop a collaborative therapeutic relationship",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:268f3f0d-252e-4f61-9d96-1a87f4389ca9?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/268f3f0d-252e-4f61-9d96-1a87f4389ca9",
+        "title" : "communicate in specialised nursing care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:fe358ce4-bbe7-45d8-94e6-11a86a75dfab?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/fe358ce4-bbe7-45d8-94e6-11a86a75dfab",
+        "title" : "perform vascular surgery therapeutic procedures",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6063652e-22c4-472e-bb96-6e5ec1e7c5de?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6063652e-22c4-472e-bb96-6e5ec1e7c5de",
+        "title" : "provide nursing advice on healthcare",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:c65aa043-98da-4136-9877-494e72d9e4cf?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/c65aa043-98da-4136-9877-494e72d9e4cf",
+        "title" : "interact with healthcare users",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      } ],
+      "relatedOptionalSkill" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:f22cfa92-9336-4205-a691-4d5290701463?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/f22cfa92-9336-4205-a691-4d5290701463",
+        "title" : "perform endoscopy",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:1b9899a4-5b50-44b0-a21a-e2f86c51ac5a?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/1b9899a4-5b50-44b0-a21a-e2f86c51ac5a",
+        "title" : "assess physical conditions of clients",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:09638218-695c-44c7-bac3-26b45a2ae418?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/09638218-695c-44c7-bac3-26b45a2ae418",
+        "title" : "conduct patch testing",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a374d988-ef19-47ce-90c3-9be2b6330a73?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a374d988-ef19-47ce-90c3-9be2b6330a73",
+        "title" : "assist in kidney transplant",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:79fc83a3-9c76-4e21-b766-2e9c0f8d31eb?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/79fc83a3-9c76-4e21-b766-2e9c0f8d31eb",
+        "title" : "patient safety theories",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:87a708d8-a14d-42ce-8f03-c8a199f999d5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/87a708d8-a14d-42ce-8f03-c8a199f999d5",
+        "title" : "use clinical reasoning",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:dd297859-0f31-43a4-aa5a-cddd5bf79d71?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/dd297859-0f31-43a4-aa5a-cddd5bf79d71",
+        "title" : "administer immunotherapy",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:436b8f31-1a12-408a-be5f-a951942fbf92?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/436b8f31-1a12-408a-be5f-a951942fbf92",
+        "title" : "simulation-based clinical education",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0bb3792c-0a17-4e48-a8b3-5603bb12a660?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/0bb3792c-0a17-4e48-a8b3-5603bb12a660",
+        "title" : "provide nursing care in community settings",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:9153d8b4-f8ac-4a2c-99d2-383f5c129af1?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/9153d8b4-f8ac-4a2c-99d2-383f5c129af1",
+        "title" : "assist in epilepsy surgery",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:cc69175e-c35d-4494-8844-e71385ccce4a?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/cc69175e-c35d-4494-8844-e71385ccce4a",
+        "title" : "use foreign languages for health-related research",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:5e13af88-67d3-46ed-af58-8a7b8ebe7b1f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/5e13af88-67d3-46ed-af58-8a7b8ebe7b1f",
+        "title" : "perform venous cannulation",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:527b4d56-76f9-470a-9a90-cc5203501083?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/527b4d56-76f9-470a-9a90-cc5203501083",
+        "title" : "follow-up patients with heart attack",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:b469a01e-2d3c-4143-8af8-687630fb4ee5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/b469a01e-2d3c-4143-8af8-687630fb4ee5",
+        "title" : "provide palliative care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:e724205b-6b9a-45b4-b629-cd32a6c80b4f?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/e724205b-6b9a-45b4-b629-cd32a6c80b4f",
+        "title" : "use foreign languages in patient care",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:0e685cc5-df53-451f-b987-7fd6d7025447?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/0e685cc5-df53-451f-b987-7fd6d7025447",
+        "title" : "provide anti-cancer medical treatment",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:8eab4e4f-03f8-4a66-a830-ec4e5db43253?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/8eab4e4f-03f8-4a66-a830-ec4e5db43253",
+        "title" : "prescribe medication",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:2f92c4ed-279c-467e-82bd-4709172514f5?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/2f92c4ed-279c-467e-82bd-4709172514f5",
+        "title" : "address side effects of menopause",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:6af2f535-433b-4c38-b31b-ab14a8bac266?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/6af2f535-433b-4c38-b31b-ab14a8bac266",
+        "title" : "conduct preoperative investigations",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:4d2fa936-9983-45c3-986b-fdf82fb65d0d?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/4d2fa936-9983-45c3-986b-fdf82fb65d0d",
+        "title" : "advise patients on infectious diseases when travelling",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ba73ea7b-3e80-446d-898a-f8ec07437cb3?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/ba73ea7b-3e80-446d-898a-f8ec07437cb3",
+        "title" : "conduct polysomnography",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:a196d64e-214a-4be3-9451-88eadb0498cd?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/a196d64e-214a-4be3-9451-88eadb0498cd",
+        "title" : "treat endocrine disorders",
+        "skillType" : "http://data.europa.eu/esco/skill-type/skill"
+      } ],
+      "regulatedProfessionNote" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/regulated-professions:unregulated?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/regulated-professions/unregulated",
+        "title" : "To see if and how this occupation is regulated in EU Member States, EEA countries or Switzerland please consult the Regulated Professions Database of the Commission. Regulated Professions Database: http://ec.europa.eu/growth/single-market/services/free-movement-professionals/qualifications-recognition_en"
+      },
+      "broaderIscoGroup" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C2221?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/isco/C2221",
+        "title" : "Nursing professionals"
+      } ]
+    },
+    "_embedded" : {
+      "hasAssociation" : [ {
+        "uri" : "http://data.europa.eu/esco/relation/55525027-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/8eab4e4f-03f8-4a66-a830-ec4e5db43253",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525013-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/eb9f8a48-4be4-434b-be9d-293ff5c07f97",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250F8-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/516e324b-03fc-4d3b-9986-e46e9834cd43",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250F9-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/27a638bc-6362-45f8-afce-5596a606269b",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250BC-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/a32e7fb1-af9e-4c09-8ea7-72b7442e9cda",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250BD-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/b00e948c-19be-4951-8cff-60f88f1046e9",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552510D-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/9fcf9918-fdef-49c3-aedc-518eb1e7e1f5",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FFF-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552512B-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/13724e7d-b946-4773-915e-9621340237bc",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250EE-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/1023ac61-250f-4eef-b7a9-238cf071685f",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250A9-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525153-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/268f3f0d-252e-4f61-9d96-1a87f4389ca9",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525094-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/ae965e49-06f1-442f-87bf-e48fc1e1d8b6",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FCD-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/0b5aaee4-c948-4853-bf8d-b9cd6c4917ee",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552513E-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/8e0bfbba-6e9d-48e0-b152-2cc949e5022a",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525058-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/aa238394-8126-4ada-be2f-9dfe065cf314",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552503A-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/7110bf9f-b245-4adc-9159-5081013fd64d",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525062-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/6d23d9b2-3eb0-454b-bb1a-bb5b277c98b5",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250DA-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/e6bf6e73-230a-434c-97b2-a0c042a8b7ac",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552513F-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/99a09006-31f4-41d3-b3aa-feb2aeff730b",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525008-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/2475cd27-8d6c-4318-a364-21395b23acba",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552504E-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/7a63f944-6948-4ae4-9c1f-d08e492535c9",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FF4-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552506C-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/f98e06f5-a09a-4356-b6a8-d55a7d3c5356",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552508A-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/6063652e-22c4-472e-bb96-6e5ec1e7c5de",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525076-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/4be3c34e-47ba-4881-ac74-8bd244e0b04c",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250C6-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/a46743b7-ff8c-49b6-99f7-7fa5bc241771",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552508B-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/e98a5096-de98-46d2-88c8-951f4029c038",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250D1-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/71480db1-a706-47f9-952f-bdc5036e3df3",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FCC-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/98eb1f3b-3480-416b-bd4b-811946f7e347",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FD6-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/c82f9319-cf46-4257-a8ce-542d0a7fed8f",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525120-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552515C-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/aca52133-5f71-4423-abec-950284b5eaf8",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525134-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/eba85523-6ad2-4cd9-9b27-a0b6a39b8cfa",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552512A-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/16636767-c215-4cf0-b126-e144fea20926",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525152-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/d5c8ec12-202d-4b39-a71e-b6dcc24a358b",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250B2-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/a28e8141-89ee-4b24-a3bb-1aebcc56c72d",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525030-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/c65aa043-98da-4136-9877-494e72d9e4cf",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FEA-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/d15ce60f-ddab-41ce-ba56-398451b77b60",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525166-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/9fd3b0ab-8eb4-4790-9733-9d383df53df3",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552509E-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525167-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/e13d2b8f-fc81-4f60-8958-74b8be492ad0",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FFE-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552501C-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/ce0d6a42-59c1-433e-ab62-adfc969c46bb",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FE0-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/e724205b-6b9a-45b4-b629-cd32a6c80b4f",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250E4-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/79c012c7-4b09-497e-8152-e73e5d1d3384",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FC2-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525170-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/e18a6a3c-4f26-4141-8c72-4b4f01d77914",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552517A-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/51e79cb4-fab3-404c-88f3-cd4a1bd5879e",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250E5-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/1b3370df-c280-470c-ac35-951f42ca8b19",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525077-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/441707bb-9ad3-406c-9975-a6bec96f537b",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55524FE1-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/cc69175e-c35d-4494-8844-e71385ccce4a",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/optional-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552504F-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/ef1e6c93-2a90-4abf-951b-a8ae283d368d",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525063-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/46003629-a579-4d0a-b3ea-80ef890699d6",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250D0-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/6c3e28d6-e3cc-4b25-a5da-a0dce043cf17",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525012-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/b55f61a4-5f9e-4741-ba95-9ac04b64119b",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552503B-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/d93f9e29-9740-4231-8486-13d377b99f05",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525102-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/049c8caf-dd12-45fc-9bfa-b64051f32a19",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525080-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/5cc97a45-69fc-4f37-a973-402d5ac561ac",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/5552510C-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/a49fdda1-abd1-40e0-a824-3c545d98f32e",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/555250A8-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/f90d4810-8bac-4e5e-b870-3e35a4138ff7",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525044-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525116-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/76395873-7fe2-4f9a-b4b6-9932f8cbd0b4",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525026-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/8232979d-6aa4-40c9-a12b-5152a52a76b8",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      }, {
+        "uri" : "http://data.europa.eu/esco/relation/55525148-1AD9-11E7-B43F-E10FE2FA9FC2",
+        "type" : "esco:AssociationObject",
+        "isAssociationFor" : "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "target" : "http://data.europa.eu/esco/skill/a8d470b7-2f7e-4e40-aaf2-fc1c3cb2ebe3",
+        "targetFramework" : [ "http://data.europa.eu/esco/concept-scheme/member-skills", "http://data.europa.eu/esco/concept-scheme/skills" ],
+        "associationType" : "http://data.europa.eu/esco/relationship-type/essential-skill"
+      } ],
+      "ancestors" : [ {
+        "parents" : [ "http://data.europa.eu/esco/isco/C22" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C222?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C222",
+            "title" : "Nursing and midwifery professionals"
+          }
+        }
+      }, {
+        "parents" : [ "http://data.europa.eu/esco/isco/C222" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C2221?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C2221",
+            "title" : "Nursing professionals"
+          }
+        }
+      }, {
+        "parents" : [ "http://data.europa.eu/esco/isco/C2" ],
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C22?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C22",
+            "title" : "Health professionals"
+          }
+        }
+      }, {
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C2?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C2",
+            "title" : "Professionals"
+          }
+        }
+      } ],
+      "identifier" : [ {
+        "uri" : "http://data.europa.eu/esco/identifier/fd06af41-f08b-4ba5-b955-6a3c04fa2450",
+        "schemeVersion" : "1.0.9",
+        "code" : "2221.3"
+      } ]
+    }
+  }
+}

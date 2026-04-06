@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T12:15:00.892598688Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 73,
+  "httpStatus" : 500,
+  "body" : {
+    "timestamp" : "2026-04-06T12:15:01.060+00:00",
+    "status" : 500,
+    "error" : "Internal Server Error",
+    "path" : "/esco/open-api/skill/skill:00000000-0000-0000-0000-000000000000/conversion",
+    "eventId" : "202604061415_031a193ab3b9b027",
+    "exceptionId" : "NotFoundException",
+    "message" : "Resource not found http://data.europa.eu/esco/skill/00000000-0000-0000-0000-000000000000"
+  }
+}

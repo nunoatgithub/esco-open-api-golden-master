@@ -1,0 +1,2036 @@
+{
+  "capturedAt" : "2026-04-06T12:15:25.338337358Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 139,
+  "httpStatus" : 200,
+  "body" : {
+    "limit" : 20,
+    "offset" : 0,
+    "total" : 619,
+    "language" : "en",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&viewObsolete=true&language=en"
+      },
+      "first" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&viewObsolete=true&language=en&offset=0&limit=20"
+      },
+      "next" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&viewObsolete=true&language=en&offset=20&limit=20"
+      },
+      "last" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-list/by-scheme?inScheme=http%253A%252F%252Fdata.europa.eu%252Fesco%252Fconcept-scheme%252Fisco&viewObsolete=true&language=en&offset=599&limit=20"
+      },
+      "concepts" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1219?selectedVersion=v1.2.1",
+        "title" : "Business services and administration managers not elsewhere classified",
+        "uri" : "http://data.europa.eu/esco/isco/C1219"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+        "title" : "Sales, marketing and development managers",
+        "uri" : "http://data.europa.eu/esco/isco/C122"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1223?selectedVersion=v1.2.1",
+        "title" : "Research and development managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1223"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1222?selectedVersion=v1.2.1",
+        "title" : "Advertising and public relations managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1222"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+        "title" : "Production and specialised services managers",
+        "uri" : "http://data.europa.eu/esco/isco/C13"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1311?selectedVersion=v1.2.1",
+        "title" : "Agricultural and forestry production managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1311"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+        "title" : "Production managers in agriculture, forestry and fisheries",
+        "uri" : "http://data.europa.eu/esco/isco/C131"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1312?selectedVersion=v1.2.1",
+        "title" : "Aquaculture and fisheries production managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1312"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+        "title" : "Manufacturing, mining, construction, and distribution managers",
+        "uri" : "http://data.europa.eu/esco/isco/C132"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1322?selectedVersion=v1.2.1",
+        "title" : "Mining managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1322"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1321?selectedVersion=v1.2.1",
+        "title" : "Manufacturing managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1321"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1323?selectedVersion=v1.2.1",
+        "title" : "Construction managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1323"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C133?selectedVersion=v1.2.1",
+        "title" : "Information and communications technology service managers",
+        "uri" : "http://data.europa.eu/esco/isco/C133"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1324?selectedVersion=v1.2.1",
+        "title" : "Supply, distribution and related managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1324"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C0?selectedVersion=v1.2.1",
+        "title" : "Armed forces occupations",
+        "uri" : "http://data.europa.eu/esco/isco/C0"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C02?selectedVersion=v1.2.1",
+        "title" : "Non-commissioned armed forces officers",
+        "uri" : "http://data.europa.eu/esco/isco/C02"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C0110?selectedVersion=v1.2.1",
+        "title" : "Commissioned armed forces officers",
+        "uri" : "http://data.europa.eu/esco/isco/C0110"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1342?selectedVersion=v1.2.1",
+        "title" : "Health services managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1342"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1343?selectedVersion=v1.2.1",
+        "title" : "Aged care services managers",
+        "uri" : "http://data.europa.eu/esco/isco/C1343"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C142?selectedVersion=v1.2.1",
+        "title" : "Retail and wholesale trade managers",
+        "uri" : "http://data.europa.eu/esco/isco/C142"
+      } ]
+    },
+    "_embedded" : {
+      "http://data.europa.eu/esco/isco/C1219" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1219",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Business services and administration managers not elsewhere classified",
+        "preferredLabel" : {
+          "fi" : "Muut hallintojohtajat ja kaupalliset johtajat",
+          "sv" : "Övriga chefer inom företagstjänster och administration",
+          "hr" : "Poslovni i administrativni direktori/direktorice d. n.",
+          "it" : "Dirigenti nei servizi alle imprese e dell’amministrazione non classificati altrove",
+          "bg" : "Ръководители в бизнес услугите и административните дейности, некласифицирани другаде",
+          "de" : "Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt",
+          "pt" : "Directores administrativos e de serviços às empresas não classificados em outra parte",
+          "es" : "Directores de administración y servicios no clasificados bajo otros epígrafes",
+          "el" : "Διευθυντές και ανώτερα διευθυντικά στελέχη επιχειρηματικών υπηρεσιών και διοίκησης π.δ.κ.α.",
+          "nl" : "Leidinggevende functies op het gebied van zakelijke diensten en op administratief gebied, niet elders geclassificeerd",
+          "en" : "Business services and administration managers not elsewhere classified",
+          "lt" : "Kitur nepriskirti verslo paslaugų srities ir administracijos vadovai",
+          "da" : "Ledelse inden for anden forretningsservice og andre administrative funktioner",
+          "no" : "Andre administrative ledere",
+          "lv" : "Citur neklasificēti komercpakalpojumu un administrācijas jomas vadītāji",
+          "sl" : "Upravno-administrativni in poslovni menedžerji, d. n.",
+          "cs" : "Vedoucí a řídící pracovníci univerzálních dílčích celků jinde neuvedení",
+          "sk" : "Riadiaci pracovníci (manažéri) administratívnych a podporných činností inde neuvedení",
+          "hu" : "Máshová nem sorolható üzleti és igazgatási vezetők",
+          "et" : "Põhitegevuse juhid ja haldusdirektorid, mujal liigitamata",
+          "uk" : "Менеджери (управителі) з бізнес-послуг та адміністрування, не віднесені до до інших категорій",
+          "ro" : "Directori de întreprinderi și conducători din domeniul administrativ neclasificați în grupele de bază anterioare",
+          "fr" : "Directeurs des services administratifs non classés ailleurs",
+          "mt" : "Maniġers tas-servizzi ta’ negozju u amministrazzjoni mhumiex ikklassifikati x’imkien ieħor",
+          "pl" : "Kierownicy do spraw obsługi biznesu i zarządzania gdzie indziej niesklasyfikowani"
+        },
+        "status" : "released",
+        "code" : "1219",
+        "description" : {
+          "en" : "This unit group covers business services and administration managers not classified elsewhere in Minor Group 121: Business Services and Administration Managers. For instance, the group includes occupations such as facilities manager, cleaning services manager and administrative services manager employed either as the manager of a department of a large enterprise and organization, or of an enterprise that provides such services to other enterprises and organizations.\nIn such cases tasks would include -\n(a) providing administrative, strategic planning and operational support, research and advice to senior management on matters such as the management of building facilities and administrative services;\n(b) developing and managing the organization’s administrative and physical resources;\n(c) developing and implementing administrative and procedural statements and guidelines for use by staff in the organization; (d) analysing complex resource management issues and initiatives that affect the organization, and preparing associated reports, correspondence and submissions;\n(e) providing information and support for the preparation of financial reports and budgets;\n(f) leading, managing and developing administrative staff to ensure smooth business operations and the provision of accurate and timely information;\n(g) representing the enterprise or organization in negotiations, and at conventions, seminars, public hearings and forums;\n(h) establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(i) planning and directing daily operations;\n(j) overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n- Administrative services manager\n- Cleaning services manager\n- Corporate services manager\n- Facilities manager."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1219?selectedVersion=v1.2.1",
+            "title" : "Business services and administration managers not elsewhere classified",
+            "uri" : "http://data.europa.eu/esco/isco/C1219"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C121?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C121",
+            "title" : "Business services and administration managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:680831bb-64fc-4fc8-ae58-c450327d9700?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/680831bb-64fc-4fc8-ae58-c450327d9700",
+            "title" : "manufacturing facility manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:bea99fea-0383-4c63-b944-70d4799de2c5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5",
+            "title" : "project manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:109e0a5d-203d-4af6-8f70-692111335ec3?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/109e0a5d-203d-4af6-8f70-692111335ec3",
+            "title" : "quality services manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8b26eec6-7497-4218-8364-9b5983b04ae7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8b26eec6-7497-4218-8364-9b5983b04ae7",
+            "title" : "defence administration officer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:94e0bedd-e56e-42be-a5a4-b74a260f437c?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/94e0bedd-e56e-42be-a5a4-b74a260f437c",
+            "title" : "department manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:1313aeea-63a9-4b4d-82d1-dbe00ff9ed10?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/1313aeea-63a9-4b4d-82d1-dbe00ff9ed10",
+            "title" : "corporate social responsibility manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:3c136897-4e0e-41ef-bb57-d8152323b93a?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/3c136897-4e0e-41ef-bb57-d8152323b93a",
+            "title" : "business service manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C12" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C121?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C121",
+                "title" : "Business services and administration managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C122" : {
+        "uri" : "http://data.europa.eu/esco/isco/C122",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Sales, marketing and development managers",
+        "preferredLabel" : {
+          "nl" : "Leidinggevende functies op het gebied van verkoop, marketing en ontwikkeling",
+          "uk" : "Менеджери з продажів, маркетингу й розвитку",
+          "el" : "Διευθυντές πωλήσεων, μάρκετινγκ και ανάπτυξης",
+          "mt" : "Maniġers ta’ bejgħ, tqegħid fis-suq u żvilupp",
+          "it" : "Dirigenti nei servizi di vendita, commercializzazione e sviluppo",
+          "fi" : "Myynti-, markkinointi- ja kehitysjohtajat",
+          "ro" : "Conducători în domeniul vânzări, marketing și dezvoltare",
+          "sl" : "Menedžerji/menedžerke za trženje, prodajo in razvoj",
+          "hu" : "Értékesítési-, marketing- és fejlesztési vezetők",
+          "sv" : "Försäljnings-, marknads- och utvecklingschefer",
+          "lt" : "Pardavimo, rinkodaros ir plėtros vadovai",
+          "et" : "Müügi- ja turundusjuhid ning arendusjuhid",
+          "en" : "Sales, marketing and development managers",
+          "lv" : "Tirdzniecības, tirgzinības un attīstības jomas vadītāji",
+          "hr" : "Direktori/direktorice prodaje, marketinga i razvoja",
+          "bg" : "Ръководители на звена за продажби, маркетинг и развойна дейност",
+          "pt" : "Directores de vendas, marketing e desenvolvimento de negócios",
+          "sk" : "Riadiaci pracovníci (manažéri) odbytu, marketingu, výskumu a vývoja",
+          "pl" : "Kierownicy do spraw sprzedaży, marketingu i rozwoju",
+          "de" : "Führungskräfte in Vertrieb, Marketing und Entwicklung",
+          "no" : "Ledere av salgs-",
+          "es" : "Directores de ventas, comercialización y desarrollo",
+          "da" : "Ledelse af forretnings- og udviklingsorienterede funktioner",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti prodeje, marketingu, výzkumu, vývoje, reklamy a styku s veřejností",
+          "fr" : "Directeurs et cadres de direction, ventes, commercialisation et développement"
+        },
+        "status" : "released",
+        "code" : "122",
+        "description" : {
+          "en" : "Sales, marketing and development managers plan, organize, direct, control and coordinate the advertising, public relations, research and development, and sales and marketing activities of enterprises and organizations, or of enterprises that provide such services to other enterprises and organizations.\nTasks performed usually include: formulating and implementing policies and plans for advertising, public relations, product development, sales and marketing in consultation with other managers; directing the development of initiatives for new products or scientific research, marketing, public relations and advertising campaigns; determining and directing sales activities, product mix, customer service standards and merchandising methods and distribution policy; setting prices and credit arrangements; establishing and managing budgets and controlling expenditure to ensure the efficient use of resources; overseeing the selection, training and performance of staff; representing the enterprise or organization at conventions, trade exhibitions and other forums.\nOccupations in this minor group are classified into the following unit groups:\n1221 Sales and Marketing Managers\n1222 Advertising and Public Relations Managers 1223 Research and Development Managers."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+            "title" : "Sales, marketing and development managers",
+            "uri" : "http://data.europa.eu/esco/isco/C122"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C12",
+            "title" : "Administrative and commercial managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1223?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1223",
+            "title" : "Research and development managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1222?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1222",
+            "title" : "Advertising and public relations managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1221?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1221",
+            "title" : "Sales and marketing managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1223" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1223",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Research and development managers",
+        "preferredLabel" : {
+          "sk" : "Riadiaci pracovníci (manažéri) v oblasti výskumu a vývoja",
+          "et" : "Uurimis- ja arendusjuhid",
+          "ro" : "Conducători în domeniul cercetării și dezvoltării",
+          "sl" : "Menedžerji/menedžerke za raziskave in razvoj",
+          "da" : "Ledelse af kommerciel forskning og udvikling",
+          "mt" : "Maniġers ta’ riċerka u żvilupp",
+          "en" : "Research and development managers",
+          "lt" : "Mokslinių tyrimų ir plėtros vadovai",
+          "fi" : "Tutkimus- ja kehitysjohtajat",
+          "bg" : "Ръководители на звена за научноизследователска и развойна дейност",
+          "el" : "Διευθυντές έρευνας και ανάπτυξης",
+          "hr" : "Direktori/direktorice istraživanja i razvoja",
+          "hu" : "Kutatási és fejlesztési vezetők",
+          "fr" : "Directeurs et cadres de direction, recherche-développement",
+          "lv" : "Pētniecības un attīstības jomas vadītāji",
+          "nl" : "Leidinggevende functies op het gebied van speur- en ontwikkelingswerk",
+          "pt" : "Directores de investigação e desenvolvimento",
+          "uk" : "Менеджери з досліджень і розробок",
+          "it" : "Dirigenti nel settore ricerca e sviluppo",
+          "sv" : "Forsknings- och utvecklingschefer",
+          "es" : "Directores de investigación y desarrollo",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti výzkumu a vývoje",
+          "de" : "Führungskräfte in Forschung und Entwicklung",
+          "pl" : "Kierownicy do spraw badań i rozwoju",
+          "no" : "Forsknings- og utviklingsledere"
+        },
+        "status" : "released",
+        "code" : "1223",
+        "description" : {
+          "en" : "Research and development managers plan, direct and coordinate the research and development activities of an enterprise or organization or of enterprises that provide related services to other enterprises and organizations.\nTasks include -\n(a) planning, directing and coordinating research and development activities, in-house or commissioned from external research organizations, to develop new or improved technical processes, products, knowledge, or utilization of materials;\n(b) planning the overall research and development programme of an enterprise or organization, specifying goals and budgetary requirements;\n(c) leading and managing the activities of research and development staff;\n(d) establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(e) establishing and directing operational and administrative procedures;\n(f) planning and directing daily operations;\n(g) overseeing the selection, training and performance of staff;\n(h) representing the enterprise or organization at conventions, seminars and conferences.\nExamples of the occupations classified here:\n- Product development manager\n- Research manager."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1223?selectedVersion=v1.2.1",
+            "title" : "Research and development managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1223"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C122",
+            "title" : "Sales, marketing and development managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:9f508305-80ce-4111-8722-f2c9b4a44890?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/9f508305-80ce-4111-8722-f2c9b4a44890",
+            "title" : "product manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:73ceb2f9-18e3-4cfe-9c06-e9fb31ece440?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/73ceb2f9-18e3-4cfe-9c06-e9fb31ece440",
+            "title" : "research and development manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8a0afc76-4a09-449a-9e7b-a33495889f95?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8a0afc76-4a09-449a-9e7b-a33495889f95",
+            "title" : "chief product officer"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C12" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C122",
+                "title" : "Sales, marketing and development managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1222" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1222",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Advertising and public relations managers",
+        "preferredLabel" : {
+          "en" : "Advertising and public relations managers",
+          "nl" : "Leidinggevende functies op het gebied van reclame en public relations",
+          "bg" : "Ръководители на звена за реклама и връзки с обществеността",
+          "fi" : "Mainos- ja tiedotusjohtajat",
+          "hr" : "Direktori/direktorice promidžbe i odnosa s javnošću",
+          "et" : "Reklaami- ja suhtekorraldusjuhid",
+          "lv" : "Reklāmas un sabiedrisko attiecību jomas vadītāji",
+          "el" : "Διευθυντές διαφήμισης και δημοσίων σχέσεων",
+          "es" : "Directores de publicidad y relaciones públicas",
+          "sk" : "Riadiaci pracovníci (manažéri) v oblasti reklamy a styku s verejnosťou",
+          "it" : "Dirigenti nei servizi di pubblicità e pubbliche relazioni",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti reklamy a styku s veřejností",
+          "lt" : "Reklamos ir ryšių su visuomene srities vadovai",
+          "uk" : "Менеджери з реклами й зв’язків із громадськістю",
+          "de" : "Führungskräfte in Werbung und Öffentlichkeitsarbeit",
+          "sl" : "Menedžerji/menedžerke za oglaševanje in odnose z javnostmi",
+          "mt" : "Maniġers tar-reklamar u relazzjonijiet pubbliċi",
+          "pt" : "Directores de publicidade e relações públicas",
+          "pl" : "Kierownicy do spraw reklamy i public relations",
+          "ro" : "Conducători în domeniul publicității și relațiilor publice",
+          "da" : "Ledelse af reklame og PR",
+          "sv" : "Informations-, kommunikations- och pr-chefer",
+          "no" : "PR- og informasjonssjefer",
+          "hu" : "Reklám- és PR-vezetők",
+          "fr" : "Directeurs et cadres de direction, publicité et relations publiques"
+        },
+        "status" : "released",
+        "code" : "1222",
+        "description" : {
+          "en" : "Advertising and public relations managers plan, direct and coordinate the advertising, public relations and public information activities of enterprises and organizations or of enterprises that provide related services to other enterprises and organizations.\nTasks include -\n(a) planning, directing and coordinating the advertising and public relations activities of an enterprise or organization;\n(b) negotiating advertising contracts with clients or with newspapers, radio and television stations, sports and cultural organizations and advertising agencies;\n(c) planning and managing information programmes to inform legislators, the mass media and the general public about the plans, accomplishments and points of view of the enterprise or organization;\n(d) leading and managing the activities of advertising and public relations staff;\n(e) establishing and managing budgets and controlling expenditure and ensuring the efficient use of resources;\n(f) establishing and directing operational and administrative procedures;\n(g) planning and directing daily operations;\n(h) overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n- Advertising manager\n- Public relations manager."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1222?selectedVersion=v1.2.1",
+            "title" : "Advertising and public relations managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1222"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C122",
+            "title" : "Sales, marketing and development managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:cd7b838c-51f6-41ec-9067-bb974c0f991b?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/cd7b838c-51f6-41ec-9067-bb974c0f991b",
+            "title" : "communication manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C12?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C12",
+                "title" : "Administrative and commercial managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C12" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C122?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C122",
+                "title" : "Sales, marketing and development managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C13" : {
+        "uri" : "http://data.europa.eu/esco/isco/C13",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Production and specialised services managers",
+        "preferredLabel" : {
+          "fr" : "Directeurs et cadres de direction, production et services spécialisés",
+          "sl" : "Menedžerji/menedžerke za proizvodnjo in specializirane storitve",
+          "hr" : "Direktori/direktorice proizvodnje i specijaliziranih usluga",
+          "de" : "Führungskräfte in der Produktion und bei speziellen Dienstleistungen",
+          "el" : "Διευθυντές παραγωγής και εξειδικευμένων υπηρεσιών",
+          "lt" : "Gamybos ir specializuotų paslaugų srities vadovai",
+          "es" : "Directores y gerentes de producción y operaciones",
+          "bg" : "Ръководители в производството и специализираните услуги",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti výroby, informačních technologií, vzdělávání a v příbuzných oborech",
+          "nl" : "Leidinggevende functies op het gebied van productie en gespecialiseerde diensten",
+          "pt" : "Directores de produção de serviços especializados",
+          "et" : "Tootmisjuhid ja põhitegevuse juhid (tegevusalade kaupa)",
+          "da" : "Ledelse af hovedaktiviteten inden for produktions- og servicevirksomhed",
+          "sk" : "Riadiaci pracovníci (manažéri) vo výrobe a v špecializovaných službách",
+          "pl" : "Kierownicy do spraw produkcji i wyspecjalizowanych usług",
+          "ro" : "Conducători de unități din industrie și servicii",
+          "fi" : "Tuotantotoiminnan ja yhteiskunnan peruspalvelujen asiantuntijajohtajat",
+          "mt" : "Maniġers ta’ produzzjoni u servizzi speċjalizzati",
+          "lv" : "Ražošanas un specializēto pakalpojumu jomas vadītāji",
+          "en" : "Production and specialised services managers",
+          "hu" : "Termelési vezetők, szakszolgáltatások vezetői",
+          "sv" : "Driftchefer inom tillverkning, utbildning, vård m.m.",
+          "it" : "Dirigenti nei servizi di produzione e specializzati",
+          "uk" : "Менеджери з виробництва та спеціалізованих послуг",
+          "no" : "Ledere av enheter for vareproduksjon og tjenesteyting"
+        },
+        "status" : "released",
+        "code" : "13",
+        "description" : {
+          "en" : "Production and specialized services managers plan, direct and coordinate the production of the goods and the provision of the specialized professional and technical services provided by an enterprise or organization, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers. They are responsible for manufacturing, mining, construction, logistics, information and communications technology operations for large-scale agricultural, forestry and fisheries operations, and for the provision of health, education, social welfare, banking, insurance and other professional and technical services. Competent performance in most occupations in this sub-major group requires skills at the fourth ISCO skill level.\nTasks performed by workers in this sub-major group usually include: planning details of activities in terms of output, services provided, quality, quantity, cost, timeliness and labour requirements; setting standards and objectives; controlling the operation of plant and of procedures; assuring quality of the goods produced and services provided; preparing tenders and contract bids; establishing and managing budgets, monitoring costs, and adjusting activities, procedures and resources to minimize costs; overseeing the acquisition and installation of new plant and equipment; coordinating the implementation of health and safety requirements; planning and directing daily operations; overseeing the selection, training and performance of staff; preparing, or arranging for the preparation of, reports, budgets and forecasts; representing the enterprise or organization in negotiations with other agencies, and at conventions, seminars, public hearings and forums.\nOccupations in this sub-major group are classified into the following minor groups:\n131 Production Managers in Agriculture, Forestry and Fisheries\n132 Manufacturing, Mining, Construction and Distribution Managers\n133 Information and Communications Technology Services Managers\n134 Professional Services Managers\nNote\nSpecialized qualifications and extensive experience relevant to one or more occupations classified in Major Group 2: Professionals, or Major Group 3: Technicians and Associate Professionals, are usually required. Regional managers and other senior managers who coordinate and supervise the activities of subordinate managers who have a diverse range of functional responsibilities are included in Unit Group 1120: Managing Directors and Chief Executives."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+            "title" : "Production and specialised services managers",
+            "uri" : "http://data.europa.eu/esco/isco/C13"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1",
+            "title" : "Managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C131",
+            "title" : "Production managers in agriculture, forestry and fisheries"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C134?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C134",
+            "title" : "Professional services managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C133?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C133",
+            "title" : "Information and communications technology service managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C132",
+            "title" : "Manufacturing, mining, construction, and distribution managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1311" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1311",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Agricultural and forestry production managers",
+        "preferredLabel" : {
+          "sl" : "Menedžerji/menedžerke proizvodnje v kmetijstvu in gozdarstvu",
+          "no" : "Ledere i skogbruk",
+          "fr" : "Directeurs et cadres de direction, agriculture et sylviculture",
+          "nl" : "Leidinggevende functies op het gebied van de landbouw- en bosbouwproductie",
+          "lt" : "Žemės ūkio ir miškininkystės gamybos vadovai",
+          "en" : "Agricultural and forestry production managers",
+          "ro" : "Conducători de unități din agricultură și silvicultură",
+          "el" : "Διευθυντές παραγωγής στη γεωργία και στη δασοκομία",
+          "lv" : "Lauksaimniecības, mežsaimniecības un zivsaimniecības ražošanas vadītāji",
+          "uk" : "Менеджери сільськогосподарського й лісогосподарського виробництва",
+          "pl" : "Kierownicy produkcji w rolnictwie i leśnictwie",
+          "it" : "Dirigenti nella produzione agricola e forestale",
+          "sk" : "Riadiaci pracovníci (manažéri) v poľnohospodárstve a lesníctve",
+          "cs" : "Vedoucí a řídící pracovníci v zemědělství a lesnictví",
+          "pt" : "Directores de produção na agricultura, produção animal e floresta",
+          "sv" : "Driftchefer inom jordbruk och skogsbruk",
+          "et" : "Tootmisjuhid põllumajanduses ja metsanduses",
+          "bg" : "Ръководители в селското и горското стопанство",
+          "mt" : "Maniġers tal-produzzjoni fl-agrikoltura u l-forestrija",
+          "hu" : "Mezőgazdasági és erdőgazdálkodási termelési vezetők",
+          "es" : "Directores de producción agropecuaria y silvicultura",
+          "hr" : "Direktori/direktorice proizvodnje u poljoprivredi i šumarstvu",
+          "da" : "Ledelse af produktion i landbrug og skovbrug",
+          "fi" : "Maa- ja metsätalouden johtajat",
+          "de" : "Führungskräfte in der Produktion in Land- und Forstwirtschaft"
+        },
+        "status" : "released",
+        "code" : "1311",
+        "description" : {
+          "en" : "Agricultural and forestry production managers plan, direct and coordinate production in large-scale agricultural, horticultural and forestry operations such as plantations, large ranches, collective farms and agricultural cooperatives to grow and harvest crops, and breed and raise livestock.\nTasks include -\n(a) monitoring agricultural and forestry market activity and planning production to meet contract requirements and market demand;\n(b) establishing and managing budgets, monitoring production output and costs, recording information such as farm management practices, and preparing financial and operational reports;\n(c) conferring with buyers to arrange for the sale of crops and livestock;\n(d) contracting with farmers or independent owners for production of crops and livestock, or for management of production;\n(e) planning the type, intensity and sequence of farm operations (e.g. determining the best times for planting, spraying and harvesting);\n(f) analysing soil to determine types and quantities of fertilizer required for maximum production;\n(g) purchasing machinery, equipment and supplies such as tractors, seed, fertilizer and chemicals;\n(h) identifying and controlling agricultural and forest environmental toxins, weeds, pests and diseases;\n(i) organizing farming operations such as maintaining buildings, water supply systems and equipment;\n(j) directing and coordinating activities such as planting, irrigation, chemical application, harvesting and grading; (k) inspecting plantations and fields to determine maturity dates of crops, or to estimate potential crop damage from weather; (l) overseeing the selection, training and performance of agricultural and forestry workers and contractors.\nExamples of the occupations classified here:\n- Forestry manager\n- Plantation manager\n- Ranch manager."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1311?selectedVersion=v1.2.1",
+            "title" : "Agricultural and forestry production managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1311"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C131",
+            "title" : "Production managers in agriculture, forestry and fisheries"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:f04eaeff-52f5-4d52-93ad-6f846884827f?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/f04eaeff-52f5-4d52-93ad-6f846884827f",
+            "title" : "forester"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C131",
+                "title" : "Production managers in agriculture, forestry and fisheries"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C131" : {
+        "uri" : "http://data.europa.eu/esco/isco/C131",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Production managers in agriculture, forestry and fisheries",
+        "preferredLabel" : {
+          "lt" : "Žemės ūkio, miškininkystės ir žuvininkystės gamybos vadovai",
+          "fi" : "Maa-, metsä- ja kalatalouden johtajat",
+          "en" : "Production managers in agriculture, forestry and fisheries",
+          "mt" : "Maniġers ta’ produzzjoni fl-agrikoltura, forestrija u sajd",
+          "el" : "Διευθυντές παραγωγής στη γεωργία, στη δασοκομία και στην αλιεία",
+          "ro" : "Conducători de unități din industrie, agricultură, silvicultură și piscicultură",
+          "da" : "Ledelse af produktion i landbrug, skovbrug og fiskeri",
+          "hr" : "Direktori/direktorice proizvodnje u poljoprivredi, šumarstvu i ribarstvu",
+          "de" : "Führungskräfte in der Produktion in Land- und Forstwirtschaft und Fischerei",
+          "cs" : "Vedoucí a řídící pracovníci v zemědělství, lesnictví a rybářství",
+          "fr" : "Directeurs et cadres de direction, agriculture, sylviculture et pêche",
+          "sv" : "Driftchefer inom jordbruk, skogsbruk och fiske",
+          "sl" : "Menedžerji/menedžerke proizvodnje v kmetijstvu, gozdarstvu in ribištvu",
+          "pl" : "Kierownicy produkcji w rolnictwie, leśnictwie i rybołówstwie",
+          "sk" : "Riadiaci pracovníci (manažéri) v poľnohospodárstve, lesníctve a rybolove",
+          "et" : "Tootmisjuhid põllumajanduses, metsanduses ja kalanduses",
+          "it" : "Dirigenti nella produzione agricola, forestale e della pesca",
+          "nl" : "Leidinggevende functies op het gebied van de landbouw-, bosbouw- en visserijproductie",
+          "bg" : "Ръководители в селското, горското и рибното стопанство",
+          "hu" : "Mezőgazdasági, erdőgazdálkodási és halászati termelési vezetők",
+          "no" : "Ledere i gartnerier",
+          "es" : "Directores de producción agropecuaria, silvicultura y pesca",
+          "pt" : "Directores de produção na agricultura, produção animal, floresta e pesca",
+          "uk" : "Менеджери в сільському, лісовому й рибному господарствах",
+          "lv" : "Ražošanas struktūrvienību vadītāji lauksaimniecības, mežsaimniecības un zivsaimniecības nozarē"
+        },
+        "status" : "released",
+        "code" : "131",
+        "description" : {
+          "en" : "Production managers in agriculture, forestry and fisheries plan, direct and coordinate production in large-scale agricultural, horticultural, forestry aquaculture and fishery operations such as plantations, large ranches, collective farms and cooperatives, to grow and harvest crops, breed and raise livestock, fish and shellfish and to catch and harvest fish and other forms of aquatic life.\nTasks performed usually include: monitoring market activity and planning production to meet contract requirements and market demand; establishing and managing budgets, monitoring production output and costs, recording information such as farm and fisheries management practices, and preparing financial and operational reports; conferring with buyers to arrange for the sale of crops, catch and stock; contracting with farmers, skippers or independent owners for production of produce and management of production; planning the type, intensity and sequence of operations; purchasing machinery, equipment and supplies; identifying and controlling environmental toxins, weeds, pests and diseases; organizing operations such as maintaining buildings, water supply systems and equipment; overseeing the selection, training and performance of workers and contractors.\nOccupations in this minor group are classified into the following unit groups:\n1311 Agricultural and Forestry Production Managers\n1312 Aquaculture and Fisheries Production Managers."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+            "title" : "Production managers in agriculture, forestry and fisheries",
+            "uri" : "http://data.europa.eu/esco/isco/C131"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C13",
+            "title" : "Production and specialised services managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1311?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1311",
+            "title" : "Agricultural and forestry production managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1312?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1312",
+            "title" : "Aquaculture and fisheries production managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1312" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1312",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Aquaculture and fisheries production managers",
+        "preferredLabel" : {
+          "it" : "Dirigenti nella produzione della pesca e dell’acquacoltura",
+          "ro" : "Conducători de unități din domeniul acvaculturii și pescuitului",
+          "en" : "Aquaculture and fisheries production managers",
+          "et" : "Tootmisjuhid kalanduses ja vesiviljeluses",
+          "bg" : "Ръководители в риболова и аквакултурите",
+          "da" : "Ledelse af produktion inden for akvakultur og fiskeri",
+          "de" : "Führungskräfte in der Produktion in Aquakultur und Fischerei",
+          "sv" : "Driftchefer inom vattenbruk och fiske",
+          "pt" : "Directores de produção na aquicultura e pesca",
+          "sl" : "Menedžerji/menedžerke proizvodnje v ribištvu in ribogojstvu",
+          "hu" : "Halgazdálkodási és halászati termelési vezetők",
+          "es" : "Directores de producción de piscicultura y pesca",
+          "lv" : "Akvakultūras un zivsaimniecības ražošanas vadītāji",
+          "cs" : "Vedoucí a řídící pracovníci v rybářství a akvakultuře",
+          "hr" : "Direktori/direktorice proizvodnje u ribarstvu i ribogojstvu",
+          "mt" : "Maniġers tal-produzzjoni tal-akwakultura u sajd",
+          "sk" : "Riadiaci pracovníci (manažéri) v rybolove a akvakultúre",
+          "lt" : "Akvakultūros ir žuvininkystės gamybos vadovai",
+          "el" : "Διευθυντές παραγωγής στην υδατοκαλλιέργεια και στην αλιεία",
+          "uk" : "Менеджери в сфері аквакультури та рибальстві",
+          "fr" : "Directeurs et cadres de direction, aquaculture et pêche",
+          "nl" : "Leidinggevende functies op het gebied van de aquacultuur- en visserijproductie",
+          "fi" : "Vesiviljely- ja kalatalouden johtajat",
+          "no" : "Ledere innen akvakultur mv.",
+          "pl" : "Kierownicy produkcji w akwakulturze i rybołówstwie"
+        },
+        "status" : "released",
+        "code" : "1312",
+        "description" : {
+          "en" : "Aquaculture and fisheries production managers plan, direct and coordinate production in large-scale aquaculture and fishery operations to catch and harvest fish and shellfish, and to grow fish, shellfish or other forms of aquatic life as cash crops or for release into freshwater or saltwater.\nTasks include -\n(a) monitoring aquaculture and fishery market activity and planning production and fishing activities to meet contract requirements and market demand;\n(b) establishing and managing budgets, monitoring production output and costs, recording information such as fisheries management practices, and preparing financial and operational reports; (c) conferring with buyers to arrange for the sale of produce and catches;\n(d) contracting with fishing skippers or owners of vessels and aquaculture farms for fishing and aquaculture operations, or for management of production;\n(e) conducting and organizing aquaculture or fishery stock examinations in order to identify diseases or parasites;\n(f) devising and coordinating activities to improve fish hatching and growth rates, and to prevent disease in hatcheries;\n(g) monitoring environments to maintain or improve conditions for aquatic life;\n(h) directing and monitoring trapping and spawning of fish, egg incubation and fry rearing, applying knowledge of management and fish culturing techniques;\n(i) coordinating the selection and maintenance of brood stock;\n(j) directing and monitoring the transfer of mature fish to lakes, ponds, streams or commercial tanks;\n(k) purchasing machinery, equipment and supplies such as vessels and nets;\n(l) organizing operations such as maintenance of ships, boats and equipment;\n(m) overseeing the selection, training and performance of aquaculture or fishery workers and contractors.\nExamples of the occupations classified here:\n- Aquaculture production manager\n- Fishing operations manager\n- Shore captain (fishing)\n- Trawler manager\nSome related occupations classified elsewhere:\n- Fish farmer - 6221\n- Fish hatchery manager - 6221\n- Oyster farmer - 6221\n- Seafood farmer - 6221\n- Fishing vessel skipper (coastal waters) - 6222\n- Fishing master (deep sea) - 6223."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1312?selectedVersion=v1.2.1",
+            "title" : "Aquaculture and fisheries production managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1312"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C131",
+            "title" : "Production managers in agriculture, forestry and fisheries"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:a5826284-14fb-4866-b9be-69ce69db1b71?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/a5826284-14fb-4866-b9be-69ce69db1b71",
+            "title" : "aquaculture husbandry manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:4fe4b1f1-e84d-4056-b062-83d5a64fc571?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/4fe4b1f1-e84d-4056-b062-83d5a64fc571",
+            "title" : "aquaculture harvesting manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:5945cba8-19a4-4632-8a8f-4186e2bad1a3?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/5945cba8-19a4-4632-8a8f-4186e2bad1a3",
+            "title" : "aquaculture production manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C131?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C131",
+                "title" : "Production managers in agriculture, forestry and fisheries"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C132" : {
+        "uri" : "http://data.europa.eu/esco/isco/C132",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Manufacturing, mining, construction, and distribution managers",
+        "preferredLabel" : {
+          "hr" : "Direktori/direktorice proizvodnje u prerađivačkoj industriji, rudarstvu, građevinarstvu i distribuciji",
+          "ro" : "Conducători de unități din industria prelucrătoare, extractivă, construcții și în domeniul aprovizionării și desfacerii de mărfuri",
+          "it" : "Dirigenti dell’industria manifatturiera, dell’estrazione, dell’edilizia e della distribuzione",
+          "el" : "Διευθυντές επιχειρήσεων μεταποίησης, εξόρυξης, κατασκευών και διανομής",
+          "no" : "Ledere av produksjon",
+          "da" : "Ledelse af hovedaktiviteten inden fremstillingsvirksomhed, råstofudvinding, byggeri, forsyning, distribution mv.",
+          "de" : "Führungskräfte in der Produktion bei der Herstellung von Waren, im Bergbau und im Bau sowie in der Logistik",
+          "sk" : "Riadiaci pracovníci (manažéri) v priemyselnej výrobe, ťažbe, stavebníctve, doprave a logistike",
+          "cs" : "Vedoucí a řídící pracovníci v průmyslové výrobě, těžbě, stavebnictví, dopravě a příbuzných oborech",
+          "uk" : "Менеджери у переробній промисловості, видобутку, будівництві та розподілені",
+          "mt" : "Maniġers tal-manifattura, industrija tal-minjieri, industrija tal-bini u distribuzzjoni",
+          "lv" : "Apstrādes un ieguves rūpniecības, būvniecības un loģistikas jomas vadītāji",
+          "sv" : "Chefer inom tillverkning, gruvdrift, byggverksamhet och distribution distributionschefer",
+          "et" : "Põhitegevuse juhid tööstuses, kaevanduses, ehituses ja turustamises",
+          "pl" : "Kierownicy w przemyśle przetwórczym, górnictwie, budownictwie i dystrybucji",
+          "es" : "Directores de industrias manufactureras, de minería, construcción y distribución",
+          "bg" : "Ръководители в преработващата и миннодобивната промишленост, строителството и дистрибуцията",
+          "pt" : "Directores das indústrias transformadoras, extractivas, da construção, transportes e distribuição",
+          "hu" : "Feldolgozóipari, bányászati, építési és értékesítési vezetők",
+          "lt" : "Gamybos, gavybos, statybos ir platinimo vadovai",
+          "fi" : "Teollisuuden tuotantojohtajat sekä kaivos-, rakennus- ja jakelujohtajat",
+          "sl" : "Menedžerji/menedžerke proizvodnje v rudarstvu, predelovalnih dejavnostih, gradbeništvu in distribuciji",
+          "en" : "Manufacturing, mining, construction, and distribution managers",
+          "nl" : "Leidinggevende functies in de industrie, de mijnbouw, de bouwnijverheid en de handel",
+          "fr" : "Directeurs et cadres de direction, industries manufacturières, mines, bâtiment et distribution"
+        },
+        "status" : "released",
+        "code" : "132",
+        "description" : {
+          "en" : "Manufacturing, mining, construction and distribution managers plan, organize and coordinate the manufacturing, mineral extraction, construction, supply, storage and transportation operations, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks performed usually include: planning details of activities in terms of output quality and quantity, cost, timeliness and labour requirements; controlling the operation of plant and quality procedures through planning of maintenance, designation of operating hours and supply of equipment; preparing tenders and contract bids; establishing and managing budgets, monitoring production output and costs, and adjusting processes and resources to minimize costs; overseeing the acquisition and installation of new plant and equipment; controlling the preparation of production records and reports; coordinating the implementation of health and safety requirements; planning and directing daily operations; overseeing the selection, training and performance of staff.\nOccupations in this minor group are classified into the following unit groups:\n1321 Manufacturing Managers\n1322 Mining Managers\n1323 Construction Managers\n1324 Supply, Distribution and Related Managers."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+            "title" : "Manufacturing, mining, construction, and distribution managers",
+            "uri" : "http://data.europa.eu/esco/isco/C132"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C13",
+            "title" : "Production and specialised services managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1323?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1323",
+            "title" : "Construction managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1322?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1322",
+            "title" : "Mining managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1321?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1321",
+            "title" : "Manufacturing managers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1324?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1324",
+            "title" : "Supply, distribution and related managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1322" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1322",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Mining managers",
+        "preferredLabel" : {
+          "sk" : "Riadiaci pracovníci (manažéri) v ťažobnom priemysle",
+          "de" : "Führungskräfte in der Produktion im Bergbau",
+          "bg" : "Ръководители в миннодобивната промишленост",
+          "pt" : "Directores das indústrias extractivas",
+          "en" : "Mining managers",
+          "nl" : "Leidinggevende functies in de mijnbouw",
+          "fr" : "Directeurs et cadres de direction, mines",
+          "es" : "Directores de explotaciones de minería",
+          "lv" : "Vadītāji ieguves rūpniecībā",
+          "hu" : "Bányászati vezetők",
+          "cs" : "Vedoucí a řídící pracovníci v těžbě",
+          "no" : "Ledere av olje- og gassutvinning mv.",
+          "it" : "Dirigenti dell’industria dell’estrazione",
+          "uk" : "Менеджери добувної промисловості",
+          "sv" : "Chefer inom gruvdrift",
+          "fi" : "Kaivostoiminnan tuotantojohtajat",
+          "pl" : "Kierownicy w górnictwie",
+          "lt" : "Gavybos vadovai",
+          "hr" : "Direktori/direktorice proizvodnje u rudarstvu",
+          "ro" : "Conducători de unități din industria extractivă",
+          "et" : "Põhitegevuse juhid kaevanduses",
+          "sl" : "Menedžerji/menedžerke proizvodnje v rudarski dejavnosti",
+          "da" : "Ledelse af hovedaktiviteten inden for råstofudvinding",
+          "mt" : "Maniġers tal-industrija tal-minjieri",
+          "el" : "Διευθυντές επιχειρήσεων εξόρυξης"
+        },
+        "status" : "released",
+        "code" : "1322",
+        "description" : {
+          "en" : "Mining managers plan, direct and coordinate the production activities of mining, quarrying and oil and gas extraction operations, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks include -\n(a) conferring with other managers to set production quotas, plan extraction sites and develop policies for the removal of raw materials;\n(b) evaluating efficiency of production sites to determine adequacy of personnel, equipment and technologies used, and make changes to work schedules or equipment when necessary;\n(c) planning details of production activities in terms of output quality and quantity, cost, time available and labour requirements;\n(d) controlling the operation of plant and quality procedures through planning of maintenance, designation of operating hours and supply of equipment;\n(e) establishing and managing budgets, monitoring production output and costs, and adjusting processes and resources to minimize costs;\n(f) overseeing the acquisition and installation of new plant and equipment; (g) controlling the preparation of production records and reports;\n(h) coordinating the implementation of health and safety requirements;\n(i) researching and implementing regulatory and statutory requirements affecting mineral extraction operations and the environment;\n(j) overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n- Mine manager\n- Production manager (mine)\n- Production manager (oil and gas extraction)\n- Production manager (quarry)\n- Quarry manager\nSome related occupations classified elsewhere:\n- Mine deputy - 3121\n- Mine supervisor - 3121\n- Mine under-manager - 3121\n- Quarry supervisor - 3121."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1322?selectedVersion=v1.2.1",
+            "title" : "Mining managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1322"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C132",
+            "title" : "Manufacturing, mining, construction, and distribution managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:b156960c-8508-4067-908d-f167847c55b1?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/b156960c-8508-4067-908d-f167847c55b1",
+            "title" : "quarry manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:107d21c6-973b-411c-89fd-69da48d29ada?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/107d21c6-973b-411c-89fd-69da48d29ada",
+            "title" : "mine manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C132",
+                "title" : "Manufacturing, mining, construction, and distribution managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1321" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1321",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Manufacturing managers",
+        "preferredLabel" : {
+          "fr" : "Directeurs et cadres de direction, industrie manufacturière",
+          "ro" : "Conducători de unități din industria prelucrătoare",
+          "es" : "Directores de industrias manufactureras",
+          "nl" : "Leidinggevende functies in de industrie",
+          "sv" : "Chefer inom tillverkning",
+          "no" : "Ledere av industriproduksjon mv.",
+          "en" : "Manufacturing managers",
+          "sl" : "Menedžerji/menedžerke proizvodnje v predelovalnih dejavnostih",
+          "sk" : "Riadiaci pracovníci (manažéri) v priemyselnej výrobe",
+          "mt" : "Maniġers tal-manifattura",
+          "lt" : "Gamybos vadovai",
+          "el" : "Διευθυντές επιχειρήσεων μεταποίησης",
+          "bg" : "Ръководители в преработващата промишленост",
+          "it" : "Dirigenti dell’industria manifatturiera",
+          "hu" : "Feldolgozóipari vezetők",
+          "pt" : "Directores das indústrias transformadoras",
+          "pl" : "Kierownicy w przemyśle przetwórczym",
+          "de" : "Führungskräfte in der Produktion bei der Herstellung von Waren",
+          "uk" : "Менеджери у переробній промисловості",
+          "hr" : "Direktori/direktorice proizvodnje u prerađivačkoj industriji",
+          "fi" : "Teollisuuden tuotantojohtajat",
+          "da" : "Ledelse af hovedaktiviteten inden for fremstillingsvirksomhed (undtagen landbrug, skovbrug og fiskeri)",
+          "cs" : "Vedoucí a řídící pracovníci v průmyslové výrobě",
+          "et" : "Põhitegevuse juhid tööstuses",
+          "lv" : "Vadītāji apstrādes rūpniecībā"
+        },
+        "status" : "released",
+        "code" : "1321",
+        "description" : {
+          "en" : "Manufacturing managers plan, direct and coordinate activities concerned with the production of goods, the production and distribution of electricity, gas and water, and the collection, treatment and disposal of waste. They may manage the production departments of large enterprises or be the managers of small manufacturing companies. Tasks include -\n(a) determining, implementing and monitoring production strategies, policies and plans; (b) planning details of production activities in terms of output quality and quantity, cost, time available and labour requirements;\n(c) controlling the operation of production plant and quality procedures through planning of maintenance, designation of operating hours and supply of parts and tools;\n(d) establishing and managing budgets, monitoring production output and costs, and adjusting processes and resources to minimize costs;\n(e) consulting with and informing other managers about production matters;\n(f) overseeing the acquisition and installation of new plant and equipment; (g) controlling the preparation of production records and reports;\n(h) coordinating the implementation of occupational health and safety requirements;\n(i) identifying business opportunities and determining products to be manufactured;\n(j) researching and implementing regulatory and statutory requirements affecting manufacturing operations and the environment;\n(k) overseeing the provision of quotations for the manufacture of specialized goods and establishing contracts with customers and suppliers;\n(l) overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n- Manufacturer\n- Manufacturing manager\n- Production and operations manager (manufacturing)\nSome related occupations classified elsewhere:\n- Production supervisor (manufacturing) - 3122."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1321?selectedVersion=v1.2.1",
+            "title" : "Manufacturing managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1321"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C132",
+            "title" : "Manufacturing, mining, construction, and distribution managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:518348e6-0095-4f37-ad46-5ef1b8b5ee2f?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/518348e6-0095-4f37-ad46-5ef1b8b5ee2f",
+            "title" : "textile operations manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:6426ada1-4d8c-4612-99e3-91bc569805ee?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/6426ada1-4d8c-4612-99e3-91bc569805ee",
+            "title" : "manufacturing manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:caa75a5b-b32f-4d57-bffa-03dbb91058cf?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/caa75a5b-b32f-4d57-bffa-03dbb91058cf",
+            "title" : "green coffee coordinator"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C132",
+                "title" : "Manufacturing, mining, construction, and distribution managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1323" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1323",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Construction managers",
+        "preferredLabel" : {
+          "es" : "Directores de empresas de construcción",
+          "pt" : "Directores da construção e de engenharia civil",
+          "lt" : "Statybos vadovai",
+          "no" : "Ledere av bygge- og anleggsvirksomhet",
+          "pl" : "Kierownicy w budownictwie",
+          "da" : "Ledelse af hovedaktiviteten inden for bygge- og anlægsvirksomhed",
+          "fi" : "Rakennustoiminnan tuotantojohtajat",
+          "fr" : "Directeurs et cadres de direction, bâtiment",
+          "bg" : "Ръководители в строителството",
+          "it" : "Dirigenti dell’edilizia",
+          "sk" : "Riadiaci pracovníci (manažéri) v stavebníctve",
+          "ro" : "Conducători de unități din domeniul construcțiilor",
+          "uk" : "Менеджери з будівництва",
+          "el" : "Διευθυντές επιχειρήσεων κατασκευών",
+          "hr" : "Direktori/direktorice proizvodnje u građevinarstvu",
+          "sl" : "Menedžerji/menedžerke proizvodnje v gradbeništvu",
+          "mt" : "Maniġers tal-industrija tal-kostruzzjoni",
+          "hu" : "Építési vezetők",
+          "et" : "Põhitegevuse juhid ehituses",
+          "lv" : "Vadītāji būvniecībā",
+          "de" : "Führungskräfte in der Produktion im Bau",
+          "nl" : "Leidinggevende functies in de bouwnijverheid",
+          "en" : "Construction managers",
+          "cs" : "Vedoucí a řídící pracovníci ve stavebnictví",
+          "sv" : "Chefer inom bygg och anläggning"
+        },
+        "status" : "released",
+        "code" : "1323",
+        "description" : {
+          "en" : "Construction managers plan, direct and coordinate the construction of civil engineering projects, buildings and dwellings, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks include - (a) interpreting architectural drawings and specifications;\n(b) coordinating labour resources and procurement and delivery of materials, plant and equipment; (c) negotiating with building owners, property developers and subcontractors involved in the construction process to ensure projects are completed on time and within budget;\n(d) preparing tenders and contract bids; (e) operating and implementing coordinated work programmes for sites; (f) ensuring adherence to building legislation and standards of performance, quality, cost and safety;\n(g) arranging submission of plans to local authorities; (h) building under contract, or subcontracting specialized building services;\n(i) arranging building inspections by relevant authorities;\n(j) establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(k) overseeing the selection, training and performance of staff and subcontractors.\nExamples of the occupations classified here:\n- Civil engineering project manager\n- Construction project manager - Project builder\nSome related occupations classified elsewhere:\n- Building construction supervisor - 3123\n- House builder - 7111."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1323?selectedVersion=v1.2.1",
+            "title" : "Construction managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1323"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C132",
+            "title" : "Manufacturing, mining, construction, and distribution managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:faed05c0-c1d1-4e34-b575-0dea96459e56?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/faed05c0-c1d1-4e34-b575-0dea96459e56",
+            "title" : "construction manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C132",
+                "title" : "Manufacturing, mining, construction, and distribution managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C133" : {
+        "uri" : "http://data.europa.eu/esco/isco/C133",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Information and communications technology service managers",
+        "preferredLabel" : {
+          "it" : "Dirigenti nei servizi delle tecnologie dell’informazione e della comunicazione",
+          "hu" : "Információs és kommunikációs technológiai szolgáltatások vezetői",
+          "sl" : "Menedžerji/menedžerke za informacijsko in komunikacijsko tehnologijo",
+          "uk" : "Менеджери з надання послуг в сфері інформаційно-комунікаційних технологій",
+          "el" : "Διευθυντές υπηρεσιών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+          "lv" : "Vadītāji informācijas un komunikāciju tehnoloģiju pakalpojumu jomā",
+          "lt" : "Informacinių ir ryšių technologijų paslaugų srities vadovai",
+          "fr" : "Directeurs et cadres de direction, technologies de l’information et des communications",
+          "sk" : "Riadiaci pracovníci (manažéri) v oblasti informačných a komunikačných technológií",
+          "da" : "Ledelse af hovedaktiviteten inden for informations- og kommunikationsteknologi",
+          "pl" : "Kierownicy do spraw usług technologii informacyjno-komunikacyjnych",
+          "ro" : "Conducători în servicii de tehnologia informației și comunicațiilor",
+          "fi" : "Tieto- ja viestintäteknologiajohtajat",
+          "hr" : "Direktori/direktorice u području informacijsko komunikacijskih tehnologija",
+          "no" : "Ledere av IKT-enheter",
+          "et" : "Info- ja kommunikatsioonitehnoloogia juhid",
+          "mt" : "Maniġers tat-teknoloġija tal-informazzjoni u l-komunikazzjoni",
+          "es" : "Directores de servicios de tecnología de la información y las comunicaciones",
+          "bg" : "Ръководители в областта на осигуряването на информационни и комуникационни технологии",
+          "pt" : "Directores dos serviços das tecnologias da informação e comunicação",
+          "nl" : "Leidinggevende functies op het gebied van informatie- en communicatietechnologie",
+          "en" : "Information and communications technology service managers",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti informačních a komunikačních technologií",
+          "sv" : "Chefer inom informations- och kommunikationsteknik (IKT)",
+          "de" : "Führungskräfte in der Erbringung von Dienstleistungen im Bereich Informations- und Kommunikationstechnologie"
+        },
+        "status" : "released",
+        "code" : "133",
+        "description" : {
+          "en" : "Information and communications technology services managers plan, direct and coordinate the acquisition, development, maintenance and use of computer and telecommunication systems, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks performed usually include: consulting with users, management, vendors and technicians to assess computing needs and system requirements, and specifying technology to meet those needs; formulating and directing information and communication technology (ICT) strategies, policies and plans; directing the selection and installation of ICT resources and the provision of user training; directing ICT operations, analysing workflow, establishing priorities, developing standards and setting deadlines; overseeing the security of ICT systems; assigning, reviewing, managing and leading the work of systems analysts, programmers and other computer-related workers; evaluating the organization’s technology use and needs and recommending improvements such as hardware and software upgrades; establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources; establishing and directing operational and administrative procedures; overseeing the selection, training and performance of staff; representing the enterprise or organization at ICT-related conventions, seminars and conferences.\nOccupations in this minor group are classified into the following unit group:\n1330 Information and Communications Technology Services Managers."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C133?selectedVersion=v1.2.1",
+            "title" : "Information and communications technology service managers",
+            "uri" : "http://data.europa.eu/esco/isco/C133"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C13",
+            "title" : "Production and specialised services managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1330?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1330",
+            "title" : "Information and communications technology service managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1324" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1324",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Supply, distribution and related managers",
+        "preferredLabel" : {
+          "uk" : "Менеджери з постачання, розподілення та пов’язаних із ними питань",
+          "de" : "Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen",
+          "bg" : "Ръководители на звена за доставки, дистрибуция и сродни на тях",
+          "el" : "Διευθυντές τροφοδοσίας, διανομής και σχετικών δραστηριοτήτων",
+          "lv" : "Transporta, sakaru, noliktavu, sagādes, loģistikas un tām radniecīgu jomu vadītāji",
+          "lt" : "Tiekimo, platinimo ir susijusių paslaugų vadovai",
+          "da" : "Ledelse af hovedaktiviteten inden for forsyning, distribution o.l.",
+          "it" : "Dirigenti nei servizi di approvvigionamento, distribuzione ed assimilati",
+          "sk" : "Riadiaci pracovníci (manažéri) v doprave a logistike",
+          "et" : "Põhitegevuse juhid tarne ja turustamise alal",
+          "fi" : "Hankinta- ja jakelujohtajat ym.",
+          "pl" : "Kierownicy do spraw logistyki i pokrewni",
+          "no" : "Ledere av logistikk og transport mv.",
+          "sl" : "Menedžerji/menedžerke nabave, distribucije ipd.",
+          "fr" : "Directeurs et cadres de direction, approvisionnement, distribution et assimilés",
+          "ro" : "Conducători de unități din domeniul aprovizionării și desfacerii de mărfuri",
+          "cs" : "Vedoucí a řídící pracovníci v dopravě, logistice a příbuzných oborech",
+          "mt" : "Maniġers tal-provvista, distribuzzjoni u ħwejjeġ oħra relatati",
+          "nl" : "Leidinggevende functies op het gebied van toelevering, distributie en op aanverwante gebieden",
+          "hu" : "Beszerzési, értékesítési és hasonló vezetők",
+          "pt" : "Directores de compras, transportes e distribuição",
+          "hr" : "Direktori/direktorice za nabavu i distribuciju",
+          "es" : "Directores de empresas de abastecimiento, distribución y afines",
+          "sv" : "Inköps- och distributionschefer m.fl.",
+          "en" : "Supply, distribution and related managers"
+        },
+        "status" : "released",
+        "code" : "1324",
+        "description" : {
+          "en" : "Supply, distribution and related managers plan, direct and coordinate passenger transportation systems and facilities and the supply, transportation, storage and distribution of goods, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks include - (a) determining, implementing and monitoring purchasing, storage and distribution strategies, policies and plans; (b) preparing and implementing plans to maintain required stock levels at minimum cost; (c) negotiating contracts with suppliers to meet quality, cost and delivery requirements; (d) monitoring and reviewing storage and inventory systems to meet supply requirements, and control stock levels; (e) overseeing the dispatch of road vehicles, trains, vessels or aircraft;\n(f) operating recording systems to track all movements of goods, and ensuring reordering and restocking at optimal times;\n(g) liaising with other departments and customers concerning requirements for outward goods and associated forwarding transportation;\n(h) overseeing the recording of purchase, storage and distribution transactions;\n(i) establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(j) establishing and directing operational and administrative procedures; (k) planning and directing daily operations;\n(l) overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n- Bus station manager - Logistics manager - Purchasing manager\n- Railway station manager\n- Railway station master\n- Supply and distribution manager\n- Supply chain manager\n- Transport company manager\n- Urban transit system manager\n- Warehouse manager\nNote\nChief executives of major airports, railway companies, urban transit systems and other transportation corporations that have hierarchies of managers are included in Unit Group 1120: Managing Directors and Chief Executives."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1324?selectedVersion=v1.2.1",
+            "title" : "Supply, distribution and related managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1324"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C132",
+            "title" : "Manufacturing, mining, construction, and distribution managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:0d442b70-5413-4820-bebf-36dd5ce437ac?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/0d442b70-5413-4820-bebf-36dd5ce437ac",
+            "title" : "air traffic manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:b39a74a2-37fe-4fdc-ba8e-5bbbbdce2d89?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/b39a74a2-37fe-4fdc-ba8e-5bbbbdce2d89",
+            "title" : "railway station manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:8f928d49-da89-4d07-9123-2151a4d276d4?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/8f928d49-da89-4d07-9123-2151a4d276d4",
+            "title" : "move manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:823db06f-25e1-4658-b063-d6ef956b41f5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/823db06f-25e1-4658-b063-d6ef956b41f5",
+            "title" : "logistics and distribution manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:3530b443-d2bf-4741-b771-12c77e7c6232?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/3530b443-d2bf-4741-b771-12c77e7c6232",
+            "title" : "movie distributor"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:788a9895-a39a-4a83-be90-e006e2f8dce5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/788a9895-a39a-4a83-be90-e006e2f8dce5",
+            "title" : "pipeline superintendent"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:aacc3918-b5d3-484b-9480-5d29aa550d74?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/aacc3918-b5d3-484b-9480-5d29aa550d74",
+            "title" : "supply chain manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:fc35b7ca-ecec-40d7-91b5-5065f662d955?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/fc35b7ca-ecec-40d7-91b5-5065f662d955",
+            "title" : "airport director"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C132?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C132",
+                "title" : "Manufacturing, mining, construction, and distribution managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C0" : {
+        "uri" : "http://data.europa.eu/esco/isco/C0",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Armed forces occupations",
+        "preferredLabel" : {
+          "es" : "Ocupaciones militares",
+          "no" : "Militære yrker og uoppgitt",
+          "da" : "Militært arbejde",
+          "sk" : "Príslušníci ozbrojených síl",
+          "de" : "Angehörige der regulären Streitkräfte",
+          "ro" : "Forțele armate",
+          "fr" : "Professions militaires",
+          "hu" : "Fegyveres erők",
+          "en" : "Armed forces occupations",
+          "pt" : "Profissões militares",
+          "mt" : "Xogħolijiet fil-forzi armati",
+          "et" : "Sõjaväelased",
+          "cs" : "Zaměstnanci v ozbrojených silách",
+          "uk" : "Професії збройних сил",
+          "fi" : "Sotilaat",
+          "lv" : "Armijas profesijas",
+          "sl" : "Vojaški poklici",
+          "hr" : "Vojna zanimanja",
+          "pl" : "Siły zbrojne",
+          "nl" : "Beroepen bij de strijdkrachten",
+          "it" : "Forze armate",
+          "sv" : "Militära yrken",
+          "el" : "Ένοπλες δυνάμεις",
+          "bg" : "Професии във въоръжените сили",
+          "lt" : "Ginkluotųjų pajėgų profesijos"
+        },
+        "status" : "released",
+        "code" : "0",
+        "description" : {
+          "en" : "Armed forces occupations include all jobs held by members of the armed forces. Members of the armed forces are those personnel who are currently serving in the armed forces, including auxiliary services, whether on a voluntary or compulsory basis, and who are not free to accept civilian employment and are subject to military discipline. Included are regular members of the army, navy, air force and other military services, as well as conscripts enrolled for military training or other service for a specified period.\nOccupations in this major group are classified into the following sub-major groups:\n01 Commissioned Armed Forces Officers\n02 Non-commissioned Armed Forces Officers\n03 Armed Forces Occupations, Other Ranks\nExcluded from this group are: - jobs held by persons in civilian employment of government establishments concerned with defence issues; - police (other than military police); - customs inspectors and members of border or other armed civilian services.\nNotes\nMany jobs performed by members of the armed forces are similar, in terms of the nature of the work performed, to civilian occupations such as medical doctors, radio operators, cooks, secretaries and heavy truck drivers. Conceptually, it may be appropriate, therefore, to classify such jobs in the armed forces with similar civilian jobs. This approach is adopted in several national occupation classifications. Typically such classifications also identify a number of military-specific occupational groups. In many countries, however, it is not possible to produce information about the nature of the work performed by members of the armed forces. In adapting ISCO-08 for national purposes countries may wish, therefore, to consider what approach best suits their circumstances and user needs. For purposes of international comparability, however, where data pertaining to members of the armed forces are reported and classified by occupation, they should be included, where possible, in ISCO-08 Major Group 0: Armed Forces Occupations."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C0?selectedVersion=v1.2.1",
+            "title" : "Armed forces occupations",
+            "uri" : "http://data.europa.eu/esco/isco/C0"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "topConceptOf" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C02?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C02",
+            "title" : "Non-commissioned armed forces officers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C01?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C01",
+            "title" : "Commissioned armed forces officers"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C03?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C03",
+            "title" : "Armed forces occupations, other ranks"
+          } ]
+        },
+        "_embedded" : { }
+      },
+      "http://data.europa.eu/esco/isco/C02" : {
+        "uri" : "http://data.europa.eu/esco/isco/C02",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Non-commissioned armed forces officers",
+        "preferredLabel" : {
+          "uk" : "Військовослужбовці сержантського складу збройних сил",
+          "bg" : "Подофицери във въоръжените сили",
+          "hu" : "Fegyveres erők tiszthelyettesei",
+          "lv" : "Apakšvirsnieka pakāpes armijas profesijas",
+          "sv" : "Specialistofficerare",
+          "lt" : "Ginkluotųjų pajėgų puskarininkiai",
+          "ro" : "Subofițeri de armată",
+          "hr" : "Dočasnici/dočasnice",
+          "de" : "Unteroffiziere in regulären Streitkräften",
+          "sl" : "Podčastniki/podčastnice",
+          "mt" : "Uffiċjali mhux ikkummissjonati tal-forzi armati",
+          "el" : "Υπαξιωματικοί των ενόπλων δυνάμεων",
+          "fr" : "Sous-officiers des forces armées",
+          "sk" : "Poddôstojníci ozbrojených síl",
+          "fi" : "Aliupseerit",
+          "nl" : "Onderofficieren",
+          "it" : "Sottufficiali delle forze armate",
+          "da" : "Militært arbejde på befalingsmandsniveau (underofficersarbejde)",
+          "pt" : "Graduados não oficiais das forças armadas",
+          "en" : "Non-commissioned armed forces officers",
+          "no" : "Befal med sersjant grad",
+          "et" : "Kaitseväe allohvitserid",
+          "pl" : "Podoficerowie",
+          "cs" : "Poddůstojníci v ozbrojených silách",
+          "es" : "Suboficiales de las fuerzas armadas"
+        },
+        "status" : "released",
+        "code" : "02",
+        "description" : {
+          "en" : "Non-commissioned armed forces officers enforce military discipline and supervise the activities of those employed in Sub-major Group 03: Armed Forces Occupations, Other Ranks, and/or perform similar tasks to those performed in a variety of civilian occupations outside the armed forces. This group includes members of the armed forces holding ranks such as sergeant, warrant officer and sergeant major. Competent performance in most occupations in this sub-major group requires skills at the second ISCO skill level.\nOccupations in this sub-major group are classified into the following minor group:\n021 Non-commissioned Armed Forces Officers\nExcluded from this group are: - jobs held by persons in civilian employment of government establishments concerned with defence issues; - police (other than military police); - customs inspectors and members of border or other armed civilian services."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C02?selectedVersion=v1.2.1",
+            "title" : "Non-commissioned armed forces officers",
+            "uri" : "http://data.europa.eu/esco/isco/C02"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C0?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C0",
+            "title" : "Armed forces occupations"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C021?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C021",
+            "title" : "Non-commissioned armed forces officers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C0?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C0",
+                "title" : "Armed forces occupations"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C0110" : {
+        "uri" : "http://data.europa.eu/esco/isco/C0110",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Commissioned armed forces officers",
+        "preferredLabel" : {
+          "ro" : "Ofițeri de armată",
+          "sv" : "Officerare",
+          "hu" : "Fegyveres erők tisztjei",
+          "lv" : "Virsnieka pakāpes armijas profesijas",
+          "el" : "Αξιωματικοί των ενόπλων δυνάμεων",
+          "no" : "Offiserer fra fenrik og høyere grad",
+          "uk" : "Офіцери збройних сил",
+          "fr" : "Officiers des forces armées",
+          "it" : "Ufficiali delle forze armate",
+          "de" : "Offiziere in regulären Streitkräften",
+          "sk" : "Dôstojníci ozbrojených síl",
+          "pt" : "Oficiais das forças armadas",
+          "nl" : "Officieren",
+          "fi" : "Upseerit",
+          "sl" : "Častniki/častnice",
+          "es" : "Oficiales de las fuerzas armadas",
+          "da" : "Militært arbejde på officersniveau",
+          "pl" : "Oficerowie",
+          "en" : "Commissioned armed forces officers",
+          "mt" : "Uffiċjali kkummissjonati tal-forzi armati",
+          "et" : "Kaitseväe ohvitserid",
+          "hr" : "Časnici/časnice",
+          "lt" : "Ginkluotųjų pajėgų karininkai",
+          "cs" : "Generálové a důstojníci v ozbrojených silách",
+          "bg" : "Офицери във въоръжените сили"
+        },
+        "status" : "released",
+        "code" : "0110",
+        "description" : {
+          "en" : "Commissioned armed forces officers provide leadership and management to organizational units in the armed forces and/or perform similar tasks to those performed in a variety of civilian occupations outside the armed forces. This group includes all members of the armed forces holding the rank of second lieutenant (or equivalent) or higher.\nExamples of the occupations classified here: - Admiral\n- Air commodore\n- Air marshal\n- Brigadier (army)\n- Captain (air force)\n- Captain (army)\n- Captain (navy)\n- Colonel (army)\n- Field marshal\n- Flight lieutenant (air force)\n- Flying officer (military)\n- General (army)\n- Group captain, (air force)\n- Lieutenant (army)\n- Major (army)\n- Midshipman\n- Naval officer (military) - Navy commander - Officer cadet (armed forces)\n- Second lieutenant (army)\n- Squadron leader\n- Sublieutenant (navy)\n- Wing commander\nExcluded from this group are: - jobs held by persons in civilian employment of government establishments concerned with defence issues; - police (other than military police); - customs inspectors and members of border or other armed civilian services."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C0110?selectedVersion=v1.2.1",
+            "title" : "Commissioned armed forces officers",
+            "uri" : "http://data.europa.eu/esco/isco/C0110"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C011?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C011",
+            "title" : "Commissioned armed forces officers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:e44b2459-af5e-492d-9c57-d9c2e62944e7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/e44b2459-af5e-492d-9c57-d9c2e62944e7",
+            "title" : "squadron leader"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4",
+            "title" : "army major"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:0b1d8dcb-d941-4d79-99bf-fc10c1806c43?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/0b1d8dcb-d941-4d79-99bf-fc10c1806c43",
+            "title" : "fleet commander"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:7696b15a-c52e-4ac5-b38d-9eeb010c5fa3?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/7696b15a-c52e-4ac5-b38d-9eeb010c5fa3",
+            "title" : "artillery officer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:f2cc5978-e45c-4f28-b859-7f89221b0505?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/f2cc5978-e45c-4f28-b859-7f89221b0505",
+            "title" : "air force officer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:c6a26e11-bdf1-47a1-849d-fdcf819d458d?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/c6a26e11-bdf1-47a1-849d-fdcf819d458d",
+            "title" : "armed forces officer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:c6e5e0e7-fa99-4f71-9fc1-9889d85282a5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/c6e5e0e7-fa99-4f71-9fc1-9889d85282a5",
+            "title" : "army general"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:b864c9a3-ef6e-46a0-a40c-66188f74dfa7?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/b864c9a3-ef6e-46a0-a40c-66188f74dfa7",
+            "title" : "colonel"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:262f21a3-ae78-46f4-a5f9-5a1f502caa90?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+            "title" : "navy officer"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:9bf4c8ea-e814-4772-ae31-0f29672dc497?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/9bf4c8ea-e814-4772-ae31-0f29672dc497",
+            "title" : "army captain"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:bbd1fe06-1b55-4937-9317-fc162311ab38?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/bbd1fe06-1b55-4937-9317-fc162311ab38",
+            "title" : "brigadier"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:b223f402-0318-4e27-8691-df6e7f7295d2?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/b223f402-0318-4e27-8691-df6e7f7295d2",
+            "title" : "lieutenant"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C01" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C011?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C011",
+                "title" : "Commissioned armed forces officers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C0" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C01?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C01",
+                "title" : "Commissioned armed forces officers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C0?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C0",
+                "title" : "Armed forces occupations"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1342" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1342",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Health services managers",
+        "preferredLabel" : {
+          "cs" : "Vedoucí a řídící pracovníci v oblasti zdravotnictví",
+          "da" : "Ledelse af hovedaktiviteten inden for sundhedsområdet",
+          "pl" : "Kierownicy do spraw usług zdrowotnych",
+          "en" : "Health services managers",
+          "ro" : "Conducători de unități din domeniul sănătății",
+          "lt" : "Sveikatos priežiūros paslaugų srities vadovai",
+          "es" : "Directores de servicios de salud",
+          "et" : "Tervishoiuteenuseid osutavate asutuste juhid",
+          "sv" : "Chefer inom hälso- och sjukvård",
+          "no" : "Ledere av helsetjenester",
+          "sl" : "Menedžerji/menedžerke na področju zdravstva",
+          "fi" : "Terveydenhuollon johtajat",
+          "it" : "Dirigenti nei servizi sanitari",
+          "uk" : "Менеджери в сфері охорони здоров’я",
+          "lv" : "Vadītāji veselības pakalpojumu jomā",
+          "de" : "Führungskräfte in der Erbringung von Dienstleistungen im Gesundheitswesen",
+          "sk" : "Riadiaci pracovníci (manažéri) v oblasti zdravotnej starostlivosti",
+          "mt" : "Maniġers tas-servizzi tas-saħħa",
+          "el" : "Διευθυντές υπηρεσιών υγείας",
+          "fr" : "Cadres de direction, services de santé",
+          "pt" : "Directores dos serviços de saúde",
+          "nl" : "Leidinggevende functies op het gebied van gezondheidsdiensten",
+          "bg" : "Ръководители в здравеопазването",
+          "hr" : "Ravnatelji/ravnateljice zdravstvenih ustanova",
+          "hu" : "Egészségügyi szolgáltatások vezetői"
+        },
+        "status" : "released",
+        "code" : "1342",
+        "description" : {
+          "en" : "Health services managers plan, direct, coordinate and evaluate the provision of clinical and community health care services in hospitals, clinics, public health agencies and similar organizations.\nTasks include - (a) providing overall direction and management for the service, facility, organization or centre; (b) directing, supervising and evaluating the work activities of medical, nursing, technical, clerical, service, maintenance and other personnel;\n(c) establishing objectives and evaluative or operational criteria for units they manage; (d) directing or conducting recruitment, hiring and training of personnel;\n(e) developing, implementing and monitoring procedures, policies and performance standards for medical, nursing, technical and administrative staff;\n(f) monitoring the use of diagnostic services, inpatient beds, facilities and staff to ensure effective use of resources, and assess the need for additional staff, equipment and services;\n(g) controlling administrative operations such as budget planning, report preparation,sand expenditure on supplies, equipment and services;\n(h) liaising with other health and welfare service providers, boards and funding bodies to coordinate the provision of services;\n(i) advising government bodies about measures to improve health and welfare services and facilities; (j) representing the organization in negotiations, and at conventions, seminars, public hearings and forums.\nExamples of the occupations classified here:\n- Chief public health officer\n- Clinical director - Community health care coordinator - Director of nursing\n- Health facility administrator\n- Hospital matron\n- Medical administrator\nSome related occupations classified elsewhere:\n- Aged care services manager - 1343."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1342?selectedVersion=v1.2.1",
+            "title" : "Health services managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1342"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C134?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C134",
+            "title" : "Professional services managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:4a29eab1-5f02-4723-a863-e2d5a0614dfa?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/4a29eab1-5f02-4723-a863-e2d5a0614dfa",
+            "title" : "healthcare institution manager"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:ef909843-97c6-4c48-8038-2e7aefdfcad5?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/ef909843-97c6-4c48-8038-2e7aefdfcad5",
+            "title" : "clinical informatics manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C134?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C134",
+                "title" : "Professional services managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C1343" : {
+        "uri" : "http://data.europa.eu/esco/isco/C1343",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Aged care services managers",
+        "preferredLabel" : {
+          "it" : "Dirigenti nei servizi di assistenza agli anziani",
+          "pt" : "Directores dos serviços de cuidados a pessoas idosas",
+          "et" : "Vanurite hooldamise teenuseid osutavate asutuste juhid",
+          "es" : "Directores de servicios de cuidado de las personas de edad",
+          "sv" : "Chefer inom äldrevård",
+          "uk" : "Менеджери в сфері догляду за людьми похилого віку",
+          "bg" : "Ръководители в областта на услугите за грижи за възрастни хора",
+          "sk" : "Riadiaci pracovníci (manažéri) v oblasti starostlivosti o starších ľudí",
+          "el" : "Διευθυντές υπηρεσιών φροντίδας ηλικιωμένων",
+          "fi" : "Vanhustenhuollon johtajat",
+          "lv" : "Vadītāji veco ļaužu aprūpes pakalpojumu jomā",
+          "nl" : "Leidinggevende functies op het gebied van ouderenzorg",
+          "ro" : "Conducători de unități din domeniul îngrijirii persoanelor în vârstă",
+          "hr" : "Ravnatelji/ravnateljice ustanova za pružanje usluga njege starijim osobama",
+          "no" : "Ledere av eldreomsorg",
+          "en" : "Aged care services managers",
+          "hu" : "Idősgondozási szolgáltatások vezetői",
+          "mt" : "Maniġers tas-servizzi ta’ kura għall-anzjani",
+          "da" : "Ledelse af hovedaktiviteten inden for ældreplejen",
+          "fr" : "Cadres de direction, services aux personnes âgées",
+          "cs" : "Vedoucí a řídící pracovníci v oblasti péče o seniory",
+          "pl" : "Kierownicy do spraw usług w zakresie opieki nad osobami starszymi",
+          "de" : "Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung",
+          "sl" : "Menedžerji/menedžerke na področju varstva starejših občanov",
+          "lt" : "Pagyvenusių žmonių slaugos ir socialinių paslaugų srities vadovai"
+        },
+        "status" : "released",
+        "code" : "1343",
+        "description" : {
+          "en" : "Aged care services managers plan, direct, coordinate and evaluate the provision of residential and personal care services for individuals and families who are in need of such services due to the effects of ageing.\nTasks include - (a) providing overall direction and management for a service, facility, organization or centre; (b) directing, supervising and evaluating the work activities of medical, nursing, technical, clerical, service, maintenance and other personnel; (c) establishing objectives and evaluative or operational criteria for units they manage; (d) directing or conducting recruitment, hiring and training of personnel;\n(e) developing, implementing and monitoring procedures, policies and performance standards for nursing, personal care, technical and administrative staff; (f) coordinating and administering welfare programmes and care services for the elderly;\n(g) controlling administrative operations such as budget planning, report preparation, and expenditure on supplies, equipment and services; (h) liaising with other health and welfare providers, boards and funding bodies to coordinate the provision of services;\n(i) advising government bodies about measures to improve health and welfare services and facilities; (j) representing the organization in negotiations, and at conventions, seminars, public hearings and forums.\nExamples of occupations classified here:\n- Aged care home director\n- Community aged care coordinator - Nursing home director\n- Retirement village coordinator\nSome related occupations classified elsewhere:\n- Health services manager - 1342."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1343?selectedVersion=v1.2.1",
+            "title" : "Aged care services managers",
+            "uri" : "http://data.europa.eu/esco/isco/C1343"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C134?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C134",
+            "title" : "Professional services managers"
+          } ],
+          "narrowerOccupation" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/occupation/occupation:eea2b5c6-48d1-4612-957e-585783b3c7bb?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/occupation/eea2b5c6-48d1-4612-957e-585783b3c7bb",
+            "title" : "elderly home manager"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C13?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C13",
+                "title" : "Production and specialised services managers"
+              }
+            }
+          }, {
+            "parents" : [ "http://data.europa.eu/esco/isco/C13" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C134?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C134",
+                "title" : "Professional services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      },
+      "http://data.europa.eu/esco/isco/C142" : {
+        "uri" : "http://data.europa.eu/esco/isco/C142",
+        "className" : "Concept",
+        "classUri" : "http://www.w3.org/2004/02/skos/core#Concept",
+        "title" : "Retail and wholesale trade managers",
+        "preferredLabel" : {
+          "pl" : "Kierownicy do spraw handlu detalicznego i hurtowego",
+          "fr" : "Directeurs et gérants, commerce de détail et de gros",
+          "da" : "Ledelse af hovedaktiviteten inden for detail- og engroshandel",
+          "nl" : "Leidinggevende functies in de detail- en groothandel",
+          "pt" : "Directores e gerentes de comércio retalhista e grossista",
+          "el" : "Διευθυντές επιχειρήσεων λιανικού και χονδρικού εμπορίου",
+          "ro" : "Conducători de unități din domeniul comerțului",
+          "sk" : "Riadiaci pracovníci (manažéri) vo veľkoobchode a maloobchode",
+          "lv" : "Vadītāji mazumtirdzniecības un vairumtirdzniecības jomā",
+          "fi" : "Vähittäis- ja tukkukaupan johtajat",
+          "it" : "Dirigenti nel commercio all’ingrosso e al dettaglio",
+          "sl" : "Menedžerji/menedžerke v trgovini na drobno in v trgovini na debelo",
+          "sv" : "Chefer inom handel",
+          "hu" : "Kis- és nagykereskedelmi vezetők",
+          "et" : "Ärijuhid hulgi- ja jaekaubanduses",
+          "es" : "Gerentes de comercios al por mayor y al por menor",
+          "no" : "Varehandelssjefer",
+          "bg" : "Ръководители в търговията на едро и дребно",
+          "en" : "Retail and wholesale trade managers",
+          "mt" : "Maniġers tal-kummerċ ta’ bejgħ bl-imnut u bl-ingrossa",
+          "hr" : "Direktori/direktorice u trgovini na malo i veliko",
+          "uk" : "Менеджери з роздрібної та оптової торгівлі",
+          "de" : "Führungskräfte in Groß- und Einzelhandel",
+          "lt" : "Mažmeninės ir didmeninės prekybos vadovai",
+          "cs" : "Vedoucí a řídící pracovníci v maloobchodě a velkoobchodě"
+        },
+        "status" : "released",
+        "code" : "142",
+        "description" : {
+          "en" : "Retail and wholesale trade managers plan, organize, coordinate and control the operations of establishments that sell goods on a retail or wholesale basis. They are responsible for the budgets, staffing and strategic and operational direction of shops, or of organizational units within shops that sell particular types of product.\nTasks performed usually include: determining product mix, stock levels and service standards; formulating and implementing purchasing and marketing policies, and setting prices; promoting and advertising the establishment's goods and services; maintaining records of stock levels and financial transactions; undertaking budgeting for the establishment; controlling selection, training and supervision of staff; ensuring compliance with occupational health and safety regulations.\nOccupations in this minor group are classified into the following unit group:\n1420 Retail and Wholesale Trade Managers\nNotes\nRetail and wholesale trade managers are frequently employed in relatively small establishments that do not have a hierarchy of managers. The managers of large retail establishments such as supermarkets and department stores, however, should also be classified in this group, although such establishments may have a hierarchy of managers and supervisors. General managers of groups of establishments such as supermarket or department store chains are classified, however, in Unit Group 1120: Managing Directors and Chief Executives. Operators of small shops for whom the management and supervision of staff is not a significant component of the work are classified in Unit Group 5221: Shopkeepers. Staff who control and direct the activities of shop sales assistants, checkout operators and other workers, but who do not take responsibility for determining product mix, overall setting of prices, budgets and staffing levels, selection and recruitment are classified in Unit Group 5222: Shop Supervisors."
+        },
+        "_links" : {
+          "self" : {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C142?selectedVersion=v1.2.1",
+            "title" : "Retail and wholesale trade managers",
+            "uri" : "http://data.europa.eu/esco/isco/C142"
+          },
+          "inScheme" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:occupations?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/occupations",
+            "title" : "ESCO Occupations"
+          }, {
+            "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:isco?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/concept-scheme/isco",
+            "title" : "ISCO 2008"
+          } ],
+          "broaderConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C14?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C14",
+            "title" : "Hospitality, retail and other services managers"
+          } ],
+          "narrowerConcept" : [ {
+            "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1420?selectedVersion=v1.2.1",
+            "uri" : "http://data.europa.eu/esco/isco/C1420",
+            "title" : "Retail and wholesale trade managers"
+          } ]
+        },
+        "_embedded" : {
+          "ancestors" : [ {
+            "parents" : [ "http://data.europa.eu/esco/isco/C1" ],
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C14?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C14",
+                "title" : "Hospitality, retail and other services managers"
+              }
+            }
+          }, {
+            "_links" : {
+              "self" : {
+                "href" : "https://ec.europa.eu/esco/open-api/concept/isco:C1?selectedVersion=v1.2.1",
+                "uri" : "http://data.europa.eu/esco/isco/C1",
+                "title" : "Managers"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}

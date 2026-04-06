@@ -1,0 +1,9 @@
+{
+  "capturedAt" : "2026-04-06T12:15:08.908309901Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 68,
+  "httpStatus" : 404,
+  "body" : {
+    "message" : "Occupation not found http://data.europa.eu/esco/occupation/00000000-0000-0000-0000-000000000000"
+  }
+}

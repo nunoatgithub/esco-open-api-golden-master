@@ -1,0 +1,89 @@
+{
+  "capturedAt" : "2026-04-06T12:14:53.800781970Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 166,
+  "httpStatus" : 200,
+  "body" : {
+    "uri" : "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+    "className" : "Skill",
+    "classUri" : "http://data.europa.eu/esco/model#Skill",
+    "title" : "Python (computer programming)",
+    "referenceLanguage" : "en",
+    "preferredLabel" : {
+      "nl" : "Python (computerprogrammering)",
+      "da" : "Python (computerprogrammering)",
+      "sv" : "Python (datorprogrammering)",
+      "cs" : "Python (počítačové programování)",
+      "no" : "Python (dataprogrammering)",
+      "it" : "Python (programmazione informatica)",
+      "et" : "Python (arvutiprogrammeerimine)",
+      "fi" : "Python (tietokoneohjelmointi)",
+      "en" : "Python (computer programming)",
+      "ga" : "Python (ríomhchlárú)",
+      "fr" : "Python (programmation informatique)",
+      "uk" : "Python (комп’ютерне програмування)",
+      "sl" : "Python (računalniško programiranje)",
+      "pt" : "Python (programação informática)",
+      "el" : "Python (προγραμματισμός ηλεκτρονικών υπολογιστών)",
+      "pl" : "Python (programowanie komputerowe)",
+      "bg" : "Python (компютърно програмиране)",
+      "es" : "Python (programación informática)",
+      "mt" : "Python (programmar tal-kompjuter)",
+      "lv" : "Python (datorprogrammēšana)",
+      "ar" : "Python",
+      "lt" : "„Python“ (kompiuterinis programavimas)",
+      "hu" : "Python (számítógépes programozás)",
+      "de" : "Python (Computerprogrammierung)",
+      "sk" : "Python (počítačové programovanie)",
+      "hr" : "Python (računalno programiranje)",
+      "ro" : "Python (programare pe calculator)",
+      "is" : "Python (tölvuforritun)"
+    },
+    "status" : "released",
+    "_links" : {
+      "self" : {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:ccd0a1d9-afda-43d9-b901-96344886e14d?selectedVersion=v1.2.1",
+        "title" : "Python (computer programming)",
+        "uri" : "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d"
+      },
+      "inScheme" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:skills?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/skills",
+        "title" : "ESCO skills"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:member-skills?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/member-skills",
+        "title" : "ESCO member skills"
+      }, {
+        "href" : "https://ec.europa.eu/esco/open-api/concept-scheme/concept-scheme:6c930acd-c104-4ece-acf7-f44fd7333036?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/concept-scheme/6c930acd-c104-4ece-acf7-f44fd7333036",
+        "title" : "Digital"
+      } ],
+      "skillType" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/skill-type:knowledge?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill-type/knowledge",
+        "title" : "knowledge"
+      },
+      "skillReuseLevel" : {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/skill-reuse-level:sector-specific?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill-reuse-level/sector-specific",
+        "title" : "sector specific skills and competences"
+      },
+      "broaderHierarchyConcept" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/concept/isced-f:0613?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/isced-f/0613",
+        "title" : "software and applications development and analysis"
+      } ],
+      "broaderSkill" : [ {
+        "href" : "https://ec.europa.eu/esco/open-api/skill/skill:21d2f96d-35f7-4e3f-9745-c533d2dd6e97?selectedVersion=v1.2.1",
+        "uri" : "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+        "title" : "computer programming",
+        "skillType" : "http://data.europa.eu/esco/skill-type/knowledge"
+      } ]
+    },
+    "_embedded" : {
+      "isReplacedBy" : [ ],
+      "replaces" : [ ]
+    }
+  }
+}

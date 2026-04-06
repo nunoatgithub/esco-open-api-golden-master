@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T12:14:59.174845400Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 59,
+  "httpStatus" : 400,
+  "body" : {
+    "timestamp" : "2026-04-06T12:14:59.335+00:00",
+    "status" : 400,
+    "error" : "Bad Request",
+    "path" : "/esco/open-api/occupation-list",
+    "eventId" : "202604061414_81ba2a0ad26b22b4",
+    "exceptionId" : "MissingServletRequestParameterException",
+    "message" : "Required request parameter 'uris' for method parameter type List is not present"
+  }
+}

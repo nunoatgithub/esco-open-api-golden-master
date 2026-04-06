@@ -1,0 +1,5563 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "2.1.1"
+  },
+  "servers": [
+    {
+      "url": "https://ec.europa.eu/esco/open-api",
+      "description": "Generated server url"
+    }
+  ],
+  "tags": [
+    {
+      "name": "resources",
+      "description": "the resources API"
+    },
+    {
+      "name": "resource",
+      "description": "the resource API"
+    },
+    {
+      "name": "search",
+      "description": "the search API"
+    }
+  ],
+  "paths": {
+    "/api/search": {
+      "post": {
+        "tags": [
+          "filtered search"
+        ],
+        "summary": "Search on Skills, Occupations, ISCED-F and ISCO concepts",
+        "description": "Get a list of concepts matching the provided filters",
+        "operationId": "search",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchFilter"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill/{prefix}:{id}": {
+      "get": {
+        "tags": [
+          "resource",
+          "skill"
+        ],
+        "summary": "Get a skill by its identifier",
+        "operationId": "getSkill",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Header",
+            "in": "header",
+            "description": "The default accept header of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "application/hal+json"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SkillDto"
+                }
+              },
+              "application/rdf+xml": {},
+              "text/turtle": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill/{prefix}:{id}/related": {
+      "get": {
+        "tags": [
+          "resource",
+          "skill",
+          "resources"
+        ],
+        "summary": "Get the related resources of a given skill by a given relation.",
+        "description": "Returns a list view of related resources in the given concept scheme",
+        "operationId": "getSkillRelated",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "relation",
+            "in": "query",
+            "description": "The relation to get the related resources for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The concept scheme to look for related resources",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatedDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill/{prefix}:{id}/related-hierarchy": {
+      "get": {
+        "tags": [
+          "resource",
+          "hierarchy",
+          "skill"
+        ],
+        "summary": "Get the hierarchical relations of the related resources of a skill by a given relation",
+        "description": "Returns a list view of related resources including their hierarchical relations in all relevant concept schemes",
+        "operationId": "getSkillRelatedHierarchy",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "relation",
+            "in": "query",
+            "description": "The relation to get the related resources for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The concept scheme to look for related resources",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatedHierarchyDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill/{prefix}:{id}/history": {
+      "get": {
+        "tags": [
+          "resource",
+          "skill",
+          "history"
+        ],
+        "summary": "Get delta changes of specified skill between ESCO versions",
+        "description": "This endpoint retrieves delta changes of the specified skill between ESCO versions. ",
+        "operationId": "getSkillHistory",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fullHistory",
+            "in": "query",
+            "description": "To get (or not) the full history for all ESCO versions",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HistoryDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill/{prefix}:{id}/hierarchy": {
+      "get": {
+        "tags": [
+          "resource",
+          "hierarchy",
+          "skill"
+        ],
+        "summary": "Get the hierarchical relations of a skill",
+        "operationId": "getSkillHierarchy",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HierarchySkillDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill/{prefix}:{id}/conversion": {
+      "get": {
+        "tags": [
+          "resource",
+          "skill",
+          "conversion"
+        ],
+        "summary": "Get the converted skills of the given skill (if any)",
+        "description": "This endpoint retrieves the state of a given skill on the specified ESCO version, including previous skills that were replaced by the given skill, new skills that replace it or both. potentially returning a list of skills if the given skill was split into multiple skills in the selected version. ",
+        "operationId": "getSkillConversion",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConversionSkillDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill-list": {
+      "get": {
+        "tags": [
+          "skill",
+          "resources"
+        ],
+        "summary": "Get a list of skills by their URIs",
+        "operationId": "getSkills",
+        "parameters": [
+          {
+            "name": "uris",
+            "in": "query",
+            "description": "The URIs of the requested concepts",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SkillListDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill-list/full-hierarchy": {
+      "get": {
+        "tags": [
+          "hierarchy",
+          "skill",
+          "resources"
+        ],
+        "summary": "Get the full hierarchy view of skill pillar",
+        "operationId": "getSkillsFullHierarchy",
+        "parameters": [
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          },
+          {
+            "name": "viewObsolete",
+            "in": "query",
+            "description": "To include (or not) obsoleted concepts",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FullHierarchySkillDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/skill-list/by-scheme": {
+      "get": {
+        "tags": [
+          "skill",
+          "resources"
+        ],
+        "summary": "Get a list of skills by the URI of a Concept Scheme",
+        "operationId": "getSkills_1",
+        "parameters": [
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The URI of the concept scheme",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          },
+          {
+            "name": "viewObsolete",
+            "in": "query",
+            "description": "To include (or not) obsoleted concepts",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedSkillListDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "tags": [
+          "search"
+        ],
+        "summary": "Get all resources of a given class matching a plain text in a given language.",
+        "description": "This is a full text search on the preferred labels, the alternative labels, the hidden labels, and the description of a resource. The search must be scoped on class type and language. The search result is paged.",
+        "operationId": "searchGet",
+        "parameters": [
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "text",
+            "in": "query",
+            "description": "The text to search for",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hasLabel",
+            "in": "query",
+            "description": "The label property to search for",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "prefLabel",
+                  "altLabel",
+                  "hiddenLabel",
+                  "description"
+                ]
+              }
+            }
+          },
+          {
+            "name": "hasLabelRole",
+            "in": "query",
+            "description": "Allows filtering on gender specific terms",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "http://data.europa.eu/esco/label-role/neutral",
+                  "http://data.europa.eu/esco/label-role/standard-male",
+                  "http://data.europa.eu/esco/label-role/standard-female",
+                  "http://data.europa.eu/esco/label-role/male",
+                  "http://data.europa.eu/esco/label-role/female"
+                ]
+              }
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "The class of resources to search for",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "concept",
+                  "occupation",
+                  "skill",
+                  "conceptScheme"
+                ]
+              }
+            }
+          },
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The concept scheme to search for resources that are contained in it",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "facet",
+            "in": "query",
+            "description": "The facet to count for. The response will return for each different value of the given facet the number of occurrences in the search result set",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "type",
+                  "inScheme"
+                ]
+              }
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          },
+          {
+            "name": "viewObsolete",
+            "in": "query",
+            "description": "To include (or not) obsoleted concepts",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedSearchDto"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedSearchDto"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedSearchDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation/{prefix}:{id}": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resource"
+        ],
+        "summary": "Get an occupation by its identifier.",
+        "operationId": "getOccupation",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Header",
+            "in": "header",
+            "description": "The default accept header of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "application/hal+json"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OccupationDto"
+                }
+              },
+              "application/rdf+xml": {},
+              "text/turtle": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation/{prefix}:{id}/related": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resource",
+          "resources"
+        ],
+        "summary": "Get the related resources of a given occupation by a given relation.",
+        "description": "Returns a list view of related resources in the given concept scheme",
+        "operationId": "getOccupationRelated",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "relation",
+            "in": "query",
+            "description": "The relation to get the related resources for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The concept scheme to look for related resources",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatedDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation/{prefix}:{id}/related-hierarchy": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resource",
+          "hierarchy"
+        ],
+        "summary": "Get the hierarchical relations of the related resources of an occupation by a given relation",
+        "description": "Returns a list view of related resources including their hierarchical relations in all relevant concept schemes",
+        "operationId": "getOccupationRelatedHierarchy",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "relation",
+            "in": "query",
+            "description": "The relation to get the related resources for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The concept scheme to look for related resources",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatedHierarchyDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation/{prefix}:{id}/history": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resource",
+          "history"
+        ],
+        "summary": "Get delta changes of specified concepts between ESCO versions",
+        "description": "This endpoint retrieves delta changes of the specified concepts between ESCO versions.",
+        "operationId": "getOccupationHistory",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fullHistory",
+            "in": "query",
+            "description": "To get (or not) the full history for all ESCO versions",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HistoryDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation/{prefix}:{id}/hierarchy": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resource",
+          "hierarchy"
+        ],
+        "summary": "Get the hierarchical relations of an occupation",
+        "operationId": "getOccupationHierarchy",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HierarchyOccupationDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation/{prefix}:{id}/conversion": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resource",
+          "conversion"
+        ],
+        "summary": "Get the converted occupations of the given occupation (if any)",
+        "description": "This endpoint retrieves the state of a given occupation on the specified ESCO version, including previous occupations that were replaced by the given occupation, new occupations that replace it or both. potentially returning a list of occupations if the given occupation was split into multiple occupations in the selected version. ",
+        "operationId": "getOccupationConversion",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConversionOccupationDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation-list": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resources"
+        ],
+        "summary": "Get a list of Occupations by their URIs",
+        "operationId": "getOccupations",
+        "parameters": [
+          {
+            "name": "uris",
+            "in": "query",
+            "description": "The URIs of the requested concepts",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OccupationListDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation-list/full-hierarchy": {
+      "get": {
+        "tags": [
+          "occupation",
+          "hierarchy",
+          "resources"
+        ],
+        "summary": "Get the full hierarchy view of Occupation pillar",
+        "operationId": "getOccupationsFullHierarchy",
+        "parameters": [
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          },
+          {
+            "name": "viewObsolete",
+            "in": "query",
+            "description": "To include (or not) obsoleted concepts",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FullHierarchyOccupationDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/occupation-list/by-scheme": {
+      "get": {
+        "tags": [
+          "occupation",
+          "resources"
+        ],
+        "summary": "Get a list of occupations by the URI of a Concept Scheme",
+        "operationId": "getOccupationsByScheme",
+        "parameters": [
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The URI of the concept scheme",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          },
+          {
+            "name": "viewObsolete",
+            "in": "query",
+            "description": "To include (or not) obsoleted concepts",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedOccupationListDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/config-info/prefixes": {
+      "get": {
+        "tags": [
+          "config-info-controller"
+        ],
+        "operationId": "getEscoPrefixes",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EscoPrefix"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/config-info/default-version": {
+      "get": {
+        "tags": [
+          "config-info-controller"
+        ],
+        "operationId": "getEscoDefaultVersion",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/config-info/available-languages": {
+      "get": {
+        "tags": [
+          "config-info-controller"
+        ],
+        "operationId": "getAvailableLanguages",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/EscoLanguage"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept/{prefix}:{id}": {
+      "get": {
+        "tags": [
+          "resource",
+          "concept"
+        ],
+        "summary": "Get a concept by its identifier.",
+        "operationId": "getConcept",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Header",
+            "in": "header",
+            "description": "The default accept header of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "application/hal+json"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConceptDto"
+                }
+              },
+              "application/rdf+xml": {},
+              "text/turtle": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept/{prefix}:{id}/related": {
+      "get": {
+        "tags": [
+          "resource",
+          "concept",
+          "resources"
+        ],
+        "summary": "Get the related resources of a given concept by a given relation.",
+        "description": "Returns a list view of related resources in the given concept scheme",
+        "operationId": "getConceptRelated",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "relation",
+            "in": "query",
+            "description": "The relation to get the related resources for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The concept scheme to look for related resources",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatedDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept/{prefix}:{id}/related-hierarchy": {
+      "get": {
+        "tags": [
+          "resource",
+          "hierarchy",
+          "concept"
+        ],
+        "summary": "Get the hierarchical relations of the related resources of a concept by a given relation",
+        "description": "Returns a list view of related resources including their hierarchical relations in all relevant concept schemes",
+        "operationId": "getConceptRelatedHierarchy",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "relation",
+            "in": "query",
+            "description": "The relation to get the related resources for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The concept scheme to look for related resources",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatedHierarchyDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept/{prefix}:{id}/history": {
+      "get": {
+        "tags": [
+          "resource",
+          "concept",
+          "history"
+        ],
+        "summary": "Get delta changes of specified concepts between ESCO versions",
+        "description": "This endpoint retrieves delta changes of the specified concepts between ESCO versions.",
+        "operationId": "getConceptHistory",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fullHistory",
+            "in": "query",
+            "description": "To get (or not) the full history for all ESCO versions",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HistoryDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept/{prefix}:{id}/hierarchy": {
+      "get": {
+        "tags": [
+          "resource",
+          "hierarchy",
+          "concept"
+        ],
+        "summary": "Get the hierarchical relations of a concept",
+        "operationId": "getConceptHierarchy",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HierarchyConceptDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept/{prefix}:{id}/conversion": {
+      "get": {
+        "tags": [
+          "resource",
+          "concept",
+          "conversion"
+        ],
+        "summary": "Get the converted concepts of the given concept (if any)",
+        "description": "This endpoint retrieves the state of a given concept on the specified ESCO version, including previous concepts that were replaced by the given concept, new concepts that replace it or both. potentially returning a list of concepts if the given concept was split into multiple concepts in the selected version. ",
+        "operationId": "getConceptConversion",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConversionConceptDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept-scheme/{prefix}:{id}": {
+      "get": {
+        "tags": [
+          "resource",
+          "concept scheme"
+        ],
+        "summary": "Get a concept scheme by its identifier.",
+        "operationId": "getConceptScheme",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "path",
+            "description": "The namespace of the ID that follows",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "description": "The unique identifier associated with the resource to be fetched",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Header",
+            "in": "header",
+            "description": "The default accept header of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "application/hal+json"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConceptSchemeDto"
+                }
+              },
+              "application/rdf+xml": {},
+              "text/turtle": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "application/rdf+xml": {
+                "schema": {
+                  "type": "object"
+                }
+              },
+              "text/turtle": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept-scheme-list": {
+      "get": {
+        "tags": [
+          "resources",
+          "concept scheme"
+        ],
+        "summary": "Get a list of concept schemes by their URIs",
+        "operationId": "getConceptSchemes",
+        "parameters": [
+          {
+            "name": "uris",
+            "in": "query",
+            "description": "The URIs of the requested concepts",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConceptSchemeListDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept-list": {
+      "get": {
+        "tags": [
+          "concept",
+          "resources"
+        ],
+        "summary": "Get a list of concepts by their URIs",
+        "operationId": "getConcepts",
+        "parameters": [
+          {
+            "name": "uris",
+            "in": "query",
+            "description": "The URIs of the requested concepts",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConceptListDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concept-list/by-scheme": {
+      "get": {
+        "tags": [
+          "concept",
+          "resources"
+        ],
+        "summary": "Get a list of concepts by the URI of a concept scheme",
+        "operationId": "getConceptsByScheme",
+        "parameters": [
+          {
+            "name": "inScheme",
+            "in": "query",
+            "description": "The URI of the concept scheme",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "description": "The default language of the returned response",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "The maximum number of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The offset of the returned resources in the response",
+            "required": false,
+            "schema": {
+              "minimum": 0,
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "description": "The language of the returned response (overwrites the Accept-Language header). Language \"en-us\" is only available for ESCO version \"v1.0.9\" and language \"uk\" is available for ESCO version \"v1.1.0\" or later.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "selectedVersion",
+            "in": "query",
+            "description": "The selected ESCO dataset version",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "latest"
+            }
+          },
+          {
+            "name": "viewObsolete",
+            "in": "query",
+            "description": "To include (or not) obsoleted concepts",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedConceptListDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/hal+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/skill-groups": {
+      "get": {
+        "tags": [
+          "skill groups"
+        ],
+        "summary": "Representation of skill groups share",
+        "description": "Get the skill groups representation for related and optional skill/competences of the given occupation",
+        "operationId": "getSkillGroups",
+        "parameters": [
+          {
+            "name": "occupationUri",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "language",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "en"
+            },
+            "example": "en"
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "v1.0.9"
+            },
+            "example": "v1.0.9"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SkillGroupsRepresentation"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SearchResult": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string",
+            "example": "http://data.europa.eu/esco/occupation/b8139469-92cc-4f57-9e69-a0d9f7fc3817"
+          },
+          "title": {
+            "type": "string",
+            "example": "firefighter instructor"
+          },
+          "altLabels": {
+            "type": "array",
+            "example": [
+              "trainer in fire academy",
+              "fire instructor",
+              "firefighter teaching practitioner",
+              "educator of firefighters",
+              "firefighter trainer",
+              "instructor in fire academy",
+              "fire academy instructor",
+              "fire academy trainer",
+              "instructor of firefighters",
+              "trainer of firefighters"
+            ],
+            "items": {
+              "type": "string",
+              "example": "[\"trainer in fire academy\",\"fire instructor\",\"firefighter teaching practitioner\",\"educator of firefighters\",\"firefighter trainer\",\"instructor in fire academy\",\"fire academy instructor\",\"fire academy trainer\",\"instructor of firefighters\",\"trainer of firefighters\"]"
+            }
+          },
+          "description": {
+            "type": "string",
+            "example": "Firefighter instructors train probationary, new academy recruits, or cadets, on the theory and practice necessary to become a firefighter. They conduct theoretical lectures on academic subjects such as law, basic chemistry, safety regulations, risk management, fire prevention, reading blueprints etc. Fire academy instructors also provide more hands-on, practical instruction regarding the usage of assistive equipment and rescue tools such as a fire hose, fire axe, smoke mask etc., but also heavy physical training, breathing techniques, first aid, self defense tactics and vehicle operations. They also prepare and develop lesson plans and new training programmes as new public service-related regulations and issues arise. The instructors monitor the students' progress, evaluate them individually and prepare performance evaluation reports."
+          },
+          "code": {
+            "type": "string",
+            "example": "2320.1.12"
+          },
+          "status": {
+            "type": "string",
+            "example": "released"
+          },
+          "inScheme": {
+            "type": "array",
+            "example": [
+              "http://data.europa.eu/esco/concept-scheme/member-occupations",
+              "http://data.europa.eu/esco/concept-scheme/occupations"
+            ],
+            "items": {
+              "type": "string",
+              "example": "[\"http://data.europa.eu/esco/concept-scheme/member-occupations\",\"http://data.europa.eu/esco/concept-scheme/occupations\"]"
+            }
+          }
+        }
+      },
+      "SearchFilter": {
+        "type": "object",
+        "properties": {
+          "conceptTypes": {
+            "type": "array",
+            "example": [
+              "occupation",
+              "skill",
+              "knowledge",
+              "skill-group",
+              "occupation-group"
+            ],
+            "items": {
+              "type": "string",
+              "example": "[\"occupation\",\"skill\",\"knowledge\",\"skill-group\",\"occupation-group\"]"
+            }
+          },
+          "statuses": {
+            "type": "array",
+            "example": [
+              "released",
+              "obsolete"
+            ],
+            "items": {
+              "type": "string",
+              "example": "[\"released\",\"obsolete\"]"
+            }
+          },
+          "labels": {
+            "type": "array",
+            "example": [
+              "http://data.europa.eu/esco/concept-scheme/digcomp",
+              "http://data.europa.eu/esco/concept-scheme/research"
+            ],
+            "items": {
+              "type": "string",
+              "example": "[\"http://data.europa.eu/esco/concept-scheme/digcomp\",\"http://data.europa.eu/esco/concept-scheme/research\"]"
+            }
+          },
+          "codes": {
+            "type": "array",
+            "example": [
+              "2320",
+              "2320.1.12"
+            ],
+            "items": {
+              "type": "string",
+              "example": "[\"2320\",\"2320.1.12\"]"
+            }
+          },
+          "naceCodes": {
+            "type": "array",
+            "example": [],
+            "items": {
+              "type": "string",
+              "example": "[]"
+            }
+          },
+          "text": {
+            "type": "string",
+            "example": "fire instructor"
+          },
+          "reuseLevels": {
+            "type": "array",
+            "example": [
+              "http://data.europa.eu/esco/skill-reuse-level/occupation-specific",
+              "http://data.europa.eu/esco/skill-reuse-level/cross-sector"
+            ],
+            "items": {
+              "type": "string",
+              "example": "[\"http://data.europa.eu/esco/skill-reuse-level/occupation-specific\",\"http://data.europa.eu/esco/skill-reuse-level/cross-sector\"]"
+            }
+          },
+          "version": {
+            "type": "string",
+            "example": "v1.0.9"
+          },
+          "language": {
+            "type": "string",
+            "example": "en"
+          },
+          "limit": {
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32",
+            "example": 10
+          },
+          "offset": {
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32",
+            "example": 50
+          }
+        }
+      },
+      "SkillDto": {
+        "type": "object",
+        "properties": {
+          "alternativeLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "hiddenLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "definition": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "scopeNote": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "type": "object"
+          },
+          "_embedded": {
+            "type": "object"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "ConceptListDtoLinksSelf": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string"
+          }
+        }
+      },
+      "EmbeddedUnion": {
+        "type": "object"
+      },
+      "PaginatedSearchDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "first": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "previous": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "next": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "last": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          }
+        }
+      },
+      "RelatedDto": {
+        "type": "object",
+        "properties": {
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/EmbeddedUnion"
+              }
+            }
+          },
+          "limit": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "relation": {
+            "type": "string"
+          },
+          "inScheme": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/PaginatedSearchDtoLinks"
+          }
+        }
+      },
+      "RelatedHierarchyDto": {
+        "type": "object",
+        "properties": {
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/RelatedHierarchyDtoEmbeddedOneOf"
+            }
+          },
+          "limit": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "relation": {
+            "type": "string"
+          },
+          "inScheme": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/PaginatedSearchDtoLinks"
+          }
+        }
+      },
+      "RelatedHierarchyDtoEmbeddedOneOf": {
+        "type": "object"
+      },
+      "DeltaDto": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "oldValue": {
+            "type": "string"
+          },
+          "newValue": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          }
+        }
+      },
+      "HalLink": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          }
+        }
+      },
+      "HistoryDto": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          },
+          "versions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "$ref": "#/components/schemas/HistoryDtoLinks"
+          },
+          "_embedded": {
+            "$ref": "#/components/schemas/HistoryDtoEmbedded"
+          }
+        }
+      },
+      "HistoryDtoEmbedded": {
+        "type": "object",
+        "properties": {
+          "history": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/DeltaDto"
+              }
+            }
+          }
+        }
+      },
+      "HistoryDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/HalLink"
+          }
+        }
+      },
+      "HierarchySkillDto": {
+        "type": "object",
+        "properties": {
+          "skillType": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "skillReuseLevel": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "type": "object"
+          },
+          "inScheme": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "topConceptOf": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "ConversionSkillDto": {
+        "type": "object",
+        "properties": {
+          "_embedded": {
+            "type": "object"
+          },
+          "_links": {
+            "type": "object"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "SkillListDto": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/SkillListDtoLinks"
+          },
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/SkillDto"
+            }
+          }
+        }
+      },
+      "SkillListDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HalLink"
+            }
+          }
+        }
+      },
+      "FullHierarchySkillDto": {
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/FullHierarchySkillDtoLinks"
+          },
+          "_embedded": {
+            "$ref": "#/components/schemas/FullHierarchySkillDtoEmbedded"
+          }
+        }
+      },
+      "FullHierarchySkillDtoEmbedded": {
+        "type": "object",
+        "properties": {
+          "fullHierarchy": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FullHierarchySkillDtoEmbeddedFullHierarchyInner"
+            }
+          }
+        }
+      },
+      "FullHierarchySkillDtoEmbeddedFullHierarchyInner": {
+        "type": "object",
+        "properties": {
+          "skillType": {
+            "type": "string"
+          },
+          "skillReuseLevel": {
+            "type": "string"
+          },
+          "broaderHierarchyConcept": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "broaderSkill": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "type": "object"
+          },
+          "inScheme": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "topConceptOf": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "broaderConcept": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "FullHierarchySkillDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          }
+        }
+      },
+      "PaginatedConceptListDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "first": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "previous": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "next": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "last": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "concepts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HalLink"
+            }
+          }
+        }
+      },
+      "PaginatedSkillListDto": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/PaginatedConceptListDtoLinks"
+          },
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/SkillDto"
+            }
+          }
+        }
+      },
+      "LabelRoleMapDto": {
+        "type": "object",
+        "properties": {
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "label": {
+            "type": "string"
+          }
+        }
+      },
+      "PaginatedSearchDto": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "hasLabel": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "hasLabelRole": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "type": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "inScheme": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "facet": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "facets": {
+            "$ref": "#/components/schemas/PaginatedSearchDtoFacets"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/PaginatedSearchDtoLinks"
+          },
+          "_embedded": {
+            "$ref": "#/components/schemas/PaginatedSearchDtoEmbedded"
+          }
+        }
+      },
+      "PaginatedSearchDtoEmbedded": {
+        "type": "object",
+        "properties": {
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SearchResultDto"
+            }
+          }
+        }
+      },
+      "PaginatedSearchDtoFacets": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number"
+            }
+          },
+          "inScheme": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "SearchResultDto": {
+        "type": "object",
+        "properties": {
+          "alternativeLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "hiddenLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "preferredTerm": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/LabelRoleMapDto"
+            }
+          },
+          "alternativeTerms": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/LabelRoleMapDto"
+              }
+            }
+          },
+          "hiddenTerms": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/LabelRoleMapDto"
+              }
+            }
+          },
+          "_links": {
+            "type": "object"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "OccupationDto": {
+        "type": "object",
+        "properties": {
+          "preferredTerm": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/LabelRoleMapDto"
+            }
+          },
+          "alternativeTerms": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/LabelRoleMapDto"
+              }
+            }
+          },
+          "hiddenTerms": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/LabelRoleMapDto"
+              }
+            }
+          },
+          "alternativeLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "hiddenLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "definition": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "scopeNote": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "type": "object"
+          },
+          "_embedded": {
+            "type": "object"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "HierarchyOccupationDto": {
+        "type": "object",
+        "properties": {
+          "_links": {
+            "type": "object"
+          },
+          "inScheme": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "topConceptOf": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "ConversionOccupationDto": {
+        "type": "object",
+        "properties": {
+          "_embedded": {
+            "type": "object"
+          },
+          "_links": {
+            "type": "object"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "OccupationListDto": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/OccupationListDtoLinks"
+          },
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/OccupationDto"
+            }
+          }
+        }
+      },
+      "OccupationListDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "occupations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HalLink"
+            }
+          }
+        }
+      },
+      "FullHierarchyOccupationDto": {
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/FullHierarchySkillDtoLinks"
+          },
+          "_embedded": {
+            "$ref": "#/components/schemas/FullHierarchyOccupationDtoEmbedded"
+          }
+        }
+      },
+      "FullHierarchyOccupationDtoEmbedded": {
+        "type": "object",
+        "properties": {
+          "fullHierarchy": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FullHierarchyOccupationDtoEmbeddedFullHierarchyInner"
+            }
+          }
+        }
+      },
+      "FullHierarchyOccupationDtoEmbeddedFullHierarchyInner": {
+        "type": "object",
+        "properties": {
+          "broaderConcept": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "type": "object"
+          },
+          "inScheme": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "topConceptOf": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "broaderIscoGroup": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "broaderOccupation": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "PaginatedOccupationListDto": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/PaginatedConceptListDtoLinks"
+          },
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/OccupationDto"
+            }
+          }
+        }
+      },
+      "EscoPrefix": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          }
+        }
+      },
+      "EscoLanguage": {
+        "type": "object",
+        "properties": {
+          "defaultLanguage": {
+            "type": "string"
+          },
+          "all": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "supportedRules": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/VersionRange"
+            }
+          }
+        }
+      },
+      "VersionRange": {
+        "type": "object",
+        "properties": {
+          "minVersion": {
+            "type": "string"
+          },
+          "maxVersion": {
+            "type": "string"
+          }
+        }
+      },
+      "ConceptDto": {
+        "type": "object",
+        "properties": {
+          "alternativeLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "hiddenLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "definition": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "scopeNote": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "$ref": "#/components/schemas/ConceptDtoLinksOneOf"
+          },
+          "_embedded": {
+            "type": "object"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "ConceptDtoLinksOneOf": {
+        "type": "object"
+      },
+      "HierarchyConceptDto": {
+        "type": "object",
+        "properties": {
+          "_links": {
+            "$ref": "#/components/schemas/HierarchyConceptDtoLinksOneOf"
+          },
+          "inScheme": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "topConceptOf": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "HierarchyConceptDtoLinksOneOf": {
+        "type": "object"
+      },
+      "ConversionConceptDto": {
+        "type": "object",
+        "properties": {
+          "_embedded": {
+            "type": "object"
+          },
+          "_links": {
+            "type": "object"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "referenceLanguage": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "code": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "ConceptSchemeDto": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string"
+          },
+          "className": {
+            "type": "string"
+          },
+          "classUri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "preferredLabel": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "_links": {
+            "$ref": "#/components/schemas/ConceptSchemeDtoLinks"
+          }
+        }
+      },
+      "ConceptSchemeDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/HalLink"
+          },
+          "hasTopConcept": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GroupHalLink"
+            }
+          }
+        }
+      },
+      "GroupHalLink": {
+        "type": "object",
+        "properties": {
+          "href": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          }
+        }
+      },
+      "ConceptSchemeListDto": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/ConceptSchemeListDtoLinks"
+          },
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ConceptSchemeDto"
+            }
+          }
+        }
+      },
+      "ConceptSchemeListDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "conceptSchemes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HalLink"
+            }
+          }
+        }
+      },
+      "ConceptListDto": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/ConceptListDtoLinks"
+          },
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ConceptDto"
+            }
+          }
+        }
+      },
+      "ConceptListDtoLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "$ref": "#/components/schemas/ConceptListDtoLinksSelf"
+          },
+          "concepts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HalLink"
+            }
+          }
+        }
+      },
+      "PaginatedConceptListDto": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          },
+          "language": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/PaginatedConceptListDtoLinks"
+          },
+          "_embedded": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ConceptDto"
+            }
+          }
+        }
+      },
+      "SkillGroup": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string",
+            "example": "http://data.europa.eu/esco/skill/dc06de9f-dd3a-4f28-b58f-b01b5ae72ab8"
+          },
+          "title": {
+            "type": "string",
+            "example": "communication, collaboration and creativity"
+          },
+          "relatedEssentialSkills": {
+            "type": "integer",
+            "format": "int32",
+            "example": 0
+          },
+          "relatedOptionalSkills": {
+            "type": "integer",
+            "format": "int32",
+            "example": 1
+          }
+        }
+      },
+      "SkillGroupsRepresentation": {
+        "type": "object",
+        "properties": {
+          "uri": {
+            "type": "string",
+            "example": "http://data.europa.eu/esco/occupation/fd8b68c0-7341-44bb-855d-9b1254eade33"
+          },
+          "totalEssentialSkills": {
+            "type": "integer",
+            "format": "int32",
+            "example": 0
+          },
+          "totalOptionalSkills": {
+            "type": "integer",
+            "format": "int32",
+            "example": 1
+          },
+          "skillGroups": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SkillGroup"
+            }
+          }
+        }
+      }
+    }
+  }
+}

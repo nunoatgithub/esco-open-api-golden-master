@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T12:15:02.584083967Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 63,
+  "httpStatus" : 400,
+  "body" : {
+    "timestamp" : "2026-04-06T12:15:02.766+00:00",
+    "status" : 400,
+    "error" : "Bad Request",
+    "path" : "/esco/open-api/skill-list/by-scheme",
+    "eventId" : "202604061415_0f0c0d4c1226d987",
+    "exceptionId" : "MissingServletRequestParameterException",
+    "message" : "Required request parameter 'inScheme' for method parameter type String is not present"
+  }
+}

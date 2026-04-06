@@ -1,0 +1,15 @@
+{
+  "capturedAt" : "2026-04-06T12:16:47.794154031Z",
+  "capturedBaseUrl" : "https://ec.europa.eu/esco/open-api",
+  "responseTimeMs" : 56,
+  "httpStatus" : 500,
+  "body" : {
+    "timestamp" : "2026-04-06T12:16:47.985+00:00",
+    "status" : 500,
+    "error" : "Internal Server Error",
+    "path" : "/esco/open-api/api/search",
+    "eventId" : "202604061416_d7f01835c795f7a3",
+    "exceptionId" : "NullPointerException",
+    "message" : "HV000028: Unexpected exception during isValid call."
+  }
+}
